@@ -2,13 +2,13 @@
 
 This repository contains the Jupyter Notebook used to transform the LGBF raw data file on the Improvement Services Public Website into a more computer friendly format meant for data/performance analysts to use with Business Intelligence tools such as PowerBI. It also contains the resulting data in csv format. Various iterations of these files have been provided to allow any users to choose the data format they wish to use as below.
 
-### 1. Simple Dataset
-This contains only the Code, Local Authority, GSS Code and Value of the indicator
+### 1. Simple Dataset (one version for formatted text values and one for unformatted numerical values)
+This contains the Code, Local Authority, GSS Code, Value, Numerator (where applicable) and Denominator (where applicable) of the indicator.
 
-### 2. Rankings and Improvement Service Supplied Scottish Averages
+### 2. Rankings and Improvement Service Supplied Scottish Averages (one version for formatted text values and one for unformatted numerical values)
 This contains the data in the simple dataset but also calculated rankings (both scottish and family group) for all indicators and the Scottish Average data supplied within the original raw data file.
 
-### 3. Full Dataset
+### 3. Full Dataset (one version for formatted text values and one for unformatted numerical values)
 This contains all of the above plus numerous other data fields as below : 
 
 - Previous row of each indicator data as an object
