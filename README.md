@@ -41,6 +41,8 @@ This contains all of the above plus numerous other data fields as below :
   - Average of Local Authority Cash Numerator Values - FamilyAv_LA_Num_Cash
   - Average of Local Authority Cash Denominator Values - FamilyAv_LA_Den_Cash
 
+In addition to this example files are provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting).
+
 Any users who would like to contribute and improve this dataset should contact corporateperformance@stirling.gov.uk.
 
 All data provided here is publically available on the Improvement Service's website. Any users should verify the validity of this data independently. There is no guarantee that the data transformations applied in the Notebook are correct (although I believe they are and have done some limited verification of this).
