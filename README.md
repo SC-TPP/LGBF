@@ -4,7 +4,7 @@
 
 This repository contains the Jupyter Notebook used to transform the LGBF raw data file on the Improvement Services Public Website into a more computer friendly format meant for data/performance analysts to use with Business Intelligence tools such as PowerBI. It also contains the resulting data in csv format. 
 
->>CSV Field Descriptions will go here
+>> Dataset CSV Field Descriptions will go here along with usable links to the data.
 
 Example files are provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting). In addition to this there is also an excel file with a predefined datamodel using links to the files hosted here. There will also be a notebook developed shortly that will provide an example as to how a report can be created using Python.
 
