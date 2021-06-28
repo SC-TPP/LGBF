@@ -13,7 +13,8 @@ The data files and the descriptors for the fields within are as follows.
 # Indicator Data.csv
 Main data file containing values, numerators, denominators, rankings and percentiles along with changes first and previous as json objects.
 
-Fields :
+<details><summary>Fields :</summary>
+    
 - Key_CodePeriod
     >Concatenated Code and Period to create relationships to Scottish Averages and Scottish Values.
 - Key_CodePeriodFamilyGroup
@@ -67,6 +68,7 @@ Fields :
         >An aim adjusted percentage change between two indicator values. There are two niche cases here. One where previous and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for current and previous and using these to calculate the percentage.
     - PercentChange_AimAdjusted_SinceFirst
         > An aim adjusted percentage change between two indicator values. There are two niche cases here. One where first and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for first and current and using these to calculate the percentage.
+</details>
 
 # Family Averages.csv
 All Family Group Average types for all data fields avalilable
