@@ -13,7 +13,7 @@ The data files and the descriptors for the fields within are as follows.
 # Indicator Data.csv
 Main data file containing values, numerators, denominators, rankings and percentiles along with changes first and previous as json objects.
 
-<details><summary>Fields :</summary>
+<details><summary>Fields Details</summary>
     
 - Key_CodePeriod
     >Concatenated Code and Period to create relationships to Scottish Averages and Scottish Values.
@@ -73,7 +73,8 @@ Main data file containing values, numerators, denominators, rankings and percent
 # Family Averages.csv
 All Family Group Average types for all data fields avalilable
 
-Fields :
+<details><summary>Fields Details</summary>
+    
 - Code
     > Corrected to be A-Z sortable.
 - Period
@@ -122,11 +123,13 @@ Fields :
     > Average created by summing the cash numerator values and denominator values for each Code and Period combination and dividing them together appropriately.
 - Key_CodePeriod
     > Concatenated Code and Period to create a relationship to Indicator Data.
+</details>
 
 # Scottish Values.csv
 Real and Cash values as provided by the Improvement Service. These have been removed from the raw data file for graphing purposes and included here separately. They can be joined back in any data model used for performance reporting if required.#
 
-Fields :
+<details><summary>Fields Details</summary>
+    
 - Key_CodePeriod
     > Concatenated Code and Period to create a relationship to Indicator Data.
 - Code
@@ -134,21 +137,25 @@ Fields :
 - Period
 - IS_Scot_Real_Value
 - IS_Scot_Cash_Value
+</details>
 
 # Family Groups.csv
 Family Groups in a row based format. This was used within the transformation steps and may be useful when defining models.
 
-Fields :
+<details><summary>Fields Details</summary>
+
 - Local_Authority
 - Type
     > Type of grouping. Either "Environmental, Culture & Leisure, Economic Development, Corporate and Property indicators" or "Children, Social Work and Housing indicators"
 - Family_Group
     > Family Group Number
+</details>
 
 # Indicator Information.csv
 Indicator information used throughout transformation steps. Some of this information is from the LGBF metadata file where other parts are additional information necessary to transform the data that is not supplied by the Improvement Service.
 
-Fields :
+<details><summary>Fields Details</summary>
+
 - Title
     > Indicator title copied from the metadata file
 - Code
@@ -193,6 +200,7 @@ Fields :
     > Multiplier required to conver back denominator values that have been truncated into £000 or similar. These truncations do not provide valid data to create averages.
 - Ranking_GoldilocksMidpoint
     > Mid point for any goldilocks ranking or percentile calculations (if applicable)
+</details>
 
 # Notes on Further Development and Contributing
 Example files will be provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting). In addition to this there will also be an excel file with a predefined datamodel using links to the files hosted here. There will also be a notebook developed shortly that will provide an example as to how a report can be created using Python.
