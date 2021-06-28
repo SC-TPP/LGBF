@@ -10,7 +10,7 @@ Data will be refreshed each time a new file is publically available on the Impro
 
 The data files and the descriptors for the fields within are as follows.
 
-# Indicator Data.csv
+## Indicator Data.csv
 Main data file containing values, numerators, denominators, rankings and percentiles along with changes first and previous as json objects.
 
 <details><summary>Fields Details</summary>
@@ -70,7 +70,7 @@ Main data file containing values, numerators, denominators, rankings and percent
         > An aim adjusted percentage change between two indicator values. There are two niche cases here. One where first and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for first and current and using these to calculate the percentage.
 </details>
 
-# Family Averages.csv
+## Family Averages.csv
 All Family Group Average types for all data fields avalilable
 
 <details><summary>Fields Details</summary>
@@ -125,7 +125,7 @@ Fields :
     > Concatenated Code and Period to create a relationship to Indicator Data.
 </details>
 
-# Scottish Values.csv
+## Scottish Values.csv
 Real and Cash values as provided by the Improvement Service. These have been removed from the raw data file for graphing purposes and included here separately. They can be joined back in any data model used for performance reporting if required.#
 
 <details><summary>Fields Details</summary>
@@ -139,7 +139,7 @@ Real and Cash values as provided by the Improvement Service. These have been rem
 - IS_Scot_Cash_Value
 </details>
 
-# Family Groups.csv
+## Family Groups.csv
 Family Groups in a row based format. This was used within the transformation steps and may be useful when defining models.
 
 <details><summary>Fields Details</summary>
@@ -151,7 +151,7 @@ Family Groups in a row based format. This was used within the transformation ste
     > Family Group Number
 </details>
 
-# Indicator Information.csv
+## Indicator Information.csv
 Indicator information used throughout transformation steps. Some of this information is from the LGBF metadata file where other parts are additional information necessary to transform the data that is not supplied by the Improvement Service.
 
 <details><summary>Fields Details</summary>
