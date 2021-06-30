@@ -4,7 +4,7 @@
 
 This repository contains the Jupyter Notebook used to transform the LGBF raw data file on the Improvement Services Public Website into a more computer friendly format meant for data/performance analysts to use with Business Intelligence tools such as PowerBI. It also contains the resulting data in csv format. 
 
-All data provided here is publically available on the Improvement Service's website. Any users should verify the validity of this data independently. There is no guarantee that the data transformations applied in the Notebook are correct (although I believe they are and have done some limited verification of this).
+All data provided here is publicly available on the Improvement Service's website. Any users should verify the validity of this data independently. There is no guarantee that the data transformations applied in the Notebook are correct (although I believe they are and have done some limited verification of this).
 
 Data will be refreshed each time a new file is publically available on the Improvement Services Website.
 
