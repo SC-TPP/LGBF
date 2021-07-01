@@ -157,11 +157,12 @@ All Family Group Average types for all data fields avalilable
     > Average created by summing the cash numerator values and denominator values for each Family Group, Code and Period combination and dividing them together appropriately.
 - Key_CodePeriodFamily_Group
     > Concatenated Code, Period and Family Group to create a relationship to Indicator Data.
+</details>
 
 # Scottish Averages.csv
 All Family Group Average types for all data fields avalilable
 
-Fields :
+<details><summary>Field Details</summary>
 - Code
     > Corrected to be A-Z sortable.
 - Period
