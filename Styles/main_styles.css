@@ -1,0 +1,94 @@
+/* --------------------------------------------------------------
+   Page Setup
+   * Sets up page properties. Including page size (A4) and background images.
+-------------------------------------------------------------- */
+* {
+    /* Box-model */
+    /* To ensure no unexpected magic spacing in pdfkit */
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%
+}
+section.page {
+    width: 100%;
+    min-height: 297mm;
+    background-origin: border-box;
+    background-size: 100% 297mm;
+    page-break-after: always;
+}
+/* --------------------------------------------------------------
+    Typography
+-------------------------------------------------------------- */
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10mm;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 5mm;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7030a0;
+    font-weight: bold;
+    font-size: 7mm;
+    padding: 12mm 5mm 2mm;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002060;
+    font-weight: bold;
+    font-size: 5mm;
+    padding: 12mm 5mm 2mm;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #009150;
+    font-weight: bold;
+    font-size: 5mm;
+    margin: 0 5mm;
+}
+/* --------------------------------------------------------------
+   Standard Table Styling
+-------------------------------------------------------------- */
+table {
+    border-spacing: 0 5px;
+}
+td {
+    padding: 15px;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+th {
+    padding: 15px;
+    background-color: #FF7D7D;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+td:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left: 1px solid lightgrey;
+}
+td:last-child {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-right: 1px solid lightgrey;
+}
+th:first-child {
+    border-top-left-radius: 5px;
+}
+th:last-child {
+    border-top-right-radius: 5px;
+}
+
+/* --------------------------------------------------------------
+    Specific Cases
+-------------------------------------------------------------- */
