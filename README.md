@@ -264,6 +264,6 @@ Indicator information used throughout transformation steps. Some of this informa
 # Notes on Further Development and Contributing
 Example files will be provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting). In addition to this there will also be an excel file with a predefined datamodel using links to the files hosted here. There will also be a notebook developed shortly that will provide an example as to how a report can be created using Python.
 
-Any users who would like to contribute and improve this dataset should contact corporateperformance@stirling.gov.uk. My Python knowledge is limited so I am sure there are many improvements that can be made to the notebooks.
+Any users who would like to contribute and improve this dataset should contact corporateperformance@stirling.gov.uk.
 
 If any users have additional fields they would like to be added again please contact corporateperformance@stirling.gov.uk and we will attempt to provide these (if resource allows).
