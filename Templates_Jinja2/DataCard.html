@@ -1,0 +1,24 @@
+<div class="title">
+    {{Title}}
+</div>
+<div class="period">
+    {{Period}}
+</div>
+<div class="icon">
+    {% if PercentChange > 0 and ValueChange > 0 %}
+        <span class="material-icons-round md-48" style="color:green;">north</span>
+    {% elif PercentChange > 0 and ValueChange < 0 %} <span
+        class="material-icons-round md-48" style="color:green;">south</span>
+    {% elif PercentChange < 0 and ValueChange < 0 %}
+        <span class="material-icons-round md-48" style = "color:red;">south</span>
+    {% elif PercentChange < 0 and ValueChange > 0 %} <span
+        class="material-icons-round md-48" style="color:red;">north</span>
+    {% elif PercentChange == 0 %}
+        <span class="material-icons-round md-48" style="color:darkgrey;">remove</span>
+    {% else %}
+        Error
+    {% endif %}
+</div>
+<div class="value">
+    {{Value}}
+</div>

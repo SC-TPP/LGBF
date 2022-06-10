@@ -1,0 +1,5 @@
+#sidebox{
+    grid-column: 1 / 2;
+    grid-row: 1 / 23;
+    background-color: #500060;
+}

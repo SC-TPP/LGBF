@@ -1,0 +1,45 @@
+/* --------------------------------------------------------------
+   Main Element Positioning. Report styles can be found in main_styles
+-------------------------------------------------------------- */
+#main_commentbox {
+    grid-column: 2 / 11;
+    grid-row: 5 / 17;
+}
+/* --------------------------------------------------------------
+   Datacard Positioning. datacard class style can be found in main_styles
+-------------------------------------------------------------- */
+#env07a_datacard {
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
+}
+#env06_datacard {
+    grid-column: 7 / 11;
+    grid-row: 2 / 4;
+}
+#env01a_datacard {
+    grid-column: 12 / 16;
+    grid-row: 2 / 4;
+}
+#env02a_datacard {
+    grid-column: 17 / 21;
+    grid-row: 2 / 4;
+}
+/* --------------------------------------------------------------
+   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
+-------------------------------------------------------------- */
+#env07a_graphtable_card {
+    grid-column:  12 / 21;
+    grid-row: 5 / 10 ;
+}
+#env06_graphtable_card {
+    grid-column: 12 / 21;
+    grid-row: 11 / 16;
+}
+#env01a_graphtable_card {
+    grid-column: 12 / 21;
+    grid-row: 17 / 22;
+}
+#env02a_graphtable_card {
+    grid-column: 2 / 11;
+    grid-row: 17 / 22;
+}
