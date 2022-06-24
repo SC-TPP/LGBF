@@ -207,7 +207,7 @@ th:last-child {
     color: white;
     grid-column: 1/5;
     grid-row: 1/5;
-    padding-top: 5px;
+    padding-top: 15%;
     font-size: 20px
 }
 .datacard .performanceChange {
