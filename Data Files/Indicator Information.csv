@@ -152,11 +152,11 @@ http://www.careinspectorate.com/index.php/publications-statistics/19-public/stat
 School attendance rates (per 100 pupils),CHN19a,CHN 19a,2 Yearly,Percentage,0.0%,,100.0,Children's Services,Children and Young People,"Children, Social Work and Housing indicators","Schools & Learning ; Additional Support Needs (ASN), Health & Wellbeing",Descending,0.000,"Table 2.4 in the Scottish Government publication: Attendance and Absence 2014/15: http://www.gov.scot/Topics/Statistics/Browse/School-Education/AttendanceAbsenceDatasets/atttab2015
 Looked After Children Attendance. Table 3.1 Percentage attendance for looked after children, by the local authority responsible for the looked after child and gender, 2012/13 http://www.gov.scot/Publications/2017/06/2978/downloads
 3. Looked after data by local authority Table 3.1 Children starting and ceasing to be looked after, 2012-13 http://www.gov.scot/Publications/2014/03/8922/7
-2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0.0%,{:.1%},.1%,1,,,800,600
+2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0.0%,{:.1%},.1%,1,,,229,609
 School attendance rates (per 100 'looked after children'),CHN19b,CHN 19b,2 Yearly,Percentage,0.0%,,100.0,Children's Services,Children and Young People,"Children, Social Work and Housing indicators","Schools & Learning ; Additional Support Needs (ASN), Health & Wellbeing",Descending,0.000,"Table 2.4 in the Scottish Government publication: Attendance and Absence 2014/15: http://www.gov.scot/Topics/Statistics/Browse/School-Education/AttendanceAbsenceDatasets/atttab2015
 Looked After Children Attendance. Table 3.1 Percentage attendance for looked after children, by the local authority responsible for the looked after child and gender, 2012/13 http://www.gov.scot/Publications/2017/06/2978/downloads
 3. Looked after data by local authority Table 3.1 Children starting and ceasing to be looked after, 2012-13 http://www.gov.scot/Publications/2014/03/8922/7
-2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0%,{:.1%},",.0%",1,,,800,600
+2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0%,{:.1%},",.0%",1,,,229,609
 "School exclusions (per 1,000 pupils)",CHN20a,CHN 20a,2 Yearly,"Rate per 1,000",0,0.0,,Children's Services,Children and Young People,"Children, Social Work and Housing indicators","Schools & Learning ; Additional Support Needs (ASN), Health & Wellbeing",Ascending,0.0,"Table 19 in the Scottish Government publication: Exclusions dataset
 http://www.gov.scot/Topics/Statistics/Browse/School-Education/exclusiondatasets/exclusionsdataset2015
 Looked After Children
@@ -167,7 +167,7 @@ http://www.gov.scot/Publications/2014/03/8922/7
 Table 3.1 Children starting and ceasing to be looked after, 2012-13
 https://www.gov.scot/publications/education-outcomes-looked-children-2018-19/
 Table 4.5: Cases and rates of exclusion for all children looked after within the last year, by local authority and gender, 2018/19
-2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0,"{:,.1f}",",d",1,,,800,600
+2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0,"{:,.1f}",",d",1,,,229,609
 "School exclusions (per 1,000 'looked after children')",CHN20b,CHN 20b,2 Yearly,"Rate per 1,000",0,0.0,,Children's Services,Children and Young People,"Children, Social Work and Housing indicators","Schools & Learning ; Additional Support Needs (ASN), Health & Wellbeing",Ascending,0.0,"Table 19 in the Scottish Government publication: Exclusions dataset
 http://www.gov.scot/Topics/Statistics/Browse/School-Education/exclusiondatasets/exclusionsdataset2015
 Looked After Children
@@ -178,7 +178,7 @@ http://www.gov.scot/Publications/2014/03/8922/7
 Table 3.1 Children starting and ceasing to be looked after, 2012-13
 https://www.gov.scot/publications/education-outcomes-looked-children-2018-19/
 Table 4.5: Cases and rates of exclusion for all children looked after within the last year, by local authority and gender, 2018/19
-2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0,"{:,.1f}",",d",1,,,800,600
+2018/2019 data update provided directly to IS from Scottish Government. The time series has been corrected for all years.",,,None,None,,,,0,"{:,.1f}",",d",1,,,229,609
 Participation rate for 16-19 year olds (per 100),CHN21,CHN 21,Annual,Percentage,0.0%,,100.0,Children's Services,Children and Young People,"Children, Social Work and Housing indicators",Schools & Learning ; Senior Phase Education and Youth Participation,Descending,0.000,"The Participation Measure data release (published August 2018) marked the fourth release of statistics on the participation of 16-19-year olds at a national and local authority level, as such data is not available from LGBF base year.
 Supplementary Tables are in the SDS Publication: Annual Participation Measure: Table 1.8a (% Participating 16-18)
 https://www.skillsdevelopmentscotland.co.uk/publications-statistics/statistics/participation-measure/?page=1&statisticCategoryId=7&order=date-desc",,,None,None,,,,0.0%,{:.1%},.1%,1,,,800,600
