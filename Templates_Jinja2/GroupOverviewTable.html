@@ -1,0 +1,22 @@
+<h2>{{GroupTitle}}</h2>
+{% for item in GroupData %}
+<h3>{{item.subGroupTitle}}</h3>
+<table>
+    <thead>
+        <tr>
+            {% for item in item.headers %}
+                <th>{{item}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in item.groupdata %}
+            <tr>
+                {% for elem in item %}
+                <td>{{elem}}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endfor %}
