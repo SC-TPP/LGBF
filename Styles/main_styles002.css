@@ -1,0 +1,247 @@
+/* --------------------------------------------------------------
+   Page Setup
+   * Sets up page properties. Including page size (A4) and background images.
+-------------------------------------------------------------- */
+* {
+    /* Box-model */
+    /* To ensure no unexpected magic spacing */
+    margin: 0;
+    padding: 0;
+}
+section.page.portrait {
+    width: 1240px;
+    max-width : 1240px;
+    height: 1754px;
+    max-height: 1754px;
+    display: grid;
+    grid-template-columns: 52px repeat(19, minmax(0, 1fr)) 52px;
+    grid-template-rows: 90px repeat(20, minmax(0, 1fr)) 52px;
+}
+section.page.landscape {
+    width: 1754px;
+    max-width: 1754px;
+    height: 1240px;
+    max-height : 1240px;
+    display: grid;
+    grid-template-columns: 52px repeat(19, minmax(0, 1fr)) 52px;
+    grid-template-rows: 90px repeat(20, minmax(0, 1fr)) 52px;
+}
+/* --------------------------------------------------------------
+    Typography
+-------------------------------------------------------------- */
+p {
+    font-size : 12px;
+    font-family : Segoe UI;
+    padding : 10px;
+}
+h1 {
+    font-size: 35px;
+    font-family : Segoe UI;
+    vertical-align: middle;
+}
+/* --------------------------------------------------------------
+   Page Header Styling
+-------------------------------------------------------------- */
+.titlebar {
+    grid-column: 2 / 21;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(20, minmax(0, 1fr));
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+.header_decorationbox{
+    height: 5px;
+}
+#firstbox {
+    background-color: #500060;
+    grid-column: 1 / 8;
+    grid-row: 5 / 6;
+}
+#secondbox {
+    background-color: #4974a5;
+    grid-column: 8 / 12;
+    grid-row: 5 / 6;
+}
+#thirdbox {
+    background-color: #500060;
+    grid-column: 12 / 21;
+    grid-row: 5 / 6;
+}
+.titlebar h1{
+    grid-column: 1 / 21;
+    grid-row: 2 / 5;
+}
+/* --------------------------------------------------------------
+   Page Sidebar Styling
+-------------------------------------------------------------- */
+.sidebar{
+    display : grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(20, minmax(0, 1fr));
+    grid-column: 1 / 2;
+    grid-row: 1 / 23;
+}
+#top_sidebar{
+    grid-column: 2 / 3;
+    grid-row: 1 / 6;
+    background-color: #500060;
+}
+#bottom_sidebar{
+    grid-column: 2 / 3;
+    grid-row: 15 / 21;
+    background-color: #500060;
+}
+/* --------------------------------------------------------------
+   Table Styling
+-------------------------------------------------------------- */
+table {
+    border-spacing: 0 0px;
+}
+td {
+    padding: 1px;
+    text-align: center;
+    font-size: 10px
+}
+th {
+    padding: 1px;
+    background-color: #500060;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+th:first-child {
+    border-top-left-radius: 5px;
+}
+th:last-child {
+    border-top-right-radius: 5px;
+}
+
+/* --------------------------------------------------------------
+   Data Card Styling
+-------------------------------------------------------------- */
+
+.material-icons-round.md-48 {
+    font-size: 50px;
+}
+
+.datacard {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 5px repeat(10, minmax(0, 1fr)) 5px;
+    grid-template-rows: 5px repeat(10, minmax(0, 1fr)) 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-family : Segoe UI;
+}
+
+.datacard .title {
+    grid-column: 2 / 12;
+    grid-row: 1 / 6;
+    justify-self: center;
+    align-self: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.datacard .period {
+    grid-column: 4 / 6;
+    grid-row : 6 / 8;
+    justify-self: center;
+    align-self: center;
+    font-size: 14px;
+}
+
+.datacard .value {
+    grid-column: 4 / 6;
+    grid-row: 8 / 10;
+    justify-self: center;
+    align-self: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.datacard .icon {
+    grid-column: 8 / 10;
+    grid-row: 7 / 10;
+    justify-self: center;
+    align-self: center;
+}
+
+.datacard .rank{
+    grid-column: 10 / 12;
+    grid-row: 7 / 11;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+.datacard .rank img{
+    max-width: 100%;
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+.datacard .rank h2{
+    text-align: center;
+    color: white;
+    grid-column: 1/5;
+    grid-row: 1/5;
+    padding-top: 15%;
+    font-size: 20px
+}
+.datacard .performanceChange {
+    grid-column: 6/8;
+    grid-row : 6/8;
+    text-align: center;
+    padding: 0px;
+}
+.datacard .valueChange {
+    grid-column: 6/8;
+    grid-row : 8/10;
+    text-align: center;
+    padding: 0px;
+}
+
+/* --------------------------------------------------------------
+   Graph & Table Card Styling
+-------------------------------------------------------------- */
+.graphtable_card {
+    display: grid;
+    grid-template-columns: 10px repeat(10, minmax(0, 1fr)) 10px;
+    grid-template-rows: 10px repeat(10, minmax(0, 1fr)) 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-family: Segoe UI;
+}
+.graphtable_card h3 {
+    grid-column: 2 / 12;
+    grid-row: 2 / 3;
+    font-size: 14px;
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    text-align: center;
+}
+.graphtable_card img {
+    grid-column: 2 / 10;
+    grid-row: 3 / 12;
+    object-fit: fill;
+    width: 100%;
+    height : 100%
+}
+.graphtable_card table {
+    grid-column: 10 / 12;
+    grid-row: 3 / 12;
+} 
