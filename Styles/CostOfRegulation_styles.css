@@ -1,0 +1,28 @@
+#ENV05_datacard {
+    grid-column: 2/7;
+    grid-row: 2/4;
+}
+#ENV05a_datacard {
+    grid-column: 9/14;
+    grid-row: 2/4;
+}
+#ENV05b_datacard {
+    grid-column: 16/21;
+    grid-row: 2/4;
+}
+#main_commentbox {
+    grid-column: 2/11;
+    grid-row: 5/14;
+}
+#env05_graphtable_card{
+    grid-column: 12/21;
+    grid-row: 5/13;
+}
+#env05a_graphtable_card{
+    grid-column: 12/21;
+    grid-row: 14/22;
+}
+#env05b_graphtable_card{
+    grid-column: 2/11;
+    grid-row: 14/22;
+}
