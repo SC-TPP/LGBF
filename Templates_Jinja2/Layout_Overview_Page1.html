@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Styles/main_styles.css" />
+        <link rel="stylesheet" href="../Styles/overview_styles.css" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+    </head>
+
+    <body>
+        <section class="page landscape" id="Overview">
+            <div class="titlebar">
+                {% with %}
+                {% set PageTitle = "Overview" %}
+                {% include "Header.html" %}
+                {% endwith %}
+            </div>
+            <div class="sidebar">
+                {% include "Sidebar.html" %}
+            </div>
+            <div id = "CultureLeisureServices_GroupTable">
+                {% with %}
+                {% set GroupTitle = "Culture & Leisure Services" %}
+                {% set GroupData = GroupedLatestDataDict.get("Culture & Leisure Services") %}
+                {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+            </div>
+            <div id="EnvironmentalServices_GroupTable">
+                {% with %}
+                {% set GroupTitle = "Environmental Services" %}
+                {% set GroupData = GroupedLatestDataDict.get("Environmental Services") %}
+                {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+            </div>
+            <div id="HousingServices_GroupTable">
+                {% with %}
+                {% set GroupTitle = "Housing Services" %}
+                {% set GroupData = GroupedLatestDataDict.get("Housing Services") %}
+                {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+            </div>
+            <div id="EconomicDevelopment_GroupTable">
+                {% with %}
+                {% set GroupTitle = "Economic Development" %}
+                {% set GroupData = GroupedLatestDataDict.get("Economic Development") %}
+                {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+            </div>
+        </section>
+    </body>
+</html>
