@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Styles/main_styles.css" />
+        <link rel="stylesheet" href="../Styles/overview_styles.css" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+    </head>
+
+    <body>
+        <section class="page landscape" id="Overview">
+            <div class="titlebar">
+                {% with %}
+                {% set PageTitle = "Overview" %}
+                {% include "Header.html" %}
+                {% endwith %}
+            </div>
+            <div class="sidebar">
+                {% include "Sidebar.html" %}
+            </div>
+            <h2 id = "AdultSocialCareServices_Header">Adult Social Care Services</h2>
+            {% with %}
+                {% set GroupTitle = "Adult Care - At Home Care" %}
+                {% set id = "AdultCareAtHomeCare_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Adult Social Care Services").get("Adult Care - At Home Care") %}
+                {% include "GroupOverviewTable.html" %}
+            {% endwith %}
+        </section>
+    </body>
+</html>

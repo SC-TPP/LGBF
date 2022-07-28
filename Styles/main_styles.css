@@ -1,4 +1,13 @@
 /* --------------------------------------------------------------
+   Variables (Color Pallete etc.)
+-------------------------------------------------------------- */
+:root {
+  --main-bg-color: #5D2381;
+  --secondary-bg-color: #2b4563;
+  --test: 52px repeat(19, minmax(0, 1fr)) 52px
+}
+
+/* --------------------------------------------------------------
    Page Setup
    * Sets up page properties. Including page size (A4) and background images.
 -------------------------------------------------------------- */
@@ -14,7 +23,7 @@ section.page.portrait {
     height: 1754px;
     max-height: 1754px;
     display: grid;
-    grid-template-columns: 52px repeat(19, minmax(0, 1fr)) 52px;
+    grid-template-columns: var(--test);
     grid-template-rows: 90px repeat(20, minmax(0, 1fr)) 52px;
 }
 section.page.landscape {
@@ -23,7 +32,7 @@ section.page.landscape {
     height: 1240px;
     max-height : 1240px;
     display: grid;
-    grid-template-columns: 52px repeat(19, minmax(0, 1fr)) 52px;
+    grid-template-columns: var(--test);
     grid-template-rows: 90px repeat(20, minmax(0, 1fr)) 52px;
 }
 /* --------------------------------------------------------------
@@ -53,17 +62,17 @@ h1 {
     height: 5px;
 }
 #firstbox {
-    background-color: #500060;
+    background-color: var(--main-bg-color);
     grid-column: 1 / 8;
     grid-row: 5 / 6;
 }
 #secondbox {
-    background-color: #4974a5;
+    background-color: var(--secondary-bg-color);
     grid-column: 8 / 12;
     grid-row: 5 / 6;
 }
 #thirdbox {
-    background-color: #500060;
+    background-color: var(--main-bg-color);
     grid-column: 12 / 21;
     grid-row: 5 / 6;
 }
@@ -84,12 +93,12 @@ h1 {
 #top_sidebar{
     grid-column: 2 / 3;
     grid-row: 1 / 6;
-    background-color: #500060;
+    background-color: var(--main-bg-color);
 }
 #bottom_sidebar{
     grid-column: 2 / 3;
     grid-row: 15 / 21;
-    background-color: #500060;
+    background-color: var(--main-bg-color);
 }
 /* --------------------------------------------------------------
    Table Styling
@@ -100,11 +109,12 @@ table {
 td {
     padding: 1px;
     text-align: center;
-    font-size: 10px
+    font-size: 10px;
+    font-weight: bold;
 }
 th {
     padding: 1px;
-    background-color: #500060;
+    background-color: var(--secondary-bg-color);
     color: white;
 }
 tr:nth-child(odd) {
@@ -185,10 +195,12 @@ th:last-child {
     grid-template-columns: repeat(5, minmax(0, 1fr));
     grid-template-rows: repeat(5, minmax(0, 1fr));
 }
-.datacard .rank img{
+.datacard .rank svg{
+    width: 100%;
     max-width: 100%;
     grid-column: 1/5;
     grid-row: 1/5;
+    color: var(--secondary-bg-color);
 }
 .datacard .rank h2{
     text-align: center;
