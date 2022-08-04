@@ -41,13 +41,19 @@ section.page.landscape {
 -------------------------------------------------------------- */
 p {
     font-size : 12px;
-    font-family : Segoe UI;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding : 10px;
 }
 h1 {
     font-size: 35px;
-    font-family : Segoe UI;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     vertical-align: middle;
+}
+h2 {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .material-icons-round.md-48 {
     font-size: 50px;
@@ -128,7 +134,27 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: #EEEEEE;
 }
-
+td:first-child {
+    border-color: var(--secondary-bg-color);
+    border-width: 1px;
+    border-left-style: solid;
+}
+td:last-child{
+    border-color: var(--secondary-bg-color);
+    border-width: 1px;
+    border-right-style: solid;
+}
+tr:last-child td {
+    border-color: var(--secondary-bg-color);
+    border-width: 1px;
+    border-bottom-style:solid;
+}
+tr:last-child td:first-child{
+    border-bottom-left-radius: 5px;
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius: 5px;
+}
 th:first-child {
     border-top-left-radius: 5px;
 }
