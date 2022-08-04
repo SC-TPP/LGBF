@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Styles/main_styles.css" />
+        <link rel="stylesheet" href="../Styles/overview_styles.css" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+    </head>
+
+    <body>
+        <section class="page landscape" id="Overview">
+            <div class="titlebar">
+                {% with %}
+                {% set PageTitle = "Overview" %}
+                {% include "Header.html" %}
+                {% endwith %}
+            </div>
+            <div class="sidebar">
+                {% include "Sidebar.html" %}
+            </div>
+            <div id="column1">
+                    {% with %}
+                        {% set GroupTitle = "Planning" %}
+                        {% set id = "Planning_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Economic Development").get("Planning") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                <h2>Environmental Services</h2>
+                    {% with %}
+                        {% set GroupTitle = "Cost of Regulation" %}
+                        {% set id = "CostOfRegulation_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Environmental Services").get("Cost of Regulation") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                    {% with %}
+                        {% set GroupTitle = "Road Maintenance" %}
+                        {% set id = "RoadMaintenance_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Environmental Services").get("Road Maintenance") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                        {% with %}
+                        {% set GroupTitle = "Street Cleaning" %}
+                        {% set id = "StreetCleaning_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Environmental Services").get("Street Cleaning") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                    {% with %}
+                        {% set GroupTitle = "Waste & Recycling" %}
+                        {% set id = "WasteRecycling_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Environmental Services").get("Waste & Recycling") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+            </div>
+            <div id="column2">
+                <h2>Financial Sustainability</h2>
+                    {% with %}
+                        {% set GroupTitle = "Financial Position" %}
+                        {% set id = "FinancialPosition_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Financial Sustainability").get("Financial Position") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                <h2>Housing Services</h2>
+                    {% with %}
+                        {% set GroupTitle = "Management & Homelessness" %}
+                        {% set id = "HousingManagementHomelessness_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Management & Homelessness") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                    {% with %}
+                        {% set GroupTitle = "Property & Assets" %}
+                        {% set id = "HousingPropertyAssets_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Property and Assets") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                <h2>Tackling Climate Change</h2>
+                    {% with %}
+                        {% set GroupTitle = "Climate Change Emissions" %}
+                        {% set id = "ClimateChangeEmissions_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Tackling Climate Change").get("Climate Change Emissions ") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+            </div>
+        </section>
+    </body>
+</html>

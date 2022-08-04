@@ -4,7 +4,8 @@
 :root {
   --main-bg-color: #5D2381;
   --secondary-bg-color: #2b4563;
-  --test: 52px repeat(19, minmax(0, 1fr)) 52px
+  --pagecolumns: 52px repeat(19, minmax(0, 1fr)) 52px;
+  --pagerows: 90px repeat(20, minmax(0, 1fr)) 52px;
 }
 
 /* --------------------------------------------------------------
@@ -23,8 +24,8 @@ section.page.portrait {
     height: 1754px;
     max-height: 1754px;
     display: grid;
-    grid-template-columns: var(--test);
-    grid-template-rows: 90px repeat(20, minmax(0, 1fr)) 52px;
+    grid-template-columns: var(--pagecolumns);
+    grid-template-rows: var(--pagerows)
 }
 section.page.landscape {
     width: 1754px;
@@ -32,8 +33,8 @@ section.page.landscape {
     height: 1240px;
     max-height : 1240px;
     display: grid;
-    grid-template-columns: var(--test);
-    grid-template-rows: 90px repeat(20, minmax(0, 1fr)) 52px;
+    grid-template-columns: var(--pagecolumns);
+    grid-template-rows: var(--pagerows)
 }
 /* --------------------------------------------------------------
     Typography
@@ -47,6 +48,9 @@ h1 {
     font-size: 35px;
     font-family : Segoe UI;
     vertical-align: middle;
+}
+.material-icons-round.md-48 {
+    font-size: 50px;
 }
 /* --------------------------------------------------------------
    Page Header Styling
@@ -111,6 +115,7 @@ td {
     text-align: center;
     font-size: 10px;
     font-weight: bold;
+    vertical-align: middle;
 }
 th {
     padding: 1px;
@@ -134,10 +139,6 @@ th:last-child {
 /* --------------------------------------------------------------
    Data Card Styling
 -------------------------------------------------------------- */
-
-.material-icons-round.md-48 {
-    font-size: 50px;
-}
 
 .datacard {
     width: 100%;

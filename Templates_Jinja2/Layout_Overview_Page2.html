@@ -18,13 +18,73 @@
             <div class="sidebar">
                 {% include "Sidebar.html" %}
             </div>
-            <div id = "ChildrensServices_GroupTable">
+            <div id="column1">
                 {% with %}
-                {% set GroupTitle = "Children's Services" %}
-                {% set GroupData = GroupedLatestDataDict.get("Children's Services") %}
-                {% include "GroupOverviewTable.html" %}
+                    {% set GroupTitle = "Secondary Schools" %}
+                    {% set id = "SecondarySchools_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("Secondary Schools") %}
+                    {% include "GroupOverviewTable.html" %}
                 {% endwith %}
-            </div>
+                <h2>Corporate Services</h2>
+                {% with %}
+                    {% set GroupTitle = "Absence" %}
+                    {% set id = "Absence_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Absence") %}
+                    {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+                {% with %}
+                    {% set GroupTitle = "Corporate Property Assets" %}
+                    {% set id = "CorporatePropertyAssets_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Corporate Property Assets") %}
+                    {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+                {% with %}
+                    {% set GroupTitle = "Council Tax" %}
+                    {% set id = "CouncilTax_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Council Tax") %}
+                    {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+                {% with %}
+                    {% set GroupTitle = "Financial Position" %}
+                    {% set id = "FinancialPosition_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Financial Position") %}
+                    {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+                {% with %}
+                    {% set GroupTitle = "Gender Pay Gap" %}
+                    {% set id = "GenderPayGap_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Gender Pay Gap") %}
+                    {% include "GroupOverviewTable.html" %}
+                {% endwith %}
+                
+                </div>
+            <div id="column2">
+                <h2>Culture & Leisure Services</h2>
+                    {% with %}
+                        {% set GroupTitle = "Leisure Facilities & Attractions" %}
+                        {% set id = "LeisureFacilitiesAttractions_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Culture & Leisure Services").get("Leisure Facilities & Attractions") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                    {% with %}
+                        {% set GroupTitle = "Parks & Open Spaces" %}
+                        {% set id = "ParksOpenSpaces_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Culture & Leisure Services").get("Parks & Open Spaces") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                <h2>Economic Development</h2>
+                    {% with %}
+                        {% set GroupTitle = "Economic Growth" %}
+                        {% set id = "EconomicGrowth_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Economic Development").get("Economic Growth") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
+                    {% with %}
+                        {% set GroupTitle = "Employment" %}
+                        {% set id = "Employment_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Economic Development").get("Employment") %}
+                        {% include "GroupOverviewTable.html" %}
+                    {% endwith %}
             </div>
         </section>
     </body>

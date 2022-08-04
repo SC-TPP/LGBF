@@ -1,4 +1,4 @@
-<div id = {{id}}>
+<div id = {{id}} class = "GroupOverviewTable">
 <h3>{{GroupTitle}}</h3>
     <table>
         <thead>
@@ -16,9 +16,29 @@
                 <tr>
                     <td>{{value.Title}}</td>
                     <td>{{value.Period}}</td>
-                    <td>{{value.Real_Value_Formatted}}</td>
+                    <td><p>{{value.Real_Value_Formatted}}</p>
+                        {% if value.Changes_PercentChange_AimAdjusted_SincePrevious > 0 %}
+                            <span class="material-icons-round md-48" style="color:green;">trending_up</span>
+                        {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious < 0 %}
+                            <span class="material-icons-round md-48" style="color:red;">trending_down</span>
+                        {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious == 0 %} 
+                            <span class="material-icons-round md-48"style="color:grey;">trending_flat</span>
+                        {% else %}
+                            Error
+                        {% endif %}
+                    </td>
                     <td>{{value.Previous_Row_Real_Value}}</td>
-                    <td>{{value.FamilyRank|int}}</td>
+                    <td><p>{{value.FamilyRank|int}}</p>
+                        {% if value.Changes_FamilyRank_ChangeSincePrevious > 0 %}
+                            <span class="material-icons-round md-48" style="color:green;">expand_less</span>
+                        {% elif value.Changes_FamilyRank_ChangeSincePrevious < 0 %} 
+                            <span class="material-icons-round md-48"style="color:red;">expand_more</span>
+                        {% elif value.Changes_FamilyRank_ChangeSincePrevious == 0 %}
+                            <span class="material-icons-round md-48" style="color:grey;">horizontal_rule</span>
+                        {% else %}
+                            Error
+                        {% endif %}
+                    </td>
                     <td>{{value.Previous_Row_FamilyRank|int}}</td>
                 </tr>
             {% endfor %}
