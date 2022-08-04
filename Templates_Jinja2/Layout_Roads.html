@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
+        <link rel="stylesheet" href="../Styles/Roads_styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
+    </head>
+    <body>
+        <section class="page landscape" id="SchoolAttendance">
+            <div class = "titlebar">
+                {% with %}
+                    {% set PageTitle = "School Attandance" %}
+                        {% include "Header.html" %}
+                {% endwith %}
+            </div>
+            <div class = "sidebar">
+                {% include "Sidebar.html" %}
+            </div>
+            <div class = "datacard" id="ENV04a_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['ENV 04a'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class = "datacard" id="ENV04b_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['ENV 04b'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div> <div class = "datacard" id="ENV04c_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['ENV 04c'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div> <div class = "datacard" id="ENV04d_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['ENV 04d'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div> <div class = "datacard" id="ENV04e_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['ENV 04e'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+
+            </div>
+            <div class = "commentbox" id = "main_commentbox">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Et leo duis ut diam quam. Tellus mauris a diam maecenas. Erat nam at lectus urna duis convallis convallis tellus
+                id. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Non sodales neque sodales ut etiam sit. Integer vitae
+                justo eget magna fermentum iaculis eu. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Est lorem ipsum
+                dolor sit amet consectetur adipiscing elit. Nec sagittis aliquam malesuada bibendum arcu vitae. Vitae tempus quam
+                pellentesque nec nam. Odio aenean sed adipiscing diam. A iaculis at erat pellentesque adipiscing commodo elit at
+                imperdiet. Tempus urna et pharetra pharetra massa. Pharetra et ultrices neque ornare aenean euismod elementum. Porttitor
+                lacus luctus accumsan tortor. Morbi leo urna molestie at elementum eu facilisis. Est sit amet facilisis magna etiam
+                tempor orci eu lobortis. In hac habitasse platea dictumst vestibulum rhoncus est. Nisi porta lorem mollis aliquam ut.
+                </p>
+                <p>
+                Proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet nulla facilisi morbi tempus iaculis. Sed augue lacus viverra
+                vitae congue eu consequat ac. Vulputate dignissim suspendisse in est. Dis parturient montes nascetur ridiculus mus
+                mauris vitae. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Sit amet nulla facilisi morbi tempus
+                iaculis urna. Id nibh tortor id aliquet lectus proin. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+                dignissim. Neque egestas congue quisque egestas diam in arcu cursus euismod. Tristique et egestas quis ipsum.
+                </p>
+                <p>
+                Mi in nulla posuere sollicitudin aliquam ultrices. Molestie nunc non blandit massa enim nec dui. Nec tincidunt praesent
+                semper feugiat. Vitae justo eget magna fermentum iaculis eu non diam. Ut placerat orci nulla pellentesque dignissim enim
+                sit amet venenatis. Massa sed elementum tempus egestas sed sed risus pretium quam. Pretium viverra suspendisse potenti
+                nullam ac. 
+                </p>
+                
+            </div>
+            <div class="graphtable_card" id="ENV04a_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['ENV 04a']['Title'] %}
+                    {% set Graphpng =  "../Graphs/ENV%2004a_Line.png" %}
+                    {% set FGRankData = LatestData['ENV 04a']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="ENV04b_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['ENV 04b']['Title'] %}
+                    {% set Graphpng =  "../Graphs/ENV%2004b_Line.png" %}
+                    {% set FGRankData = LatestData['ENV 04b']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="ENV04c_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['ENV 04c']['Title'] %}
+                    {% set Graphpng =  "../Graphs/ENV%2004c_Line.png" %}
+                    {% set FGRankData = LatestData['ENV 04c']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div> 
+            <div class="graphtable_card" id="ENV04d_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['ENV 04d']['Title'] %}
+                    {% set Graphpng =  "../Graphs/ENV%2004d_Line.png" %}
+                    {% set FGRankData = LatestData['ENV 04d']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="ENV04e_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['ENV 04e']['Title'] %}
+                    {% set Graphpng =  "../Graphs/ENV%2004e_Line.png" %}
+                    {% set FGRankData = LatestData['ENV 04e']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+        </section>
+    </body>
+</html>
