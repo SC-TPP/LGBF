@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------
+   Main Element Positioning. Report styles can be found in main_styles
+-------------------------------------------------------------- */
+#main_commentbox {
+    grid-column: 2/11;
+    grid-row: 5/14;
+}
+/* --------------------------------------------------------------
+   Datacard Positioning. datacard class style can be found in main_styles
+-------------------------------------------------------------- */
 #ENV05_datacard {
     grid-column: 2/7;
     grid-row: 2/4;
@@ -10,10 +20,9 @@
     grid-column: 16/21;
     grid-row: 2/4;
 }
-#main_commentbox {
-    grid-column: 2/11;
-    grid-row: 5/14;
-}
+/* --------------------------------------------------------------
+   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
+-------------------------------------------------------------- */
 #env05_graphtable_card{
     grid-column: 12/21;
     grid-row: 5/13;

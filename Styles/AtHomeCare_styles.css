@@ -9,91 +9,53 @@
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
 #sw01_datacard {
-    grid-column: 2 / 6;
+    grid-column: 2 / 5;
     grid-row: 2 / 4;
 }
 #sw03a_datacard {
-    grid-column: 7 / 11;
+    grid-column: 6 / 9;
     grid-row: 2 / 4;
 }
 #sw04b_datacard {
-    grid-column: 12 / 16;
+    grid-column: 10 / 13;
     grid-row: 2 / 4;
 }
 #sw04c_datacard {
-    grid-column: 17 / 21;
+    grid-column: 14 / 17;
     grid-row: 2 / 4;
 }
 #sw04d_datacard {
-    grid-column: 7 / 11;
-    grid-row: 5 / 7;
+    grid-column: 18 / 21;
+    grid-row: 2 / 4;
 }
 #sw04e_datacard {
-    grid-column: 12 / 16;
+    grid-column: 2 / 5;
     grid-row: 5 / 7;
-}
-/* --------------------------------------------------------------
-   Datacard Styling Override. To account for any sizing issues
--------------------------------------------------------------- */
-#AtHomeCare .datacard .title {
-    font-size: 10px;
-}
-#AtHomeCare .datacard .period {
-    grid-column: 3 / 6;
-    font-size: 12px;
-}
-#AtHomeCare .datacard .value {
-    grid-column: 3 / 6;
-    font-size: 12px;
-}
-#AtHomeCare .datacard .icon .material-icons-round.md-48 {
-    font-size: 40px;
-}
-#AtHomeCare .datacard .rank h2 {
-    font-size: 15px;
 }
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
 -------------------------------------------------------------- */
 #sw01_graphtable_card {
     grid-column:  8 / 14;
-    grid-row: 8 / 12 ;
+    grid-row: 5 / 10 ;
 }
 #sw03a_graphtable_card {
     grid-column: 8 / 14;
-    grid-row: 13 / 17;
+    grid-row: 11 / 16;
 }
 #sw04b_graphtable_card {
     grid-column: 8 / 14;
-    grid-row: 18 / 22;
+    grid-row: 17 / 22;
 }
 #sw04c_graphtable_card {
     grid-column: 15 / 21;
-    grid-row: 8 / 12;
+    grid-row: 5 / 10 ;
 }
 #sw04d_graphtable_card {
     grid-column: 15 / 21;
-    grid-row: 13 / 17;
+    grid-row: 11 / 16;
 }
 #sw04e_graphtable_card {
     grid-column: 15 / 21;
-    grid-row: 18 / 22;
-}
-/* --------------------------------------------------------------
-   GraphTable Card Styling Override. To account for any sizing issues
--------------------------------------------------------------- */
-#AtHomeCare .graphtable_card h3 {
-    font-size: 12px;
-}
-#AtHomeCare .graphtable_card table {
-    grid-row : 4 /12;
-}
-#AtHomeCare .graphtable_card img {
-    grid-row : 4 /12;
-}
-#AtHomeCare .graphtable_card table th {
-    font-size: 12px;
-}
-#AtHomeCare .graphtable_card table td {
-    font-size: 8px;
+    grid-row: 17 / 22;
 }

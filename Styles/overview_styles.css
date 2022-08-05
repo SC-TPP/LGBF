@@ -28,7 +28,7 @@
     font-size: 15px;
 }
 /* --------------------------------------------------------------
-   Specific Table Styling
+   Specific Table Styling. Main styling for tables can be found in main_styles
 -------------------------------------------------------------- */
 #Overview table td {
     font-size: 12px;

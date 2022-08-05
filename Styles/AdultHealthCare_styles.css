@@ -29,26 +29,6 @@
     grid-row: 2 / 4;
 }
 /* --------------------------------------------------------------
-   Datacard Styling Override. To account for any sizing issues
--------------------------------------------------------------- */
-#AdultHealthCare .datacard .title {
-    font-size: 10px;
-}
-#AdultHealthCare .datacard .period {
-    grid-column: 3 / 6;
-    font-size: 12px;
-}
-#AdultHealthCare .datacard .value {
-    grid-column: 3 / 6;
-    font-size: 12px;
-}
-#AdultHealthCare .datacard .icon .material-icons-round.md-48 {
-    font-size: 40px;
-}
-#AdultHealthCare .datacard .rank h2 {
-    font-size: 15px;
-}
-/* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
 -------------------------------------------------------------- */
 #sw02_graphtable_card {
@@ -70,10 +50,4 @@
 #sw08_graphtable_card {
     grid-column: 2 / 11;
     grid-row: 17 / 22;
-}
-/* --------------------------------------------------------------
-   GraphTable Card Styling Override. To account for any sizing issues
--------------------------------------------------------------- */
-#AdultHealthCare .graphtable_card h3 {
-    font-size: 12px;
 }
