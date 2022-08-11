@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
+        <link rel="stylesheet" href="../Styles/Ab+Gen_styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
+    </head>
+    <body>
+        <section class = "page landscape" id = "Parks & Open Spaces and Climate Change Emissions">
+            <div class = "titlebar">
+                {% with %}
+                    {% set PageTitle = "Parks & Open Spaces" %}
+                        {% include "Header.html" %}
+                {% endwith %}
+            </div>
+
+            <div class = "titlebar">
+                {% with %}
+                    {% set pagetitle2 = "Climate Change Emissions" %}
+                        {% include "Header.html" %}
+                {% endwith %}
+            </div>
+
+            <div class = "sidebar">
+                {% include "Sidebar.html" %}
+            </div>
+            <div class = "datacard" id="CL04_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['C&L 04'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="CL05b_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['C&L 05b'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="CLIM01_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['CLIM 01'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="CLIM02_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['CLIM 02'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class = "commentbox" id = "main_commentbox">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Et leo duis ut diam quam. Tellus mauris a diam maecenas. Erat nam at lectus urna duis convallis convallis tellus
+                id. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Non sodales neque sodales ut etiam sit. Integer vitae
+                justo eget magna fermentum iaculis eu. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Est lorem ipsum
+                dolor sit amet consectetur adipiscing elit. Nec sagittis aliquam malesuada bibendum arcu vitae. Vitae tempus quam
+                pellentesque nec nam. Odio aenean sed adipiscing diam. A iaculis at erat pellentesque adipiscing commodo elit at
+                imperdiet. Tempus urna et pharetra pharetra massa. Pharetra et ultrices neque ornare aenean euismod elementum. Porttitor
+                lacus luctus accumsan tortor. Morbi leo urna molestie at elementum eu facilisis. Est sit amet facilisis magna etiam
+                tempor orci eu lobortis. In hac habitasse platea dictumst vestibulum rhoncus est. Nisi porta lorem mollis aliquam ut.
+                </p>
+                <p>
+                Proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet nulla facilisi morbi tempus iaculis. Sed augue lacus viverra
+                vitae congue eu consequat ac. Vulputate dignissim suspendisse in est. Dis parturient montes nascetur ridiculus mus
+                mauris vitae. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Sit amet nulla facilisi morbi tempus
+                iaculis urna. Id nibh tortor id aliquet lectus proin. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+                dignissim. Neque egestas congue quisque egestas diam in arcu cursus euismod. Tristique et egestas quis ipsum.
+                </p>
+            </div>
+
+                <div class = "commentbox" id = "main2_commentbox">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Et leo duis ut diam quam. Tellus mauris a diam maecenas. Erat nam at lectus urna duis convallis convallis tellus
+                    id. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Non sodales neque sodales ut etiam sit. Integer vitae
+                    justo eget magna fermentum iaculis eu. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Est lorem ipsum
+                    dolor sit amet consectetur adipiscing elit. Nec sagittis aliquam malesuada bibendum arcu vitae. Vitae tempus quam
+                    pellentesque nec nam. Odio aenean sed adipiscing diam. A iaculis at erat pellentesque adipiscing commodo elit at
+                    imperdiet. Tempus urna et pharetra pharetra massa. Pharetra et ultrices neque ornare aenean euismod elementum. Porttitor
+                    lacus luctus accumsan tortor. Morbi leo urna molestie at elementum eu facilisis. Est sit amet facilisis magna etiam
+                    tempor orci eu lobortis. In hac habitasse platea dictumst vestibulum rhoncus est. Nisi porta lorem mollis aliquam ut.
+                    </p>
+                    <p>
+                    Proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet nulla facilisi morbi tempus iaculis. Sed augue lacus viverra
+                    vitae congue eu consequat ac. Vulputate dignissim suspendisse in est. Dis parturient montes nascetur ridiculus mus
+                    mauris vitae. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Sit amet nulla facilisi morbi tempus
+                    iaculis urna. Id nibh tortor id aliquet lectus proin. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+                    dignissim. Neque egestas congue quisque egestas diam in arcu cursus euismod. Tristique et egestas quis ipsum.
+                    </p>
+               
+            </div>
+
+            <div class="graphtable_card" id="CL04_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['C&L 04']['Title'] %}
+                    {% set Graphpng =  "../Graphs/C&L%2004_Line.png" %}
+                    {% set FGRankData = LatestData['C&L 04']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="CL05b_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['C&L 05b']['Title'] %}
+                    {% set Graphpng = "../Graphs/C&L%2005b_Line.png" %}
+                    {% set FGRankData = LatestData['C&L 05b']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="CLIM01_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['CLIM 01']['Title'] %}
+                    {% set Graphpng = "../Graphs/CLIM%2001_Line.png" %}
+                    {% set FGRankData = LatestData['CLIM 01']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="CLIM02_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['CLIM 02']['Title'] %}
+                    {% set Graphpng = "../Graphs/CLIM%2002_Line.png" %}
+                    {% set FGRankData = LatestData['CLIM 02']['FamilyRankTimeSeries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="wrapper">
+                <div class="item"></div>
+              </div>
+        </section>
+    </body>
+</html>

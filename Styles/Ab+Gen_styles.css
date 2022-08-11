@@ -1,0 +1,98 @@
+
+#main_commentbox {
+    grid-column: 2 / 11;
+    grid-row: 5 / 17;
+}
+
+#main2_commentbox {
+    grid-column: 12 / 21;
+    grid-row: 5 / 17;
+
+
+}
+
+
+#CORP06b_datacard {
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
+}
+#CORP06a_datacard {
+    grid-column: 7 / 11;
+    grid-row: 2 / 4;
+}
+#CORP03b_datacard {
+    grid-column: 12 / 16;
+    grid-row: 2 / 4;
+}
+#CORP03c_datacard {
+    grid-column: 17 / 21;
+    grid-row: 2 / 4;
+}
+
+
+#CORP06b_graphtable_card {
+    grid-column:  2 / 11;
+    grid-row: 11 / 16 ;
+}
+#CORP03c_graphtable_card {
+    grid-column: 12 / 21;
+    grid-row: 11 / 16;
+}
+#CORP03b_graphtable_card {
+    grid-column: 12 / 21;
+    grid-row: 17 / 22;
+}
+#CORP06a_graphtable_card {
+    grid-column: 2 / 11;
+    grid-row: 17 / 22;
+}
+
+
+/* --------------------------------------------------------------
+   Page breaker 
+   *Use for 2 + 2 pages.  
+-------------------------------------------------------------- */
+
+
+.wrapper{
+    display: grid; 
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(20, minmax(0, 1fr));
+    grid-column: 11 / 12;
+    grid-row: 1 / 22;
+    width: 60%;
+    background-color: var(#ffffff)
+  }
+  
+
+  .item {
+    padding: 8px;
+  }
+  
+  .item:last-child, .item:nth-last-child(2):nth-child(odd) {
+     
+    grid-column: 11 / 12;
+    grid-row: 3 / 21;  
+    width: 15%;
+    background-color: var(--main-bg-color);
+  }
+
+    
+/* --------------------------------------------------------------
+   Title bar h4 
+   *for second title bar. Move to main_styles in future.  
+-------------------------------------------------------------- */
+
+
+.titlebar h4{
+    grid-column: 12 / 20;
+    grid-row: 2 / 5;
+}
+h4 {
+    font-size: 35px;
+    font-family : Segoe UI;
+    vertical-align: left;
+}
+.material-icons-round.md-48 {
+    font-size: 50px;
+}
