@@ -115,6 +115,9 @@ h3 {
 -------------------------------------------------------------- */
 table {
     border-spacing: 0 0px;
+    border:solid var(--secondary-bg-color) 1px;
+    border-radius:5px;
+    border-left:solid var(--secondary-bg-color) 1px;
 }
 td {
     padding: 1px;
@@ -122,11 +125,13 @@ td {
     font-size: 10px;
     font-weight: bold;
     vertical-align: middle;
+    border-top: none;
 }
 th {
     padding: 1px;
     background-color: var(--secondary-bg-color);
     color: white;
+    border : none !important;
 }
 tr:nth-child(odd) {
     background-color: white;
@@ -134,34 +139,9 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: #EEEEEE;
 }
-td:first-child {
-    border-color: var(--secondary-bg-color);
-    border-width: 1px;
-    border-left-style: solid;
+td:first-child, th:first-child {
+     border-left: none;
 }
-td:last-child{
-    border-color: var(--secondary-bg-color);
-    border-width: 1px;
-    border-right-style: solid;
-}
-tr:last-child td {
-    border-color: var(--secondary-bg-color);
-    border-width: 1px;
-    border-bottom-style:solid;
-}
-tr:last-child td:first-child{
-    border-bottom-left-radius: 5px;
-}
-tr:last-child td:last-child{
-    border-bottom-right-radius: 5px;
-}
-th:first-child {
-    border-top-left-radius: 5px;
-}
-th:last-child {
-    border-top-right-radius: 5px;
-}
-
 /* --------------------------------------------------------------
    Data Card Styling
 -------------------------------------------------------------- */
