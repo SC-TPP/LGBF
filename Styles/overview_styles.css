@@ -15,9 +15,9 @@
    Spacing etc.
 -------------------------------------------------------------- */
 #Overview h2 {
-    padding-bottom: 5px;
-    padding-top: 10px;
-    font-size: 22px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 18px;
     font-weight: bolder;
     color: var(--secondary-bg-color);
     text-align:left;
