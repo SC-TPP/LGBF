@@ -1,3 +1,13 @@
+/* --------------------------------------------------------------
+   Main Element Positioning. Report styles can be found in main_styles
+-------------------------------------------------------------- */
+#main_commentbox{
+    grid-column: 2/11;
+    grid-row: 5/17;
+    }
+/* --------------------------------------------------------------
+   Datacard Positioning. datacard class style can be found in main_styles
+-------------------------------------------------------------- */
 #ECON01_datacard{
     grid-column: 2/6;
     grid-row: 2/4;
@@ -14,10 +24,9 @@
     grid-column: 17/21;
     grid-row: 2/4;
 }
-#main_commentbox{
-    grid-column: 2/11;
-    grid-row: 5/17;
-    }
+/* --------------------------------------------------------------
+   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
+-------------------------------------------------------------- */
 #ECON01_graphtable_card{
     grid-column: 12/21;
     grid-row: 5/10;

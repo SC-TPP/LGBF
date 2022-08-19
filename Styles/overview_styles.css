@@ -28,17 +28,21 @@
     font-size: 15px;
 }
 /* --------------------------------------------------------------
-   Specific Table Styling
+   Specific Table Styling. Main styling for tables can be found in main_styles
 -------------------------------------------------------------- */
 #Overview table td {
     font-size: 12px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #Overview table th {
-    font-size: 15px;
+    font-size: 13px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#Overview table th:first-child {
+    text-align: left;
+    padding-left: 3px;
 }
 #Overview table td:first-child {
     width: 300px;
@@ -46,6 +50,7 @@
     max-width: 300px;
     font-weight: bold;
     text-align:left ;
+    padding-left: 3px;
 }
 #Overview table td:not(:first-child) {
     padding-left: 10px;
