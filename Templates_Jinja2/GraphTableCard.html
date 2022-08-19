@@ -4,6 +4,7 @@
     <thead>
         <tr>
             <th>Period</th>
+            <th>Value</th>
             <th>Rank</th>
         </tr>
     </thead>
@@ -11,7 +12,8 @@
         {% for key, value in FGRankData.items() %}
         <tr>
             <td>{{key}}</td>
-            <td>#{{value|int}}</td>
+            <td>{{value[1]}}</td>
+            <td>#{{value[0]|int}}</td>
         </tr>
         {% endfor %}
     </tbody>

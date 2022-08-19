@@ -95,7 +95,7 @@
                 {% with %}
                     {% set Title = LatestData['CORP 06a']['Title'] %}
                     {% set Graphpng =  "../Graphs/CORP%2006a_Line.png" %}
-                    {% set FGRankData = LatestData['CORP 06a']['FamilyRankTimeSeries'] %}
+                    {% set FGRankData = LatestData['CORP 06a']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>
@@ -103,7 +103,7 @@
                 {% with %}
                     {% set Title = LatestData['CORP 06b']['Title'] %}
                     {% set Graphpng = "../Graphs/CORP%2006b_Line.png" %}
-                    {% set FGRankData = LatestData['CORP 06b']['FamilyRankTimeSeries'] %}
+                    {% set FGRankData = LatestData['CORP 06b']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>
@@ -111,7 +111,7 @@
                 {% with %}
                     {% set Title = LatestData['CORP 03b']['Title'] %}
                     {% set Graphpng = "../Graphs/CORP%2003b_Line.png" %}
-                    {% set FGRankData = LatestData['CORP 03b']['FamilyRankTimeSeries'] %}
+                    {% set FGRankData = LatestData['CORP 03b']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>
@@ -119,7 +119,7 @@
                 {% with %}
                     {% set Title = LatestData['CORP 03c']['Title'] %}
                     {% set Graphpng = "../Graphs/CORP%2003c_Line.png" %}
-                    {% set FGRankData = LatestData['CORP 03c']['FamilyRankTimeSeries'] %}
+                    {% set FGRankData = LatestData['CORP 03c']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>
