@@ -263,11 +263,10 @@ tr:last-child td:last-child{
     font-weight: bold;
     text-align: center;
 }
-.graphtable_card img {
+.graphtable_card object {
     grid-column: 2 / 10;
     grid-row: 3 / 12;
     object-fit: contain;
-    width: 100%;
     height : 100%
 }
 .graphtable_card table {

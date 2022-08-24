@@ -99,7 +99,7 @@
             <div class="graphtable_card" id="env03a_graphtable_card">
                 {% with %}
                 {% set Title = LatestData['ENV 03a']['Title'] %}
-                {% set Graphpng = "../Graphs/ENV%2003a_Line.png" %}
+                {% set Graph = "../Graphs/ENV%2003a_Line.svg" %}
                 {% set FGRankData = LatestData['ENV 03a']['timeseries'] %}
                 {% include "GraphTableCard.html"%}
                 {% endwith %}
@@ -107,7 +107,7 @@
             <div class="graphtable_card" id="env03c_graphtable_card">
                 {% with %}
                 {% set Title = LatestData['ENV 03c']['Title'] %}
-                {% set Graphpng = "../Graphs/ENV%2003c_Line.png" %}
+                {% set Graph = "../Graphs/ENV%2003c_Line.svg" %}
                 {% set FGRankData = LatestData['ENV 03c']['timeseries'] %}
                 {% include "GraphTableCard.html"%}
                 {% endwith %}
@@ -115,7 +115,7 @@
             <div class="graphtable_card" id="env07b_graphtable_card">
                 {% with %}
                 {% set Title = LatestData['ENV 07b']['Title'] %}
-                {% set Graphpng = "../Graphs/ENV%2007b_Line.png" %}
+                {% set Graph = "../Graphs/ENV%2007b_Line.svg" %}
                 {% set FGRankData = LatestData['ENV 07b']['timeseries'] %}
                 {% include "GraphTableCard.html"%}
                 {% endwith %}
