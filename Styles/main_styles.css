@@ -1,11 +1,13 @@
 /* --------------------------------------------------------------
-   Variables (Color Pallete etc.)
+   Variables (Color Pallete, Font etc.)
 -------------------------------------------------------------- */
 :root {
   --main-bg-color: #5D2381;
   --secondary-bg-color: #2b4563;
   --pagecolumns: 52px repeat(19, minmax(0, 1fr)) 52px;
   --pagerows: 90px repeat(20, minmax(0, 1fr)) 52px;
+  --standard-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  --standard-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* --------------------------------------------------------------
@@ -41,19 +43,19 @@ section.page.landscape {
 -------------------------------------------------------------- */
 p {
     font-size : 12px;
-    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family : var(--standard-font);
     padding : 10px;
 }
 h1 {
     font-size: 35px;
-    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family : var(--standard-font);
     vertical-align: middle;
 }
 h2 {
-    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family : var(--standard-font);
 }
 h3 {
-    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family : var(--standard-font);
 }
 .material-icons-round.md-48 {
     font-size: 40px;
@@ -131,7 +133,6 @@ th {
     padding: 1px;
     background-color: var(--secondary-bg-color);
     color: white;
-    border : none !important;
 }
 tr:nth-child(odd) {
     background-color: white;
@@ -139,8 +140,17 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: #EEEEEE;
 }
-td:first-child, th:first-child {
-     border-left: none;
+th:first-child {
+    border-top-left-radius: 2px;
+}
+th:last-child {
+    border-top-right-radius: 2px;
+}
+tr:last-child td:first-child{
+    border-bottom-left-radius: 5px;
+}
+tr:last-child td:last-child{
+    border-bottom-right-radius: 5px;
 }
 /* --------------------------------------------------------------
    Data Card Styling
@@ -153,7 +163,7 @@ td:first-child, th:first-child {
     display: grid;
     grid-template-columns: 5px repeat(10, minmax(0, 1fr)) 5px;
     grid-template-rows: 5px repeat(10, minmax(0, 1fr)) 5px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: var(--standard-box-shadow);
     font-family : Segoe UI;
 }
 
@@ -220,7 +230,8 @@ td:first-child, th:first-child {
     grid-column: 6/8;
     grid-row : 6/8;
     text-align: center;
-    padding: 0px;
+    padding-top: 4px;
+    padding-left: 0px;
 }
 .datacard .valueChange {
     grid-column: 6/8;
@@ -240,7 +251,7 @@ td:first-child, th:first-child {
     height: 100%;
     border: 1px solid lightgrey;
     border-radius: 5px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: var(--standard-box-shadow);
     font-family: Segoe UI;
 }
 .graphtable_card h3 {
@@ -255,7 +266,7 @@ td:first-child, th:first-child {
 .graphtable_card img {
     grid-column: 2 / 10;
     grid-row: 3 / 12;
-    object-fit: fill;
+    object-fit: contain;
     width: 100%;
     height : 100%
 }
