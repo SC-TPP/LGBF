@@ -1,0 +1,44 @@
+#CHN01_datacard{
+    grid-column: 2/6;
+    grid-row: 2/4;
+}
+#CHN13a_datacard{
+    grid-column: 6/10;
+    grid-row: 2/4;
+}
+#CHN13b_datacard{
+    grid-column: 10/14;
+    grid-row: 2/4;
+}
+#CHN14a_datacard{
+    grid-column: 14/18;
+    grid-row: 2/4;
+}
+#CHN14b_datacard{
+    grid-column: 18/22;
+    grid-row: 2/4;
+}
+#main_commentbox{
+    grid-column: 2/11;
+    grid-row: 5/17;
+    }
+#CHN01_graphtable_card{
+    grid-column: 12/21;
+    grid-row: 5/10;
+}
+#CHN13a_graphtable_card{
+    grid-column: 12/21;
+    grid-row: 11/16;
+}
+#CHN13b_graphtable_card{
+    grid-column: 12/21;
+    grid-row: 17/22;
+}
+#CHN14a_graphtable_card{
+    grid-column: 2/11;
+    grid-row: 11/16;
+}
+#CHN14b_graphtable_card{
+    grid-column: 2/11;
+    grid-row: 17/22;
+}

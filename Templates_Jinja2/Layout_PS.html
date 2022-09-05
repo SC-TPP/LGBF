@@ -2,44 +2,44 @@
 <html>
     <head>
         <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/Roads_styles.css" />
+        <link rel="stylesheet" href="../Styles/PS_styles.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
     </head>
     <body>
-        <section class="page landscape" id="Roads">
+        <section class="page landscape" id="Primary Schools">
             <div class = "titlebar">
                 {% with %}
-                    {% set PageTitle = "Roads" %}
+                    {% set PageTitle = "Primary Schools" %}
                         {% include "Header.html" %}
                 {% endwith %}
             </div>
             <div class = "sidebar">
                 {% include "Sidebar.html" %}
             </div>
-            <div class = "datacard" id="ENV04a_datacard">
+            <div class = "datacard" id="CHN01_datacard">
                 {% with %}
-                    {% set Indicator = LatestData['ENV 04a'] %}
+                    {% set Indicator = LatestData['CHN 01'] %}
                         {% include "DataCard.html"%}
                 {% endwith %}
             </div>
-            <div class = "datacard" id="ENV04b_datacard">
+            <div class = "datacard" id="CHN13a_datacard">
                 {% with %}
-                    {% set Indicator = LatestData['ENV 04b'] %}
+                    {% set Indicator = LatestData['CHN 13a'] %}
                         {% include "DataCard.html"%}
                 {% endwith %}
-            </div> <div class = "datacard" id="ENV04c_datacard">
+            </div> <div class = "datacard" id="CHN13b_datacard">
                 {% with %}
-                    {% set Indicator = LatestData['ENV 04c'] %}
+                    {% set Indicator = LatestData['CHN 13b'] %}
                         {% include "DataCard.html"%}
                 {% endwith %}
-            </div> <div class = "datacard" id="ENV04d_datacard">
+            </div> <div class = "datacard" id="CHN14a_datacard">
                 {% with %}
-                    {% set Indicator = LatestData['ENV 04d'] %}
+                    {% set Indicator = LatestData['CHN 14a'] %}
                         {% include "DataCard.html"%}
                 {% endwith %}
-            </div> <div class = "datacard" id="ENV04e_datacard">
+            </div> <div class = "datacard" id="CHN14b_datacard">
                 {% with %}
-                    {% set Indicator = LatestData['ENV 04e'] %}
+                    {% set Indicator = LatestData['CHN 14b'] %}
                         {% include "DataCard.html"%}
                 {% endwith %}
 
@@ -71,43 +71,43 @@
                 </p>
                 
             </div>
-            <div class="graphtable_card" id="ENV04a_graphtable_card">
+            <div class="graphtable_card" id="CHN01_graphtable_card">
                 {% with %}
-                    {% set Title = LatestData['ENV 04a']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004a_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04a']['timeseries'] %}
+                    {% set Title = LatestData['CHN 01']['Title'] %}
+                    {% set Graph =  "../Graphs/CHN%2001_Line.svg" %}
+                    {% set FGRankData = LatestData['CHN 01']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>
-            <div class="graphtable_card" id="ENV04b_graphtable_card">
+            <div class="graphtable_card" id="CHN13a_graphtable_card">
                 {% with %}
-                    {% set Title = LatestData['ENV 04b']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004b_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04b']['timeseries'] %}
+                    {% set Title = LatestData['CHN 13a']['Title'] %}
+                    {% set Graph =  "../Graphs/CHN%2013a_Line.svg" %}
+                    {% set FGRankData = LatestData['CHN 13a']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>
-            <div class="graphtable_card" id="ENV04c_graphtable_card">
+            <div class="graphtable_card" id="CHN13b_graphtable_card">
                 {% with %}
-                    {% set Title = LatestData['ENV 04c']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004c_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04c']['timeseries'] %}
+                    {% set Title = LatestData['CHN 13b']['Title'] %}
+                    {% set Graph =  "../Graphs/CHN%2013b_Line.svg" %}
+                    {% set FGRankData = LatestData['CHN 13b']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div> 
-            <div class="graphtable_card" id="ENV04d_graphtable_card">
+            <div class="graphtable_card" id="CHN14a_graphtable_card">
                 {% with %}
-                    {% set Title = LatestData['ENV 04d']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004d_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04d']['timeseries'] %}
+                    {% set Title = LatestData['CHN 14a']['Title'] %}
+                    {% set Graph =  "../Graphs/CHN%2014a_Line.svg" %}
+                    {% set FGRankData = LatestData['CHN 14a']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>
-            <div class="graphtable_card" id="ENV04e_graphtable_card">
+            <div class="graphtable_card" id="CHN14b_graphtable_card">
                 {% with %}
-                    {% set Title = LatestData['ENV 04e']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004e_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04e']['timeseries'] %}
+                    {% set Title = LatestData['CHN 14b']['Title'] %}
+                    {% set Graph =  "../Graphs/CHN%2014b_Line.svg" %}
+                    {% set FGRankData = LatestData['CHN 14b']['timeseries'] %}
                         {% include "GraphTableCard.html"%}
                 {% endwith %}
             </div>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
+        <link rel="stylesheet" href="../Styles/Corp+Plan_styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
+    </head>
+    <body>
+        <section class = "page landscape" id = "Corporate Property Assets and Planning">
+            <div class = "titlebar">
+                {% with %}
+                    {% set PageTitle = "Corporate Property Assets" %}
+                        {% include "Header.html" %}
+                {% endwith %}
+            </div>
+
+            <div class = "titlebar">
+                {% with %}
+                    {% set pagetitle2 = "Planning" %}
+                        {% include "Header.html" %}
+                {% endwith %}
+            </div>
+
+            <div class = "sidebar">
+                {% include "Sidebar.html" %}
+            </div>
+            <div class = "datacard" id="CORP-ASSET01_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['CORP-ASSET 01'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="CORP-ASSET02_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['CORP-ASSET 02'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="ECON02_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['ECON 02'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="ECON03_datacard">
+                {% with %}
+                    {% set Indicator = LatestData['ECON 03'] %}
+                        {% include "DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class = "commentbox" id = "main_commentbox">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Et leo duis ut diam quam. Tellus mauris a diam maecenas. Erat nam at lectus urna duis convallis convallis tellus
+                id. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Non sodales neque sodales ut etiam sit. Integer vitae
+                justo eget magna fermentum iaculis eu. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Est lorem ipsum
+                dolor sit amet consectetur adipiscing elit. Nec sagittis aliquam malesuada bibendum arcu vitae. Vitae tempus quam
+                pellentesque nec nam. Odio aenean sed adipiscing diam. A iaculis at erat pellentesque adipiscing commodo elit at
+                imperdiet. Tempus urna et pharetra pharetra massa. Pharetra et ultrices neque ornare aenean euismod elementum. Porttitor
+                lacus luctus accumsan tortor. Morbi leo urna molestie at elementum eu facilisis. Est sit amet facilisis magna etiam
+                tempor orci eu lobortis. In hac habitasse platea dictumst vestibulum rhoncus est. Nisi porta lorem mollis aliquam ut.
+                </p>
+                <p>
+                Proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet nulla facilisi morbi tempus iaculis. Sed augue lacus viverra
+                vitae congue eu consequat ac. Vulputate dignissim suspendisse in est. Dis parturient montes nascetur ridiculus mus
+                mauris vitae. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Sit amet nulla facilisi morbi tempus
+                iaculis urna. Id nibh tortor id aliquet lectus proin. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+                dignissim. Neque egestas congue quisque egestas diam in arcu cursus euismod. Tristique et egestas quis ipsum.
+                </p>
+            </div>
+
+                <div class = "commentbox" id = "main2_commentbox">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Et leo duis ut diam quam. Tellus mauris a diam maecenas. Erat nam at lectus urna duis convallis convallis tellus
+                    id. Ullamcorper morbi tincidunt ornare massa eget egestas purus. Non sodales neque sodales ut etiam sit. Integer vitae
+                    justo eget magna fermentum iaculis eu. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Est lorem ipsum
+                    dolor sit amet consectetur adipiscing elit. Nec sagittis aliquam malesuada bibendum arcu vitae. Vitae tempus quam
+                    pellentesque nec nam. Odio aenean sed adipiscing diam. A iaculis at erat pellentesque adipiscing commodo elit at
+                    imperdiet. Tempus urna et pharetra pharetra massa. Pharetra et ultrices neque ornare aenean euismod elementum. Porttitor
+                    lacus luctus accumsan tortor. Morbi leo urna molestie at elementum eu facilisis. Est sit amet facilisis magna etiam
+                    tempor orci eu lobortis. In hac habitasse platea dictumst vestibulum rhoncus est. Nisi porta lorem mollis aliquam ut.
+                    </p>
+                    <p>
+                    Proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet nulla facilisi morbi tempus iaculis. Sed augue lacus viverra
+                    vitae congue eu consequat ac. Vulputate dignissim suspendisse in est. Dis parturient montes nascetur ridiculus mus
+                    mauris vitae. Adipiscing enim eu turpis egestas pretium aenean pharetra magna. Sit amet nulla facilisi morbi tempus
+                    iaculis urna. Id nibh tortor id aliquet lectus proin. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+                    dignissim. Neque egestas congue quisque egestas diam in arcu cursus euismod. Tristique et egestas quis ipsum.
+                    </p>
+               
+            </div>
+
+            <div class="graphtable_card" id="CORP-ASSET01_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['CORP-ASSET 01']['Title'] %}
+                    {% set Graph =  "../Graphs/CORP-ASSET%2001_Line.svg" %}
+                    {% set FGRankData = LatestData['CORP-ASSET 01']['timeseries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="CORP-ASSET02_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['CORP-ASSET 02']['Title'] %}
+                    {% set Graph = "../Graphs/CORP-ASSET%2002_Line.svg" %}
+                    {% set FGRankData = LatestData['CORP-ASSET 02']['timeseries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="ECON02_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['ECON 02']['Title'] %}
+                    {% set Graph = "../Graphs/ECON%2002_Line.svg" %}
+                    {% set FGRankData = LatestData['ECON 02']['timeseries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="ECON03_graphtable_card">
+                {% with %}
+                    {% set Title = LatestData['ECON 03']['Title'] %}
+                    {% set Graph = "../Graphs/ECON%2003_Line.svg" %}
+                    {% set FGRankData = LatestData['ECON 03']['timeseries'] %}
+                        {% include "GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="wrapper">
+                <div class="item"></div>
+              </div>
+        </section>
+    </body>
+</html>
