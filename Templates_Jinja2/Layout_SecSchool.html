@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../Styles/main_styles.css" />
+    <link rel="stylesheet" href="../Styles/SecSchool_styles.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+</head>
+
+<body>
+    <section class="page landscape" id="SecondarySchools">
+        <div class="titlebar">
+            {% with %}
+                {% set PageTitle = "Secondary Schools" %}
+                {% include "Header.html" %}
+            {% endwith %}
+        </div>
+        <div class="sidebar">
+            {% include "Sidebar.html" %}
+        </div>
+        <div class="datacard" id="chn02_datacard">
+            {% with %}
+                {% set Indicator = LatestData['CHN 02'] %}
+                {% include "DataCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="datacard" id="chn04_datacard">
+            {% with %}
+                {% set Indicator = LatestData['CHN 04'] %}
+                {% include "DataCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="datacard" id="chn05_datacard">
+            {% with %}
+                {% set Indicator = LatestData['CHN 05'] %}
+                {% include "DataCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="datacard" id="chn06_datacard">
+            {% with %}
+                {% set Indicator = LatestData['CHN 06'] %}
+                {% include "DataCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="datacard" id="chn07_datacard">
+            {% with %}
+                {% set Indicator = LatestData['CHN 07'] %}
+                {% include "DataCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="datacard" id="chn11_datacard">
+            {% with %}
+            {% set Indicator = LatestData['CHN 11'] %}
+            {% include "DataCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="commentbox" id="main_commentbox">
+            <p>
+               
+Overall SPYP 2020/21 Narrative for CHN 2, 4, 5, 6, 7 & 11
+
+Our priority focus continues to work with schools and external organisations to close the attainment gap and widen the curriculum offer within our Stirling secondary schools.  A key focus of this work is identifying action to promote equity and using attainment data to evaluate existing interventions and identify areas of further improvement.  Within this it is recognised that developing a wider curriculum offer and increasing flexible progression pathways are important areas of development in order to provide the most appropriate and positive outcomes for our young people.
+ 
+Due to Covid-19, that change in certification methods in 20/21 and the cancellation of examinations in 2019/20, caution should be exercised when comparing data with previous years.  Any change between the attainment levels of the 2020/21 cohort and those of previous years should therefore not be seen as an indication that performance has improved, or worsened without further analysis. 
+
+Overall SPYP 2020/21 Narrative for CHN 12a-f
+Our priority focus continues to work with schools and external organisations to close the attainment gap and widen the curriculum offer within our Stirling secondary schools.  A key focus of this work is identifying action to promote equity and using attainment data to evaluate existing interventions and identify areas of further improvement.  Within this it is recognised that developing a wider curriculum offer and increasing flexible progression pathways are important areas of development in order to provide the most appropriate and positive outcomes for our young people. 
+
+Due to Covid-19, that change in certification methods in 20/21 and the cancellation of examinations in 2019/20, caution should be exercised when comparing data with previous years.  Any change between the attainment levels of the 2020/21 cohort and those of previous years should therefore not be seen as an indication that performance has improved, or worsened without further analysis.
+            </p>
+        </div>
+        <div class="graphtable_card" id="chn02_graphtable_card">
+            {% with %}
+                {% set Title = LatestData['CHN 02']['Title'] %}
+                {% set Graph = "../Graphs/CHN%2002_Line.svg" %}
+                {% set FGRankData = LatestData['CHN 02']['timeseries'] %}
+                {% include "GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="graphtable_card" id="chn04_graphtable_card">
+            {% with %}
+                {% set Title = LatestData['CHN 04']['Title'] %}
+                {% set Graph = "../Graphs/CHN%2004_Line.svg" %}
+                {% set FGRankData = LatestData['CHN 04']['timeseries'] %}
+                {% include "GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="graphtable_card" id="chn05_graphtable_card">
+            {% with %}
+                {% set Title = LatestData['CHN 05']['Title'] %}
+                {% set Graph = "../Graphs/CHN%2005_Line.svg" %}
+                {% set FGRankData = LatestData['CHN 05']['timeseries'] %}
+                {% include "GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="graphtable_card" id="chn06_graphtable_card">
+            {% with %}
+                {% set Title = LatestData['CHN 06']['Title'] %}
+                {% set Graph = "../Graphs/CHN%2006_Line.svg" %}
+                {% set FGRankData = LatestData['CHN 06']['timeseries'] %}
+                {% include "GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="graphtable_card" id="chn07_graphtable_card">
+            {% with %}
+                {% set Title = LatestData['CHN 07']['Title'] %}
+                {% set Graph = "../Graphs/CHN%2007_Line.svg" %}
+                {% set FGRankData = LatestData['CHN 07']['timeseries'] %}
+                {% include "GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="graphtable_card" id="chn11_graphtable_card">
+            {% with %}
+                {% set Title = LatestData['CHN 11']['Title'] %}
+                {% set Graph = "../Graphs/CHN%2011_Line.svg" %}
+                {% set FGRankData = LatestData['CHN 11']['timeseries'] %}
+                {% include "GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+    </section>
+</body>
+</html>
