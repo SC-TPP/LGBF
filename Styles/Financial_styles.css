@@ -1,0 +1,102 @@
+#main_commentbox {
+    grid-column: 13 / 21;
+    grid-row: 2/ 8;
+}
+
+
+
+#corp01_datacard {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    width: 140%;
+    height: 80%;
+}
+#corp08_datacard {
+    grid-column: 2 / 4;
+    grid-row: 5 / 8;
+    width: 140%;
+    height: 80%;    
+}
+#finsus01_datacard {
+    grid-column: 2 / 4;
+    grid-row: 8 / 11;
+    width: 140%;
+    height: 80%;
+}
+#finsus02_datacard {
+    grid-column: 2 / 4;
+    grid-row: 11 / 14;
+    width: 140%;
+    height: 80%;
+}
+#finsus03_datacard {
+    grid-column: 2 / 4;
+    grid-row: 14 / 17;
+    width: 140%;
+    height: 80%;
+}
+#finsus04_datacard {
+    grid-column:2 / 4;
+    grid-row: 17 / 20;
+    width: 140%;
+    height: 80%;
+}
+#finsus05_datacard {
+    grid-column: 2 / 4;
+    grid-row: 20 / 23;
+    width: 140%;
+    height: 80%;
+}
+
+
+
+
+
+
+#finsus03_graphtable_card {
+    grid-column:  13 / 20;
+    grid-row: 7 / 11 ;
+    height: 107%; 
+    width: 115%;   
+}
+#finsus04_graphtable_card {
+    grid-column: 13 / 20;
+    grid-row: 12 / 16;
+    height: 107%;
+    width: 115%;}
+
+#finsus05_graphtable_card {
+    grid-column: 13 / 20;
+    grid-row: 17 / 21;
+    height: 107%;
+    width: 115%;
+   
+}
+#corp08_graphtable_card {
+    
+    grid-column: 5 / 12;
+    grid-row: 7/ 11 ;
+    height: 107%;
+    width: 109%;
+}
+#finsus01_graphtable_card {
+    grid-column: 5 / 12;
+    grid-row: 12/ 16;
+    height: 107%;
+    width: 109%;
+}
+#finsus02_graphtable_card {
+    grid-column: 5 / 12;
+    grid-row: 17 / 21;
+    height: 107%;
+    width: 109%;
+}
+
+#corp01_graphtable_card{
+    grid-column: 5 / 12;
+    grid-row: 2 / 6;
+    height: 107%;
+    width: 109%;
+   
+}
+
