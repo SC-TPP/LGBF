@@ -5,95 +5,98 @@
 
 
 
-#econ04_datacard {
-    grid-column: 2 / 4;
-    grid-row: 5 / 8;
-    width: 140%;
-    height: 80%;    
-}
 #econ05_datacard {
     grid-column: 2 / 4;
-    grid-row: 8 / 11;
-    width: 140%;
-    height: 80%;
-}
-#econ06_datacard {
-    grid-column: 2 / 4;
-    grid-row: 11 / 14;
+    grid-row: 2 / 5;
     width: 140%;
     height: 80%;
 }
 #econ08_datacard {
     grid-column: 2 / 4;
+    grid-row: 5 / 8;
+    width: 140%;
+    height: 80%;    
+}
+#econ09_datacard {
+    grid-column: 2 / 4;
+    grid-row: 8 / 11;
+    width: 140%;
+    height: 80%;
+}
+#econ10_datacard {
+    grid-column: 2 / 4;
+    grid-row: 11 / 14;
+    width: 140%;
+    height: 80%;
+}
+#econ04_datacard {
+    grid-column: 2 / 4;
     grid-row: 14 / 17;
     width: 140%;
     height: 80%;
 }
-#econ09_datacard {
+#econ11_datacard {
     grid-column:2 / 4;
     grid-row: 17 / 20;
     width: 140%;
     height: 80%;
 }
-#econ10_datacard {
+#econ06_datacard {
     grid-column: 2 / 4;
     grid-row: 20 / 23;
     width: 140%;
     height: 80%;
 }
 
-#econ11_datacard {
-    grid-column: 2 / 4;
-    grid-row: 2 / 5;
-    width: 140%;
-    height: 80%;
-}
+
 
 
 
 
 #econ04_graphtable_card {
-    grid-column:  13 / 21;
+    grid-column:  13 / 20;
     grid-row: 7 / 11 ;
-    height: 100%;
-    
+    height: 107%; 
+    width: 115%;   
 }
 #econ11_graphtable_card {
-    grid-column: 13 / 21;
+    grid-column: 13 / 20;
     grid-row: 12 / 16;
-    height: 100%;
-}
+    height: 107%;
+    width: 115%;}
+
 #econ06_graphtable_card {
-    grid-column: 13 / 21;
+    grid-column: 13 / 20;
     grid-row: 17 / 21;
-    height: 100%;
+    height: 107%;
+    width: 115%;
    
 }
 #econ08_graphtable_card {
     
     grid-column: 5 / 12;
     grid-row: 7/ 11 ;
-    height: 100%;
-    width: 105%;
+    height: 107%;
+    width: 109%;
 }
 #econ09_graphtable_card {
     grid-column: 5 / 12;
     grid-row: 12/ 16;
-    height: 100%;
-    width: 105%;
+    height: 107%;
+    width: 109%;
 }
 #econ10_graphtable_card {
     grid-column: 5 / 12;
     grid-row: 17 / 21;
-    height: 100%;
-    width: 105%;
+    height: 107%;
+    width: 109%;
 }
 
 #econ05_graphtable_card{
     grid-column: 5 / 12;
     grid-row: 2 / 6;
-    height: 100%;
-    width: 105%;
+    height: 107%;
+    width: 109%;
    
 }
 
