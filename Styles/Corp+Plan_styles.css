@@ -6,8 +6,6 @@
 #main2_commentbox {
     grid-column: 12 / 21;
     grid-row: 5 / 17;
-
-
 }
 
 /* --------------------------------------------------------------
@@ -15,37 +13,37 @@ Removed = '&'
 *Removed '&' due to coding issues (alternatives like + or . caused issues)
    Example: C&L04, C&L04 = CL04, CL05 
 -------------------------------------------------------------- */
-#CL04_datacard {
+#CORP-ASSET01_datacard {
     grid-column: 2 / 6;
     grid-row: 2 / 4;
 }
-#CL05b_datacard {
+#CORP-ASSET02_datacard {
     grid-column: 7 / 11;
     grid-row: 2 / 4;
 }
-#CLIM01_datacard {
+#ECON02_datacard {
     grid-column: 12 / 16;
     grid-row: 2 / 4;
 }
-#CLIMP02_datacard {
+#ECON03_datacard {
     grid-column: 17 / 21;
     grid-row: 2 / 4;
 }
 
 
-#CL04_graphtable_card {
+#CORP-ASSET01_graphtable_card {
     grid-column:  2 / 11;
     grid-row: 11 / 16 ;
 }
-#CL05b_graphtable_card {
+#CORP-ASSET02_graphtable_card {
     grid-column: 12 / 21;
     grid-row: 11 / 16;
 }
-#CLIM01_graphtable_card {
+#ECON02_graphtable_card {
     grid-column: 12 / 21;
     grid-row: 17 / 22;
 }
-#CLIM02_graphtable_card {
+#ECON03_graphtable_card {
     grid-column: 2 / 11;
     grid-row: 17 / 22;
 }
