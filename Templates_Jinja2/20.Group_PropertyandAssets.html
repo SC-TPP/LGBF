@@ -15,28 +15,28 @@
                     <div class="titlebar">
                         {% with %}
                             {% set PageTitle = "Property and Assets" %}
-                            {% include "Header.html" %}
+                            {% include "Snippet_Header.html" %}
                         {% endwith %}
                     </div>
                     <div class="sidebar">
-                        {% include "Sidebar.html" %}
+                        {% include "Snippet_Sidebar.html" %}
                     </div>
                     <div class="datacard" id="HSN03_datacard">
                         {% with %}
                             {% set Indicator = LatestData['HSN 03'] %}
-                            {% include "DataCard.html"%}
+                            {% include "Snippet_DataCard.html"%}
                         {% endwith %}
                     </div>
                     <div class="datacard" id="HSN04b_datacard">
                         {% with %}
                             {% set Indicator = LatestData['HSN 04b'] %}
-                            {% include "DataCard.html"%}
+                            {% include "Snippet_DataCard.html"%}
                         {% endwith %}
                     </div>
                     <div class="datacard" id="HSN05a_datacard">
                         {% with %}
                             {% set Indicator = LatestData['HSN 05a'] %}
-                            {% include "DataCard.html"%}
+                            {% include "Snippet_DataCard.html"%}
                         {% endwith %}
                     </div>
                     <div class="commentbox" id="main_commentbox">
@@ -57,7 +57,7 @@ Our investment in energy efficiency measures continues in order to ensure that w
                         {% set Title = LatestData['HSN 03']['Title'] %}
                         {% set Graph = "../Graphs/HSN%2003_Line.svg" %}
                         {% set FGRankData = LatestData['HSN 03']['timeseries'] %}
-                        {% include "GraphTableCard.html"%}
+                        {% include "Snippet_GraphTableCard.html"%}
                         {% endwith %}
                     </div>
                     <div class="graphtable_card" id="HSN04b_graphtable_card">
@@ -65,7 +65,7 @@ Our investment in energy efficiency measures continues in order to ensure that w
                         {% set Title = LatestData['HSN 04b']['Title'] %}
                         {% set Graph = "../Graphs/HSN%2004b_Line.svg" %}
                         {% set FGRankData = LatestData['HSN 04b']['timeseries'] %}
-                        {% include "GraphTableCard.html"%}
+                        {% include "Snippet_GraphTableCard.html"%}
                         {% endwith %}
                     </div>
                     <div class="graphtable_card" id="HSN05a_graphtable_card">
@@ -73,7 +73,7 @@ Our investment in energy efficiency measures continues in order to ensure that w
                         {% set Title = LatestData['HSN 05a']['Title'] %}
                         {% set Graph = "../Graphs/HSN%2005a_Line.svg" %}
                         {% set FGRankData = LatestData['HSN 05a']['timeseries'] %}
-                        {% include "GraphTableCard.html"%}
+                        {% include "Snippet_GraphTableCard.html"%}
                         {% endwith %}
                     </div>
             </body>

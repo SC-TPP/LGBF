@@ -13,46 +13,46 @@
         <div class="titlebar">
             {% with %}
                 {% set PageTitle = "Children & Families Social Work" %}
-                {% include "Header.html" %}
+                {% include "Snippet_Header.html" %}
             {% endwith %}
         </div>
         <div class="sidebar">
-            {% include "Sidebar.html" %}
+            {% include "Snippet_Sidebar.html" %}
         </div>
         <div class="datacard" id="chn08a_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 08a'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn08b_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 08b'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn09_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 09'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn22_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 22'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn23_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 23'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn24_datacard">
             {% with %}
             {% set Indicator = LatestData['CHN 24'] %}
-            {% include "DataCard.html"%}
+            {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="commentbox" id="main_commentbox">
@@ -69,7 +69,7 @@ This has also been the case over time with the majority of measures showing a br
                 {% set Title = LatestData['CHN 08a']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2008a_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 08a']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn08b_graphtable_card">
@@ -77,7 +77,7 @@ This has also been the case over time with the majority of measures showing a br
                 {% set Title = LatestData['CHN 08b']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2008b_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 08b']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn09_graphtable_card">
@@ -85,7 +85,7 @@ This has also been the case over time with the majority of measures showing a br
                 {% set Title = LatestData['CHN 09']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2009_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 09']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn22_graphtable_card">
@@ -93,7 +93,7 @@ This has also been the case over time with the majority of measures showing a br
                 {% set Title = LatestData['CHN 22']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2022_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 22']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn23_graphtable_card">
@@ -101,7 +101,7 @@ This has also been the case over time with the majority of measures showing a br
                 {% set Title = LatestData['CHN 23']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2023_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 23']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn24_graphtable_card">
@@ -109,7 +109,7 @@ This has also been the case over time with the majority of measures showing a br
                 {% set Title = LatestData['CHN 24']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2024_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 24']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
     </section>

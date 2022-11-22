@@ -11,28 +11,28 @@
             <div class="titlebar">
                 {% with %}
                     {% set PageTitle = "Early Years" %}
-                    {% include "Header.html" %}
+                    {% include "Snippet_Header.html" %}
                 {% endwith %}
             </div>
             <div class="sidebar">
-                {% include "Sidebar.html" %}
+                {% include "Snippet_Sidebar.html" %}
             </div>
             <div class="datacard" id="chn03_datacard">
                 {% with %}
                     {% set Indicator = LatestData['CHN 03'] %}
-                    {% include "DataCard.html"%}
+                    {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="datacard" id="chn17_datacard">
                 {% with %}
                     {% set Indicator = LatestData['CHN 17'] %}
-                    {% include "DataCard.html"%}
+                    {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="datacard" id="chn18_datacard">
                 {% with %}
                     {% set Indicator = LatestData['CHN 18'] %}
-                    {% include "DataCard.html"%}
+                    {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="commentbox" id="main_commentbox">
@@ -55,7 +55,7 @@ We are working now to embed the Framework, further develop approaches to self-ev
                 {% set Title = LatestData['CHN 03']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2003_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 03']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="chn17_graphtable_card">
@@ -63,7 +63,7 @@ We are working now to embed the Framework, further develop approaches to self-ev
                 {% set Title = LatestData['CHN 17']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2017_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 17']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="chn18_graphtable_card">
@@ -71,7 +71,7 @@ We are working now to embed the Framework, further develop approaches to self-ev
                 {% set Title = LatestData['CHN 18']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2018_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 18']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
         </section>

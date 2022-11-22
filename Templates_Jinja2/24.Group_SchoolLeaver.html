@@ -13,46 +13,46 @@
         <div class="titlebar">
             {% with %}
                 {% set PageTitle = "School Leaver Tariff" %}
-                {% include "Header.html" %}
+                {% include "Snippet_Header.html" %}
             {% endwith %}
         </div>
         <div class="sidebar">
-            {% include "Sidebar.html" %}
+            {% include "Snippet_Sidebar.html" %}
         </div>
         <div class="datacard" id="chn12a_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 12a'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn12b_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 12b'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn12c_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 12c'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn12d_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 12d'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn12e_datacard">
             {% with %}
                 {% set Indicator = LatestData['CHN 12e'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="chn12f_datacard">
             {% with %}
             {% set Indicator = LatestData['CHN 12f'] %}
-            {% include "DataCard.html"%}
+            {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="commentbox" id="main_commentbox">
@@ -68,7 +68,7 @@
                 {% set Title = LatestData['CHN 12a']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2012a_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 12a']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn12b_graphtable_card">
@@ -76,7 +76,7 @@
                 {% set Title = LatestData['CHN 12b']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2012b_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 12b']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn12c_graphtable_card">
@@ -84,7 +84,7 @@
                 {% set Title = LatestData['CHN 12c']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2012c_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 12c']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn12d_graphtable_card">
@@ -92,7 +92,7 @@
                 {% set Title = LatestData['CHN 12d']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2012d_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 12d']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn12e_graphtable_card">
@@ -100,7 +100,7 @@
                 {% set Title = LatestData['CHN 12e']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2012e_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 12e']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="chn12f_graphtable_card">
@@ -108,7 +108,7 @@
                 {% set Title = LatestData['CHN 12f']['Title'] %}
                 {% set Graph = "../Graphs/CHN%2012f_Line.svg" %}
                 {% set FGRankData = LatestData['CHN 12f']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
     </section>

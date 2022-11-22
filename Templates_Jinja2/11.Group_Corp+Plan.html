@@ -10,42 +10,42 @@
             <div class = "titlebar">
                 {% with %}
                     {% set PageTitle = "Corporate Property Assets" %}
-                        {% include "Header.html" %}
+                        {% include "Snippet_Header.html" %}
                 {% endwith %}
             </div>
 
             <div class = "titlebar">
                 {% with %}
                     {% set pagetitle2 = "Planning" %}
-                        {% include "Header.html" %}
+                        {% include "Snippet_Header.html" %}
                 {% endwith %}
             </div>
 
             <div class = "sidebar">
-                {% include "Sidebar.html" %}
+                {% include "Snippet_Sidebar.html" %}
             </div>
             <div class = "datacard" id="CORP-ASSET01_datacard">
                 {% with %}
                     {% set Indicator = LatestData['CORP-ASSET 01'] %}
-                        {% include "DataCard.html"%}
+                        {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="datacard" id="CORP-ASSET02_datacard">
                 {% with %}
                     {% set Indicator = LatestData['CORP-ASSET 02'] %}
-                        {% include "DataCard.html"%}
+                        {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="datacard" id="ECON02_datacard">
                 {% with %}
                     {% set Indicator = LatestData['ECON 02'] %}
-                        {% include "DataCard.html"%}
+                        {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="datacard" id="ECON03_datacard">
                 {% with %}
                     {% set Indicator = LatestData['ECON 03'] %}
-                        {% include "DataCard.html"%}
+                        {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class = "commentbox" id = "main_commentbox">
@@ -76,7 +76,7 @@
                     {% set Title = LatestData['CORP-ASSET 01']['Title'] %}
                     {% set Graph =  "../Graphs/CORP-ASSET%2001_Line.svg" %}
                     {% set FGRankData = LatestData['CORP-ASSET 01']['timeseries'] %}
-                        {% include "GraphTableCard.html"%}
+                        {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="CORP-ASSET02_graphtable_card">
@@ -84,7 +84,7 @@
                     {% set Title = LatestData['CORP-ASSET 02']['Title'] %}
                     {% set Graph = "../Graphs/CORP-ASSET%2002_Line.svg" %}
                     {% set FGRankData = LatestData['CORP-ASSET 02']['timeseries'] %}
-                        {% include "GraphTableCard.html"%}
+                        {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="ECON02_graphtable_card">
@@ -92,7 +92,7 @@
                     {% set Title = LatestData['ECON 02']['Title'] %}
                     {% set Graph = "../Graphs/ECON%2002_Line.svg" %}
                     {% set FGRankData = LatestData['ECON 02']['timeseries'] %}
-                        {% include "GraphTableCard.html"%}
+                        {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="ECON03_graphtable_card">
@@ -100,7 +100,7 @@
                     {% set Title = LatestData['ECON 03']['Title'] %}
                     {% set Graph = "../Graphs/ECON%2003_Line.svg" %}
                     {% set FGRankData = LatestData['ECON 03']['timeseries'] %}
-                        {% include "GraphTableCard.html"%}
+                        {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="wrapper">

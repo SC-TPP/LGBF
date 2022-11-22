@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html>Snippet_Header.html
     <head>
         <link rel="stylesheet" href="../Styles/main_styles.css" />
         <link rel="stylesheet" href="../Styles/StreetCleaning_styles.css" />
@@ -11,28 +11,28 @@
             <div class="titlebar">
                 {% with %}
                     {% set PageTitle = "Street Cleaning" %}
-                    {% include "Header.html" %}
+                    {% include "Snippet_Header.html" %}
                 {% endwith %}
             </div>
             <div class="sidebar">
-                {% include "Sidebar.html" %}
+                {% include "Snippet_Sidebar.html" %}
             </div>
             <div class="datacard" id="env03a_datacard">
                 {% with %}
                     {% set Indicator = LatestData['ENV 03a'] %}
-                    {% include "DataCard.html"%}
+                    {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="datacard" id="env03c_datacard">
                 {% with %}
                     {% set Indicator = LatestData['ENV 03c'] %}
-                    {% include "DataCard.html"%}
+                    {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="datacard" id="env07b_datacard">
                 {% with %}
                     {% set Indicator = LatestData['ENV 07b'] %}
-                    {% include "DataCard.html"%}
+                    {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
             <div class="commentbox" id="main_commentbox">
@@ -53,7 +53,7 @@
                 {% set Title = LatestData['ENV 03a']['Title'] %}
                 {% set Graph = "../Graphs/ENV%2003a_Line.svg" %}
                 {% set FGRankData = LatestData['ENV 03a']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="env03c_graphtable_card">
@@ -61,7 +61,7 @@
                 {% set Title = LatestData['ENV 03c']['Title'] %}
                 {% set Graph = "../Graphs/ENV%2003c_Line.svg" %}
                 {% set FGRankData = LatestData['ENV 03c']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="env07b_graphtable_card">
@@ -69,7 +69,7 @@
                 {% set Title = LatestData['ENV 07b']['Title'] %}
                 {% set Graph = "../Graphs/ENV%2007b_Line.svg" %}
                 {% set FGRankData = LatestData['ENV 07b']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
     </body>

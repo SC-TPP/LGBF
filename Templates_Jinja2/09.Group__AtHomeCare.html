@@ -13,46 +13,46 @@
         <div class="titlebar">
             {% with %}
                 {% set PageTitle = "At Home Care" %}
-                {% include "Header.html" %}
+                {% include "Snippet_Header.html" %}
             {% endwith %}
         </div>
         <div class="sidebar">
-            {% include "Sidebar.html" %}
+            {% include "Snippet_Sidebar.html" %}
         </div>
         <div class="datacard" id="sw01_datacard">
             {% with %}
                 {% set Indicator = LatestData['SW 01'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="sw03a_datacard">
             {% with %}
                 {% set Indicator = LatestData['SW 03a'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="sw04b_datacard">
             {% with %}
                 {% set Indicator = LatestData['SW 04b'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="sw04c_datacard">
             {% with %}
                 {% set Indicator = LatestData['SW 04c'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="sw04d_datacard">
             {% with %}
                 {% set Indicator = LatestData['SW 04d'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="sw04e_datacard">
             {% with %}
             {% set Indicator = LatestData['SW 04e'] %}
-            {% include "DataCard.html"%}
+            {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="commentbox" id="main_commentbox">
@@ -69,7 +69,7 @@
                 {% set Title = LatestData['SW 01']['Title'] %}
                 {% set Graph = "../Graphs/SW%2001_Line.svg" %}
                 {% set FGRankData = LatestData['SW 01']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="sw03a_graphtable_card">
@@ -77,7 +77,7 @@
                 {% set Title = LatestData['SW 03a']['Title'] %}
                 {% set Graph = "../Graphs/SW%2003a_Line.svg" %}
                 {% set FGRankData = LatestData['SW 03a']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="sw04b_graphtable_card">
@@ -85,7 +85,7 @@
                 {% set Title = LatestData['SW 04b']['Title'] %}
                 {% set Graph = "../Graphs/SW%2004b_Line.svg" %}
                 {% set FGRankData = LatestData['SW 04b']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="sw04c_graphtable_card">
@@ -93,7 +93,7 @@
                 {% set Title = LatestData['SW 04c']['Title'] %}
                 {% set Graph = "../Graphs/SW%2004c_Line.svg" %}
                 {% set FGRankData = LatestData['SW 04c']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="sw04d_graphtable_card">
@@ -101,7 +101,7 @@
                 {% set Title = LatestData['SW 04d']['Title'] %}
                 {% set Graph = "../Graphs/SW%2004d_Line.svg" %}
                 {% set FGRankData = LatestData['SW 04d']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="sw04e_graphtable_card">
@@ -109,7 +109,7 @@
                 {% set Title = LatestData['SW 04e']['Title'] %}
                 {% set Graph = "../Graphs/SW%2004e_Line.svg" %}
                 {% set FGRankData = LatestData['SW 04e']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
     </section>

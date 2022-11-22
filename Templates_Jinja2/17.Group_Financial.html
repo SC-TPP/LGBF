@@ -13,52 +13,52 @@
         <div class="titlebar">
             {% with %}
                 {% set PageTitle = "Financial Position" %}
-                {% include "Header.html" %}
+                {% include "Snippet_Header.html" %}
             {% endwith %}
         </div>
         <div class="sidebar">
-            {% include "Sidebar.html" %}
+            {% include "Snippet_Sidebar.html" %}
         </div>
         <div class="datacard" id="corp01_datacard">
             {% with %}
                 {% set Indicator = LatestData['CORP 01'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="corp08_datacard">
             {% with %}
                 {% set Indicator = LatestData['CORP 08'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="finsus01_datacard">
             {% with %}
                 {% set Indicator = LatestData['FINSUS 01'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="finsus02_datacard">
             {% with %}
                 {% set Indicator = LatestData['FINSUS 02'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="finsus03_datacard">
             {% with %}
                 {% set Indicator = LatestData['FINSUS 03'] %}
-                {% include "DataCard.html"%}
+                {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="finsus04_datacard">
             {% with %}
             {% set Indicator = LatestData['FINSUS 04'] %}
-            {% include "DataCard.html"%}
+            {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="datacard" id="finsus05_datacard">
             {% with %}
             {% set Indicator = LatestData['FINSUS 05'] %}
-            {% include "DataCard.html"%}
+            {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
         <div class="commentbox" id="main_commentbox">
@@ -78,7 +78,7 @@ The Council's 10-year strategy includes a transformation plan to address the lon
                 {% set Title = LatestData['CORP 01']['Title'] %}
                 {% set Graph = "../Graphs/CORP%2001_Line.svg" %}
                 {% set FGRankData = LatestData['CORP 01']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="corp08_graphtable_card">
@@ -86,7 +86,7 @@ The Council's 10-year strategy includes a transformation plan to address the lon
                 {% set Title = LatestData['CORP 08']['Title'] %}
                 {% set Graph = "../Graphs/CORP%2008_Line.svg" %}
                 {% set FGRankData = LatestData['CORP 08']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="finsus01_graphtable_card">
@@ -94,7 +94,7 @@ The Council's 10-year strategy includes a transformation plan to address the lon
                 {% set Title = LatestData['FINSUS 01']['Title'] %}
                 {% set Graph = "../Graphs/FINSUS%2001_Line.svg" %}
                 {% set FGRankData = LatestData['FINSUS 01']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="finsus02_graphtable_card">
@@ -102,7 +102,7 @@ The Council's 10-year strategy includes a transformation plan to address the lon
                 {% set Title = LatestData['FINSUS 02']['Title'] %}
                 {% set Graph = "../Graphs/FINSUS%2002_Line.svg" %}
                 {% set FGRankData = LatestData['FINSUS 02']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="finsus03_graphtable_card">
@@ -110,7 +110,7 @@ The Council's 10-year strategy includes a transformation plan to address the lon
                 {% set Title = LatestData['FINSUS 03']['Title'] %}
                 {% set Graph = "../Graphs/FINSUS%2003_Line.svg" %}
                 {% set FGRankData = LatestData['FINSUS 03']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="finsus04_graphtable_card">
@@ -118,7 +118,7 @@ The Council's 10-year strategy includes a transformation plan to address the lon
                 {% set Title = LatestData['FINSUS 04']['Title'] %}
                 {% set Graph = "../Graphs/FINSUS%2004_Line.svg" %}
                 {% set FGRankData = LatestData['FINSUS 04']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
         <div class="graphtable_card" id="finsus05_graphtable_card">
@@ -126,7 +126,7 @@ The Council's 10-year strategy includes a transformation plan to address the lon
                 {% set Title = LatestData['FINSUS 05']['Title'] %}
                 {% set Graph = "../Graphs/FINSUS%2005_Line.svg" %}
                 {% set FGRankData = LatestData['FINSUS 05']['timeseries'] %}
-                {% include "GraphTableCard.html"%}
+                {% include "Snippet_GraphTableCard.html"%}
             {% endwith %}
         </div>
     </section>
