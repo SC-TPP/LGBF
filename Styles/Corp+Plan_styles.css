@@ -1,11 +1,11 @@
 #main_commentbox {
     grid-column: 2 / 11;
-    grid-row: 5 / 17;
+    grid-row: 4 / 17;
 }
 
 #main2_commentbox {
     grid-column: 12 / 21;
-    grid-row: 5 / 17;
+    grid-row: 4 / 17;
 }
 
 /* --------------------------------------------------------------
