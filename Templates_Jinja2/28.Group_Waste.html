@@ -1,88 +1,27 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/waste_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class = "page landscape" id = "Waste">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Waste & Recycling" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="env07a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 07a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="env06_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 06'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="env01a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 01a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="env02a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 02a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
-                <p>
-                    Expenditure on waste and recycling has risen significantly over the last year.  The cost of Stirling Council’s  Waste Service is the highest in Scotland.  
-                    <br><br>
-                    The Covid-19 Pandemic had a significant impact on the Councils Waste Services during 2020-2021. Operational pressures resulted in significant spend on contingency resources and the general behaviour of residents saw household waste arisings becoming higher than pre-pandemic levels which in turn resulted in higher than normal costs for waste collections and disposals. This is primarily attributed to people working from home and the restrictions on travel generating more waste.
-                    <br><br>
-                    A Short Life Working Group has been formed to review the way that the waste service is delivered in Stirling and this will address the cost of service provision
-                    
-               
-                </p>
-            </div>
-            <div class="graphtable_card" id="env07a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 07a']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2007a_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 07a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="env06_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 06']['Title'] %}
-                    {% set Graph = "../Graphs/ENV%2006_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 06']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="env01a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 01a']['Title'] %}
-                    {% set Graph = "../Graphs/ENV%2001a_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 01a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="env02a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 02a']['Title'] %}
-                    {% set Graph = "../Graphs/ENV%2002a_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 02a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-        </section>
-    </body>
-</html>
+{% with %}
+    {% set PageName = 'Waste'%}
+    {% set Title = 'Waste & Recycling'%}
+    {% set Indicator1 = 'ENV 07a'%}
+    {% set Indicator1Graph = '../Graphs/ENV%2007a_Line.svg'%}
+    {% set Indicator2 = 'ENV 06'%}
+    {% set Indicator2Graph = '../Graphs/ENV%2006_Line.svg'%}
+    {% set Indicator3 = 'ENV 01a'%}
+    {% set Indicator3Graph = '../Graphs/ENV%2001a_Line.svg'%}
+    {% set Indicator4 = 'ENV 02a'%}
+    {% set Indicator4Graph = '../Graphs/ENV%2002a_Line.svg'%}
+    {% set Comment = "
+    <p>
+        Expenditure on waste and recycling has risen significantly over the last year. The cost of Stirling Council’s Waste
+        Service is the highest in Scotland.
+        <br><br>
+        The Covid-19 Pandemic had a significant impact on the Councils Waste Services during 2020-2021. Operational
+        pressures resulted in significant spend on contingency resources and the general behaviour of residents saw
+        household waste arisings becoming higher than pre-pandemic levels which in turn resulted in higher than normal costs
+        for waste collections and disposals. This is primarily attributed to people working from home and the restrictions
+        on travel generating more waste.
+        <br><br>
+        A Short Life Working Group has been formed to review the way that the waste service is delivered in Stirling and
+        this will address the cost of service provision
+    </p>"%}
+    {% include 'Layout_4Indicator.html'%}
+{% endwith %}

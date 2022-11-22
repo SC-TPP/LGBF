@@ -1,97 +1,22 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/Employment_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class="page landscape" id="Employment">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Employment" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="ECON01_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ECON 01'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "datacard" id="ECON07_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ECON 07'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="ECON12a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ECON 12a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="ECON12b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ECON 12b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "datacard" id="CHN21_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 21'] %}
-                    {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-            </div>
-
-            <div class = "commentbox" id = "main_commentbox">
-                <p>
-                    Stirling's overall data in this section is positive, comparing well both with comparator Councils and nationally. This is positive at a Council wide level. Targeted work continues in locality action  plan areas to reduce the socio economic gap between these communities and the Council wide position. 
-    
-                </p>
-                
-            </div>
-            <div class="graphtable_card" id="ECON01_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ECON 01']['Title'] %}
-                    {% set Graph =  "../Graphs/ECON%2001_Line.svg" %}
-                    {% set FGRankData = LatestData['ECON 01']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="ECON07_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ECON 07']['Title'] %}
-                    {% set Graph =  "../Graphs/ECON%2007_Line.svg" %}
-                    {% set FGRankData = LatestData['ECON 07']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div><div class="graphtable_card" id="ECON12a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ECON 12a']['Title'] %}
-                    {% set Graph =  "../Graphs/ECON%2012a_Line.svg" %}
-                    {% set FGRankData = LatestData['ECON 12a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div><div class="graphtable_card" id="ECON12b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ECON 12b']['Title'] %}
-                    {% set Graph =  "../Graphs/ECON%2012b_Line.svg" %}
-                    {% set FGRankData = LatestData['ECON 12b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CHN21_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 21']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2021_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 21']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-
-
-        </section>
-    </body>
-</html>
+{% with %}
+    {% set PageName = 'Employment'%}
+    {% set Title = 'Employment'%}
+    {% set Indicator1 = 'ECON 01'%}
+    {% set Indicator1Graph = '../Graphs/ECON%2001_Line.svg'%}
+    {% set Indicator2 = 'ECON 07'%}
+    {% set Indicator2Graph = '../Graphs/ECON%2007_Line.svg'%}
+    {% set Indicator3 = 'ECON 12a'%}
+    {% set Indicator3Graph = '../Graphs/ECON%2012a_Line.svg'%}
+    {% set Indicator4 = 'ECON 12b'%}
+    {% set Indicator4Graph = '../Graphs/ECON%2012b_Line.svg'%}
+    {% set Indicator5 = 'CHN 21'%}
+    {% set Indicator5Graph = '../Graphs/CHN%2021_Line.svg'%}
+    {% set Comment = "
+                    <p>
+                        Stirling's overall data in this section is positive, comparing well both with comparator Councils and nationally.
+                        This is positive at a Council wide level. Targeted work continues in locality action plan areas to reduce the socio
+                        economic gap between these communities and the Council wide position.
+                    
+                    </p>"%}
+    {% include 'Layout_5Indicator.html'%}
+{% endwith %}

@@ -1,102 +1,39 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/PS_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class="page landscape" id="Primary Schools">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Broad General Education " %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="CHN01_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 01'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "datacard" id="CHN13a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 13a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="CHN13b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 13b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="CHN14a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 14a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="CHN14b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 14b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
+{% with %}
+    {% set PageName = 'PrimarySchools'%}
+    {% set Title = 'Primary Schools'%}
+    {% set Indicator1 = 'CHN 01'%}
+    {% set Indicator1Graph = '../Graphs/CHN%2001_Line.svg'%}
+    {% set Indicator2 = 'CHN 13a'%}
+    {% set Indicator2Graph = '../Graphs/CHN%2013a_Line.svg'%}
+    {% set Indicator3 = 'CHN 13b'%}
+    {% set Indicator3Graph = '../Graphs/CHN%2013b_Line.svg'%}
+    {% set Indicator4 = 'CHN 14a'%}
+    {% set Indicator4Graph = '../Graphs/CHN%2014a_Line.svg'%}
+    {% set Indicator5 = 'CHN 14b'%}
+    {% set Indicator5Graph = '../Graphs/CHN%2014b_Line.svg'%}
+    {% set Comment = "
                 <p>
-
-
-                    Between 2016-2019, Achievement of Curriculum for Excellence Levels (ACEL) demonstrated that over time levels of attainment in Stirling in P1, P4, P7 and S3 continually improved. At June 2019, Stirling’s attainment levels in all areas of literacy and numeracy were higher than national averages.
+                
+                
+                    Between 2016-2019, Achievement of Curriculum for Excellence Levels (ACEL) demonstrated that over time levels of
+                    attainment in Stirling in P1, P4, P7 and S3 continually improved. At June 2019, Stirling’s attainment levels in all
+                    areas of literacy and numeracy were higher than national averages.
                     <br><br>
-                    The Scottish Government did not collect Achievement of CfE Levels data for any pupils in 2019-20 due to the Covid-19 pandemic and therefore there was no national data at June 2020.  In 2020-21 data was collected for pupils in P1, P4 and P7 but was not collected for pupils in S3 due to other pressures. At June 2021, attainment in Stirling across P1, P4 and P7 was lower than that of June 2019, although above national averages. This reflects the impact of Covid-19 and several periods of national and local school closures.
-                    <br><br>Schools focused on recovery, resilience and reconnection to continue to support children's health and wellbeing and continue to build on prior learning. Schools were allocated additional Scottish Government funding to implement targeted interventions to support education recovery efforts for all children and young people. This has included, for example, targeted group work to support progress in literacy and numeracy. Effective tracking and monitoring at school level is already indicating the positive impact of this focus.
-                    <br><br>The impact of school closures has been more marked on the progress and attainment of children affected by poverty.  There has been an increase of 15% premium to Pupil Equity Funding (PEF) and Covid-19 additional funding to tackle the poverty related attainment gap, recognising the new and additional challenges faced as a result of Covid-19.
-
-                 </p>
-
-            </div>
-            <div class="graphtable_card" id="CHN01_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 01']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2001_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 01']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CHN13a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 13a']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2013a_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 13a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CHN13b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 13b']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2013b_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 13b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div> 
-            <div class="graphtable_card" id="CHN14a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 14a']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2014a_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 14a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CHN14b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 14b']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2014b_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 14b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-        </section>
-    </body>
-</html>
+                    The Scottish Government did not collect Achievement of CfE Levels data for any pupils in 2019-20 due to the Covid-19
+                    pandemic and therefore there was no national data at June 2020. In 2020-21 data was collected for pupils in P1, P4
+                    and P7 but was not collected for pupils in S3 due to other pressures. At June 2021, attainment in Stirling across
+                    P1, P4 and P7 was lower than that of June 2019, although above national averages. This reflects the impact of
+                    Covid-19 and several periods of national and local school closures.
+                    <br><br>Schools focused on recovery, resilience and reconnection to continue to support children's health and
+                    wellbeing and continue to build on prior learning. Schools were allocated additional Scottish Government funding to
+                    implement targeted interventions to support education recovery efforts for all children and young people. This has
+                    included, for example, targeted group work to support progress in literacy and numeracy. Effective tracking and
+                    monitoring at school level is already indicating the positive impact of this focus.
+                    <br><br>The impact of school closures has been more marked on the progress and attainment of children affected by
+                    poverty. There has been an increase of 15% premium to Pupil Equity Funding (PEF) and Covid-19 additional funding to
+                    tackle the poverty related attainment gap, recognising the new and additional challenges faced as a result of
+                    Covid-19.
+                
+                </p>"%}
+    {% include 'Layout_5Indicator.html'%}
+{% endwith %}

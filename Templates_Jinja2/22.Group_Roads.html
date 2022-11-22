@@ -1,106 +1,43 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/Roads_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class="page landscape" id="Roads">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Roads" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="ENV04a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 04a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "datacard" id="ENV04b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 04b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="ENV04c_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 04c'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="ENV04d_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 04d'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="ENV04e_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ENV 04e'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
-
-               
-                <p>
-                    There has been a sharp reduction in expenditure in road maintenance over the last 2 years.  In 2018-19, over £13.5k/kilometre was invested and in 20-21 under £10.5k/kilometre.  This is capital and revenue expenditure.
-                    <br><br>
-                    The impact of Covid-19 lockdown on roads services resulted in a reduction in planned work and a reliance on reactive repairs of defects to keep the road network safe.  This has inevitably led to an increased backlog of repair work and a reduction in overall network condition and satisfaction.   The condition of A, B and C roads declined over the period, and there was a marginal improvement in the reported condition of unclassified roads.
-                    <br><br>
-                    Changes in weather patterns have exacerbated drainage issues and extreme rainfall events have had significant impacts on road infrastructure and the level of funding required to address road drainage issues.
-                    <br><br>
-                    The SCOTS (Society of Chief Officers of Transportation in Scotland) Backlog and Steady State Model 2019 document details that the headline backlog figure is £49.8m (in 2019 when the model was run).  This headline backlog figure indicates funding required to remove all defects in red and amber categories (defective in some way). The document also details a “steady state” figure of £6.07m for Stirling.  This figure has been calculated as the funding required to prevent further decline in the road network's condition. The Capital budget for years 2019/20 was £5,307,123. In 20/21 it was £3,250,000.   It should be noted that these figures will have increased somewhat, given the volatile material price market as well as inflationary increases seen since Brexit and Covid pandemic, potentially by up to 30%.   
-                    <br><br>
-                    The Service, under new management in 22/23, is working to review asset management principles per the national Road Asset Management Project as supported by SCOTS.  This review will ensure that capital budgets are invested appropriately, to improve the condition of the road network, by intervening at appropriate points in the assets' lifespans to deliver Best Value.
-                                    
-                      </p>
-                
-            </div>
-            <div class="graphtable_card" id="ENV04a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 04a']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004a_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="ENV04b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 04b']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004b_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="ENV04c_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 04c']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004c_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04c']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div> 
-            <div class="graphtable_card" id="ENV04d_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 04d']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004d_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04d']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="ENV04e_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ENV 04e']['Title'] %}
-                    {% set Graph =  "../Graphs/ENV%2004e_Line.svg" %}
-                    {% set FGRankData = LatestData['ENV 04e']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-        </section>
-    </body>
-</html>
+{% with %}
+    {% set PageName = 'PrimarySchools'%}
+    {% set Title = 'Primary Schools'%}
+    {% set Indicator1 = 'ENV 04a'%}
+    {% set Indicator1Graph = '../Graphs/ENV%2004a_Line.svg'%}
+    {% set Indicator2 = 'ENV 04b'%}
+    {% set Indicator2Graph = '../Graphs/ENV%2004b_Line.svg'%}
+    {% set Indicator3 = 'ENV 04c'%}
+    {% set Indicator3Graph = '../Graphs/ENV%2004c_Line.svg'%}
+    {% set Indicator4 = 'ENV 04d'%}
+    {% set Indicator4Graph = '../Graphs/ENV%2004d_Line.svg'%}
+    {% set Indicator5 = 'ENV 04e'%}
+    {% set Indicator5Graph = '../Graphs/ENV%2004e_Line.svg'%}
+    {% set Comment = "
+                    <p>
+                        There has been a sharp reduction in expenditure in road maintenance over the last 2 years. In 2018-19, over
+                        £13.5k/kilometre was invested and in 20-21 under £10.5k/kilometre. This is capital and revenue expenditure.
+                        <br><br>
+                        The impact of Covid-19 lockdown on roads services resulted in a reduction in planned work and a reliance on reactive
+                        repairs of defects to keep the road network safe. This has inevitably led to an increased backlog of repair work and
+                        a reduction in overall network condition and satisfaction. The condition of A, B and C roads declined over the
+                        period, and there was a marginal improvement in the reported condition of unclassified roads.
+                        <br><br>
+                        Changes in weather patterns have exacerbated drainage issues and extreme rainfall events have had significant
+                        impacts on road infrastructure and the level of funding required to address road drainage issues.
+                        <br><br>
+                        The SCOTS (Society of Chief Officers of Transportation in Scotland) Backlog and Steady State Model 2019 document
+                        details that the headline backlog figure is £49.8m (in 2019 when the model was run). This headline backlog figure
+                        indicates funding required to remove all defects in red and amber categories (defective in some way). The document
+                        also details a “steady state” figure of £6.07m for Stirling. This figure has been calculated as the funding required
+                        to prevent further decline in the road network's condition. The Capital budget for years 2019/20 was £5,307,123. In
+                        20/21 it was £3,250,000. It should be noted that these figures will have increased somewhat, given the volatile
+                        material price market as well as inflationary increases seen since Brexit and Covid pandemic, potentially by up to
+                        30%.
+                        <br><br>
+                        The Service, under new management in 22/23, is working to review asset management principles per the national Road
+                        Asset Management Project as supported by SCOTS. This review will ensure that capital budgets are invested
+                        appropriately, to improve the condition of the road network, by intervening at appropriate points in the assets'
+                        lifespans to deliver Best Value.
+                    
+                    </p>"%}
+    {% include 'Layout_5Indicator.html'%}
+{% endwith %}

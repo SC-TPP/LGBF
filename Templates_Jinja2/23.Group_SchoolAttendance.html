@@ -1,89 +1,35 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/SchoolAttandance_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class="page landscape" id="SchoolAttendance">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "School Attandance" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="CHN19a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 19a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "datacard" id="CHN19b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 19b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="CHN20a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 20a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div> <div class = "datacard" id="CHN20b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 20b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
-                <p>
-                    Data confirms that Stirling is ranked 8 out of 32 local authorities for school attendance rates which is positive however, similar to the national trend, we are recording a declining pattern. Attendance continues to remain a high priority for education, taking account of the declining pattern and the link between attendance and attainment.
-                    <br><br>
-                    A range of work has been undertaken to explore the reasons for higher absences, which include pupil mental wellbeing, parental issues and curriculum offers not meeting the needs for some learners. 
-                    <br><br>
-                    Many schools are using the Pupil Equity Fund to recruit additional health and wellbeing officers who can work with families to help identify and alleviate the range of possible barriers to good attendance.  Schools and nurseries are using attendance data more regularly to identify absences at an earlier stage to reduce the risks of persistent low attendance. This recent work may explain why the decline in attendance in Stirling is less significant than the national pattern or that of our family group; 2018/19 to 202/21 shows a Scottish decline of 1% and a family group of 0.5% compared to 0.3% in Stirling.
-                    <br><br>
-                    Future activity includes a review and update of Stirling’s guidance on ‘Promoting and Managing School Attendance’ for education establishments. There will also be a focus on S4 attendance at a Regional Improvement Collaborative (RIC) level informed by data and, adopting an equity lens approach to considering further improvements in attendance for pupils from areas of high deprivation.   Supporting care experienced children and young people to attend and engage in education continues to be a key priority for the Virtual Head Team.
-                    
-                
-                </p>
-                
-            </div>
-            <div class="graphtable_card" id="CHN19a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 19a']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2019a_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 19a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CHN19b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 19b']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2019b_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 19b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div><div class="graphtable_card" id="CHN20a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 20a']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2020a_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 20a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div><div class="graphtable_card" id="CHN20b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CHN 20b']['Title'] %}
-                    {% set Graph =  "../Graphs/CHN%2020b_Line.svg" %}
-                    {% set FGRankData = LatestData['CHN 20b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-
-
-        </section>
-    </body>
-</html>
+{% with %}
+    {% set PageName = 'SchoolAttendance'%}
+    {% set Title = 'School Attandance'%}
+    {% set Indicator1 = 'CHN 19a'%}
+    {% set Indicator1Graph = '../Graphs/CHN%2019a_Line.svg'%}
+    {% set Indicator2 = 'CHN 19b'%}
+    {% set Indicator2Graph = '../Graphs/CHN%2019b_Line.svg'%}
+    {% set Indicator3 = 'CHN 20a'%}
+    {% set Indicator3Graph = '../Graphs/CHN%2020a_Line.svg'%}
+    {% set Indicator4 = 'CHN 20b'%}
+    {% set Indicator4Graph = '../Graphs/CHN%2020b_Line.svg'%}
+    {% set Comment = "
+    <p>
+        Data confirms that Stirling is ranked 8 out of 32 local authorities for school attendance rates which is positive
+        however, similar to the national trend, we are recording a declining pattern. Attendance continues to remain a high
+        priority for education, taking account of the declining pattern and the link between attendance and attainment.
+        <br><br>
+        A range of work has been undertaken to explore the reasons for higher absences, which include pupil mental
+        wellbeing, parental issues and curriculum offers not meeting the needs for some learners.
+        <br><br>
+        Many schools are using the Pupil Equity Fund to recruit additional health and wellbeing officers who can work with
+        families to help identify and alleviate the range of possible barriers to good attendance. Schools and nurseries are
+        using attendance data more regularly to identify absences at an earlier stage to reduce the risks of persistent low
+        attendance. This recent work may explain why the decline in attendance in Stirling is less significant than the
+        national pattern or that of our family group; 2018/19 to 202/21 shows a Scottish decline of 1% and a family group of
+        0.5% compared to 0.3% in Stirling.
+        <br><br>
+        Future activity includes a review and update of Stirling’s guidance on ‘Promoting and Managing School Attendance’
+        for education establishments. There will also be a focus on S4 attendance at a Regional Improvement Collaborative
+        (RIC) level informed by data and, adopting an equity lens approach to considering further improvements in attendance
+        for pupils from areas of high deprivation. Supporting care experienced children and young people to attend and
+        engage in education continues to be a key priority for the Virtual Head Team.
+    </p>"%}
+    {% include 'Layout_4Indicator.html'%}
+{% endwith %}]

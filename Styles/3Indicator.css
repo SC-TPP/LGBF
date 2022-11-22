@@ -8,30 +8,31 @@
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
-#chn03_datacard {
+#indicator1_datacard {
     grid-column: 2/7;
     grid-row: 2/4;
 }
-#chn17_datacard {
+#indicator2_datacard {
     grid-column: 9/14;
     grid-row: 2/4;
 }
-#chn18_datacard {
+#indicator3_datacard {
     grid-column: 16/21;
     grid-row: 2/4;
 }
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
 -------------------------------------------------------------- */
-#chn03_graphtable_card{
+#indicator1_graphtable_card{
     grid-column: 12/21;
     grid-row: 5/13;
 }
-#chn17_graphtable_card{
+#indicator2_graphtable_card{
     grid-column: 12/21;
     grid-row: 14/22;
 }
-#chn18_graphtable_card{
+#indicator3_graphtable_card{
     grid-column: 2/11;
     grid-row: 14/22;
 }
+

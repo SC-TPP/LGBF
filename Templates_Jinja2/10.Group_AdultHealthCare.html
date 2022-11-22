@@ -1,102 +1,23 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" href="../Styles/main_styles.css" />
-    <link rel="stylesheet" href="../Styles/AdultHealthCare_styles.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-</head>
-
-<body>
-    <section class="page landscape" id="AdultHealthCare">
-        <div class="titlebar">
-            {% with %}
-                {% set PageTitle = "Adult Health Care" %}
-                {% include "Snippet_Header.html" %}
-            {% endwith %}
-        </div>
-        <div class="sidebar">
-            {% include "Snippet_Sidebar.html" %}
-        </div>
-        <div class="datacard" id="sw02_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 02'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw05_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 05'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw06_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 06'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw07_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 07'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw08_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 08'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="commentbox" id="main_commentbox">
+{% with %}
+    {% set PageName = 'AdultHealthCare'%}
+    {% set Title = 'Adult Health Care'%}
+    {% set Indicator1 = 'SW 02'%}
+    {% set Indicator1Graph = '../Graphs/SW%2002_Line.svg'%}
+    {% set Indicator2 = 'SW 05'%}
+    {% set Indicator2Graph = '../Graphs/SW%2005_Line.svg'%}
+    {% set Indicator3 = 'SW 06'%}
+    {% set Indicator3Graph = '../Graphs/SW%2006_Line.svg'%}
+    {% set Indicator4 = 'SW 07'%}
+    {% set Indicator4Graph = '../Graphs/SW%2007_Line.svg'%}
+    {% set Indicator5 = 'SW 08'%}
+    {% set Indicator5Graph = '../Graphs/SW%2008_Line.svg'%}
+    {% set Comment = "
             <p>
-                Work is ongoing to ensure that commissioned care provision is in line Clackmannanshire & Stirling HSCP’s strategic priorities to provide care closer to home and to support people living with dementia. 
-
-            Discharges continue to be treated as priority 1 under eligibility criteria.  Performance in this key area has been challenging during the Covid pandemic and related crisis within care at home and care home services.
-            </p>
-           
-        </div>
-        <div class="graphtable_card" id="sw02_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 02']['Title'] %}
-                {% set Graph = "../Graphs/SW%2002_Line.svg" %}
-                {% set FGRankData = LatestData['SW 02']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw05_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 05']['Title'] %}
-                {% set Graph = "../Graphs/SW%2005_Line.svg" %}
-                {% set FGRankData = LatestData['SW 05']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw06_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 06']['Title'] %}
-                {% set Graph = "../Graphs/SW%2006_Line.svg" %}
-                {% set FGRankData = LatestData['SW 06']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw07_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 07']['Title'] %}
-                {% set Graph = "../Graphs/SW%2007_Line.svg" %}
-                {% set FGRankData = LatestData['SW 07']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw08_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 08']['Title'] %}
-                {% set Graph = "../Graphs/SW%2008_Line.svg" %}
-                {% set FGRankData = LatestData['SW 08']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-    </section>
-</body>
-</html>
+                Work is ongoing to ensure that commissioned care provision is in line Clackmannanshire & Stirling HSCP’s strategic
+                priorities to provide care closer to home and to support people living with dementia.
+            
+                Discharges continue to be treated as priority 1 under eligibility criteria. Performance in this key area has been
+                challenging during the Covid pandemic and related crisis within care at home and care home services.
+            </p>"%}
+    {% include 'Layout_5Indicator.html'%}
+{% endwith %}

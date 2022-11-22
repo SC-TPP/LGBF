@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Styles/main_styles.css" />
+        <link rel="stylesheet" href="../Styles/4Indicator.css" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+    </head>
+    <body>
+        <section class="page landscape" id={{PageName}}>
+            <div class="titlebar">
+                {% with %}
+                {% set PageTitle = Title %}
+                {% include "Snippet_Header.html" %}
+                {% endwith %}
+            </div>
+            <div class="sidebar">
+                {% include "Snippet_Sidebar.html" %}
+            </div>
+            <div class="datacard" id="indicator1_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Indicator1] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="indicator2_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Indicator2] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="indicator3_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Indicator3] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="indicator4_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Indicator4] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="commentbox" id="main_commentbox">
+                {{Comment}}
+            </div>
+            <div class="graphtable_card" id="indicator1_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Indicator1]['Title'] %}
+                {% set Graph = Indicator1Graph %}
+                {% set FGRankData = LatestData[Indicator1]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="indicator2_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Indicator2]['Title'] %}
+                {% set Graph = Indicator2Graph %}
+                {% set FGRankData = LatestData[Indicator2]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="indicator3_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Indicator3]['Title'] %}
+                {% set Graph = Indicator3Graph %}
+                {% set FGRankData = LatestData[Indicator3]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="indicator4_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Indicator4]['Title'] %}
+                {% set Graph = Indicator4Graph %}
+                {% set FGRankData = LatestData[Indicator4]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+        </section>
+        </body>
+        
+        </html>

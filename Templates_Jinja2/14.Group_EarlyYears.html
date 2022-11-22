@@ -1,79 +1,33 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="../Styles/main_styles.css" />
-        <link rel="stylesheet" href="../Styles/earlyYears_styles.css" />
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-    </head>
-    <body>
-        <section class="page landscape" id="EarlyYears">
-            <div class="titlebar">
-                {% with %}
-                    {% set PageTitle = "Early Years" %}
-                    {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-            <div class="sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class="datacard" id="chn03_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 03'] %}
-                    {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="chn17_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 17'] %}
-                    {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="chn18_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CHN 18'] %}
-                    {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="commentbox" id="main_commentbox">
+{% with %}
+    {% set PageName = 'EarlyYears'%}
+    {% set Title = 'Early Years'%}
+    {% set Indicator1 = 'CHN 03'%}
+    {% set Indicator1Graph = '../Graphs/CHN%2003_Line.svg'%}
+    {% set Indicator2 = 'CHN 17'%}
+    {% set Indicator2Graph = '../Graphs/CHN%2017_Line.svg'%}
+    {% set Indicator3 = 'CHN 18'%}
+    {% set Indicator3Graph = '../Graphs/CHN%2018_Line.svg'%}
+    {% set Comment = "
                 <p>
-                    1140 hours of early learning and childcare has been delivered in Stirling in all nurseries, and with funded childminders, since August 2020. This was one year ahead of the statutory duty. In addition to this, parents/carers can purchase more hours where available and can purchase places for babies and toddlers until they become entitled to free childcare. 
-
+                    1140 hours of early learning and childcare has been delivered in Stirling in all nurseries, and with funded
+                    childminders, since August 2020. This was one year ahead of the statutory duty. In addition to this, parents/carers
+                    can purchase more hours where available and can purchase places for babies and toddlers until they become entitled
+                    to free childcare.
+                
                 </p>
                 <p>
-                    Over the last 2 years, we have focussed on developing a Play and Learning Framework which places value on the importance of relationships, communication, interactions, family and of diverse communities working together to support the children. It provides a shared framework, which enables all Funded Providers; local authority, partner nurseries and partner childminders, to collaborate with each other, children and families in order to promote the rights of the child. This ensures a consistent and holistic approach in scaffolding and progressing children’s learning and development, through play.
+                    Over the last 2 years, we have focussed on developing a Play and Learning Framework which places value on the
+                    importance of relationships, communication, interactions, family and of diverse communities working together to
+                    support the children. It provides a shared framework, which enables all Funded Providers; local authority, partner
+                    nurseries and partner childminders, to collaborate with each other, children and families in order to promote the
+                    rights of the child. This ensures a consistent and holistic approach in scaffolding and progressing children’s
+                    learning and development, through play.
                 </p>
                 <p>
-                  
-We are working now to embed the Framework, further develop approaches to self-evaluation and redesign family learning to ensure it is relevant and accessible to all children and families.
-
-                </p>
-              
-            </div>
-            <div class="graphtable_card" id="chn03_graphtable_card">
-                {% with %}
-                {% set Title = LatestData['CHN 03']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2003_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 03']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="chn17_graphtable_card">
-                {% with %}
-                {% set Title = LatestData['CHN 17']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2017_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 17']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="chn18_graphtable_card">
-                {% with %}
-                {% set Title = LatestData['CHN 18']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2018_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 18']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-        </section>
-    </body>
-</html>
+                
+                    We are working now to embed the Framework, further develop approaches to self-evaluation and redesign family
+                    learning to ensure it is relevant and accessible to all children and families.
+                
+                </p>"%}
+    {% include 'Layout_3Indicator.html'%}
+{% endwith %}
