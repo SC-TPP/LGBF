@@ -1,58 +1,59 @@
-#main_commentbox {
+/* --------------------------------------------------------------
+   Main Element Positioning. Report styles can be found in main_styles
+-------------------------------------------------------------- */
+#column1_commentbox {
     grid-column: 2 / 11;
     grid-row: 4 / 17;
 }
-
-#main2_commentbox {
+#column2_commentbox {
     grid-column: 12 / 21;
     grid-row: 4 / 17;
 }
-
 /* --------------------------------------------------------------
-Removed = '&'   
-*Removed '&' due to coding issues (alternatives like + or . caused issues)
-   Example: C&L04, C&L04 = CL04, CL05 
+   Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
-#CORP-ASSET01_datacard {
+#column1_indicator1_datacard {
     grid-column: 2 / 6;
     grid-row: 2 / 4;
 }
-#CORP-ASSET02_datacard {
+#column1_indicator2_datacard {
     grid-column: 7 / 11;
     grid-row: 2 / 4;
 }
-#ECON02_datacard {
+#column2_indicator1_datacard {
     grid-column: 12 / 16;
     grid-row: 2 / 4;
 }
-#ECON03_datacard {
+#column2_indicator2_datacard {
     grid-column: 17 / 21;
     grid-row: 2 / 4;
 }
-
-
-#CORP-ASSET01_graphtable_card {
+/* --------------------------------------------------------------
+   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
+-------------------------------------------------------------- */
+#column1_indicator1_graphtable_card {
     grid-column:  2 / 11;
     grid-row: 11 / 16 ;
 }
-#CORP-ASSET02_graphtable_card {
-    grid-column: 12 / 21;
-    grid-row: 11 / 16;
-}
-#ECON02_graphtable_card {
-    grid-column: 12 / 21;
-    grid-row: 17 / 22;
-}
-#ECON03_graphtable_card {
+#column1_indicator2_graphtable_card {
     grid-column: 2 / 11;
     grid-row: 17 / 22;
 }
-
+#column2_indicator1_graphtable_card {
+    grid-column: 12 / 21;
+    grid-row: 11 / 16;
+}
+#column2_indicator2_graphtable_card {
+    grid-column: 12 / 21;
+    grid-row: 17 / 22;
+}
 
 /* --------------------------------------------------------------
    Page breaker 
    *Use for 2 + 2 pages.  
 -------------------------------------------------------------- */
+
+
 .wrapper{
     display: grid; 
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -74,15 +75,14 @@ Removed = '&'
     grid-row: 3 / 21;  
     width: 15%;
     background-color: var(--main-bg-color);
-
-
   }
 
-  
+    
 /* --------------------------------------------------------------
    Title bar h4 
    *for second title bar. Move to main_styles in future.  
 -------------------------------------------------------------- */
+
 
 .titlebar h4{
     grid-column: 12 / 20;
@@ -96,7 +96,3 @@ h4 {
 .material-icons-round.md-48 {
     font-size: 50px;
 }
-
-
-
-

@@ -1,102 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/Ab+Gen_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class = "page landscape" id = "Absence and Gender pay gap">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Absence" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "titlebar">
-                {% with %}
-                    {% set pagetitle2 = "Gender Pay Gap" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="CORP06a_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP 06a'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CORP06b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP 06b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CORP03b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP 03b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CORP03c_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP 03c'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
-                <p>
-                    Levels of sickness absence have decreased during 2020/21. A decrease in both short term absence and long term absence (beyond 28 calendar days) has occurred. Of our employees, 68% experienced no absence during 2020/21. 
-                </p>
-            </div>
-
-                <div class = "commentbox" id = "main2_commentbox">
+{% with %}
+    {% set PageName = 'Ab+Gen'%}
+    {% set Column1Title = 'Absence'%}
+    {% set Column1Indicator1 = 'CORP 06a'%}
+    {% set Column1Indicator1Graph = '../Graphs/CORP%2006a_Line.svg'%}
+    {% set Column1Indicator2 = 'CORP 06b'%}
+    {% set Column1Indicator2Graph = '../Graphs/CORP%2006b_Line.svg'%}
+    {% set Column1Comment = "
                     <p>
-                    The gender pay gap has narrowed from last year but still remains in favour of women.
-                    </p>
-                    
-               
-            </div>
-
-            <div class="graphtable_card" id="CORP06a_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP 06a']['Title'] %}
-                    {% set Graph =  "../Graphs/CORP%2006a_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP 06a']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CORP06b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP 06b']['Title'] %}
-                    {% set Graph = "../Graphs/CORP%2006b_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP 06b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CORP03b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP 03b']['Title'] %}
-                    {% set Graph = "../Graphs/CORP%2003b_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP 03b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CORP03c_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP 03c']['Title'] %}
-                    {% set Graph = "../Graphs/CORP%2003c_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP 03c']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="wrapper">
-                <div class="item"></div>
-              </div>
-        </section>
-    </body>
-</html>
+                        Levels of sickness absence have decreased during 2020/21. A decrease in both short term absence and long term
+                        absence (beyond 28 calendar days) has occurred. Of our employees, 68% experienced no absence during 2020/21.
+                    </p>" %}
+    {% set Column2Title = 'Gender Pay Gap'%}
+    {% set Column2Indicator1 = 'CORP 03b'%}
+    {% set Column2Indicator1Graph = '../Graphs/CORP%2003b_Line.svg'%}
+    {% set Column2Indicator2 = 'CORP 03c'%}
+    {% set Column2Indicator2Graph = '../Graphs/CORP%2003c_Line.svg'%}
+    {% set Column2Comment = "
+                    <p>
+                        The gender pay gap has narrowed from last year but still remains in favour of women.
+                    </p>"%}
+    {% include 'Layout_2+2Indicator.html'%}
+{% endwith %}

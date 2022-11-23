@@ -1,134 +1,42 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" href="../Styles/main_styles.css" />
-    <link rel="stylesheet" href="../Styles/Financial_styles.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-</head>
-
-<body>
-    <section class="page landscape" id="Fiancial">
-        <div class="titlebar">
-            {% with %}
-                {% set PageTitle = "Financial Position" %}
-                {% include "Snippet_Header.html" %}
-            {% endwith %}
-        </div>
-        <div class="sidebar">
-            {% include "Snippet_Sidebar.html" %}
-        </div>
-        <div class="datacard" id="corp01_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CORP 01'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="corp08_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CORP 08'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="finsus01_datacard">
-            {% with %}
-                {% set Indicator = LatestData['FINSUS 01'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="finsus02_datacard">
-            {% with %}
-                {% set Indicator = LatestData['FINSUS 02'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="finsus03_datacard">
-            {% with %}
-                {% set Indicator = LatestData['FINSUS 03'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="finsus04_datacard">
-            {% with %}
-            {% set Indicator = LatestData['FINSUS 04'] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="finsus05_datacard">
-            {% with %}
-            {% set Indicator = LatestData['FINSUS 05'] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="commentbox" id="main_commentbox">
-            <p>
-                The External Auditor's report on the 2020/21 financial year outlines that the Council's financial management is effective with strong budgeting, financial monitoring and reporting processes that are aligned to its corporate priorities.  The Council and its wider group financial position is sustainable into the foreseeable future, although Covid-19 continues to add additional pressure and uncertainty.
-                <br>
-                The Covid-19 pandemic had a significant impact on the Council's finances during 2020/21.  Additional budget pressures totalled £8.9 million for the year and these were addressed through a combination of using Council reserves and additional Scottish Government funding.
-Stirling Council reported a general fund surplus of £16.9 million for 2020/21, which was largely due to the receipt of additional funding to meet Covid pressures in future years.  This has resulted in a large increase in the Council's reserves with £17 million earmarked for pandemic recovery. 
-<br>
-The Council has developed a Covid-19 Recovery Plan, which was approved in June 2021.  It sets out 14 priorities, and accompanying actions, which are aligned to the strategic goals within the 10-year Council strategy.  The Council recognises the non-recurring nature of such reserves and has taken steps to ensure they are used effectively and in line with Council strategy and strategic objectives.
-<br>
-The Council's 10-year strategy includes a transformation plan to address the longer-term financial challenge.  Aligned to this, Stirling Council projects a cumulative £28 million budget deficit over the next 5 years and is in the process of reviewing its income and expenditure streams in advance of the 2022/23 budget.
-            </p>
-        </div>
-        <div class="graphtable_card" id="corp01_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CORP 01']['Title'] %}
-                {% set Graph = "../Graphs/CORP%2001_Line.svg" %}
-                {% set FGRankData = LatestData['CORP 01']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="corp08_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CORP 08']['Title'] %}
-                {% set Graph = "../Graphs/CORP%2008_Line.svg" %}
-                {% set FGRankData = LatestData['CORP 08']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="finsus01_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['FINSUS 01']['Title'] %}
-                {% set Graph = "../Graphs/FINSUS%2001_Line.svg" %}
-                {% set FGRankData = LatestData['FINSUS 01']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="finsus02_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['FINSUS 02']['Title'] %}
-                {% set Graph = "../Graphs/FINSUS%2002_Line.svg" %}
-                {% set FGRankData = LatestData['FINSUS 02']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="finsus03_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['FINSUS 03']['Title'] %}
-                {% set Graph = "../Graphs/FINSUS%2003_Line.svg" %}
-                {% set FGRankData = LatestData['FINSUS 03']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="finsus04_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['FINSUS 04']['Title'] %}
-                {% set Graph = "../Graphs/FINSUS%2004_Line.svg" %}
-                {% set FGRankData = LatestData['FINSUS 04']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="finsus05_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['FINSUS 05']['Title'] %}
-                {% set Graph = "../Graphs/FINSUS%2005_Line.svg" %}
-                {% set FGRankData = LatestData['FINSUS 05']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-    </section>
-</body>
-</html>
+{% with %}
+    {% set PageName = 'EcoG'%}
+    {% set Title = 'Economic Growth'%}
+    {% set Indicator1 = 'CORP 01'%}
+    {% set Indicator1Graph = '../Graphs/CORP%2001_Line.svg'%}
+    {% set Indicator2 = 'CORP 08'%}
+    {% set Indicator2Graph = '../Graphs/CORP%2008_Line.svg'%}
+    {% set Indicator3 = 'FINSUS 01'%}
+    {% set Indicator3Graph = '../Graphs/FINSUS%2001_Line.svg'%}
+    {% set Indicator4 = 'FINSUS 02'%}
+    {% set Indicator4Graph = '../Graphs/FINSUS%2002_Line.svg'%}
+    {% set Indicator5 = 'FINSUS 03'%}
+    {% set Indicator5Graph = '../Graphs/FINSUS%2003_Line.svg'%}
+    {% set Indicator6 = 'FINSUS 04'%}
+    {% set Indicator6Graph = '../Graphs/FINSUS%2004_Line.svg'%}
+    {% set Indicator7 = 'FINSUS 05'%}
+    {% set Indicator7Graph = '../Graphs/FINSUS%2005_Line.svg'%}
+    {% set Comment = "
+                <p>
+                    The External Auditor's report on the 2020/21 financial year outlines that the Council's financial management is
+                    effective with strong budgeting, financial monitoring and reporting processes that are aligned to its corporate
+                    priorities. The Council and its wider group financial position is sustainable into the foreseeable future, although
+                    Covid-19 continues to add additional pressure and uncertainty.
+                    <br>
+                    The Covid-19 pandemic had a significant impact on the Council's finances during 2020/21. Additional budget pressures
+                    totalled £8.9 million for the year and these were addressed through a combination of using Council reserves and
+                    additional Scottish Government funding.
+                    Stirling Council reported a general fund surplus of £16.9 million for 2020/21, which was largely due to the receipt
+                    of additional funding to meet Covid pressures in future years. This has resulted in a large increase in the
+                    Council's reserves with £17 million earmarked for pandemic recovery.
+                    <br>
+                    The Council has developed a Covid-19 Recovery Plan, which was approved in June 2021. It sets out 14 priorities, and
+                    accompanying actions, which are aligned to the strategic goals within the 10-year Council strategy. The Council
+                    recognises the non-recurring nature of such reserves and has taken steps to ensure they are used effectively and in
+                    line with Council strategy and strategic objectives.
+                    <br>
+                    The Council's 10-year strategy includes a transformation plan to address the longer-term financial challenge.
+                    Aligned to this, Stirling Council projects a cumulative £28 million budget deficit over the next 5 years and is in
+                    the process of reviewing its income and expenditure streams in advance of the 2022/23 budget.
+                </p>"%}
+    {% include 'Layout_7Indicator.html'%}
+{% endwith %}

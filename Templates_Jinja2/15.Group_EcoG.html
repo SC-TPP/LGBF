@@ -1,127 +1,23 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" href="../Styles/main_styles.css" />
-    <link rel="stylesheet" href="../Styles/EcoG_styles.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-</head>
-
-<body>
-    <section class="page landscape" id="EconomicGrowth">
-        <div class="titlebar">
-            {% with %}
-                {% set PageTitle = "Economic Growth" %}
-                {% include "Snippet_Header.html" %}
-            {% endwith %}
-        </div>
-        <div class="sidebar">
-            {% include "Snippet_Sidebar.html" %}
-        </div>
-        <div class="datacard" id="econ04_datacard">
-            {% with %}
-                {% set Indicator = LatestData['ECON 04'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="econ05_datacard">
-            {% with %}
-                {% set Indicator = LatestData['ECON 05'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="econ06_datacard">
-            {% with %}
-                {% set Indicator = LatestData['ECON 06'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="econ08_datacard">
-            {% with %}
-                {% set Indicator = LatestData['ECON 08'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="econ09_datacard">
-            {% with %}
-                {% set Indicator = LatestData['ECON 09'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="econ10_datacard">
-            {% with %}
-            {% set Indicator = LatestData['ECON 10'] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="econ11_datacard">
-            {% with %}
-            {% set Indicator = LatestData['ECON 11'] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="commentbox" id="main_commentbox">
-            <p>
-               No Submission 
-            </p>
-        </div>
-        <div class="graphtable_card" id="econ04_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['ECON 04']['Title'] %}
-                {% set Graph = "../Graphs/ECON%2004_Line.svg" %}
-                {% set FGRankData = LatestData['ECON 04']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="econ05_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['ECON 05']['Title'] %}
-                {% set Graph = "../Graphs/ECON%2005_Line.svg" %}
-                {% set FGRankData = LatestData['ECON 05']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="econ06_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['ECON 06']['Title'] %}
-                {% set Graph = "../Graphs/ECON%2006_Line.svg" %}
-                {% set FGRankData = LatestData['ECON 06']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="econ08_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['ECON 08']['Title'] %}
-                {% set Graph = "../Graphs/ECON%2008_Line.svg" %}
-                {% set FGRankData = LatestData['ECON 08']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="econ09_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['ECON 09']['Title'] %}
-                {% set Graph = "../Graphs/ECON%2009_Line.svg" %}
-                {% set FGRankData = LatestData['ECON 09']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="econ10_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['ECON 10']['Title'] %}
-                {% set Graph = "../Graphs/ECON%2010_Line.svg" %}
-                {% set FGRankData = LatestData['ECON 10']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="econ11_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['ECON 11']['Title'] %}
-                {% set Graph = "../Graphs/ECON%2011_Line.svg" %}
-                {% set FGRankData = LatestData['ECON 11']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-    </section>
-</body>
-</html>
+{% with %}
+    {% set PageName = 'EcoG'%}
+    {% set Title = 'Economic Growth'%}
+    {% set Indicator1 = 'ECON 04'%}
+    {% set Indicator1Graph = '../Graphs/ECON%2004_Line.svg'%}
+    {% set Indicator2 = 'ECON 05'%}
+    {% set Indicator2Graph = '../Graphs/ECON%2005_Line.svg'%}
+    {% set Indicator3 = 'ECON 06'%}
+    {% set Indicator3Graph = '../Graphs/ECON%2006_Line.svg'%}
+    {% set Indicator4 = 'ECON 08'%}
+    {% set Indicator4Graph = '../Graphs/ECON%2008_Line.svg'%}
+    {% set Indicator5 = 'ECON 09'%}
+    {% set Indicator5Graph = '../Graphs/ECON%2009_Line.svg'%}
+    {% set Indicator6 = 'ECON 10'%}
+    {% set Indicator6Graph = '../Graphs/ECON%2010_Line.svg'%}
+    {% set Indicator7 = 'ECON 11'%}
+    {% set Indicator7Graph = '../Graphs/ECON%2011_Line.svg'%}
+    {% set Comment = "
+    <p>
+        No Submission
+    </p>"%}
+    {% include 'Layout_7Indicator.html'%}
+{% endwith %}

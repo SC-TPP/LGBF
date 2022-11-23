@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Styles/main_styles.css" />
+        <link rel="stylesheet" href="../Styles/2+2Indicator.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+    </head>
+    <body>
+        <section class="page landscape" id={{PageName}}>
+            <div class="titlebar">
+                {% with %}
+                {% set PageTitle = Column1Title %}
+                {% include "Snippet_Header.html" %}
+                {% endwith %}
+            </div>
+            <div class="titlebar">
+                {% with %}
+                {% set PageTitle2 = Column2Title %}
+                {% include "Snippet_Header.html" %}
+                {% endwith %}
+            </div>
+            <div class="sidebar">
+                {% include "Snippet_Sidebar.html" %}
+            </div>
+            <div class="datacard" id="column1_indicator1_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Column1Indicator1] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="column1_indicator2_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Column1Indicator2] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="column2_indicator1_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Column2Indicator1] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="column2_indicator2_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Column2Indicator2] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="commentbox" id="column1_commentbox">
+                {{Column1Comment}}
+            </div>
+            <div class="commentbox" id="column2_commentbox">
+                {{Column2Comment}}
+            </div>
+            <div class="graphtable_card" id="column1_indicator1_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Column1Indicator1]['Title'] %}
+                {% set Graph = Column1Indicator1Graph %}
+                {% set FGRankData = LatestData[Column1Indicator1]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="column1_indicator2_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Column1Indicator2]['Title'] %}
+                {% set Graph = Column1Indicator2Graph %}
+                {% set FGRankData = LatestData[Column1Indicator2]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="column2_indicator1_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Column2Indicator1]['Title'] %}
+                {% set Graph = Column2Indicator1Graph %}
+                {% set FGRankData = LatestData[Column2Indicator1]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="column2_indicator2_graphtable_card">
+                {% with %}
+                {% set Title = LatestData[Column2Indicator2]['Title'] %}
+                {% set Graph = Column2Indicator2Graph %}
+                {% set FGRankData = LatestData[Column2Indicator2]['timeseries'] %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="wrapper">
+                <div class="item"></div>
+            </div>
+        </section>
+        </body>
+        
+        </html>

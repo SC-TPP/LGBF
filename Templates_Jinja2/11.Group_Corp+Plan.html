@@ -1,61 +1,20 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/Corp+Plan_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class = "page landscape" id = "Corporate Property Assets and Planning">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Corporate Property Assets" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "titlebar">
-                {% with %}
-                    {% set pagetitle2 = "Planning" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="CORP-ASSET01_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP-ASSET 01'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CORP-ASSET02_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP-ASSET 02'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="ECON02_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ECON 02'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="ECON03_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['ECON 03'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
+{% with %}
+    {% set PageName = 'Corp+Plan'%}
+    {% set Column1Title = 'Corporate Property Assets'%}
+    {% set Column1Indicator1 = 'CORP-ASSET 01'%}
+    {% set Column1Indicator1Graph = '../Graphs/CORP-ASSET%2001_Line.svg'%}
+    {% set Column1Indicator2 = 'CORP-ASSET 02'%}
+    {% set Column1Indicator2Graph = '../Graphs/CORP-ASSET%2002_Line.svg'%}
+    {% set Column1Comment = "
                 <p>
-                No Submission
-             </p>
-                
-            </div>
-
-                <div class = "commentbox" id = "main2_commentbox">
+                    No Submission
+                </p>" %}
+    {% set Column2Title = 'Planning'%}
+    {% set Column2Indicator1 = 'ECON 02'%}
+    {% set Column2Indicator1Graph = '../Graphs/ECON%2002_Line.svg'%}
+    {% set Column2Indicator2 = 'ECON 03'%}
+    {% set Column2Indicator2Graph = '../Graphs/ECON%2003_Line.svg'%}
+    {% set Column2Comment = "
                     <p>
                         Two indicators are included here. A measure of spend on planning and business standards which is
                         standardised per planning application and the average time taken to process local business and industry planning applications.
@@ -67,45 +26,6 @@
                         <br><br>
                         Drilling down further into the statistics shows that performance in the latter part of the reporting period had stabilised and improved. For example, the average timescales for processing householder applications in February and March 2021 were 6.8 and 6.1 weeks respectively, significantly faster than the Scottish average and well within statutory timescales. This was reflective of an increased resource within the team and lower number of local applications.
                         The cost of planning and building standards services is standardised per planning application and building warrant. This measure includes costs of both planning and building standards services. Total Planning Costs is calculated using the following components of the Local Financial Return (LFR 07: Building, Planning and Development), divided by the Number of decided planning applications. This data is collected by Scottish Government from Local and Planning Authorities as part of the Planning Performance Framework.
-                        In 20/21 Stirling was included in just under a third of Councils reporting reduced costs. Whilst the number of applications determined in 2020/21 is only slightly above those in 2019/20, as mentioned previously the make-up of applications shifted in 20/21. </p>
-                    
-            </div>
-
-            <div class="graphtable_card" id="CORP-ASSET01_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP-ASSET 01']['Title'] %}
-                    {% set Graph =  "../Graphs/CORP-ASSET%2001_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP-ASSET 01']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CORP-ASSET02_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP-ASSET 02']['Title'] %}
-                    {% set Graph = "../Graphs/CORP-ASSET%2002_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP-ASSET 02']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="ECON02_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ECON 02']['Title'] %}
-                    {% set Graph = "../Graphs/ECON%2002_Line.svg" %}
-                    {% set FGRankData = LatestData['ECON 02']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="ECON03_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['ECON 03']['Title'] %}
-                    {% set Graph = "../Graphs/ECON%2003_Line.svg" %}
-                    {% set FGRankData = LatestData['ECON 03']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="wrapper">
-                <div class="item"></div>
-              </div>
-        </section>
-    </body>
-</html>
+                        In 20/21 Stirling was included in just under a third of Councils reporting reduced costs. Whilst the number of applications determined in 2020/21 is only slightly above those in 2019/20, as mentioned previously the make-up of applications shifted in 20/21. </p>"%}
+    {% include 'Layout_2+2Indicator.html'%}
+{% endwith %}

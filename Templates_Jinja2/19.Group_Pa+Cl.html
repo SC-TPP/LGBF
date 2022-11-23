@@ -1,109 +1,48 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/Pa+Cl_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class = "page landscape" id = "Parks & Open Spaces and Climate Change Emissions">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Parks & Open Spaces" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "titlebar">
-                {% with %}
-                    {% set pagetitle2 = "Climate Change Emissions" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="CL04_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['C&L 04'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CL05b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['C&L 05b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CLIM01_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CLIM 01'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CLIM02_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CLIM 02'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
+{% with %}
+    {% set PageName = 'Pa+Cl'%}
+    {% set Column1Title = 'Parks & Open Spaces'%}
+    {% set Column1Indicator1 = 'C&L 04'%}
+    {% set Column1Indicator1Graph = '../Graphs/C&L%2004_Line.svg'%}
+    {% set Column1Indicator2 = 'C&L 05b'%}
+    {% set Column1Indicator2Graph = '../Graphs/C&L%2005b_Line.svg'%}
+    {% set Column1Comment = "
                 <p>
-                There has been a reduction in expenditure in parks and open spaces over the last reported period.  In 2018-19, over £26k was spent per 1000 people on parks and open spaces.  In 2020-21, this reduced to under £20.5k per 1000 people.  
-                <br><br>
-                In terms of satisfaction with Stirling Council's parks and open spaces, residents are more satisfied than they are nationally:-
-            </p>
-           
-            </div>
-
-                <div class = "commentbox" id = "main2_commentbox">
-                    <p>
-                        The key information from the DBEIS data is the emissions reduction trend over time.  Compared with 2019, per capita emissions for the full data-set across the Stirling area decreased in the Industrial & Commercial sector (by 8.3%), in the Domestic sector (by 4.2%) and in the Transport sector (by 25.6%).  This combined to give a total area-wide emissions reduction of 20.7% during 2020.  This was an exceptional year as the Covid-19 pandemic took hold and economic activity closed down for months at a time.  It is anticipated that emissions will increase for 2021 as economic activity began to pick up again following the worst impacts of the pandemic.
+                    There has been a reduction in expenditure in parks and open spaces over the last reported period. In 2018-19, over
+                    £26k was spent per 1000 people on parks and open spaces. In 2020-21, this reduced to under £20.5k per 1000 people.
                     <br><br>
-                    At 4.9 tonnes, per capita emissions for the full Stirling data-set were 6.5% higher than the Scottish local authority area average of 4.6 tonnes. This is not a valid comparison, however, as the two baseline measures were not the same in 2005 (having a 17.2% difference between them).  A more meaningful comparison is the % reduction in per capita emissions since 2005.  For Stirling there has been a 47.7% reduction in this measure since 2005, while the Scottish average is 48.1% for the same period.
+                    In terms of satisfaction with Stirling Council's parks and open spaces, residents are more satisfied than they are
+                    nationally:-
+                </p>" %}
+    {% set Column2Title = 'Climate Change'%}
+    {% set Column2Indicator1 = 'CLIM 01'%}
+    {% set Column2Indicator1Graph = '../Graphs/CLIM%2001_Line.svg'%}
+    {% set Column2Indicator2 = 'CLIM 02'%}
+    {% set Column2Indicator2Graph = '../Graphs/CLIM%2002_Line.svg'%}
+    {% set Column2Comment = "
+                <p>
+                    The key information from the DBEIS data is the emissions reduction trend over time. Compared with 2019, per capita
+                    emissions for the full data-set across the Stirling area decreased in the Industrial & Commercial sector (by 8.3%),
+                    in the Domestic sector (by 4.2%) and in the Transport sector (by 25.6%). This combined to give a total area-wide
+                    emissions reduction of 20.7% during 2020. This was an exceptional year as the Covid-19 pandemic took hold and
+                    economic activity closed down for months at a time. It is anticipated that emissions will increase for 2021 as
+                    economic activity began to pick up again following the worst impacts of the pandemic.
                     <br><br>
-                    These comparisons highlight the difficulties in making direct comparisons between authorities as each has its own circumstances, especially with regard to industrial and commercial activity.  Some areas have heavy industry which could have very large emissions, while many have little heavy industry at all.  Similarly, some authorities will have more through traffic than others or will have more dispersed populations, so transport emissions may be higher.  Domestic emissions tend to vary less from place to place, but there are still many influencing factors that may need to be taken into account, such as fuel types used locally, type and condition of housing (including insulation), average temperature, average household size, type of household, plus income and preferences of the occupiers.  Land area and use differences introduce a host of other considerations, which is why these emissions figures are not intended to be used to make comparisons between local authority areas.
-                   
-                    </p>
-                   
-            </div>
-
-            <div class="graphtable_card" id="CL04_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['C&L 04']['Title'] %}
-                    {% set Graph =  "../Graphs/C&L%2004_Line.svg" %}
-                    {% set FGRankData = LatestData['C&L 04']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CL05b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['C&L 05b']['Title'] %}
-                    {% set Graph = "../Graphs/C&L%2005b_Line.svg" %}
-                    {% set FGRankData = LatestData['C&L 05b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CLIM01_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CLIM 01']['Title'] %}
-                    {% set Graph = "../Graphs/CLIM%2001_Line.svg" %}
-                    {% set FGRankData = LatestData['CLIM 01']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CLIM02_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CLIM 02']['Title'] %}
-                    {% set Graph = "../Graphs/CLIM%2002_Line.svg" %}
-                    {% set FGRankData = LatestData['CLIM 02']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="wrapper">
-                <div class="item"></div>
-              </div>
-        </section>
-    </body>
-</html>
+                    At 4.9 tonnes, per capita emissions for the full Stirling data-set were 6.5% higher than the Scottish local
+                    authority area average of 4.6 tonnes. This is not a valid comparison, however, as the two baseline measures were not
+                    the same in 2005 (having a 17.2% difference between them). A more meaningful comparison is the % reduction in per
+                    capita emissions since 2005. For Stirling there has been a 47.7% reduction in this measure since 2005, while the
+                    Scottish average is 48.1% for the same period.
+                    <br><br>
+                    These comparisons highlight the difficulties in making direct comparisons between authorities as each has its own
+                    circumstances, especially with regard to industrial and commercial activity. Some areas have heavy industry which
+                    could have very large emissions, while many have little heavy industry at all. Similarly, some authorities will have
+                    more through traffic than others or will have more dispersed populations, so transport emissions may be higher.
+                    Domestic emissions tend to vary less from place to place, but there are still many influencing factors that may need
+                    to be taken into account, such as fuel types used locally, type and condition of housing (including insulation),
+                    average temperature, average household size, type of household, plus income and preferences of the occupiers. Land
+                    area and use differences introduce a host of other considerations, which is why these emissions figures are not
+                    intended to be used to make comparisons between local authority areas.
+                
+                </p>"%}
+    {% include 'Layout_2+2Indicator.html'%}
+{% endwith %}

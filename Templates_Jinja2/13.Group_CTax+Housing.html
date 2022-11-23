@@ -1,107 +1,32 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel ="stylesheet" href = "../Styles/main_styles.css"/>
-        <link rel="stylesheet" href="../Styles/CTax+Housing_styles.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"/>
-    </head>
-    <body>
-        <section class = "page landscape" id = "Council Tax and Housing - Management & Homelessness">
-            <div class = "titlebar">
-                {% with %}
-                    {% set PageTitle = "Council Tax" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "titlebar">
-                {% with %}
-                    {% set pagetitle2 = "Housing - Management & Homelessness" %}
-                        {% include "Snippet_Header.html" %}
-                {% endwith %}
-            </div>
-
-            <div class = "sidebar">
-                {% include "Snippet_Sidebar.html" %}
-            </div>
-            <div class = "datacard" id="CORP04_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP 04'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="CORP07_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['CORP 07'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="HSN02_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['HSN 02'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="HSN01b_datacard">
-                {% with %}
-                    {% set Indicator = LatestData['HSN 01b'] %}
-                        {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class = "commentbox" id = "main_commentbox">
+{% with %}
+    {% set PageName = 'CTax+Housing'%}
+    {% set Column1Title = 'Council Tax'%}
+    {% set Column1Indicator1 = 'CORP 04'%}
+    {% set Column1Indicator1Graph = '../Graphs/CORP%2004_Line.svg'%}
+    {% set Column1Indicator2 = 'CORP 07'%}
+    {% set Column1Indicator2Graph = '../Graphs/CORP%2007_Line.svg'%}
+    {% set Column1Comment = "
                 <p>
-                    Income from Council Taxpayers makes up around 20% of the Council’s total income, and for financial year 2020/21 this represents £52.7 million.  Unfortunately, the COVID pandemic significantly impacted on Council Tax collection rates during the year, with Stirling’s collection rate seeing a 0.7% fall from prior year levels, representing a reduction in income collected of £0.7 million.
+                    Income from Council Taxpayers makes up around 20% of the Council’s total income, and for financial year 2020/21 this
+                    represents £52.7 million. Unfortunately, the COVID pandemic significantly impacted on Council Tax collection rates
+                    during the year, with Stirling’s collection rate seeing a 0.7% fall from prior year levels, representing a reduction
+                    in income collected of £0.7 million.
                     <br><br>
-                    However, despite the adverse impact of COVID on collection levels, Stirling maintained top ranking in Scotland for % of Council Tax collected.  Council Tax collection continues to represent a significant strength area, with the Council continuing to display high performance in this area.  
-                   <br><br>
-                    The Service continues to actively seek improvement opportunities through more efficient working practices and deployment of staffing resources required to support Council Tax collection.
-                </p>
-            
-            </div>
-
-                <div class = "commentbox" id = "main2_commentbox">
-                    <p>
-                       No Submission
-                    </p>
-                  
-               
-            </div>
-
-            <div class="graphtable_card" id="CORP04_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP 04']['Title'] %}
-                    {% set Graph =  "../Graphs/CORP%2004_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP 04']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="CORP07_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['CORP 07']['Title'] %}
-                    {% set Graph = "../Graphs/CORP%2007_Line.svg" %}
-                    {% set FGRankData = LatestData['CORP 07']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="HSN02_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['HSN 02']['Title'] %}
-                    {% set Graph = "../Graphs/HSN%2002_Line.svg" %}
-                    {% set FGRankData = LatestData['HSN 02']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="HSN01b_graphtable_card">
-                {% with %}
-                    {% set Title = LatestData['HSN 01b']['Title'] %}
-                    {% set Graph = "../Graphs/HSN%2001b_Line.svg" %}
-                    {% set FGRankData = LatestData['HSN 01b']['timeseries'] %}
-                        {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="wrapper">
-                <div class="item"></div>
-              </div>
-        </section>
-    </body>
-</html>
+                    However, despite the adverse impact of COVID on collection levels, Stirling maintained top ranking in Scotland for %
+                    of Council Tax collected. Council Tax collection continues to represent a significant strength area, with the
+                    Council continuing to display high performance in this area.
+                    <br><br>
+                    The Service continues to actively seek improvement opportunities through more efficient working practices and
+                    deployment of staffing resources required to support Council Tax collection.
+                </p>" %}
+    {% set Column2Title = 'Planning'%}
+    {% set Column2Indicator1 = 'HSN 02'%}
+    {% set Column2Indicator1Graph = '../Graphs/HSN%2002_Line.svg'%}
+    {% set Column2Indicator2 = 'HSN 01b'%}
+    {% set Column2Indicator2Graph = '../Graphs/HSN%2001b_Line.svg'%}
+    {% set Column2Comment = "
+                <p>
+                    No Submission
+                </p>"%}
+    {% include 'Layout_2+2Indicator.html'%}
+{% endwith %}
