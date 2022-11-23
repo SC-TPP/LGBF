@@ -1,117 +1,28 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <link rel="stylesheet" href="../Styles/main_styles.css" />
-    <link rel="stylesheet" href="../Styles/AtHomeCare_styles.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-</head>
-
-<body>
-    <section class="page landscape" id="AtHomeCare">
-        <div class="titlebar">
-            {% with %}
-                {% set PageTitle = "At Home Care" %}
-                {% include "Snippet_Header.html" %}
-            {% endwith %}
-        </div>
-        <div class="sidebar">
-            {% include "Snippet_Sidebar.html" %}
-        </div>
-        <div class="datacard" id="sw01_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 01'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw03a_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 03a'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw04b_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 04b'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw04c_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 04c'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw04d_datacard">
-            {% with %}
-                {% set Indicator = LatestData['SW 04d'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="sw04e_datacard">
-            {% with %}
-            {% set Indicator = LatestData['SW 04e'] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="commentbox" id="main_commentbox">
-            <p>
-                Care at Home costs per hour have reduced in 2020-21 and there is an increase in the percentage of older people (65+) in the Stirling area receiving their long-term care needs at home.  This is in line with the HSCP vision ensuring the provision of care at home to meet the long term needs of people aged 65+ remains a priority.
-
-                The outcome indicators (SW04) below are normally reported every 2 years from the Scottish Health and Care Experience Survey commissioned by the Scottish Government. The most current data is for 2019/20.  The HSCP continues to focus on the development of care and support which will offer individuals, their families and carers more choice and control.
-            </p>
-           
-            
-        </div>
-        <div class="graphtable_card" id="sw01_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 01']['Title'] %}
-                {% set Graph = "../Graphs/SW%2001_Line.svg" %}
-                {% set FGRankData = LatestData['SW 01']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw03a_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 03a']['Title'] %}
-                {% set Graph = "../Graphs/SW%2003a_Line.svg" %}
-                {% set FGRankData = LatestData['SW 03a']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw04b_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 04b']['Title'] %}
-                {% set Graph = "../Graphs/SW%2004b_Line.svg" %}
-                {% set FGRankData = LatestData['SW 04b']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw04c_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 04c']['Title'] %}
-                {% set Graph = "../Graphs/SW%2004c_Line.svg" %}
-                {% set FGRankData = LatestData['SW 04c']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw04d_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 04d']['Title'] %}
-                {% set Graph = "../Graphs/SW%2004d_Line.svg" %}
-                {% set FGRankData = LatestData['SW 04d']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="sw04e_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['SW 04e']['Title'] %}
-                {% set Graph = "../Graphs/SW%2004e_Line.svg" %}
-                {% set FGRankData = LatestData['SW 04e']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-    </section>
-</body>
-</html>
+{% with %}
+    {% set PageName = 'AtHomeCare'%}
+    {% set Title = 'At Home Care'%}
+    {% set Indicator1 = 'SW 01'%}
+    {% set Indicator1Graph = '../Graphs/SW%2001_Line.svg'%}
+    {% set Indicator2 = 'SW 03a'%}
+    {% set Indicator2Graph = '../Graphs/SW%2003a_Line.svg'%}
+    {% set Indicator3 = 'SW 04b'%}
+    {% set Indicator3Graph = '../Graphs/SW%2004b_Line.svg'%}
+    {% set Indicator4 = 'SW 04c'%}
+    {% set Indicator4Graph = '../Graphs/SW%2004c_Line.svg'%}
+    {% set Indicator5 = 'SW 04d'%}
+    {% set Indicator5Graph = '../Graphs/SW%2004d_Line.svg'%}
+    {% set Indicator6 = 'SW 04e'%}
+    {% set Indicator6Graph = '../Graphs/SW%2004e_Line.svg'%}
+    {% set Comment = "
+                <p>
+                    Care at Home costs per hour have reduced in 2020-21 and there is an increase in the percentage of older people (65+)
+                    in the Stirling area receiving their long-term care needs at home. This is in line with the HSCP vision ensuring the
+                    provision of care at home to meet the long term needs of people aged 65+ remains a priority.
+                
+                    The outcome indicators (SW04) below are normally reported every 2 years from the Scottish Health and Care Experience
+                    Survey commissioned by the Scottish Government. The most current data is for 2019/20. The HSCP continues to focus on
+                    the development of care and support which will offer individuals, their families and carers more choice and control.
+                </p>"%}
+    {% include 'Layout_6Indicator.html'%}
+{% endwith %}

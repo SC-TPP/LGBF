@@ -1,116 +1,32 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" href="../Styles/main_styles.css" />
-    <link rel="stylesheet" href="../Styles/SchoolLeaver_styles.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-</head>
-
-<body>
-    <section class="page landscape" id="SchoolLeaver">
-        <div class="titlebar">
-            {% with %}
-                {% set PageTitle = "School Leaver Tariff" %}
-                {% include "Snippet_Header.html" %}
-            {% endwith %}
-        </div>
-        <div class="sidebar">
-            {% include "Snippet_Sidebar.html" %}
-        </div>
-        <div class="datacard" id="chn12a_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 12a'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn12b_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 12b'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn12c_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 12c'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn12d_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 12d'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn12e_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 12e'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn12f_datacard">
-            {% with %}
-            {% set Indicator = LatestData['CHN 12f'] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="commentbox" id="main_commentbox">
-            <p>
-                Our priority focus continues to work with schools and external organisations to close the attainment gap and widen the curriculum offer within our Stirling secondary schools.  A key focus of this work is identifying action to promote equity and using attainment data to evaluate existing interventions and identify areas of further improvement.  Within this it is recognised that developing a wider curriculum offer and increasing flexible progression pathways are important areas of development in order to provide the most appropriate and positive outcomes for our young people. 
-                <br><br>
-                Due to Covid-19, that change in certification methods in 20/21 and the cancellation of examinations in 2019/20, caution should be exercised when comparing data with previous years.  Any change between the attainment levels of the 2020/21 cohort and those of previous years should therefore not be seen as an indication that performance has improved, or worsened without further analysis.
-
-            </p>
-        </div>
-        <div class="graphtable_card" id="chn12a_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 12a']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2012a_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 12a']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn12b_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 12b']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2012b_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 12b']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn12c_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 12c']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2012c_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 12c']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn12d_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 12d']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2012d_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 12d']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn12e_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 12e']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2012e_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 12e']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn12f_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 12f']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2012f_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 12f']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-    </section>
-</body>
-</html>
+{% with %}
+    {% set PageName = 'SchoolLeaver'%}
+    {% set Title = 'School Leaver'%}
+    {% set Indicator1 = 'CHN 12a'%}
+    {% set Indicator1Graph = '../Graphs/CHN%2012a_Line.svg'%}
+    {% set Indicator2 = 'CHN 12b'%}
+    {% set Indicator2Graph = '../Graphs/CHN%2012b_Line.svg'%}
+    {% set Indicator3 = 'CHN 12c'%}
+    {% set Indicator3Graph = '../Graphs/CHN%2012c_Line.svg'%}
+    {% set Indicator4 = 'CHN 12d'%}
+    {% set Indicator4Graph = '../Graphs/CHN%2012d_Line.svg'%}
+    {% set Indicator5 = 'CHN 12e'%}
+    {% set Indicator5Graph = '../Graphs/CHN%2012e_Line.svg'%}
+    {% set Indicator6 = 'CHN 12f'%}
+    {% set Indicator6Graph = '../Graphs/CHN%2012f_Line.svg'%}
+    {% set Comment = "
+                <p>
+                    Our priority focus continues to work with schools and external organisations to close the attainment gap and widen
+                    the curriculum offer within our Stirling secondary schools. A key focus of this work is identifying action to
+                    promote equity and using attainment data to evaluate existing interventions and identify areas of further
+                    improvement. Within this it is recognised that developing a wider curriculum offer and increasing flexible
+                    progression pathways are important areas of development in order to provide the most appropriate and positive
+                    outcomes for our young people.
+                    <br><br>
+                    Due to Covid-19, that change in certification methods in 20/21 and the cancellation of examinations in 2019/20,
+                    caution should be exercised when comparing data with previous years. Any change between the attainment levels of the
+                    2020/21 cohort and those of previous years should therefore not be seen as an indication that performance has
+                    improved, or worsened without further analysis.
+                
+                </p>"%}
+    {% include 'Layout_6Indicator.html'%}
+{% endwith %}

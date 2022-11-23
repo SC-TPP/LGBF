@@ -1,117 +1,28 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <link rel="stylesheet" href="../Styles/main_styles.css" />
-    <link rel="stylesheet" href="../Styles/SocialWork_styles.css" />
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
-</head>
-
-<body>
-    <section class="page landscape" id="SocialWork">
-        <div class="titlebar">
-            {% with %}
-                {% set PageTitle = "Children & Families Social Work" %}
-                {% include "Snippet_Header.html" %}
-            {% endwith %}
-        </div>
-        <div class="sidebar">
-            {% include "Snippet_Sidebar.html" %}
-        </div>
-        <div class="datacard" id="chn08a_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 08a'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn08b_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 08b'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn09_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 09'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn22_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 22'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn23_datacard">
-            {% with %}
-                {% set Indicator = LatestData['CHN 23'] %}
-                {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="datacard" id="chn24_datacard">
-            {% with %}
-            {% set Indicator = LatestData['CHN 24'] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="commentbox" id="main_commentbox">
-            <p>
-            
+{% with %}
+    {% set PageName = 'SocialWork'%}
+    {% set Title = 'Social Work'%}
+    {% set Indicator1 = 'CHN 08a'%}
+    {% set Indicator1Graph = '../Graphs/CHN%2008a_Line.svg'%}
+    {% set Indicator2 = 'CHN 08b'%}
+    {% set Indicator2Graph = '../Graphs/CHN%2008b_Line.svg'%}
+    {% set Indicator3 = 'CHN 09'%}
+    {% set Indicator3Graph = '../Graphs/CHN%2009_Line.svg'%}
+    {% set Indicator4 = 'CHN 22'%}
+    {% set Indicator4Graph = '../Graphs/CHN%2022_Line.svg'%}
+    {% set Indicator5 = 'CHN 23'%}
+    {% set Indicator5Graph = '../Graphs/CHN%2023_Line.svg'%}
+    {% set Indicator6 = 'CHN 24'%}
+    {% set Indicator6Graph = '../Graphs/CHN%2024_Line.svg'%}
+    {% set Comment = "
+                <p>
                 
-The LGBF measures for Children & Families have been broadly positive for 2020/21 with the majority of measures bettering the national average and at the top end of our family group of local authorities. 
-This has also been the case over time with the majority of measures showing a broadly positive trend over the last 5 years. The work that has been undertaken and services delivered have helped to minimise the impact of COVID-19 and associated restrictions on our young people and their families.
-
-            </p>
-        </div>
-        <div class="graphtable_card" id="chn08a_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 08a']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2008a_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 08a']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn08b_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 08b']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2008b_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 08b']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn09_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 09']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2009_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 09']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn22_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 22']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2022_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 22']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn23_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 23']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2023_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 23']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="chn24_graphtable_card">
-            {% with %}
-                {% set Title = LatestData['CHN 24']['Title'] %}
-                {% set Graph = "../Graphs/CHN%2024_Line.svg" %}
-                {% set FGRankData = LatestData['CHN 24']['timeseries'] %}
-                {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-    </section>
-</body>
-</html>
+                
+                    The LGBF measures for Children & Families have been broadly positive for 2020/21 with the majority of measures
+                    bettering the national average and at the top end of our family group of local authorities.
+                    This has also been the case over time with the majority of measures showing a broadly positive trend over the last 5
+                    years. The work that has been undertaken and services delivered have helped to minimise the impact of COVID-19 and
+                    associated restrictions on our young people and their families.
+                
+                </p>"%}
+    {% include 'Layout_6Indicator.html'%}
+{% endwith %}
