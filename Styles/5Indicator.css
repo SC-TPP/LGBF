@@ -2,7 +2,7 @@
    Main Element Positioning. Report styles can be found in main_styles
 -------------------------------------------------------------- */
 #main_commentbox {
-    grid-column: 2 / 11;
+    grid-column: 2 / 12;
     grid-row: 5 / 10;
 }
 /* --------------------------------------------------------------
