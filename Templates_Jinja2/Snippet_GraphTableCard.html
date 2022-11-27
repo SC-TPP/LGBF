@@ -1,4 +1,4 @@
-<h3>{{Title}}</h3>
+<h3>{{Indicator['Code_Sortable']}}: {{Indicator['Title']}}</h3>
 <object data={{Graph}}> </object>
 <table>
     <thead>
@@ -9,7 +9,7 @@
         </tr>
     </thead>
     <tbody>
-        {% for key, value in FGRankData.items() %}
+        {% for key, value in Indicator['timeseries'].items() %}
         <tr>
             <td>{{key}}</td>
             <td>{{value[1]}}</td>

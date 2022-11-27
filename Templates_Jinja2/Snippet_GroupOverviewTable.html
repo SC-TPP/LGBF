@@ -14,7 +14,7 @@
         <tbody>
             {% for key, value in Group.items() %}
                 <tr>
-                    <td>{{value.Title}}</td>
+                    <td>{{key}}: {{value.Title}}</td>
                     <td>{{value.Period}}</td>
                     <td><p>{{value.Real_Value_Formatted}}</p>
                         {% if value.Changes_PercentChange_AimAdjusted_SincePrevious > 0 %}

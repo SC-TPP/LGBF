@@ -3,8 +3,7 @@
     <head>
         <link rel="stylesheet" href="../Styles/main_styles.css" />
         <link rel="stylesheet" href="../Styles/6Indicator.css" />
-        <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp|Montserrat:200,400 " />
     </head>
     <body>
         <section class="page landscape" id={{PageName}}>
@@ -17,90 +16,86 @@
             <div class="sidebar">
                 {% include "Snippet_Sidebar.html" %}
             </div>
-            <div class="datacard" id="indicator1_datacard">
-                {% with %}
-                {% set Indicator = LatestData[Indicator1] %}
-                {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="indicator2_datacard">
-                {% with %}
-                {% set Indicator = LatestData[Indicator2] %}
-                {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="indicator3_datacard">
-                {% with %}
-                {% set Indicator = LatestData[Indicator3] %}
-                {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="indicator4_datacard">
-                {% with %}
-                {% set Indicator = LatestData[Indicator4] %}
-                {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="indicator5_datacard">
-                {% with %}
-                {% set Indicator = LatestData[Indicator5] %}
-                {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="indicator6_datacard">
-                {% with %}
-                {% set Indicator = LatestData[Indicator6] %}
-                {% include "Snippet_DataCard.html"%}
-                {% endwith %}
+            <div id="indicator_datacardrow">
+                <div class="datacard" id="indicator1_datacard">
+                    {% with %}
+                    {% set Indicator = LatestData[Indicator1] %}
+                    {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator2_datacard">
+                    {% with %}
+                    {% set Indicator = LatestData[Indicator2] %}
+                    {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator3_datacard">
+                    {% with %}
+                    {% set Indicator = LatestData[Indicator3] %}
+                    {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator4_datacard">
+                    {% with %}
+                    {% set Indicator = LatestData[Indicator4] %}
+                    {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator5_datacard">
+                    {% with %}
+                    {% set Indicator = LatestData[Indicator5] %}
+                    {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator6_datacard">
+                    {% with %}
+                    {% set Indicator = LatestData[Indicator6] %}
+                    {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
             </div>
             <div class="commentbox" id="main_commentbox">
                 {{Comment}}
             </div>
             <div class="graphtable_card" id="indicator1_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Indicator1]['Title'] %}
+                {% set Indicator = LatestData[Indicator1] %}
                 {% set Graph = Indicator1Graph %}
-                {% set FGRankData = LatestData[Indicator1]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="indicator2_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Indicator2]['Title'] %}
+                {% set Indicator = LatestData[Indicator2] %}
                 {% set Graph = Indicator2Graph %}
-                {% set FGRankData = LatestData[Indicator2]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="indicator3_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Indicator3]['Title'] %}
+                {% set Indicator = LatestData[Indicator3] %}
                 {% set Graph = Indicator3Graph %}
-                {% set FGRankData = LatestData[Indicator3]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="indicator4_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Indicator4]['Title'] %}
+                {% set Indicator = LatestData[Indicator4] %}
                 {% set Graph = Indicator4Graph %}
-                {% set FGRankData = LatestData[Indicator4]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="indicator5_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Indicator5]['Title'] %}
+                {% set Indicator = LatestData[Indicator5] %}
                 {% set Graph = Indicator5Graph %}
-                {% set FGRankData = LatestData[Indicator5]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="indicator6_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Indicator6]['Title'] %}
+                {% set Indicator = LatestData[Indicator6] %}
                 {% set Graph = Indicator6Graph %}
-                {% set FGRankData = LatestData[Indicator6]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>

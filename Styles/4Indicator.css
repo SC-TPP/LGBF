@@ -1,45 +1,53 @@
 /* --------------------------------------------------------------
+Consistant Variables
+-------------------------------------------------------------- */
+:root {
+    --DatacardRow: 2 / 4;
+    --Column1: 2 / 11;
+    --Column2: 12 / 21;
+}
+/* --------------------------------------------------------------
    Main Element Positioning. Report styles can be found in main_styles
 -------------------------------------------------------------- */
 #main_commentbox {
-    grid-column: 2 / 11;
-    grid-row: 5 / 17;
+    grid-column: var(--Column1);
+    grid-row: 4 / 17;
 }
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
 #indicator1_datacard {
     grid-column: 2 / 6;
-    grid-row: 2 / 4;
+    grid-row: var(--DatacardRow);
 }
 #indicator2_datacard {
     grid-column: 7 / 11;
-    grid-row: 2 / 4;
+    grid-row: var(--DatacardRow);
 }
 #indicator3_datacard {
     grid-column: 12 / 16;
-    grid-row: 2 / 4;
+    grid-row: var(--DatacardRow);
 }
 #indicator4_datacard {
     grid-column: 17 / 21;
-    grid-row: 2 / 4;
+    grid-row: var(--DatacardRow);
 }
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
 -------------------------------------------------------------- */
 #indicator1_graphtable_card {
-    grid-column:  12 / 21;
+    grid-column: var(--Column2);
     grid-row: 5 / 10 ;
 }
 #indicator2_graphtable_card {
-    grid-column: 12 / 21;
+    grid-column: var(--Column2);
     grid-row: 11 / 16;
 }
 #indicator3_graphtable_card {
-    grid-column: 12 / 21;
+    grid-column: var(--Column2);
     grid-row: 17 / 22;
 }
 #indicator4_graphtable_card {
-    grid-column: 2 / 11;
+    grid-column: var(--Column1);
     grid-row: 17 / 22;
 }

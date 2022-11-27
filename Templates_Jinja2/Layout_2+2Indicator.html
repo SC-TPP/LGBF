@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="../Styles/main_styles.css" />
         <link rel="stylesheet" href="../Styles/2+2Indicator.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp|Montserrat:200,400 " />
     </head>
     <body>
         <section class="page landscape" id={{PageName}}>
@@ -54,33 +54,29 @@
             </div>
             <div class="graphtable_card" id="column1_indicator1_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Column1Indicator1]['Title'] %}
+                {% set Indicator = LatestData[Column1Indicator1] %}
                 {% set Graph = Column1Indicator1Graph %}
-                {% set FGRankData = LatestData[Column1Indicator1]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="column1_indicator2_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Column1Indicator2]['Title'] %}
+                {% set Indicator = LatestData[Column1Indicator2] %}
                 {% set Graph = Column1Indicator2Graph %}
-                {% set FGRankData = LatestData[Column1Indicator2]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="column2_indicator1_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Column2Indicator1]['Title'] %}
+                {% set Indicator = LatestData[Column2Indicator1] %}
                 {% set Graph = Column2Indicator1Graph %}
-                {% set FGRankData = LatestData[Column2Indicator1]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>
             <div class="graphtable_card" id="column2_indicator2_graphtable_card">
                 {% with %}
-                {% set Title = LatestData[Column2Indicator2]['Title'] %}
+                {% set Indicator = LatestData[Column2Indicator2] %}
                 {% set Graph = Column2Indicator2Graph %}
-                {% set FGRankData = LatestData[Column2Indicator2]['timeseries'] %}
                 {% include "Snippet_GraphTableCard.html"%}
                 {% endwith %}
             </div>

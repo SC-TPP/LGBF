@@ -1,79 +1,85 @@
 /* --------------------------------------------------------------
+Consistant Variables
+-------------------------------------------------------------- */
+:root{
+    --DatacardRow: 2 / 5;
+    --DatacardHeight: 80%;
+    --GraphtablecardColumn1: 2 / 11;
+    --GraphtablecardColumn2: 12 / 21;
+    --GraphtablecardHeight: 110%;
+}
+/* --------------------------------------------------------------
    Main Element Positioning. Report styles can be found in main_styles
 -------------------------------------------------------------- */
 #main_commentbox {
-    grid-column: 2 / 20;
-    grid-row: 5/ 7;
+    grid-column: 2 / 21;
+    grid-row: 4/ 7;
+    padding-top:30px;
 }
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
+#indicator_datacardrow {
+    grid-column: 2 / 21;
+    grid-row: var(--DatacardRow);
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    column-gap: 15px;
+} 
 #indicator1_datacard {
-    grid-column: 2 / 4;
-    grid-row: 2 / 5;
-    width: 140%;
-    height: 80%;
+    grid-column: 1 / 2;
+    height: var(--DatacardHeight);
 }
 #indicator2_datacard {
-    grid-column: 5 / 7;
-    grid-row: 2 / 5;
-    width: 140%;
-    height: 80%;
+    grid-column: 2 / 3;
+    height: var(--DatacardHeight);
 }
 #indicator3_datacard {
-    grid-column: 8 / 10;
-    grid-row: 2 / 5;
-    width: 140%;
-    height: 80%;
+    grid-column: 3 / 4;
+    height: var(--DatacardHeight);
 }
 #indicator4_datacard {
-    grid-column: 11 / 13;
-    grid-row: 2 / 5;
-    width: 140%;
-    height: 80%;
+    grid-column: 4 / 5;
+    height: var(--DatacardHeight);
 }
 #indicator5_datacard {
-    grid-column: 14 / 16;
-    grid-row: 2 / 5;
-    width: 140%;
-    height: 80%;
+    grid-column: 5/ 6;
+    height: var(--DatacardHeight);
 }
 #indicator6_datacard {
-    grid-column: 17 / 19;
-    grid-row: 2 / 5;
-    width: 140%;
-    height: 80%;
+    grid-column: 6 / 7;
+    height: var(--DatacardHeight);
 }
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
 -------------------------------------------------------------- */
 #indicator1_graphtable_card {
-    grid-column:  2 / 11;
+    grid-column:  var(--GraphtablecardColumn1);
     grid-row: 8 / 12 ;
-    height: 110%;
+    height: var(--GraphtablecardHeight);
 }
 #indicator2_graphtable_card {
-    grid-column: 2 / 11;
+    grid-column: var(--GraphtablecardColumn1);
     grid-row: 13 / 17;
-    height: 110%;
+    height: var(--GraphtablecardHeight);
 }
 #indicator3_graphtable_card {
-    grid-column: 2 /11;
+    grid-column: var(--GraphtablecardColumn1);
     grid-row: 18/ 22;
-    height: 110%;
+    height: var(--GraphtablecardHeight);
 }
 #indicator4_graphtable_card {
-    grid-column: 12 / 20;
+    grid-column: var(--GraphtablecardColumn2);
     grid-row: 8/ 12 ;
-    height: 110%;
+    height: var(--GraphtablecardHeight);
 }
 #indicator5_graphtable_card {
-    grid-column: 12 / 20;
+    grid-column: var(--GraphtablecardColumn2);
     grid-row: 13/ 17;
-    height: 110%;
+    height: var(--GraphtablecardHeight);
 }
 #indicator6_graphtable_card {
-    grid-column: 12 / 20;
+    grid-column: var(--GraphtablecardColumn2);
     grid-row: 18 / 22;
-    height: 110%;
+    height: var(--GraphtablecardHeight);
 }

@@ -1,98 +1,87 @@
 /* --------------------------------------------------------------
-   Main Element Positioning. Report styles can be found in main_styles
+Consistant Variables
 -------------------------------------------------------------- */
-#column1_commentbox {
-    grid-column: 2 / 11;
-    grid-row: 4 / 17;
-}
-#column2_commentbox {
-    grid-column: 12 / 21;
-    grid-row: 4 / 17;
-}
-/* --------------------------------------------------------------
-   Datacard Positioning. datacard class style can be found in main_styles
--------------------------------------------------------------- */
-#column1_indicator1_datacard {
-    grid-column: 2 / 6;
-    grid-row: 2 / 4;
-}
-#column1_indicator2_datacard {
-    grid-column: 7 / 11;
-    grid-row: 2 / 4;
-}
-#column2_indicator1_datacard {
-    grid-column: 12 / 16;
-    grid-row: 2 / 4;
-}
-#column2_indicator2_datacard {
-    grid-column: 17 / 21;
-    grid-row: 2 / 4;
-}
-/* --------------------------------------------------------------
-   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
--------------------------------------------------------------- */
-#column1_indicator1_graphtable_card {
-    grid-column:  2 / 11;
-    grid-row: 11 / 16 ;
-}
-#column1_indicator2_graphtable_card {
-    grid-column: 2 / 11;
-    grid-row: 17 / 22;
-}
-#column2_indicator1_graphtable_card {
-    grid-column: 12 / 21;
-    grid-row: 11 / 16;
-}
-#column2_indicator2_graphtable_card {
-    grid-column: 12 / 21;
-    grid-row: 17 / 22;
+:root {
+    --DatacardRow: 2 / 4;
+    --Column1: 2 / 11;
+    --Column2: 12 / 21;
+    --CommentboxRow: 4 / 11;
 }
 
 /* --------------------------------------------------------------
    Page breaker 
    *Use for 2 + 2 pages.  
 -------------------------------------------------------------- */
-
-
-.wrapper{
-    display: grid; 
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
     grid-template-rows: repeat(20, minmax(0, 1fr));
     grid-column: 11 / 12;
-    grid-row: 1 / 22;
-    width: 60%;
+    grid-row: 1 / 23;
     background-color: var(#ffffff)
-  }
-  
+}
 
-  .item {
-    padding: 8px;
-  }
-  
-  .item:last-child, .item:nth-last-child(2):nth-child(odd) {
-     
-    grid-column: 11 / 12;
-    grid-row: 3 / 21;  
-    width: 15%;
+.item {
+    grid-column: 6 / 7;
+    grid-row: 1 / 23;
     background-color: var(--main-bg-color);
-  }
+    width: 3px;
+}
 
-    
+/* --------------------------------------------------------------
+   Main Element Positioning. Report styles can be found in main_styles
+-------------------------------------------------------------- */
+#column1_commentbox {
+    grid-column: var(--Column1);
+    grid-row: var(--CommentboxRow);
+}
+#column2_commentbox {
+    grid-column: var(--Column2);
+    grid-row: var(--CommentboxRow);
+}
+/* --------------------------------------------------------------
+   Datacard Positioning. datacard class style can be found in main_styles
+-------------------------------------------------------------- */
+#column1_indicator1_datacard {
+    grid-column: 2 / 6;
+    grid-row: var(--DatacardRow);
+}
+#column1_indicator2_datacard {
+    grid-column: 7 / 11;
+    grid-row: var(--DatacardRow);
+}
+#column2_indicator1_datacard {
+    grid-column: 12 / 16;
+    grid-row: var(--DatacardRow);
+}
+#column2_indicator2_datacard {
+    grid-column: 17 / 21;
+    grid-row: var(--DatacardRow);
+}
+/* --------------------------------------------------------------
+   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
+-------------------------------------------------------------- */
+#column1_indicator1_graphtable_card {
+    grid-column:  var(--Column1);
+    grid-row: 11 / 16 ;
+}
+#column1_indicator2_graphtable_card {
+    grid-column: var(--Column1);
+    grid-row: 17 / 22;
+}
+#column2_indicator1_graphtable_card {
+    grid-column: var(--Column2);
+    grid-row: 11 / 16;
+}
+#column2_indicator2_graphtable_card {
+    grid-column: var(--Column2);
+    grid-row: 17 / 22;
+}
+
 /* --------------------------------------------------------------
    Title bar h4 
    *for second title bar. Move to main_styles in future.  
 -------------------------------------------------------------- */
-
-
-.titlebar h4{
-    grid-column: 12 / 20;
-    grid-row: 2 / 5;
-}
-h4 {
-    font-size: 35px;
-    font-family : Segoe UI;
-    vertical-align: left;
-}
 .material-icons-round.md-48 {
     font-size: 50px;
 }
