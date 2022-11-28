@@ -2,108 +2,107 @@
 Consistant Variables
 -------------------------------------------------------------- */
 :root {
-    --DatacardColumn: 2 / 4;
-    --DatacardWidth: 140%;
-    --DatacardHeight: 80%;
+    --DatacardRow: 2 / 5;
+    --DatacardWidth: 90%;
     --Column1: 5 / 12;
     --Column2: 13 / 20;
-    --GraphtablecardHeight: 115%;
-    --GraphtablecardWidth: 110%;
 }
 /* --------------------------------------------------------------
    Main Element Positioning. Report styles can be found in main_styles
 -------------------------------------------------------------- */
 #main_commentbox {
-    grid-column: 13/21;
-    grid-row: 2/ 8;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
+#indicator_datacardcolumn {
+    grid-column: var(--DatacardRow);
+    grid-row: 2 / 22;
+    display: grid;
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+    row-gap: 40px;
+}
 #indicator1_datacard {
-    grid-column: var(--DatacardColumn);
-    grid-row: 2 / 5;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     width: var(--DatacardWidth);
-    height: var(--DatacardHeight);
 }
 #indicator2_datacard {
-    grid-column: var(--DatacardColumn);
-    grid-row: 5 / 8;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
     width: var(--DatacardWidth);
-    height: var(--DatacardHeight);
 }
 #indicator3_datacard {
-    grid-column: var(--DatacardColumn);
-    grid-row: 8 / 11;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
     width: var(--DatacardWidth);
-    height: var(--DatacardHeight);
 }
 #indicator4_datacard {
-    grid-column: var(--DatacardColumn);
-    grid-row: 11 / 14;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
     width: var(--DatacardWidth);
-    height: var(--DatacardHeight);
 }
 #indicator5_datacard {
-    grid-column: var(--DatacardColumn);
-    grid-row: 14 / 17;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
     width: var(--DatacardWidth);
-    height: var(--DatacardHeight);
 }
 #indicator6_datacard {
-    grid-column: var(--DatacardColumn);
-    grid-row: 17 / 20;
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
     width: var(--DatacardWidth);
-    height: var(--DatacardHeight);
 }
 #indicator7_datacard {
-    grid-column: var(--DatacardColumn);
-    grid-row: 20 / 23;
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
     width: var(--DatacardWidth);
-    height: var(--DatacardHeight);
 }
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
 -------------------------------------------------------------- */
+#indicator_graphtablecardcolumn1 {
+    grid-column: 5 / 13;
+    grid-row: 2 / 22;
+    display: grid;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    margin-right:15px;
+    row-gap:30px;
+}
 #indicator1_graphtable_card {
-    grid-column:  var(--Column2);
-    grid-row: 7 / 11 ;
-    height: var(--GraphtablecardHeight); 
-    width: var(--GraphtablecardWidth);
+    grid-column:  1 / 2;
+    grid-row: 1 / 2 ;
 }
 #indicator2_graphtable_card {
-    grid-column: var(--Column2);
-    grid-row: 12 / 16;
-    height: var(--GraphtablecardHeight);
-    width: var(--GraphtablecardWidth);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
 #indicator3_graphtable_card {
-    grid-column: var(--Column2);
-    grid-row: 17 / 21;
-    height: var(--GraphtablecardHeight);
-    width: var(--GraphtablecardWidth);
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
 #indicator4_graphtable_card {
-    grid-column: var(--Column1);
-    grid-row: 7/ 11 ;
-    height: var(--GraphtablecardHeight);
-    width: var(--GraphtablecardWidth);
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+#indicator_graphtablecardcolumn2 {
+    grid-column: 13 / 21;
+    grid-row: 2 / 22;
+    display: grid;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    margin-left: 15px;
+    row-gap: 30px;
 }
 #indicator5_graphtable_card {
-    grid-column: var(--Column1);
-    grid-row: 12/ 16;
-    height: var(--GraphtablecardHeight);
-    width: var(--GraphtablecardWidth);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
 #indicator6_graphtable_card {
-    grid-column: var(--Column1);
-    grid-row: 17 / 21;
-    height: var(--GraphtablecardHeight);
-    width: var(--GraphtablecardWidth);
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
 #indicator7_graphtable_card {
-    grid-column: var(--Column1);
-    grid-row: 2 / 6;
-    height: var(--GraphtablecardHeight);
-    width: var(--GraphtablecardWidth);
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
 }

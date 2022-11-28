@@ -7,6 +7,7 @@ Consistant Variables
     --GraphtablecardColumn1: 2 / 11;
     --GraphtablecardColumn2: 12 / 21;
     --GraphtablecardHeight: 110%;
+    --GraphtablecardTopMargin: 35px;
 }
 /* --------------------------------------------------------------
    Main Element Positioning. Report styles can be found in main_styles
@@ -55,31 +56,37 @@ Consistant Variables
 -------------------------------------------------------------- */
 #indicator1_graphtable_card {
     grid-column:  var(--GraphtablecardColumn1);
-    grid-row: 8 / 12 ;
+    grid-row: 7 / 11 ;
     height: var(--GraphtablecardHeight);
+    margin-top: var(--GraphtablecardTopMargin);
 }
 #indicator2_graphtable_card {
     grid-column: var(--GraphtablecardColumn1);
-    grid-row: 13 / 17;
+    grid-row: 12 / 16;
     height: var(--GraphtablecardHeight);
+    margin-top: var(--GraphtablecardTopMargin);
 }
 #indicator3_graphtable_card {
     grid-column: var(--GraphtablecardColumn1);
-    grid-row: 18/ 22;
+    grid-row: 17/ 21;
     height: var(--GraphtablecardHeight);
+    margin-top: var(--GraphtablecardTopMargin);
 }
 #indicator4_graphtable_card {
     grid-column: var(--GraphtablecardColumn2);
-    grid-row: 8/ 12 ;
+    grid-row: 7/ 11 ;
     height: var(--GraphtablecardHeight);
+    margin-top: var(--GraphtablecardTopMargin);
 }
 #indicator5_graphtable_card {
     grid-column: var(--GraphtablecardColumn2);
-    grid-row: 13/ 17;
+    grid-row: 12 / 16;
     height: var(--GraphtablecardHeight);
+    margin-top: var(--GraphtablecardTopMargin);
 }
 #indicator6_graphtable_card {
     grid-column: var(--GraphtablecardColumn2);
-    grid-row: 18 / 22;
+    grid-row: 17/ 21;
     height: var(--GraphtablecardHeight);
+    margin-top: var(--GraphtablecardTopMargin);
 }

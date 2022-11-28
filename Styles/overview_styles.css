@@ -15,10 +15,9 @@
 #Overview h2 {
     padding-bottom: 3px;
     padding-top: 3px;
-    font-weight: bolder;
+    font-weight: 400;
     color: var(--secondary-bg-color);
     text-align:left;
-    text-decoration: underline;
 }
 #Overview h3 {
     padding-top: 5px;

@@ -1,11 +1,20 @@
 {% with %}
     {% set PageName = 'CTax+Housing'%}
-    {% set Column1Title = 'Council Tax'%}
-    {% set Column1Indicator1 = 'CORP 04'%}
-    {% set Column1Indicator1Graph = '../Graphs/CORP%2004_Line.svg'%}
-    {% set Column1Indicator2 = 'CORP 07'%}
-    {% set Column1Indicator2Graph = '../Graphs/CORP%2007_Line.svg'%}
+    {% set Column1Title = 'Housing'%}
+    {% set Column1Indicator1 = 'HSN 02'%}
+    {% set Column1Indicator1Graph = '../Graphs/HSN%2002_Line.svg'%}
+    {% set Column1Indicator2 = 'HSN 01b'%}
+    {% set Column1Indicator2Graph = '../Graphs/HSN%2001b_Line.svg'%}
     {% set Column1Comment = "
+                <p>
+                    No Submission
+                </p>" %}
+    {% set Column2Title = 'Council Tax'%}
+    {% set Column2Indicator1 = 'HSN 02'%}
+    {% set Column2Indicator1Graph = '../Graphs/HSN%2002_Line.svg'%}
+    {% set Column2Indicator2 = 'HSN 01b'%}
+    {% set Column2Indicator2Graph = '../Graphs/HSN%2001b_Line.svg'%}
+    {% set Column2Comment = "
                 <p>
                     Income from Council Taxpayers makes up around 20% of the Council’s total income, and for financial year 2020/21 this
                     represents £52.7 million. Unfortunately, the COVID pandemic significantly impacted on Council Tax collection rates
@@ -20,15 +29,7 @@
                 <p>
                     The Service continues to actively seek improvement opportunities through more efficient working practices and
                     deployment of staffing resources required to support Council Tax collection.
-                </p>" %}
-    {% set Column2Title = 'Housing'%}
-    {% set Column2Indicator1 = 'HSN 02'%}
-    {% set Column2Indicator1Graph = '../Graphs/HSN%2002_Line.svg'%}
-    {% set Column2Indicator2 = 'HSN 01b'%}
-    {% set Column2Indicator2Graph = '../Graphs/HSN%2001b_Line.svg'%}
-    {% set Column2Comment = "
-                <p>
-                    No Submission
-                </p>"%}
+                </p>
+                "%}
     {% include 'Layout_2+2Indicator.html'%}
 {% endwith %}
