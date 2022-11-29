@@ -29,9 +29,11 @@
     font-size: 12px;
 }
 #Overview table th {
-    font-size: 13px;
+    font-size: 12.4px;
     padding-top: 3px;
     padding-bottom: 3px;
+        /* small bug in code so had to dubpilcate the font below */
+        font-family : var(--standard-font);
 }
 #Overview table th:first-child {
     text-align: left;
@@ -46,14 +48,14 @@
     padding-left: 3px;
 }
 #Overview table td:not(:first-child) {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
     width: 85px;
     min-width: 85px;
     max-width: 85px;
 }
 #Overview table td p {
-    padding: 0px;
+    padding: 0.7px;
     font-size: 12px;
 }
 .GroupOverviewTable .material-icons-round.md-48 {
