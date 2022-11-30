@@ -74,12 +74,16 @@ h4 {
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 12px;
     font-family : var(--standard-font);
+    padding-left: 2px;
+    padding-right: 1px;
     vertical-align: middle;
-    text-align: Right;
-    font-weight: 200;
+    text-align: top left;
+    font-weight: 500;
     color: var(--main-bg-color);
+    height: 100px;
+    width: 100px
 }
 .material-icons-round.md-48 {
     font-size: 40px;
