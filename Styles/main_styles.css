@@ -31,14 +31,28 @@ section.page.portrait {
 section.page.landscape {
     width: 1754px;
     max-width: 1754px;
-    height: 1240px;
-    max-height : 1240px;
+    height: 1239px;
+    max-height : 1239px;
     display: grid;
     grid-template-columns: var(--pagecolumns);
     grid-template-rows: var(--pagerows)
 }
+@media print {
+    body {
+            -webkit-print-color-adjust: exact;
+        }
+    @page {
+        size: A4 landscape;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin: 0;
+        -webkit-print-color-adjust: exact;
+    }
+}
 /* --------------------------------------------------------------
-    Typography
+    Typography 
 -------------------------------------------------------------- */
 p {
     font-size : 12px;
