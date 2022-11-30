@@ -43,11 +43,8 @@ section.page.landscape {
         }
     @page {
         size: A3 landscape;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin: 0;
+        margin: 0px;
+        padding: 0px;
         -webkit-print-color-adjust: exact;
     }
 }
