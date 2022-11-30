@@ -72,6 +72,15 @@ h4 {
     font-family: var(--standard-font);
     font-weight: 400;
 }
+
+h5 {
+    font-size: 14px;
+    font-family : var(--standard-font);
+    vertical-align: middle;
+    text-align: Right;
+    font-weight: 200;
+    color: var(--main-bg-color);
+}
 .material-icons-round.md-48 {
     font-size: 40px;
 }
@@ -115,7 +124,7 @@ table {
     border-spacing: 0 0px;
     border:solid var(--secondary-bg-color) 1px;
     border-radius:5px;
-    border-left:solid var(--secondary-bg-color) 1px;
+    border-left:solid var(--secondary-bg-color) 1px;   
 }
 td p {
     font-weight: bold;
