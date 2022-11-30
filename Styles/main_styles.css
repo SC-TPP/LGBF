@@ -42,7 +42,7 @@ section.page.landscape {
             -webkit-print-color-adjust: exact;
         }
     @page {
-        size: A4 landscape;
+        size: A3 landscape;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px;
