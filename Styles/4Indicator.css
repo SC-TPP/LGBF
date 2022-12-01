@@ -51,3 +51,8 @@ Consistant Variables
     grid-column: var(--Column1);
     grid-row: 17 / 22;
 }
+
+table {
+    width: 152.32px;
+    Height:229.09px
+}

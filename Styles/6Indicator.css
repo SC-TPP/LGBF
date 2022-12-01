@@ -90,3 +90,7 @@ Consistant Variables
     height: var(--GraphtablecardHeight);
     margin-top: var(--GraphtablecardTopMargin);
 }
+table {
+    width: 152.32px;
+    Height:229.09px
+}
