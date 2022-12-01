@@ -31,14 +31,25 @@ section.page.portrait {
 section.page.landscape {
     width: 1754px;
     max-width: 1754px;
-    height: 1240px;
-    max-height : 1240px;
+    height: 1239px;
+    max-height : 1239px;
     display: grid;
     grid-template-columns: var(--pagecolumns);
     grid-template-rows: var(--pagerows)
 }
+@media print {
+    body {
+            -webkit-print-color-adjust: exact;
+        }
+    @page {
+        size: A3 landscape;
+        margin: 0px;
+        padding: 0px;
+        -webkit-print-color-adjust: exact;
+    }
+}
 /* --------------------------------------------------------------
-    Typography
+    Typography 
 -------------------------------------------------------------- */
 p {
     font-size : 12px;
