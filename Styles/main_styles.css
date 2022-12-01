@@ -190,7 +190,7 @@ tr:last-child td:last-child{
     font-family : Segoe UI;
 }
 .datacard .title {
-    grid-column: 2 / 12;
+    grid-column: 3 / 11;
     grid-row: 1 / 6;
     justify-self: center;
     align-self: center;
