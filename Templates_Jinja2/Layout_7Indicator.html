@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="../Styles/main_styles.css" />
         <link rel="stylesheet" href="../Styles/7Indicator.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp|Montserrat:200,400 " />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp " />
     </head>
     <body>
         <section class="page landscape" id={{PageName}}>
@@ -90,10 +90,10 @@
                     {% endwith %}
                 </div>
             </div>
+            <div class="commentbox" id="main_commentbox">
+                {{Comment}}
+            </div>
             <div id="indicator_graphtablecardcolumn2">
-                <div class="commentbox" id="main_commentbox">
-                    {{Comment}}
-                </div>
                 <div class="graphtable_card" id="indicator5_graphtable_card">
                     {% with %}
                     {% set Indicator = LatestData[Indicator5] %}
