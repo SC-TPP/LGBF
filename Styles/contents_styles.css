@@ -1,0 +1,103 @@
+/* Titles*/
+#Title {
+    grid-column: 2/21;
+    grid-row: 1/2;
+    padding-top: 60px;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#SideTitle{
+    grid-column: 2/4;
+    grid-row: 4/22;
+}
+#SideTitle h1{
+    -webkit-transform: rotate(-90deg);
+    transform-origin: bottom right;
+    width: 350px;
+    height: 475px;
+    font-size: 225px;
+}
+/*Content Table & Element Positioning*/
+#TableOfContents{
+    grid-column: 4/21;
+    grid-row: 4/22;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap:  20px;
+}
+.TOC_Column{
+    display: grid;
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr)) 5px;
+}
+.TOC_Column #Column1{
+    grid-column: 1/2;
+}
+.TOC_Column #Column2{
+    grid-column: 2/3;
+}
+.TOC_Column #Column3{
+    grid-column: 3/4;
+}
+.TOC_Column #Column4{
+    grid-column: 4/5;
+}
+.TOC_Column .Position1{
+    grid-row: 1/2;
+    grid-column:1/2;
+}
+.TOC_Column .Position2{
+    grid-row: 2/3;
+    grid-column:1/2;
+}
+.TOC_Column .Position3{
+    grid-row: 3/4;
+    grid-column:1/2;
+}
+.TOC_Column .Position4{
+    grid-row: 4/5;
+    grid-column:1/2;
+}
+.TOC_Column .Position5{
+    grid-row: 5/6;
+    grid-column:1/2;
+}
+.TOC_Column .Position6{
+    grid-row: 6/7;
+    grid-column:1/2;
+}
+.TOC_Column .Position7{
+    grid-row: 7/8;
+    grid-column:1/2;
+}
+.TOC_Column .Position8{
+    grid-row: 8/9;
+    grid-column:1/2;
+}
+.TOC_Column .SplitBar {
+    background-color: var(--secondary-bg-color);
+    grid-row: 1/9;
+    grid-column: 2/3;
+}
+/*Content Table Element Styling*/
+.TOC_Column .SectionHeader{
+    max-height: 50px;
+}
+.TOC_Column .SectionHeader h1{
+    color:white;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    padding-bottom: 10px;
+}
+.TOC_Column .ContentRow{
+    max-height: 50px;
+}
+.TOC_Column .ContentRow h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.TOC_Column .ContentRow h2{
+    font-size:25px;
+    font-weight: 200;
+    padding-right: 10px
+}
