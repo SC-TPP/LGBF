@@ -13,9 +13,10 @@
 #SideTitle h1{
     -webkit-transform: rotate(-90deg);
     transform-origin: bottom right;
-    width: 350px;
-    height: 475px;
+    width: 450px;
+    height: 550px;
     font-size: 225px;
+    letter-spacing: 25px;
 }
 /*Content Table & Element Positioning*/
 #TableOfContents{
@@ -93,7 +94,7 @@
     max-height: 50px;
 }
 .TOC_Column .ContentRow h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 400;
 }
 .TOC_Column .ContentRow h2{
