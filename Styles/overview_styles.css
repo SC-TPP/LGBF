@@ -58,5 +58,4 @@
 .GroupOverviewTable object{
     object-fit: contain;
     height: 19px;
-    filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);
 }
