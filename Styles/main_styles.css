@@ -90,6 +90,16 @@ h5 {
     font-weight: 400;
     color: var(--main-bg-color); 
 }
+
+
+h6 {
+    font-size: 36px;
+    font-family : var(--standard-font);
+    vertical-align: middle;
+    font-weight: 100;
+    color: var(--main-bg-color);
+}
+
 .material-icons-round.md-48 {
     font-size: 40px;
 }
