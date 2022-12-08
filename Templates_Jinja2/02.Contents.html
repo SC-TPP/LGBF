@@ -10,9 +10,10 @@
     <section class="page landscape" id="Contents">
         <div id="Title">Table of Contents</div>
         <div id="SideTitle"><h1>Contents</h1></div>
-        <div class="sidebar">
-            {% include "Snippet_Sidebar.html" %}
-        </div>
+        {% with %}
+            {% set PageNumber = "03" %}
+            {% include "Snippet_HeaderFooter.html" %}
+        {% endwith %}
         <div id="TableOfContents">
             <div class="TOC_Column" id="Column1">
                 <div class="SplitBar"></div>
