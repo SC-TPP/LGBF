@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------
-   Variables (Color Pallete, Font etc.)
+   Variables (Color Pallete, Font etc.) SVG filter styles can be calculated using https://codepen.io/sosuke/pen/Pjoqqp
 -------------------------------------------------------------- */
 :root {
     --main-bg-color: #5D2381;
@@ -40,6 +40,8 @@ section.page.landscape {
 @media print {
     body {
             -webkit-print-color-adjust: exact;
+            margin: 0px;
+            padding: 0px;
         }
     @page {
         size: A3 landscape;
@@ -230,50 +232,47 @@ tr:last-child td:last-child{
     font-size: 12px;
 }
 .datacard .icon {
-    grid-column: 8 / 10;
+    grid-column: 5 / 10;
     grid-row: 7 / 10;
     justify-self: center;
     align-self: center;
 }
-
+.datacard .icon object {
+    width: 90%;
+}
 .datacard .rank{
     grid-column: 10 / 12;
-    grid-row: 7 / 11;
+    grid-row: 7 / 10;
     justify-self: center;
     align-self: center;
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     grid-template-rows: repeat(5, minmax(0, 1fr));
 }
-.datacard .rank svg{
-    width: 100%;
-    max-width: 100%;
-    grid-column: 1/5;
-    grid-row: 1/5;
-    color: var(--secondary-bg-color);
+.datacard .rank object{
+    grid-column: 1/6;
+    grid-row: 1/6;
+    filter: invert(22%) sepia(8%) saturate(3614%) hue-rotate(172deg) brightness(95%) contrast(86%);
+    width:100%;
+    z-index: 1;
 }
 .datacard .rank p{
     text-align: center;
     color: white;
-    grid-column: 1/5;
-    grid-row: 1/5;
-    padding-top: 15%;
+    grid-column: 1/6;
+    grid-row: 1/6;
+    padding-top: 20%;
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    z-index: 2;
 }
 .datacard .performanceChange {
-    grid-column: 5/7;
-    grid-row : 6/8;
+    grid-column: 5/10;
+    grid-row: 10/12;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 0px;
     padding-left: 0px;
-}
-.datacard .valueChange {
-    grid-column: 5/7;
-    grid-row : 8/10;
-    text-align: center;
-    padding: 0px;
 }
 /* --------------------------------------------------------------
    Graph & Table Card Styling
