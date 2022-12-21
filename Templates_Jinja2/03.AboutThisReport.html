@@ -14,33 +14,44 @@
         {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
     </section>
-    <div id = "column1">
-        <div id = "column1_section1">
+    <div id="column1">
+        <div id="column1_section1">
             <h2>What is LGBF?</h2>
             <p>
-                The LGBF is a high-level benchmarking tool designed to support senior management teams and elected members to ask questions about key council services.
+                The LGBF is a high-level benchmarking tool designed to support senior management teams and elected
+                members to ask questions about key council services.
             </p>
             <p>
-                It reflects a commitment by SOLACE (Scotland) and COSLA to develop better measurement and comparable data as a catalyst for improving services, targeting resources to areas of greatest impact and enhancing public accountability.
+                It reflects a commitment by SOLACE (Scotland) and COSLA to develop better measurement and comparable
+                data as a catalyst for improving services, targeting resources to areas of greatest impact and enhancing
+                public accountability.
             </p>
             <p>
-                The report is designed to question why variations in cost and performance are occurring between similar councils. and to engage with each other to ‘drill down' and explore why these variations are happening.
+                The report is designed to question why variations in cost and performance are occurring between similar
+                councils. and to engage with each other to ‘drill down' and explore why these variations are happening.
             </p>
             <p>
-                The LGBF helps councils compare their performance against a suite of efficiency, output and outcome indicators that cover all areas of local government activity. The framework now has 8 years of data. Publication of the LGBF forms part of each council’s statutory requirements for public performance reporting, replacing the previous Statutory Performance Indicators (SPI) regime.
+                The LGBF helps councils compare their performance against a suite of efficiency, output and outcome
+                indicators that cover all areas of local government activity. The framework now has 8 years of data.
+                Publication of the LGBF forms part of each council’s statutory requirements for public performance
+                reporting, replacing the previous Statutory Performance Indicators (SPI) regime.
             </p>
             <p>
-                The LGBF voluntarily applies the high standards for statistical rigour set out in the three pillars of the UK Statistics Authority Code of Practice – trustworthiness, quality, and value.
+                The LGBF voluntarily applies the high standards for statistical rigour set out in the three pillars of
+                the UK Statistics Authority Code of Practice – trustworthiness, quality, and value.
             </p>
         </div>
-        <div id = "column1_section2">
+        <div id="column1_section2">
             <h2>Key Points</h2>
             <ol>
                 <li>
-                    This report presents the indicators in groupings and an order that reflects the citizen's journey and creates a more meaningful experience both in an analytical sense and in terms of readability. Starting from the Early Years of education, to care, the environment and so on.
+                    This report presents the indicators in groupings and an order that reflects the citizen's journey
+                    and creates a more meaningful experience both in an analytical sense and in terms of readability.
+                    Starting from the Early Years of education, to care, the environment and so on.
                 </li>
                 <li>
-                    The LGBF Board has approved the inclusion of new indicators to strengthen the suite of benchmarking indicators:
+                    The LGBF Board has approved the inclusion of new indicators to strengthen the suite of benchmarking
+                    indicators:
                     <ul>
                         <li>
                             Children's Services
@@ -66,42 +77,44 @@
         <p>Below is the explanation for the symbology used within this report:</p>
         <div class="datacard" id="exampleDatacard">
             {% with %}
-                {% set Indicator = LatestData["C&L 01"] %}
-                {% include "Snippet_DataCard.html"%}
+            {% set Indicator = LatestData["C&L 01"] %}
+            {% include "Snippet_DataCard.html"%}
             {% endwith %}
         </div>
-        <div id = "overviewExample">
+        <div id="overviewExample">
             <!-- TODO: add code for overview table snippet here -->
         </div>
-        <table id = "symbologyTable">
+        <table id="symbologyTable">
             <tr>
                 <td>1</td>
                 <td>2017-20<br>59.5%</td>
-                <td>The following shows the latest data in accordance with the most recent reporting period. This can be one year to multiple years depending on the origin of the data.</td>
+                <td>The following shows the latest data in accordance with the most recent reporting period. This can be
+                    one year to multiple years depending on the origin of the data.</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Improving/Increasing</td>
-                <td>This can show the following: improving/ increasing, improving/decreasing, declining/increasing and declining/decreasing. This is comparing the current submission with the previous one.</td>
+                <td>This can show the following: improving/ increasing, improving/decreasing, declining/increasing and
+                    declining/decreasing. This is comparing the current submission with the previous one.</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td><!-- TODO: add code for all symbol options in a grid--></td>
                 <td>The arrow is a visual directly linked with point two. A green arrow means improving and a red
-                arrow means declining. Additionally, an arrow pointed upwards means increasing and an arrow
-                pointed downwards is decreasing.</td>
+                    arrow means declining. Additionally, an arrow pointed upwards means increasing and an arrow
+                    pointed downwards is decreasing.</td>
             </tr>
             <tr>
                 <td>4</td>
                 <td><!-- TODO: add code for ranking image here --></td>
                 <td>The figure in the badge represents the current location within our family group.
-                The best performing family group ranking is 1 with the lowest ranked 8.</td>
+                    The best performing family group ranking is 1 with the lowest ranked 8.</td>
             </tr>
             <tr>
                 <td>5</td>
                 <td><!-- TODO: add code for overview value change symbols here --></td>
                 <td>The green arrow indicates overall performance relative to the indicator is increasing.
-                The red arrow indicates overall performance relative to the indicator is decreasing.</td>
+                    The red arrow indicates overall performance relative to the indicator is decreasing.</td>
             </tr>
             <tr>
                 <td>6</td>
