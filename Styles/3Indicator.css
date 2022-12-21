@@ -16,17 +16,25 @@ Consistant Variables
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
-#indicator1_datacard {
-    grid-column: 2/7;
+#indicator_datacardrow {
+    grid-column: 2 / 21;
     grid-row: var(--DatacardRow);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 200px;
+    padding-bottom: 10px;
+}
+#indicator1_datacard {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 #indicator2_datacard {
-    grid-column: 9/14;
-    grid-row: var(--DatacardRow);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 #indicator3_datacard {
-    grid-column: 16/21;
-    grid-row: var(--DatacardRow);
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
 }
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles

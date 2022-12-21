@@ -12,23 +12,25 @@
                 {% set PageNumber = PageNumber %}
                 {% include "Snippet_HeaderFooter.html" %}
             {% endwith %}
-            <div class="datacard" id="indicator1_datacard">
-                {% with %}
+            <div id="indicator_datacardrow">
+                <div class="datacard" id="indicator1_datacard">
+                    {% with %}
                     {% set Indicator = LatestData[Indicator1] %}
                     {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="indicator2_datacard">
-                {% with %}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator2_datacard">
+                    {% with %}
                     {% set Indicator = LatestData[Indicator2] %}
                     {% include "Snippet_DataCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="datacard" id="indicator3_datacard">
-                {% with %}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator3_datacard">
+                    {% with %}
                     {% set Indicator = LatestData[Indicator3] %}
                     {% include "Snippet_DataCard.html"%}
-                {% endwith %}
+                    {% endwith %}
+                </div>
             </div>
             <div class="commentbox" id="main_commentbox">
                 {{Comment}}
