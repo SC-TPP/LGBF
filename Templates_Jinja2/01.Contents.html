@@ -9,10 +9,12 @@
 <body>
     <section class="page landscape" id="Contents">
         <div id="Title">Table of Contents</div>
-        <div id="SideTitle"><h1>Contents</h1></div>
+        <div id="SideTitle">
+            <h1>Contents</h1>
+        </div>
         {% with %}
-            {% set PageNumber = "02" %}
-            {% include "Snippet_HeaderFooter.html" %}
+        {% set PageNumber = "02" %}
+        {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
         <div id="TableOfContents">
             <div class="TOC_Column" id="Column1">

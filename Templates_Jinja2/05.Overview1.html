@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../Styles/main_styles.css" />
-        <link rel="stylesheet" href="../Styles/overview_styles.css" />
-    </head>
 
-    <body>
-        <section class="page landscape" id="Overview">
+<head>
+    <link rel="stylesheet" href="../Styles/main_styles.css" />
+    <link rel="stylesheet" href="../Styles/overview_styles.css" />
+</head>
+
+<body>
+    <section class="page landscape" id="Overview">
+        {% with %}
+        {% set PageTitle = "Overview" %}
+        {% set PageNumber = "06" %}
+        {% include "Snippet_HeaderFooter.html" %}
+        {% endwith %}
+        <div id="column1">
+            <h2>Adult Social Care Services</h2>
             {% with %}
-                {% set PageTitle = "Overview" %}
-                {% set PageNumber = "06" %}
-                {% include "Snippet_HeaderFooter.html" %}
+            {% set GroupTitle = "Adult Care - At Home Care" %}
+            {% set id = "AdultCareAtHomeCare_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Adult Social Care Services").get("Adult Care - At Home Care") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-            <div id = "column1">
-                <h2>Adult Social Care Services</h2>
-                {% with %}
-                    {% set GroupTitle = "Adult Care - At Home Care" %}
-                    {% set id = "AdultCareAtHomeCare_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Adult Social Care Services").get("Adult Care - At Home Care") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Adult Care - Adult Health Care" %}
-                    {% set id = "AdultCareAdultHealthCare_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Adult Social Care Services").get("Adult Care - Adult Health Care") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                <h2>Children's Services</h2>
-                {% with %}
-                    {% set GroupTitle = "Children & Families Social Work" %}
-                    {% set id = "ChildrenFamiliesSocialWork_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("Children & Families Social Work") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Early Years" %}
-                    {% set id = "EarlyYears_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("Early Years") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-            </div>
-            <div id="column2">
-                {% with %}
-                    {% set GroupTitle = "Employment" %}
-                    {% set id = "Employment_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("Employment") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Other" %}
-                    {% set id = "Other_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("Other") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Primary Schools" %}
-                    {% set id = "PrimarySchools_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("Primary Schools") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "School Attendance" %}
-                    {% set id = "SchoolAttendance_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("School Attendance") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "School Leaver Tariff" %}
-                    {% set id = "SchoolLeaverTariff_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("School Leaver Tariff") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-            </div>
-        </section>
-    </body>
+            {% with %}
+            {% set GroupTitle = "Adult Care - Adult Health Care" %}
+            {% set id = "AdultCareAdultHealthCare_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Adult Social Care Services").get("Adult Care - Adult Health Care")
+            %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            <h2>Children's Services</h2>
+            {% with %}
+            {% set GroupTitle = "Children & Families Social Work" %}
+            {% set id = "ChildrenFamiliesSocialWork_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Children's Services").get("Children & Families Social Work") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+            {% set GroupTitle = "Early Years" %}
+            {% set id = "EarlyYears_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Children's Services").get("Early Years") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+        </div>
+        <div id="column2">
+            {% with %}
+            {% set GroupTitle = "Employment" %}
+            {% set id = "Employment_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Children's Services").get("Employment") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+            {% set GroupTitle = "Other" %}
+            {% set id = "Other_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Children's Services").get("Other") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+            {% set GroupTitle = "Primary Schools" %}
+            {% set id = "PrimarySchools_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Children's Services").get("Primary Schools") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+            {% set GroupTitle = "School Attendance" %}
+            {% set id = "SchoolAttendance_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Children's Services").get("School Attendance") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+            {% set GroupTitle = "School Leaver Tariff" %}
+            {% set id = "SchoolLeaverTariff_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Children's Services").get("School Leaver Tariff") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+        </div>
+    </section>
+</body>
+
 </html>
