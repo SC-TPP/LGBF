@@ -1,0 +1,29 @@
+
+{% with %}
+    {% set PageName = 'AtHomeCare'%}
+    {% set Title = 'At Home Care'%}
+    {% set PageNumber = "16" %}
+    {% set Indicator1 = 'SW 01'%}
+    {% set Indicator1Graph = '../Graphs/SW%2001_Line.svg'%}
+    {% set Indicator2 = 'SW 03a'%}
+    {% set Indicator2Graph = '../Graphs/SW%2003a_Line.svg'%}
+    {% set Indicator3 = 'SW 04b'%}
+    {% set Indicator3Graph = '../Graphs/SW%2004b_Line.svg'%}
+    {% set Indicator4 = 'SW 04c'%}
+    {% set Indicator4Graph = '../Graphs/SW%2004c_Line.svg'%}
+    {% set Indicator5 = 'SW 04d'%}
+    {% set Indicator5Graph = '../Graphs/SW%2004d_Line.svg'%}
+    {% set Indicator6 = 'SW 04e'%}
+    {% set Indicator6Graph = '../Graphs/SW%2004e_Line.svg'%}
+    {% set Comment = "
+                <p>
+                    Care at Home costs per hour have reduced in 2020-21 and there is an increase in the percentage of older people (65+)
+                    in the Stirling area receiving their long-term care needs at home. This is in line with the HSCP vision ensuring the
+                </p>
+                <p>
+                    The outcome indicators (SW04) below are normally reported every 2 years from the Scottish Health and Care Experience
+                    Survey commissioned by the Scottish Government. The most current data is for 2019/20. The HSCP continues to focus on
+                    the development of care and support which will offer individuals, their families and carers more choice and control.
+                </p>"%}
+    {% include 'Layout_6Indicator.html'%}
+{% endwith %}

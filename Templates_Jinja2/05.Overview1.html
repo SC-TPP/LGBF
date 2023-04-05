@@ -36,13 +36,14 @@
             {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             {% with %}
+            
+        </div>
+        <div id="column2">
             {% set GroupTitle = "Early Years" %}
             {% set id = "EarlyYears_GroupTable" %}
             {% set Group = GroupedLatestDataDict.get("Children's Services").get("Early Years") %}
             {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-        </div>
-        <div id="column2">
             {% with %}
             {% set GroupTitle = "Employment" %}
             {% set id = "Employment_GroupTable" %}
@@ -65,12 +66,6 @@
             {% set GroupTitle = "School Attendance" %}
             {% set id = "SchoolAttendance_GroupTable" %}
             {% set Group = GroupedLatestDataDict.get("Children's Services").get("School Attendance") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
-            {% endwith %}
-            {% with %}
-            {% set GroupTitle = "School Leaver Tariff" %}
-            {% set id = "SchoolLeaverTariff_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Children's Services").get("School Leaver Tariff") %}
             {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
         </div>

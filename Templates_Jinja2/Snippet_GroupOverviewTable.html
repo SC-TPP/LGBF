@@ -7,8 +7,10 @@
                 <th>Period</th>
                 <th>Value</th>
                 <th>Previous Value</th>
-                <th>Rank</th>
-                <th>Previous Rank</th>
+                <th>Rank (FG)</th>
+                <th>Previous Rank (FG)</th>
+                <th>Rank (Scotland)</th>
+                <th>Previous Rank (Scotland)</th>
             </tr>
         </thead>
         <tbody>
@@ -28,7 +30,8 @@
                         {% endif %}
                     </td>
                     <td>{{value.Previous_Row_Real_Value}}</td>
-                    <td><p>{{value.FamilyRank|int}}</p>
+                    <td>
+                        <p>{{value.FamilyRank|int}}</p>
                         {% if value.Changes_FamilyRank_ChangeSincePrevious > 0 %}
                             <object data="../Icons/expand_less.svg" style="filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);"> </object>
                         {% elif value.Changes_FamilyRank_ChangeSincePrevious < 0 %} 
@@ -40,6 +43,21 @@
                         {% endif %}
                     </td>
                     <td>{{value.Previous_Row_FamilyRank|int}}</td>
+                    <td>
+                        <p>{{value.ScotRank|int}}</p>
+                        {% if value.Changes_ScotRank_ChangeSincePrevious > 0 %}
+                        <object data="../Icons/expand_less.svg" style="filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);">
+                        </object>
+                        {% elif value.Changes_ScotRank_ChangeSincePrevious < 0 %} <object data="../Icons/expand_more.svg" style="filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);">
+                            </object>
+                            {% elif value.Changes_ScotRank_ChangeSincePrevious == 0 %}
+                            <object data="../Icons/horizontal_rule.svg" style="filter: invert(48%) sepia(0%) saturate(1847%) hue-rotate(140deg) brightness(92%) contrast(86%);">
+                            </object>
+                            {% else %}
+                            Error
+                            {% endif %}
+                    </td>
+                    <td>{{value.Previous_Row_ScotRank|int}}</td>
                 </tr>
             {% endfor %}
         </tbody>

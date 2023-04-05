@@ -1,0 +1,31 @@
+{% with %}
+    {% set PageName = 'HousingPropertyandAssets'%}
+    {% set Title = 'Housing: Property & Assets'%}
+    {% set PageNumber = "27" %}
+    {% set Indicator1 = 'HSN 03'%}
+    {% set Indicator1Graph = '../Graphs/HSN%2003_Line.svg'%}
+    {% set Indicator2 = 'HSN 04b'%}
+    {% set Indicator2Graph = '../Graphs/HSN%2004b_Line.svg'%}
+    {% set Indicator3 = 'HSN 05a'%}
+    {% set Indicator3Graph = '../Graphs/HSN%2005a_Line.svg'%}
+    {% set Comment = "
+                            <p>
+                                Stirling Council recorded an improvement in performance in 2020/21 despite the impact of the Coronavirus pandemic
+                                and remains above the Scottish local authority average of 86.35% with 93.12% of Stirling Council social rented
+                                properties recorded as meeting compliance with the Energy Efficiency Standard for Social Housing (EESSH1) standard
+                                at 31st March 2021.
+                            </p>
+                            <p>
+                                Our investment in energy efficiency measures continues in order to ensure that we maximise our compliance with the
+                                new Energy Efficiency Standard for Social Housing 2 (EESSH2) that requires all Scottish Registered Social Landlords
+                                to strive to achieve an energy efficiency rating of 'B' or above for all social rented stock by 2032. Investment in
+                                energy efficiency measures to date has resulted in 57.5% (3,311 homes) of our housing stock already meeting the new
+                                2032 target.
+                            </p>
+                            <p>
+                                Achieving a rating of 'B' or above removes the energy efficiency of a property as one of the four drivers of fuel
+                                poverty.
+                            
+                            </p>"%}
+    {% include 'Layout_3Indicator.html'%}
+{% endwith %}

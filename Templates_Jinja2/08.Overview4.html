@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../Styles/main_styles.css" />
+    <link rel="stylesheet" href="../Styles/overview_styles.css" />
+</head>
+
+<body>
+    <section class="page landscape" id="Overview">
+        {% with %}
+        {% set PageTitle = "Overview" %}
+        {% set PageNumber = "09" %}
+        {% include "Snippet_HeaderFooter.html" %}
+        {% endwith %}
+        <div id="column1">
+            <h2>Housing Services</h2>
+            {% with %}
+            {% set GroupTitle = "Management & Homelessness" %}
+            {% set id = "HousingManagementHomelessness_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Management & Homelessness") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+            {% set GroupTitle = "Property & Assets" %}
+            {% set id = "HousingPropertyAssets_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Property and Assets") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            <h2>Tackling Climate Change</h2>
+            {% with %}
+            {% set GroupTitle = "Climate Change Emissions" %}
+            {% set id = "ClimateChangeEmissions_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Tackling Climate Change").get("Climate Change Emissions ") %}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+        </div>
+    </section>
+</body>
+
+</html>
