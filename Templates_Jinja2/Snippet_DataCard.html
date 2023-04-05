@@ -6,15 +6,15 @@
 </div>
 <div class="icon">
     {% if Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] > 0 %}
-        <object data="../Icons/Arrow_Circle_Up.svg" style="filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);"></object>
+        <object class = "red" data="../Icons/Arrow_Circle_Up.svg"></object>
     {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] < 0 %}
-        <object data="../Icons/Arrow_Circle_Down.svg" style="filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);"></object>
+        <object class = "red" data="../Icons/Arrow_Circle_Down.svg"></object>
     {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] < 0 %}
-        <object data="../Icons/Arrow_Circle_Down.svg" style="filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);"></object>
+        <object class = "green" data="../Icons/Arrow_Circle_Down.svg"></object>
     {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] > 0 %}
-        <object data="../Icons/Arrow_Circle_up.svg" style="filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);"></object>
+        <object class = "green" data="../Icons/Arrow_Circle_up.svg"></object>
     {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] == 0 %}
-        <object data="../Icons/trending_flat.svg" style="filter: invert(48%) sepia(0%) saturate(1847%) hue-rotate(140deg) brightness(92%) contrast(86%);"> </object>
+        <object class = "grey" data="../Icons/trending_flat.svg"></object>
     {% else %}
         Error
     {% endif %}

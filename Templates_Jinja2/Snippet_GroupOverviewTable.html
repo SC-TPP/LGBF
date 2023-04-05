@@ -20,11 +20,11 @@
                     <td>{{value.Period}}</td>
                     <td><p>{{value.Real_Value_Formatted}}</p>
                         {% if value.Changes_PercentChange_AimAdjusted_SincePrevious > 0 %}
-                            <object data="../Icons/trending_up.svg" style="filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);"> </object>
+                            <object class = "red" data="../Icons/trending_up.svg"> </object>
                         {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious < 0 %}
-                            <object data="../Icons/trending_down.svg" style="filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);"> </object>
+                            <object class = "green" data="../Icons/trending_down.svg"> </object>
                         {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious == 0 %}
-                            <object data="../Icons/trending_flat.svg" style="filter: invert(48%) sepia(0%) saturate(1847%) hue-rotate(140deg) brightness(92%) contrast(86%);"> </object>
+                            <object class = "grey" data="../Icons/trending_flat.svg"> </object>
                         {% else %}
                             Error
                         {% endif %}
@@ -33,11 +33,11 @@
                     <td>
                         <p>{{value.FamilyRank|int}}</p>
                         {% if value.Changes_FamilyRank_ChangeSincePrevious > 0 %}
-                            <object data="../Icons/expand_less.svg" style="filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);"> </object>
+                            <object class = "red" data="../Icons/expand_less.svg"> </object>
                         {% elif value.Changes_FamilyRank_ChangeSincePrevious < 0 %} 
-                            <object data="../Icons/expand_more.svg" style="filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);"> </object>
+                            <object class = "green" data="../Icons/expand_more.svg"> </object>
                         {% elif value.Changes_FamilyRank_ChangeSincePrevious == 0 %}
-                            <object data="../Icons/horizontal_rule.svg" style="filter: invert(48%) sepia(0%) saturate(1847%) hue-rotate(140deg) brightness(92%) contrast(86%);"> </object>
+                            <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
                         {% else %}
                             Error
                         {% endif %}
@@ -46,16 +46,14 @@
                     <td>
                         <p>{{value.ScotRank|int}}</p>
                         {% if value.Changes_ScotRank_ChangeSincePrevious > 0 %}
-                        <object data="../Icons/expand_less.svg" style="filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);">
-                        </object>
-                        {% elif value.Changes_ScotRank_ChangeSincePrevious < 0 %} <object data="../Icons/expand_more.svg" style="filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);">
-                            </object>
-                            {% elif value.Changes_ScotRank_ChangeSincePrevious == 0 %}
-                            <object data="../Icons/horizontal_rule.svg" style="filter: invert(48%) sepia(0%) saturate(1847%) hue-rotate(140deg) brightness(92%) contrast(86%);">
-                            </object>
-                            {% else %}
+                            <object class = "red" data="../Icons/expand_less.svg"></object>
+                        {% elif value.Changes_ScotRank_ChangeSincePrevious < 0 %} 
+                            <object class = "green" data="../Icons/expand_more.svg"></object>
+                        {% elif value.Changes_ScotRank_ChangeSincePrevious == 0 %}
+                            <object class = "grey" data="../Icons/horizontal_rule.svg"></object>
+                        {% else %}
                             Error
-                            {% endif %}
+                        {% endif %}
                     </td>
                     <td>{{value.Previous_Row_ScotRank|int}}</td>
                 </tr>
