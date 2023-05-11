@@ -260,6 +260,91 @@ Indicator information used throughout transformation steps. Some of this informa
 - Ranking_GoldilocksMidpoint
     > Mid point for any goldilocks ranking or percentile calculations (if applicable)
 </details>
+<br>
+
+
+# Data Issues
+The following data issues have been identified in the dataset:
+### New Issues
+
+<details><summary>CORP 06B</summary>
+
+- 2020-21 
+> Columns are duplicated in the Cash Numerator Denominator sheet
+</details>
+
+<details><summary>ECON 01:</summary>
+
+- 2020-21 
+> The result of numerator divided by denominator is different than the value for some Local Authorities. These differences are more than 2% different as per the table below:
+```table
+Type    Code    Period      Local Authority         % Difference
+Cash    ECON 01 2020-21     Aberdeenshire           -2%
+Cash    ECON 01 2020-21     East Renfrewshire       -6%
+Cash    ECON 01 2020-21     Falkirk                 -3%
+Cash    ECON 01 2020-21     Perth & Kinross         -3%
+Cash    ECON 01 2020-21     Renfrewshire            -2%
+Cash    ECON 01 2020-21     Scottish Borders        -4%
+Cash    ECON 01 2020-21     West Dunbartonshire     -4%
+Real    ECON 01 2020-21     Aberdeenshire           -2%
+Real    ECON 01 2020-21     East Renfrewshire       -6%
+Real    ECON 01 2020-21     Falkirk                 -3%
+Real    ECON 01 2020-21     Perth & Kinross         -3%
+Real    ECON 01 2020-21     Renfrewshire            -2%
+Real    ECON 01 2020-21     Scottish Borders        -4%
+Real    ECON 01 2020-21     West Dunbartonshire     -4%
+```
+</details>
+
+<details><summary>CORP 01:</summary>
+
+-  2021-22 
+> The result of numerator divided by denominator is exactly 2.64% different than the stated real values for all Local Authorities
+</details>
+
+<details><summary>ECON 06:</summary>
+
+-  2020-21 
+> The result of numerator divided by denominator is exactly 2.71% different than the stated real values for all Local Authorities
+</details>
+
+<details><summary>ENV 05a:</summary>
+
+-  2021-22 
+> The result of numerator divided by denominator is exactly 2.64% different than the stated real values for all Local Authorities
+</details>
+
+<details><summary>HSN 01b:</summary>
+
+-  2021-22 
+> The result of numerator divided by denominator is exactly 2.64% different than the stated real values for all Local Authorities
+</details>
+
+<details><summary>ECON 11:</summary>
+
+-  2021-22 
+> Cash and Real values are identical for all local authorities for all published periods. We assume that the cash values should be inflation adjusted.
+</details>
+<br>
+
+### Previously Reported Issue
+The following errors were identified in previous years and still exist in the current file:
+
+<details><summary>ECON 11:</summary>
+
+-  2015-16
+> The result of numerator divided by denominator is approximately 4% different from the stated real and cash values for East Renfrewshire only.
+-  2016-17
+> The result of numerator divided by denominator is approximately 2% different from the stated real and cash values for East Renfrewshire only
+
+</details>
+
+<details><summary>C&L 03:</summary>
+
+-  2014-15 
+> The result of numerator divided by denominator is approximately 28% different from the stated real and cash values for Edinburgh City.
+</details>
+<br>
 
 # Notes on Further Development and Contributing
 Example files will be provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting). In addition to this there will also be an excel file with a predefined datamodel using links to the files hosted here. There will also be a notebook developed shortly that will provide an example as to how a report can be created using Python.
