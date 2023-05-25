@@ -1,0 +1,60 @@
+/* --------------------------------------------------------------
+Consistant Variables
+-------------------------------------------------------------- */
+:root {
+    --DatacardRow: 2 / 4;
+    --Column1: 2 / 11;
+    --Column2: 12 / 21;
+}
+
+/* --------------------------------------------------------------
+   Main Element Positioning. Report styles can be found in main_styles
+-------------------------------------------------------------- */
+#main_commentbox {
+    grid-column: var(--Column1);
+    grid-row: 4/14;
+}
+
+/* --------------------------------------------------------------
+   Datacard Positioning. datacard class style can be found in main_styles
+-------------------------------------------------------------- */
+#indicator_datacardrow {
+    grid-column: 2 / 21;
+    grid-row: var(--DatacardRow);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 200px;
+    padding-bottom: 10px;
+}
+
+#indicator1_datacard {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#indicator2_datacard {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+/* --------------------------------------------------------------
+   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
+-------------------------------------------------------------- */
+#indicator1_graphtable_card {
+    grid-column: var(--Column1);
+    grid-row: 5/10;
+}
+
+#indicator2_graphtable_card {
+    grid-column: var(--Column2);
+    grid-row: 5/10;
+}
+
+
+/*------------------------------------------------------------------
+FOR PRINTING HTML TO PDF FORMATING BUG
+-------------------------------------------------------------------*/
+table {
+    width: 152.32px;
+    Height: 229.09px;
+}

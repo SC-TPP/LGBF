@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../Styles/main_styles.css" />
+    <link rel="stylesheet" href="../Styles/2Indicator.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" />
+</head>
+
+<body>
+    <section class="page landscape" id={{PageName}}>
+        {% with %}
+        {% set PageTitle = Title %}
+        {% set PageNumber = PageNumber %}
+        {% include "Snippet_HeaderFooter.html" %}
+        {% endwith %}
+        <div id="indicator_datacardrow">
+            <div class="datacard" id="indicator1_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Indicator1] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="datacard" id="indicator2_datacard">
+                {% with %}
+                {% set Indicator = LatestData[Indicator2] %}
+                {% include "Snippet_DataCard.html"%}
+                {% endwith %}
+            </div>
+        </div>
+        <div class="commentbox" id="main_commentbox">
+            {{Comment}}
+        </div>
+        <div class="graphtable_card" id="indicator1_graphtable_card">
+            {% with %}
+            {% set Indicator = LatestData[Indicator1] %}
+            {% set Graph = Indicator1Graph %}
+            {% include "Snippet_GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+        <div class="graphtable_card" id="indicator2_graphtable_card">
+            {% with %}
+            {% set Indicator = LatestData[Indicator2] %}
+            {% set Graph = Indicator2Graph %}
+            {% include "Snippet_GraphTableCard.html"%}
+            {% endwith %}
+        </div>
+    </section>
+</body>
+
+</html>

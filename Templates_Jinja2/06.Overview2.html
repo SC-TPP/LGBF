@@ -38,6 +38,12 @@
                     {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Corporate Property Assets") %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
+                {% with %}
+                    {% set GroupTitle = "New Indicators" %}
+                    {% set id = "NewIndicators_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("New Indicators") %}
+                    {% include "Snippet_GroupOverviewTable.html" %}
+                {% endwith %}
                 </div>
             <div id="column2">
                 <h2>Culture & Leisure Services</h2>
