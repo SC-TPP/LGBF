@@ -1,4 +1,4 @@
-/* Titles*/
+/*Page Titles*/
 #Title {
     grid-column: 2/21;
     grid-row: 1/2;
@@ -12,13 +12,52 @@
 }
 #SideTitle h1{
     -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
     transform-origin: right;
     width: 450px;
     height: 1000px;
     font-size: 175px;
-    
     letter-spacing: 25px;
+    color: var(--secondary-bg-color);
 }
+
+/*Content Table Element Styling*/
+.TOC_Column .SectionHeader {
+    max-height: 50px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.TOC_Column .SectionHeader h1 {
+    color: white;
+    background-color: var(--main-bg-color);
+    padding-bottom: 10px;
+    padding-left:5px;
+    font-size: 36px;
+    text-align: left;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.TOC_Column .ContentRow {
+    max-height: 50px;
+}
+
+.TOC_Column .ContentRow h1 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.TOC_Column .ContentRow h2 {
+    font-size: 27px;
+    font-weight: 200;
+    padding-right: 10px
+}
+
+.TOC_Column .ContentRow h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
 /*Content Table & Element Positioning*/
 #TableOfContents{
     grid-column: 4/21;
@@ -29,8 +68,14 @@
 }
 .TOC_Column{
     display: grid;
-    grid-template-rows: repeat(8, minmax(0, 1fr));
+    grid-template-rows: repeat(9, minmax(0, 1fr));
     grid-template-columns: repeat(1, minmax(0, 1fr)) 5px;
+}
+.TOC_Column .SplitBar {
+    background-color: gray;
+    max-width: 1px;
+    grid-row: 1/10;
+    grid-column: 2/3;
 }
 .TOC_Column #Column1{
     grid-column: 1/2;
@@ -76,44 +121,9 @@
     grid-row: 8/9;
     grid-column:1/2;
 }
-.TOC_Column .SplitBar {
-    background-color: var(--secondary-bg-color);
-    grid-row: 1/9;
-    grid-column: 2/3;
+.TOC_Column .Position9 {
+    grid-row: 9/10;
+    grid-column: 1/2;
 }
-/*Content Table Element Styling*/
-.TOC_Column .SectionHeader{
-    max-height: 50px;
-}
-.TOC_Column .SectionHeader h1{
-    color:white;
-    text-align: center;
-    background-color: var(--main-bg-color);
-    padding-bottom: 10px;
-}
-
-.TOC_Column .SectionHeader h6{
-    color:white;
-    text-align: center;
-    background-color: var(--main-bg-color);
-    padding-bottom: 10px;
-}
-
-.TOC_Column .ContentRow{
-    max-height: 50px;
-}
-.TOC_Column .ContentRow h1{
-    font-size: 40px;
-    font-weight: 400;
-}
-.TOC_Column .ContentRow h2{
-    font-size:25px;
-    font-weight: 200;
-    padding-right: 10px
-}
-
-.TOC_Column .ContentRow h3{
-    font-size: 30px;
-    font-weight: 400; }
 
 

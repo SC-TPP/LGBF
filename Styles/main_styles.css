@@ -40,6 +40,7 @@ section.page.landscape {
 @media print {
     body {
             -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
             margin: 0px;
             padding: 0px;
         }
@@ -60,10 +61,9 @@ p {
     font-weight: 400;
 }
 .pagenumber p{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
     color: white;
-    padding-top: 3px;
+    padding-top: 2px;
     padding-bottom: 0px;
 }
 .commentbox p{
@@ -229,6 +229,7 @@ tr:last-child td:last-child{
     justify-self: center;
     align-self: center;
     font-size: 12px;
+    padding-top: 20px;
 }
 .datacard .value {
     grid-column: 2 / 5;

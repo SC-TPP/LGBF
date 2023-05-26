@@ -29,7 +29,7 @@
     font-size: 12.4px;
     padding-top: 3px;
     padding-bottom: 3px;
-        /* small bug in code so had to dubpilcate the font below */
+        /* small bug in code so had to dupilcate the font below */
         font-family : var(--standard-font);
 }
 #Overview table th:first-child {
@@ -37,12 +37,12 @@
     padding-left: 3px;
 }
 #Overview table td:first-child {
-    width: 310px;
-    min-width: 310px;
-    max-width: 310px;
+    width: 265px;
+    min-width: 265px;
+    max-width: 265px;
     font-weight: bold;
     text-align:left ;
-    padding-left: 3px;
+    padding: 2px 0px 2px 5px;
 }
 #Overview table td:not(:first-child) {
     padding-left: 4px;
