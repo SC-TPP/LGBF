@@ -17,10 +17,8 @@ Main data file containing values, numerators, denominators, rankings and percent
     >Concatenated Code and Period to create relationships to Scottish Averages and Scottish Values.
 - Key_CodePeriodFamilyGroup
     >Concatenated Code, Period and Family Group to create a relationship to Family Averages.
-- GSS Code
 - Local_Authority
 - Code 
-    >Corrected to be A-Z sortable.
 - Period
 - Real_Value
 - Real_Numerator
@@ -53,15 +51,9 @@ Main data file containing values, numerators, denominators, rankings and percent
     - Real_Value_ChangeSincePrevious
     - Real_Numerator_ChangeSincePrevious
     - Real_Denominator_ChangeSincePrevious
-    - Cash_Value_ChangeSincePrevious
-    - Cash_Numerator_ChangeSincePrevious
-    - Cash_Denominator_ChangeSincePrevious
     - Real_Value_ChangeSinceFirst
     - Real_Numerator_ChangeSinceFirst
     - Real_Denominator_ChangeSinceFirst
-    - Cash_Value_ChangeSinceFirst
-    - Cash_Numerator_ChangeSinceFirst
-    - Cash_Denominator_ChangeSinceFirst
     - PercentChange_AimAdjusted_SincePrevious
         >An aim adjusted percentage change between two indicator values. There are two niche cases here. One where previous and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for current and previous and using these to calculate the percentage.
     - PercentChange_AimAdjusted_SinceFirst
@@ -75,19 +67,16 @@ Slice of the main data file containing only rows for the most recent period of e
     
 - Key_CodePeriod
     >Concatenated Code and Period to create relationships to Scottish Averages and Scottish Values.
+- Key_CodePeriodLA
+    >Concatenated Code Period and Local Authority to create relationships to the main data file.
 - Key_CodePeriodFamilyGroup
     >Concatenated Code, Period and Family Group to create a relationship to Family Averages.
-- GSS Code
-- Local_Authority
+- LocalAuthority
 - Code 
-    >Corrected to be A-Z sortable.
 - Period
 - Real_Value
 - Real_Numerator
 - Real_Denominator
-- Cash_Value
-- Cash_Numerator
-- Cash_Denominator
 - ScotRank
     >Scottish Ranking for each Local Authority within code and Period group based on the aim outlined in Indicator Information.csv. Goldilocks indicators are calculated as rank based on distance from mid point.
 - ScotPct
@@ -113,19 +102,13 @@ Slice of the main data file containing only rows for the most recent period of e
     - Real_Value_ChangeSincePrevious
     - Real_Numerator_ChangeSincePrevious
     - Real_Denominator_ChangeSincePrevious
-    - Cash_Value_ChangeSincePrevious
-    - Cash_Numerator_ChangeSincePrevious
-    - Cash_Denominator_ChangeSincePrevious
     - Real_Value_ChangeSinceFirst
     - Real_Numerator_ChangeSinceFirst
     - Real_Denominator_ChangeSinceFirst
-    - Cash_Value_ChangeSinceFirst
-    - Cash_Numerator_ChangeSinceFirst
-    - Cash_Denominator_ChangeSinceFirst
     - PercentChange_AimAdjusted_SincePrevious
-        >An aim adjusted percentage change between two indicator values. There are two niche cases here. One where previous and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for current and previous and using these to calculate the percentage.
+        >An aim adjusted percentage change between two indicator values. There are two niche cases here. One where previous and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avoid situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for current and previous and using these to calculate the percentage.
     - PercentChange_AimAdjusted_SinceFirst
-        > An aim adjusted percentage change between two indicator values. There are two niche cases here. One where first and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for first and current and using these to calculate the percentage.
+        > An aim adjusted percentage change between two indicator values. There are two niche cases here. One where first and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avoid situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for first and current and using these to calculate the percentage.
 </details>
 
 ### Family Averages.csv
@@ -133,8 +116,9 @@ All Family Group Average types for all data fields avalilable
 
 <details><summary>Field Details</summary>
     
+- Key_CodePeriodFamily_Group
+    > Concatenated Code, Period and Family Group to create a relationship to Indicator Data.
 - Code
-    > Corrected to be A-Z sortable.
 - Period
 - Family_Group
 - FamilyAv_LA_Real
@@ -145,16 +129,7 @@ All Family Group Average types for all data fields avalilable
     > Average of Local Authority real denominator values within each Family Group, Code and Period combination
 - FamilyAv_NumDen_Real
     > Average created by summing the real numerator values and denominator values for each Family Group, Code and Period combination and dividing them together appropriately.
-- FamilyAv_LA_Cash
-    > Average of Local Authority cash values within each Family Group, Code and Period combination
-- FamilyAv_LA_Num_Cash
-    > Average of Local Authority cash numerator values within each Family Group, Code and Period combination
-- FamilyAv_LA_Den_Cash
-    > Average of Local Authority cash denominator values within each Family Group, Code and Period combination
-- FamilyAv_NumDen_Cash
-    > Average created by summing the cash numerator values and denominator values for each Family Group, Code and Period combination and dividing them together appropriately.
-- Key_CodePeriodFamily_Group
-    > Concatenated Code, Period and Family Group to create a relationship to Indicator Data.
+
 </details>
 
 ### Scottish Averages.csv
@@ -172,14 +147,6 @@ All Family Group Average types for all data fields avalilable
     > Average of Local Authority real denominator values within each Code and Period combination
 - ScotAv_NumDen_Real
     > Average created by summing the real numerator values and denominator values for each Code and Period combination and dividing them together appropriately.
-- ScotAv_LA_Cash
-    > Average of Local Authority cash values within each Code and Period combination
-- ScotAv_LA_Num_Cash
-    > Average of Local Authority cash numerator values within each Code and Period combination
-- ScotAv_LA_Den_Cash
-    > Average of Local Authority cash denominator values within each Code and Period combination
-- ScotAv_NumDen_Cash
-    > Average created by summing the cash numerator values and denominator values for each Code and Period combination and dividing them together appropriately.
 - Key_CodePeriod
     > Concatenated Code and Period to create a relationship to Indicator Data.
 </details>
@@ -245,18 +212,10 @@ Indicator information used throughout transformation steps. Some of this informa
     > Number format that can be used to round the value appropriately without adding string elements
 - Source
     > Text Field containing the information from the LGBF metadata for the source of the data.
-- Numerator_Correct
-    > Correct numerator title (some titles were incorrect within the headings in the raw data table at the time of writing)
-- Denominator_Correct
-    > Correct denominator title (some titles were incorrect within the headings in the raw data table at the time of writing)
-- Numerator_Match
-    > Numerator title that matches the title used in the raw data file (some titles were incorrect within the headings in the raw data table at the time of writing)
-- Denominator_Match
-    > Denominator title that matches the title used in the raw data file (some titles were incorrect within the headings in the raw data table at the time of writing)
 - Numerator_Multipier
-    > Multiplier required to convert back numerator values that have been truncated into £000 or similar. These truncations do not provide valid data to create averages.
+    > Multiplier required to convert back numerator values that have been truncated into £000 or similar. These truncations do not provide valid data to create averages or to verify that the value is equal to the numerator divided by the denominator.
 - Denominator_Multiplier
-    > Multiplier required to conver back denominator values that have been truncated into £000 or similar. These truncations do not provide valid data to create averages.
+    > Multiplier required to convert back denominator values that have been truncated into £000 or similar. These truncations do not provide valid data to create averagesor or to verify that the value is equal to the numerator divided by the denominator.
 - Ranking_GoldilocksMidpoint
     > Mid point for any goldilocks ranking or percentile calculations (if applicable)
 </details>

@@ -13,6 +13,12 @@
                 {% include "Snippet_HeaderFooter.html" %}
             {% endwith %}
             <div id="column1">
+                    {% with %}
+                        {% set GroupTitle = "Parks & Open Spaces" %}
+                        {% set id = "ParksOpenSpaces_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Culture & Leisure Services").get("Parks & Open Spaces") %}
+                        {% include "Snippet_GroupOverviewTable.html" %}
+                    {% endwith %}
                     <h2>Economic Development</h2>
                     {% with %}
                         {% set GroupTitle = "Economic Growth" %}
