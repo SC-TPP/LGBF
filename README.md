@@ -121,13 +121,20 @@ All Family Group Average types for all data fields avalilable
 - Code
 - Period
 - Family_Group
-- FamilyAv_LA_Real
-    > Average of Local Authority real values within each Family Group, Code and Period combination
-- FamilyAv_LA_Num_Real
-    > Average of Local Authority real numerator values within each Family Group, Code and Period combination
-- FamilyAv_LA_Den_Real
-    > Average of Local Authority real denominator values within each Family Group, Code and Period combination
-- FamilyAv_NumDen_Real
+    >Family Group Number for each data row. This is set up to select from the correct grouping type as per the indicator code.
+- Real_Value_FG_Mean
+    > Mean of Local Authority real values within each Family Group, Code and Period combination
+- Real_Numerator_FG_Mean
+    > Mean  of Local Authority real numerator values within each Family Group, Code and Period combination
+- Real_Denominator_FG_Mean
+    > Mean of Local Authority real denominator values within each Family Group, Code and Period combination
+- Real_Value_FG_Median
+    > Median of Local Authority real values within each Family Group, Code and Period combination
+- Real_Numerator_FG_Median
+    > Median of Local Authority real numerator values within each Family Group, Code and Period combination
+- Real_Denominator_FG_Median
+    > Median of Local Authority real denominator values within each Family Group, Code and Period combination
+- Real_FG_NumDenAv
     > Average created by summing the real numerator values and denominator values for each Family Group, Code and Period combination and dividing them together appropriately.
 
 </details>
@@ -136,19 +143,26 @@ All Family Group Average types for all data fields avalilable
 All Family Group Average types for all data fields avalilable
 
 <details><summary>Field Details</summary>
+- Key_CodePeriod
+    > Concatenated Code and Period to create a relationship to Indicator Data.
 - Code
     > Corrected to be A-Z sortable.
 - Period
-- ScotAv_LA_Real
-    > Average of Local Authority real values within each Code and Period combination
-- ScotAv_LA_Num_Real
-    > Average of Local Authority real numerator values within each Code and Period combination
-- ScotAv_LA_Den_Real
-    > Average of Local Authority real denominator values within each Code and Period combination
+- Real_Value_Scot_Mean
+    > Mean of Local Authority real values within each Code and Period combination
+- Real_Numerator_Scot_Mean
+    > Mean of Local Authority real numerator values within each Code and Period combination
+- Real_Denominator_Scot_Mean
+    > Mean of Local Authority real denominator values within each Code and Period combination
+- Real_Value_Scot_Median
+    > Median of Local Authority real values within each Code and Period combination
+- Real_Numerator_Scot_Median
+    > Median of Local Authority real numerator values within each Code and Period combination
+- Real_Denominator_Scot_Median
+    > Median of Local Authority real denominator values within each Code and Period combination
 - ScotAv_NumDen_Real
     > Average created by summing the real numerator values and denominator values for each Code and Period combination and dividing them together appropriately.
-- Key_CodePeriod
-    > Concatenated Code and Period to create a relationship to Indicator Data.
+
 </details>
 
 ### Scottish Values.csv
@@ -161,8 +175,9 @@ Real and Cash values as provided by the Improvement Service. These have been rem
 - Code
     > Corrected to be A-Z sortable.
 - Period
-- IS_Scot_Real_Value
-- IS_Scot_Cash_Value
+- Scot_Real_Value
+- Scot_Real_Numerator
+- Scot_Real_Denominator
 </details>
 
 ### Family Groups.csv
@@ -187,17 +202,17 @@ Indicator information used throughout transformation steps. Some of this informa
 - Code
     > Original code as provided in the raw data file
 - Code_Sortable
-    > A-Z sortable version of the code e.g original : Env4a, sortable : Env 04a
+    > A-Z sortable version of the code including a space for formatting in reports etc. e.g original : Env04a, sortable : Env 04a
 - ReportingPeriod
     > Period data is reported over e.g Annual, 3 Yearly Aggregate etc.
 - MeasureType
     > Measure type e.g Percentage, Rate per 100 etc.
 - NumberFormat
-    > Number format for use to create a user friendly text string that represents the number. e.g value : 1.23, value with number format applied : 1.23 Weeks
+    > Number format for use to create a user friendly text string that represents the number. e.g value : 1.23, value with number format applied : 1.23 Weeks. Can be used with Number.ToText in powerquery or powerbi to format the raw numbers in the data file.
 - YMin
-    > For graphing purposes the minimum value shown on the y axis
+    > For graphing purposes the minimum value shown on the y axis - doesn't work with plotly but works for PowerBI and Excel based reporting
 - YMax
-    > For graphing purposes the maximum value shown on the y axis
+    > For graphing purposes the maximum value shown on the y axis - doesn't work with plotly but works for PowerBI and Excel based reporting
 - ISCategory
     > Category as supplied by the improvement service
 - Committee
@@ -209,7 +224,7 @@ Indicator information used throughout transformation steps. Some of this informa
 - Ranking_Type
     > Either Ascending (aim to minimise), Descending (aim to maximise) or Goldilocks (aim closest to defined mid-point)
 - NumberFormat_NoText
-    > Number format that can be used to round the value appropriately without adding string elements
+    > Number format that can be used to round the value appropriately without adding string elements - doesn't work with plotly but works for PowerBI and Excel based reporting
 - Source
     > Text Field containing the information from the LGBF metadata for the source of the data.
 - Numerator_Multipier
@@ -218,95 +233,22 @@ Indicator information used throughout transformation steps. Some of this informa
     > Multiplier required to convert back denominator values that have been truncated into £000 or similar. These truncations do not provide valid data to create averagesor or to verify that the value is equal to the numerator divided by the denominator.
 - Ranking_GoldilocksMidpoint
     > Mid point for any goldilocks ranking or percentile calculations (if applicable)
-</details>
-<br>
-
-
-# Data Issues
-The following data issues have been identified in the dataset:
-### New Issues
-
-<details><summary>CORP 06B</summary>
-
-- 2020-21 
-> Columns are duplicated in the Cash Numerator Denominator sheet
-</details>
-
-<details><summary>ECON 01:</summary>
-
-- 2020-21 
-> The result of numerator divided by denominator is different than the value for some Local Authorities. These differences are more than 2% different as per the table below:
-```table
-Type    Code    Period      Local Authority         % Difference
-Cash    ECON 01 2020-21     Aberdeenshire           -2%
-Cash    ECON 01 2020-21     East Renfrewshire       -6%
-Cash    ECON 01 2020-21     Falkirk                 -3%
-Cash    ECON 01 2020-21     Perth & Kinross         -3%
-Cash    ECON 01 2020-21     Renfrewshire            -2%
-Cash    ECON 01 2020-21     Scottish Borders        -4%
-Cash    ECON 01 2020-21     West Dunbartonshire     -4%
-Real    ECON 01 2020-21     Aberdeenshire           -2%
-Real    ECON 01 2020-21     East Renfrewshire       -6%
-Real    ECON 01 2020-21     Falkirk                 -3%
-Real    ECON 01 2020-21     Perth & Kinross         -3%
-Real    ECON 01 2020-21     Renfrewshire            -2%
-Real    ECON 01 2020-21     Scottish Borders        -4%
-Real    ECON 01 2020-21     West Dunbartonshire     -4%
-```
-</details>
-
-<details><summary>CORP 01:</summary>
-
--  2021-22 
-> The result of numerator divided by denominator is exactly 2.64% different than the stated real values for all Local Authorities
-</details>
-
-<details><summary>ECON 06:</summary>
-
--  2020-21 
-> The result of numerator divided by denominator is exactly 2.71% different than the stated real values for all Local Authorities
-</details>
-
-<details><summary>ENV 05a:</summary>
-
--  2021-22 
-> The result of numerator divided by denominator is exactly 2.64% different than the stated real values for all Local Authorities
-</details>
-
-<details><summary>HSN 01b:</summary>
-
--  2021-22 
-> The result of numerator divided by denominator is exactly 2.64% different than the stated real values for all Local Authorities
-</details>
-
-<details><summary>ECON 11:</summary>
-
--  2021-22 
-> Cash and Real values are identical for all local authorities for all published periods. We assume that the cash values should be inflation adjusted.
-</details>
-<br>
-
-### Previously Reported Issue
-The following errors were identified in previous years and still exist in the current file:
-
-<details><summary>ECON 11:</summary>
-
--  2015-16
-> The result of numerator divided by denominator is approximately 4% different from the stated real and cash values for East Renfrewshire only.
--  2016-17
-> The result of numerator divided by denominator is approximately 2% different from the stated real and cash values for East Renfrewshire only
-
-</details>
-
-<details><summary>C&L 03:</summary>
-
--  2014-15 
-> The result of numerator divided by denominator is approximately 28% different from the stated real and cash values for Edinburgh City.
+- NumberFormat_Axis
+- Format_Python
+- FormatAxis_Python
+- AdditionalAxisDenominator_Python
+- FormatAxis_Plotly_Prefix
+- FormatAxis_Plotly_Suffix
+- ImgPxlWidth_Plotly
+- ImgPxlHeight_Plotly
+- SubGroup_PythonReport
+- YMin_Plotly
+- YMax_Plotly
 </details>
 <br>
 
 # Notes on Further Development and Contributing
-Example files will be provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting). In addition to this there will also be an excel file with a predefined datamodel using links to the files hosted here. There will also be a notebook developed shortly that will provide an example as to how a report can be created using Python.
+Example files will be provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting). In addition to this there will also be an excel file with a predefined datamodel using links to the files hosted here.
 
 Any users who would like to contribute and improve this dataset should contact corporateperformance@stirling.gov.uk.
 

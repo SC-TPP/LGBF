@@ -1,4 +1,4 @@
-﻿Key_CodePeriod,Code,Period,Family_Group,Real_Value_Mean,Real_Numerator_Mean,Real_Denominator_Mean,Real_Value_Median,Real_Numerator_Median,Real_Denominator_Median,Real_FG_NumDenAv
+﻿Key_CodePeriod,Code,Period,Family_Group,Real_Value_FG_Mean,Real_Numerator_FG_Mean,Real_Denominator_FG_Mean,Real_Value_FG_Median,Real_Numerator_FG_Median,Real_Denominator_FG_Median,Real_FG_NumDenAv
 C&L 012010-11,C&L 01,2010-11,Family Group 1,3.7109495347499997,3790919.8620625,923124.125,3.9990141105,2409280.6145,695444.0,4.106619856850236
 C&L 012011-12,C&L 01,2011-12,Family Group 1,3.689640975375,3901135.3221249995,1036476.0,3.4780729205,2216212.7139999997,707515.5,3.7638453009283372
 C&L 012012-13,C&L 01,2012-13,Family Group 1,3.29738088125,3775533.6907125004,1065939.0,3.100354417,2228934.905,714443.0,3.5419791289299862
