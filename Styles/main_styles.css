@@ -229,7 +229,7 @@ tr:last-child td:last-child{
     justify-self: center;
     align-self: center;
     font-size: 12px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .datacard .value {
     grid-column: 2 / 5;

@@ -14,25 +14,32 @@
         {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
         <div id="column1">
+            <h2>Financial Sustainability</h2>
+            {% with %}
+                {% set GroupTitle = "Financial Position" %}
+                {% set id = "FinancialPosition_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Financial Sustainability").get("Financial Position") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
             <h2>Housing Services</h2>
             {% with %}
-            {% set GroupTitle = "Management & Homelessness" %}
-            {% set id = "HousingManagementHomelessness_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Management & Homelessness") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "Management & Homelessness" %}
+                {% set id = "HousingManagementHomelessness_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Management & Homelessness") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             {% with %}
-            {% set GroupTitle = "Property & Assets" %}
-            {% set id = "HousingPropertyAssets_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Property and Assets") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "Property & Assets" %}
+                {% set id = "HousingPropertyAssets_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Housing Services").get("Housing - Property and Assets") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             <h2>Tackling Climate Change</h2>
             {% with %}
-            {% set GroupTitle = "Climate Change Emissions" %}
-            {% set id = "ClimateChangeEmissions_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Tackling Climate Change").get("Climate Change Emissions ") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "Climate Change Emissions" %}
+                {% set id = "ClimateChangeEmissions_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Tackling Climate Change").get("Climate Change Emissions ") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
         </div>
     </section>
