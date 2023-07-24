@@ -34,10 +34,14 @@ Consistant Variables
 #column1_commentbox {
     grid-column: var(--Column1);
     grid-row: var(--CommentboxRow);
+    font-size : 12px;
+    font-family : var(--standard-font);
 }
 #column2_commentbox {
     grid-column: var(--Column2);
     grid-row: var(--CommentboxRow);
+    font-size : 12px;
+    font-family : var(--standard-font);
 }
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles

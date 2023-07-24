@@ -13,6 +13,8 @@ Consistant Variables
 #main_commentbox {
     grid-column: var(--Column1);
     grid-row: 4/14;
+    font-size : 12px;
+    font-family : var(--standard-font);
 }
 
 /* --------------------------------------------------------------

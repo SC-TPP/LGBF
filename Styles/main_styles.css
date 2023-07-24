@@ -220,6 +220,7 @@ tr:last-child td:last-child{
     justify-self: center;
     align-self: center;
     font-size: 10px;
+    font-family: var(--standard-font);
     font-weight: bold;
     text-align: center;
 }
