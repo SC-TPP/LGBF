@@ -40,7 +40,6 @@
                 {% endwith %}
                 </div>
             <div id="column2">
-                <h2>Culture & Leisure Services</h2>
                 {% with %}
                     {% set GroupTitle = "New Indicators" %}
                     {% set id = "NewIndicators_GroupTable" %}
@@ -65,6 +64,7 @@
                     {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Gender Pay Gap") %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
+                <h2>Culture & Leisure Services</h2>
                 {% with %}
                     {% set GroupTitle = "Leisure Facilities & Attractions" %}
                     {% set id = "LeisureFacilitiesAttractions_GroupTable" %}
