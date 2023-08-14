@@ -1,227 +1,1323 @@
 ﻿Type,Code,Period,Local Authority,Value,Numerator,Denominator
-Real,C&L 04,2013-14,Eilean Siar,679.3494414,19000.0,27.400000000000002
-Real,CORP 03c,2015-16,Aberdeen City,-0.002291723,14.836,14.87
-Real,CORP 03c,2015-16,Aberdeenshire,0.018463811,13.54,13.29
-Real,CORP 03c,2015-16,Angus,0.018384767,15.23,14.95
-Real,CORP 03c,2015-16,Argyll & Bute,0.07713885,14.26,13.16
-Real,CORP 03c,2015-16,Clackmannanshire,0.042918455,13.98,13.38
-Real,CORP 03c,2015-16,Dumfries & Galloway,0.059363958,14.15,13.31
-Real,CORP 03c,2015-16,Dundee City,0.009333333,15.0,14.86
-Real,CORP 03c,2015-16,East Ayrshire,0.070678796,14.29,13.28
-Real,CORP 03c,2015-16,East Dunbartonshire,0.067373674,16.03,14.95
-Real,CORP 03c,2015-16,East Lothian,-0.01159618,14.66,14.83
-Real,CORP 03c,2015-16,East Renfrewshire,0.092783505,16.49,14.96
-Real,CORP 03c,2015-16,Edinburgh City,0.032485876,14.16,13.7
-Real,CORP 03c,2015-16,Eilean Siar,0.164251208,14.49,12.11
-Real,CORP 03c,2015-16,Falkirk,0.065595716,14.94,13.96
-Real,CORP 03c,2015-16,Fife,0.013614704,14.69,14.49
-Real,CORP 03c,2015-16,Glasgow City,-0.070921986,15.51,16.61
-Real,CORP 03c,2015-16,Highland,0.086,15.45,14.12
-Real,CORP 03c,2015-16,Inverclyde,0.108857336,14.79,13.18
-Real,CORP 03c,2015-16,Midlothian,0.045760431,14.86,14.18
-Real,CORP 03c,2015-16,Moray,0.090592334,14.35,13.05
-Real,CORP 03c,2015-16,North Ayrshire,0.017869416,14.55,14.29
-Real,CORP 03c,2015-16,North Lanarkshire,0.082068966,14.5,13.31
-Real,CORP 03c,2015-16,Orkney Islands,0.089549392,13.20558853,12.02303611
-Real,CORP 03c,2015-16,Perth & Kinross,0.004179104,16.75,16.68
-Real,CORP 03c,2015-16,Renfrewshire,0.029291553,14.68,14.25
-Real,CORP 03c,2015-16,Scottish Borders,0.024848892,14.89,14.52
-Real,CORP 03c,2015-16,Shetland Islands,0.09902371,14.34,12.92
-Real,CORP 03c,2015-16,Stirling,0.007072136,14.14,14.04
-Real,CORP 03c,2015-16,West Dunbartonshire,0.0254,14.4,14.03424
-Real,CORP 03c,2015-16,West Lothian,-0.008174387,14.68,14.8
-Real,CORP 03c,2016-17,Aberdeen City,0.002629849,15.21,15.17
-Real,CORP 03c,2016-17,Aberdeenshire,0.016023307,13.73,13.51
-Real,CORP 03c,2016-17,Angus,-0.00397351,15.1,15.16
-Real,CORP 03c,2016-17,Argyll & Bute,0.084769125,14.51,13.28
-Real,CORP 03c,2016-17,Clackmannanshire,0.035245335,14.47,13.96
-Real,CORP 03c,2016-17,Dumfries & Galloway,0.052011096,14.42,13.67
-Real,CORP 03c,2016-17,Dundee City,0.005239031,15.27,15.19
-Real,CORP 03c,2016-17,East Ayrshire,0.056501021,14.69,13.86
-Real,CORP 03c,2016-17,East Dunbartonshire,0.055522028,16.57,15.65
-Real,CORP 03c,2016-17,East Lothian,0.017902813,15.64,15.36
-Real,CORP 03c,2016-17,East Renfrewshire,0.087216249,16.74,15.28
-Real,CORP 03c,2016-17,Edinburgh City,0.033098592,14.2,13.73
-Real,CORP 03c,2016-17,Eilean Siar,0.137029955,15.69,13.54
-Real,CORP 03c,2016-17,Falkirk,0.047297297,14.8,14.1
-Real,CORP 03c,2016-17,Fife,0.028701892,15.33,14.89
-Real,CORP 03c,2016-17,Glasgow City,-0.069885642,15.74,16.84
-Real,CORP 03c,2016-17,Highland,0.072,15.45,14.34
-Real,CORP 03c,2016-17,Inverclyde,0.092991914,14.84,13.46
-Real,CORP 03c,2016-17,Midlothian,0.029589778,14.87,14.43
-Real,CORP 03c,2016-17,Moray,0.077513966,14.32,13.21
-Real,CORP 03c,2016-17,North Ayrshire,0.01159618,14.66,14.49
-Real,CORP 03c,2016-17,North Lanarkshire,0.066621803,14.86,13.87
-Real,CORP 03c,2016-17,Orkney Islands,0.107634439,13.8397571,12.35012261
-Real,CORP 03c,2016-17,Perth & Kinross,-0.006508876,16.9,17.01
-Real,CORP 03c,2016-17,Renfrewshire,0.048812665,15.16,14.42
-Real,CORP 03c,2016-17,Scottish Borders,0.024405013,15.1936,14.8228
-Real,CORP 03c,2016-17,Shetland Islands,0.08174771,14.19,13.03
-Real,CORP 03c,2016-17,South Ayrshire,0.041920216,14.79,14.17
-Real,CORP 03c,2016-17,South Lanarkshire,0.059259259,14.85,13.97
-Real,CORP 03c,2016-17,Stirling,0.006711409,14.9,14.8
-Real,CORP 03c,2016-17,West Dunbartonshire,0.021008403,14.28,13.98
-Real,CORP 03c,2016-17,West Lothian,0.026462396,14.36,13.98
-Real,CORP 03c,2017-18,Aberdeen City,0.016630513,13.83,13.6
-Real,CORP 03c,2017-18,Aberdeenshire,0.009325681,13.94,13.81
-Real,CORP 03c,2017-18,Angus,0.007037748,15.63,15.52
-Real,CORP 03c,2017-18,Argyll & Bute,0.077075099,15.18,14.01
-Real,CORP 03c,2017-18,Clackmannanshire,0.01584022,14.52,14.29
-Real,CORP 03c,2017-18,Dumfries & Galloway,0.049525102,14.74,14.01
-Real,CORP 03c,2017-18,Dundee City,0.001955671,15.34,15.31
-Real,CORP 03c,2017-18,East Ayrshire,0.049597855,14.92,14.18
-Real,CORP 03c,2017-18,East Dunbartonshire,0.055122828,16.69,15.77
-Real,CORP 03c,2017-18,East Lothian,0.019503324,15.946,15.635
-Real,CORP 03c,2017-18,East Renfrewshire,0.077744807,16.85,15.54
-Real,CORP 03c,2017-18,Edinburgh City,0.036501377,14.52,13.99
-Real,CORP 03c,2017-18,Eilean Siar,0.137029955,15.69,13.54
-Real,CORP 03c,2017-18,Falkirk,0.040522876,15.3,14.68
-Real,CORP 03c,2017-18,Fife,0.016223232,15.41,15.16
-Real,CORP 03c,2017-18,Glasgow City,-0.069658202,15.91623308,17.02492925
-Real,CORP 03c,2017-18,Highland,0.07184466,15.45,14.34
-Real,CORP 03c,2017-18,Inverclyde,0.087073007,14.93,13.63
-Real,CORP 03c,2017-18,Midlothian,0.023194168,15.09,14.74
-Real,CORP 03c,2017-18,Moray,0.065201984,14.11,13.19
-Real,CORP 03c,2017-18,North Ayrshire,0.01526211,15.07,14.84
-Real,CORP 03c,2017-18,North Lanarkshire,0.039817232,15.32,14.71
-Real,CORP 03c,2017-18,Orkney Islands,0.10877193,14.25,12.7
-Real,CORP 03c,2017-18,Perth & Kinross,0.007424329,17.51,17.38
-Real,CORP 03c,2017-18,Renfrewshire,0.0456621,15.33,14.63
-Real,CORP 03c,2017-18,Scottish Borders,0.028150992,15.63,15.19
-Real,CORP 03c,2017-18,Shetland Islands,0.084420041,14.57,13.34
-Real,CORP 03c,2017-18,South Ayrshire,0.04249668,15.06,14.42
-Real,CORP 03c,2017-18,South Lanarkshire,0.060718402,15.17,14.25
-Real,CORP 03c,2017-18,Stirling,0.016350556,15.29,15.04
-Real,CORP 03c,2017-18,West Dunbartonshire,0.02,14.5,14.21
-Real,CORP 03c,2017-18,West Lothian,0.002621232,15.26,15.22
-Real,CORP 03c,2018-19,Aberdeen City,-0.005610973,16.04,16.13
-Real,CORP 03c,2018-19,Aberdeenshire,0.005734767,13.95,13.87
-Real,CORP 03c,2018-19,Angus,-0.015559545,16.71,16.97
-Real,CORP 03c,2018-19,Argyll & Bute,0.077625571,15.33,14.14
-Real,CORP 03c,2018-19,Clackmannanshire,0.012768817,14.88,14.69
-Real,CORP 03c,2018-19,Dumfries & Galloway,0.056774194,15.5,14.62
-Real,CORP 03c,2018-19,Dundee City,0.007166124,15.35,15.24
-Real,CORP 03c,2018-19,East Ayrshire,0.050420168,15.47,14.69
-Real,CORP 03c,2018-19,East Dunbartonshire,0.063329312,16.58,15.53
-Real,CORP 03c,2018-19,East Lothian,0.032675709,16.22,15.69
-Real,CORP 03c,2018-19,East Renfrewshire,0.074857143,17.5,16.19
-Real,CORP 03c,2018-19,Edinburgh City,0.038385175,15.11,14.53
-Real,CORP 03c,2018-19,Eilean Siar,0.144,15.0,12.84
-Real,CORP 03c,2018-19,Falkirk,0.051889814,15.61,14.8
-Real,CORP 03c,2018-19,Fife,0.019290604,16.07,15.76
-Real,CORP 03c,2018-19,Glasgow City,0.025193798,15.48,15.09
-Real,CORP 03c,2018-19,Highland,0.057728119,16.11,15.18
-Real,CORP 03c,2018-19,Inverclyde,0.081841432,15.64,14.36
-Real,CORP 03c,2018-19,Midlothian,0.039399625,15.99,15.36
-Real,CORP 03c,2018-19,Moray,0.075757576,14.52,13.42
-Real,CORP 03c,2018-19,North Ayrshire,0.028079132,15.67,15.23
-Real,CORP 03c,2018-19,North Lanarkshire,0.04654011,16.33,15.57
-Real,CORP 03c,2018-19,Orkney Islands,0.115853659,14.76,13.05
-Real,CORP 03c,2018-19,Perth & Kinross,0.006692694,17.93,17.81
-Real,CORP 03c,2018-19,Renfrewshire,0.035830619,15.35,14.8
-Real,CORP 03c,2018-19,Scottish Borders,0.030940594,16.16,15.66
-Real,CORP 03c,2018-19,Shetland Islands,0.0681074,15.27,14.23
-Real,CORP 03c,2018-19,South Ayrshire,0.037540453,15.45,14.87
-Real,CORP 03c,2018-19,South Lanarkshire,0.05104551,16.26,15.43
-Real,CORP 03c,2018-19,Stirling,-0.000664011,15.06,15.07
-Real,CORP 03c,2018-19,West Dunbartonshire,0.017940199,15.05,14.78
-Real,CORP 03c,2018-19,West Lothian,0.0056926,15.81,15.72
-Real,CORP 03c,2019-20,Aberdeen City,-0.05615942,16.56,17.49
-Real,CORP 03c,2019-20,Aberdeenshire,-0.014160486,14.83,15.04
-Real,CORP 03c,2019-20,Angus,-0.007838746,17.86,18.0
-Real,CORP 03c,2019-20,Argyll & Bute,0.068338558,15.95,14.86
-Real,CORP 03c,2019-20,Clackmannanshire,0.012820513,15.6,15.4
-Real,CORP 03c,2019-20,Dumfries & Galloway,0.039597737,15.91,15.28
-Real,CORP 03c,2019-20,Dundee City,0.014869888,16.14,15.9
-Real,CORP 03c,2019-20,East Ayrshire,0.014715291,15.63,15.4
-Real,CORP 03c,2019-20,East Dunbartonshire,0.061388411,17.43,16.36
-Real,CORP 03c,2019-20,East Lothian,0.02253883,17.126,16.74
-Real,CORP 03c,2019-20,East Renfrewshire,0.06322155,18.19,17.04
-Real,CORP 03c,2019-20,Edinburgh City,0.030495553,15.74,15.26
-Real,CORP 03c,2019-20,Eilean Siar,0.144,15.0,12.84
-Real,CORP 03c,2019-20,Falkirk,0.045984059,16.31,15.56
-Real,CORP 03c,2019-20,Fife,-0.006505027,16.91,17.02
-Real,CORP 03c,2019-20,Glasgow City,0.031154551,16.37,15.86
-Real,CORP 03c,2019-20,Highland,0.057728119,16.11,15.18
-Real,CORP 03c,2019-20,Inverclyde,0.075197089,16.49,15.25
-Real,CORP 03c,2019-20,Midlothian,0.030588235,17.0,16.48
-Real,CORP 03c,2019-20,Moray,0.064243997,15.41,14.42
-Real,CORP 03c,2019-20,North Ayrshire,0.017769608,16.32,16.03
-Real,CORP 03c,2019-20,North Lanarkshire,0.030915577,16.82,16.3
-Real,CORP 03c,2019-20,Orkney Islands,0.114489004,15.46,13.69
-Real,CORP 03c,2019-20,Perth & Kinross,-0.006922258,18.78,18.91
-Real,CORP 03c,2019-20,Renfrewshire,0.043062201,16.72,16.0
-Real,CORP 03c,2019-20,Scottish Borders,0.055382338,16.4854,15.5724
-Real,CORP 03c,2019-20,Shetland Islands,0.059171598,15.21,14.31
-Real,CORP 03c,2019-20,South Ayrshire,0.024752475,16.16,15.76
-Real,CORP 03c,2019-20,South Lanarkshire,0.050837321,16.72,15.87
-Real,CORP 03c,2019-20,Stirling,-0.009163103,16.37,16.52
-Real,CORP 03c,2019-20,West Dunbartonshire,0.008951407,15.64,15.5
-Real,CORP 03c,2019-20,West Lothian,0.005428227,16.58,16.49
-Real,CORP 03c,2020-21,Aberdeen City,-0.055655296,16.71,17.64
-Real,CORP 03c,2020-21,Aberdeenshire,0.001286174,15.55,15.53
-Real,CORP 03c,2020-21,Angus,-0.020821609,17.77,18.14
-Real,CORP 03c,2020-21,Argyll & Bute,0.067069486,16.55,15.44
-Real,CORP 03c,2020-21,Clackmannanshire,0.008663366,16.16,16.02
-Real,CORP 03c,2020-21,Dumfries & Galloway,0.042656917,16.41,15.71
-Real,CORP 03c,2020-21,Dundee City,0.011196229,16.97,16.78
-Real,CORP 03c,2020-21,East Ayrshire,0.052538371,16.94,16.05
-Real,CORP 03c,2020-21,East Dunbartonshire,0.056306306,17.76,16.76
-Real,CORP 03c,2020-21,East Lothian,0.03003337,17.98,17.44
-Real,CORP 03c,2020-21,East Renfrewshire,0.064772727,17.6,16.46
-Real,CORP 03c,2020-21,Edinburgh City,0.028100183,16.37,15.91
-Real,CORP 03c,2020-21,Eilean Siar,0.135036496,16.44,14.22
-Real,CORP 03c,2020-21,Falkirk,0.048578199,16.88,16.06
-Real,CORP 03c,2020-21,Fife,0.017879162,16.22,15.93
-Real,CORP 03c,2020-21,Glasgow City,0.033608491,16.96,16.39
-Real,CORP 03c,2020-21,Highland,0.050111359,17.96,17.06
-Real,CORP 03c,2020-21,Inverclyde,0.073941562,16.77,15.53
-Real,CORP 03c,2020-21,Midlothian,0.026963658,17.06,16.6
-Real,CORP 03c,2020-21,Moray,0.06159648,15.91,14.93
-Real,CORP 03c,2020-21,North Ayrshire,0.013095238,16.8,16.58
-Real,CORP 03c,2020-21,North Lanarkshire,0.046458924,17.65,16.83
-Real,CORP 03c,2020-21,Orkney Islands,0.14084507,16.33,14.03
-Real,CORP 03c,2020-21,Perth & Kinross,-0.012486993,19.22,19.46
-Real,CORP 03c,2020-21,Renfrewshire,0.036670547,17.18,16.55
-Real,CORP 03c,2020-21,Scottish Borders,0.044909576,16.865,16.1076
-Real,CORP 03c,2020-21,Shetland Islands,0.065688776,15.68,14.65
-Real,CORP 03c,2020-21,South Ayrshire,0.020408163,16.66,16.32
-Real,CORP 03c,2020-21,South Lanarkshire,0.048320566,16.97,16.15
-Real,CORP 03c,2020-21,Stirling,-0.000589971,16.95,16.96
-Real,CORP 03c,2020-21,West Dunbartonshire,0.024570025,16.28,15.88
-Real,CORP 03c,2020-21,West Lothian,0.011040093,17.21,17.02
-Real,CORP 03c,2021-22,Aberdeen City,-0.037192561,16.67,17.29
-Real,CORP 03c,2021-22,Aberdeenshire,0.005047319,15.85,15.77
-Real,CORP 03c,2021-22,Angus,-0.018528916,17.81,18.14
-Real,CORP 03c,2021-22,Argyll & Bute,0.053731343,16.75,15.85
-Real,CORP 03c,2021-22,Clackmannanshire,0.020759193,16.86,16.51
-Real,CORP 03c,2021-22,Dumfries & Galloway,0.045481747,16.71,15.95
-Real,CORP 03c,2021-22,Dundee City,0.011229646,17.81,17.61
-Real,CORP 03c,2021-22,East Ayrshire,0.056647399,17.3,16.32
-Real,CORP 03c,2021-22,East Dunbartonshire,0.03796034,17.65,16.98
-Real,CORP 03c,2021-22,East Lothian,0.041509434,18.55,17.78
-Real,CORP 03c,2021-22,East Renfrewshire,0.057080132,18.22,17.18
-Real,CORP 03c,2021-22,Edinburgh City,0.031810295,17.29,16.74
-Real,CORP 03c,2021-22,Eilean Siar,0.14068885,17.13,14.72
-Real,CORP 03c,2021-22,Falkirk,0.053509781,17.38,16.45
-Real,CORP 03c,2021-22,Fife,0.016857315,16.61,16.33
-Real,CORP 03c,2021-22,Glasgow City,0.033352501,17.39,16.81
-Real,CORP 03c,2021-22,Highland,0.045278851,18.11,17.29
-Real,CORP 03c,2021-22,Inverclyde,0.066,17.16,16.03
-Real,CORP 03c,2021-22,Midlothian,0.025171625,17.48,17.04
-Real,CORP 03c,2021-22,Moray,0.069469835,16.41,15.27
-Real,CORP 03c,2021-22,North Ayrshire,0.015798713,17.09,16.82
-Real,CORP 03c,2021-22,North Lanarkshire,0.048974943,17.56,16.7
-Real,CORP 03c,2021-22,Orkney Islands,0.11627907,16.34,14.44
-Real,CORP 03c,2021-22,Perth & Kinross,-0.010638298,19.74,19.95
-Real,CORP 03c,2021-22,Renfrewshire,0.022857143,17.5,17.1
-Real,CORP 03c,2021-22,Scottish Borders,0.031533533,17.1056,16.5662
-Real,CORP 03c,2021-22,Shetland Islands,0.065805658,16.26,15.19
-Real,CORP 03c,2021-22,South Ayrshire,0.022780374,17.12,16.73
-Real,CORP 03c,2021-22,South Lanarkshire,0.039953677,17.27,16.58
-Real,CORP 03c,2021-22,Stirling,-0.001156069,17.3,17.32
-Real,CORP 03c,2021-22,West Dunbartonshire,0.021071644,16.61,16.26
-Real,CORP 03c,2021-22,West Lothian,0.003414912,17.57,17.51
-Real,ECON 06,2020-21,West Dunbartonshire,13638.86662,13639000.0,88.34
-Real,ECON 06,2020-21,West Lothian,10795.18791,10795000.0,183.82
-Real,FINSUS 05,2015-16,Clackmannanshire,0.9608,115565910.0,242464000.0
+Cash_Annual,C&L 03,2018-19,Argyll & Bute,0.06,16000.0,289218.0
+Cash_Annual,C&L 03,2019-20,Argyll & Bute,0.05,16000.0,305841.0
+Cash_Annual,C&L 03,2021-22,Argyll & Bute,0.1,16000.0,164337.0
+Cash_Annual,CORP 03c,2015-16,Aberdeen City,-0.0023,14.84,14.87
+Cash_Annual,CORP 03c,2015-16,Aberdeenshire,0.0185,13.54,13.29
+Cash_Annual,CORP 03c,2015-16,Angus,0.0184,15.23,14.95
+Cash_Annual,CORP 03c,2015-16,Argyll & Bute,0.0771,14.26,13.16
+Cash_Annual,CORP 03c,2015-16,Clackmannanshire,0.0429,13.98,13.38
+Cash_Annual,CORP 03c,2015-16,Dumfries & Galloway,0.0594,14.15,13.31
+Cash_Annual,CORP 03c,2015-16,Dundee City,0.0093,15.0,14.86
+Cash_Annual,CORP 03c,2015-16,East Ayrshire,0.0707,14.29,13.28
+Cash_Annual,CORP 03c,2015-16,East Dunbartonshire,0.0674,16.03,14.95
+Cash_Annual,CORP 03c,2015-16,East Lothian,-0.0116,14.66,14.83
+Cash_Annual,CORP 03c,2015-16,East Renfrewshire,0.0928,16.49,14.96
+Cash_Annual,CORP 03c,2015-16,Edinburgh City,0.0325,14.16,13.7
+Cash_Annual,CORP 03c,2015-16,Eilean Siar,0.1643,14.49,12.11
+Cash_Annual,CORP 03c,2015-16,Falkirk,0.0656,14.94,13.96
+Cash_Annual,CORP 03c,2015-16,Fife,0.0136,14.69,14.49
+Cash_Annual,CORP 03c,2015-16,Glasgow City,-0.0709,15.51,16.61
+Cash_Annual,CORP 03c,2015-16,Highland,0.086,15.45,14.12
+Cash_Annual,CORP 03c,2015-16,Inverclyde,0.1089,14.79,13.18
+Cash_Annual,CORP 03c,2015-16,Midlothian,0.0458,14.86,14.18
+Cash_Annual,CORP 03c,2015-16,Moray,0.0906,14.35,13.05
+Cash_Annual,CORP 03c,2015-16,North Ayrshire,0.0179,14.55,14.29
+Cash_Annual,CORP 03c,2015-16,North Lanarkshire,0.0821,14.5,13.31
+Cash_Annual,CORP 03c,2015-16,Orkney Islands,0.0895,13.21,12.02
+Cash_Annual,CORP 03c,2015-16,Perth & Kinross,0.0042,16.75,16.68
+Cash_Annual,CORP 03c,2015-16,Renfrewshire,0.0293,14.68,14.25
+Cash_Annual,CORP 03c,2015-16,Scottish Borders,0.0248,14.89,14.52
+Cash_Annual,CORP 03c,2015-16,Shetland Islands,0.099,14.34,12.92
+Cash_Annual,CORP 03c,2015-16,Stirling,0.0071,14.14,14.04
+Cash_Annual,CORP 03c,2015-16,West Dunbartonshire,0.0254,14.4,14.03
+Cash_Annual,CORP 03c,2015-16,West Lothian,-0.0082,14.68,14.8
+Cash_Annual,CORP 03c,2016-17,Aberdeen City,0.0026,15.21,15.17
+Cash_Annual,CORP 03c,2016-17,Aberdeenshire,0.016,13.73,13.51
+Cash_Annual,CORP 03c,2016-17,Angus,-0.004,15.1,15.16
+Cash_Annual,CORP 03c,2016-17,Argyll & Bute,0.0848,14.51,13.28
+Cash_Annual,CORP 03c,2016-17,Clackmannanshire,0.0352,14.47,13.96
+Cash_Annual,CORP 03c,2016-17,Dumfries & Galloway,0.052,14.42,13.67
+Cash_Annual,CORP 03c,2016-17,Dundee City,0.0052,15.27,15.19
+Cash_Annual,CORP 03c,2016-17,East Ayrshire,0.0565,14.69,13.86
+Cash_Annual,CORP 03c,2016-17,East Dunbartonshire,0.0555,16.57,15.65
+Cash_Annual,CORP 03c,2016-17,East Lothian,0.0179,15.64,15.36
+Cash_Annual,CORP 03c,2016-17,East Renfrewshire,0.0872,16.74,15.28
+Cash_Annual,CORP 03c,2016-17,Edinburgh City,0.0331,14.2,13.73
+Cash_Annual,CORP 03c,2016-17,Eilean Siar,0.137,15.69,13.54
+Cash_Annual,CORP 03c,2016-17,Falkirk,0.0473,14.8,14.1
+Cash_Annual,CORP 03c,2016-17,Fife,0.0287,15.33,14.89
+Cash_Annual,CORP 03c,2016-17,Glasgow City,-0.0699,15.74,16.84
+Cash_Annual,CORP 03c,2016-17,Highland,0.072,15.45,14.34
+Cash_Annual,CORP 03c,2016-17,Inverclyde,0.093,14.84,13.46
+Cash_Annual,CORP 03c,2016-17,Midlothian,0.0296,14.87,14.43
+Cash_Annual,CORP 03c,2016-17,Moray,0.0775,14.32,13.21
+Cash_Annual,CORP 03c,2016-17,North Ayrshire,0.0116,14.66,14.49
+Cash_Annual,CORP 03c,2016-17,North Lanarkshire,0.0666,14.86,13.87
+Cash_Annual,CORP 03c,2016-17,Orkney Islands,0.1076,13.84,12.35
+Cash_Annual,CORP 03c,2016-17,Perth & Kinross,-0.0065,16.9,17.01
+Cash_Annual,CORP 03c,2016-17,Renfrewshire,0.0488,15.16,14.42
+Cash_Annual,CORP 03c,2016-17,Scottish Borders,0.0244,15.19,14.82
+Cash_Annual,CORP 03c,2016-17,Shetland Islands,0.0817,14.19,13.03
+Cash_Annual,CORP 03c,2016-17,South Ayrshire,0.0419,14.79,14.17
+Cash_Annual,CORP 03c,2016-17,South Lanarkshire,0.0593,14.85,13.97
+Cash_Annual,CORP 03c,2016-17,Stirling,0.0067,14.9,14.8
+Cash_Annual,CORP 03c,2016-17,West Dunbartonshire,0.021,14.28,13.98
+Cash_Annual,CORP 03c,2016-17,West Lothian,0.0265,14.36,13.98
+Cash_Annual,CORP 03c,2017-18,Aberdeen City,0.0166,13.83,13.6
+Cash_Annual,CORP 03c,2017-18,Aberdeenshire,0.0093,13.94,13.81
+Cash_Annual,CORP 03c,2017-18,Angus,0.007,15.63,15.52
+Cash_Annual,CORP 03c,2017-18,Argyll & Bute,0.0771,15.18,14.01
+Cash_Annual,CORP 03c,2017-18,Clackmannanshire,0.0158,14.52,14.29
+Cash_Annual,CORP 03c,2017-18,Dumfries & Galloway,0.0495,14.74,14.01
+Cash_Annual,CORP 03c,2017-18,Dundee City,0.002,15.34,15.31
+Cash_Annual,CORP 03c,2017-18,East Ayrshire,0.0496,14.92,14.18
+Cash_Annual,CORP 03c,2017-18,East Dunbartonshire,0.0551,16.69,15.77
+Cash_Annual,CORP 03c,2017-18,East Lothian,0.0195,15.95,15.64
+Cash_Annual,CORP 03c,2017-18,East Renfrewshire,0.0777,16.85,15.54
+Cash_Annual,CORP 03c,2017-18,Edinburgh City,0.0365,14.52,13.99
+Cash_Annual,CORP 03c,2017-18,Eilean Siar,0.137,15.69,13.54
+Cash_Annual,CORP 03c,2017-18,Falkirk,0.0405,15.3,14.68
+Cash_Annual,CORP 03c,2017-18,Fife,0.0162,15.41,15.16
+Cash_Annual,CORP 03c,2017-18,Glasgow City,-0.0697,15.92,17.02
+Cash_Annual,CORP 03c,2017-18,Highland,0.0718,15.45,14.34
+Cash_Annual,CORP 03c,2017-18,Inverclyde,0.0871,14.93,13.63
+Cash_Annual,CORP 03c,2017-18,Midlothian,0.0232,15.09,14.74
+Cash_Annual,CORP 03c,2017-18,Moray,0.0652,14.11,13.19
+Cash_Annual,CORP 03c,2017-18,North Ayrshire,0.0153,15.07,14.84
+Cash_Annual,CORP 03c,2017-18,North Lanarkshire,0.0398,15.32,14.71
+Cash_Annual,CORP 03c,2017-18,Orkney Islands,0.1088,14.25,12.7
+Cash_Annual,CORP 03c,2017-18,Perth & Kinross,0.0074,17.51,17.38
+Cash_Annual,CORP 03c,2017-18,Renfrewshire,0.0457,15.33,14.63
+Cash_Annual,CORP 03c,2017-18,Scottish Borders,0.0282,15.63,15.19
+Cash_Annual,CORP 03c,2017-18,Shetland Islands,0.0844,14.57,13.34
+Cash_Annual,CORP 03c,2017-18,South Ayrshire,0.0425,15.06,14.42
+Cash_Annual,CORP 03c,2017-18,South Lanarkshire,0.0607,15.17,14.25
+Cash_Annual,CORP 03c,2017-18,Stirling,0.0164,15.29,15.04
+Cash_Annual,CORP 03c,2017-18,West Dunbartonshire,0.02,14.5,14.21
+Cash_Annual,CORP 03c,2017-18,West Lothian,0.0026,15.26,15.22
+Cash_Annual,CORP 03c,2018-19,Aberdeen City,-0.0056,16.04,16.13
+Cash_Annual,CORP 03c,2018-19,Aberdeenshire,0.0057,13.95,13.87
+Cash_Annual,CORP 03c,2018-19,Angus,-0.0156,16.71,16.97
+Cash_Annual,CORP 03c,2018-19,Argyll & Bute,0.0776,15.33,14.14
+Cash_Annual,CORP 03c,2018-19,Clackmannanshire,0.0128,14.88,14.69
+Cash_Annual,CORP 03c,2018-19,Dumfries & Galloway,0.0568,15.5,14.62
+Cash_Annual,CORP 03c,2018-19,Dundee City,0.0072,15.35,15.24
+Cash_Annual,CORP 03c,2018-19,East Ayrshire,0.0504,15.47,14.69
+Cash_Annual,CORP 03c,2018-19,East Dunbartonshire,0.0633,16.58,15.53
+Cash_Annual,CORP 03c,2018-19,East Lothian,0.0327,16.22,15.69
+Cash_Annual,CORP 03c,2018-19,East Renfrewshire,0.0749,17.5,16.19
+Cash_Annual,CORP 03c,2018-19,Edinburgh City,0.0384,15.11,14.53
+Cash_Annual,CORP 03c,2018-19,Eilean Siar,0.144,15.0,12.84
+Cash_Annual,CORP 03c,2018-19,Falkirk,0.0519,15.61,14.8
+Cash_Annual,CORP 03c,2018-19,Fife,0.0193,16.07,15.76
+Cash_Annual,CORP 03c,2018-19,Glasgow City,0.0252,15.48,15.09
+Cash_Annual,CORP 03c,2018-19,Highland,0.0577,16.11,15.18
+Cash_Annual,CORP 03c,2018-19,Inverclyde,0.0818,15.64,14.36
+Cash_Annual,CORP 03c,2018-19,Midlothian,0.0394,15.99,15.36
+Cash_Annual,CORP 03c,2018-19,Moray,0.0758,14.52,13.42
+Cash_Annual,CORP 03c,2018-19,North Ayrshire,0.0281,15.67,15.23
+Cash_Annual,CORP 03c,2018-19,North Lanarkshire,0.0465,16.33,15.57
+Cash_Annual,CORP 03c,2018-19,Orkney Islands,0.1159,14.76,13.05
+Cash_Annual,CORP 03c,2018-19,Perth & Kinross,0.0067,17.93,17.81
+Cash_Annual,CORP 03c,2018-19,Renfrewshire,0.0358,15.35,14.8
+Cash_Annual,CORP 03c,2018-19,Scottish Borders,0.0309,16.16,15.66
+Cash_Annual,CORP 03c,2018-19,Shetland Islands,0.0681,15.27,14.23
+Cash_Annual,CORP 03c,2018-19,South Ayrshire,0.0375,15.45,14.87
+Cash_Annual,CORP 03c,2018-19,South Lanarkshire,0.051,16.26,15.43
+Cash_Annual,CORP 03c,2018-19,Stirling,-0.0007,15.06,15.07
+Cash_Annual,CORP 03c,2018-19,West Dunbartonshire,0.0179,15.05,14.78
+Cash_Annual,CORP 03c,2018-19,West Lothian,0.0057,15.81,15.72
+Cash_Annual,CORP 03c,2019-20,Aberdeen City,-0.0562,16.56,17.49
+Cash_Annual,CORP 03c,2019-20,Aberdeenshire,-0.0142,14.83,15.04
+Cash_Annual,CORP 03c,2019-20,Angus,-0.0078,17.86,18.0
+Cash_Annual,CORP 03c,2019-20,Argyll & Bute,0.0683,15.95,14.86
+Cash_Annual,CORP 03c,2019-20,Clackmannanshire,0.0128,15.6,15.4
+Cash_Annual,CORP 03c,2019-20,Dumfries & Galloway,0.0396,15.91,15.28
+Cash_Annual,CORP 03c,2019-20,Dundee City,0.0149,16.14,15.9
+Cash_Annual,CORP 03c,2019-20,East Ayrshire,0.0147,15.63,15.4
+Cash_Annual,CORP 03c,2019-20,East Dunbartonshire,0.0614,17.43,16.36
+Cash_Annual,CORP 03c,2019-20,East Lothian,0.0225,17.13,16.74
+Cash_Annual,CORP 03c,2019-20,East Renfrewshire,0.0632,18.19,17.04
+Cash_Annual,CORP 03c,2019-20,Edinburgh City,0.0305,15.74,15.26
+Cash_Annual,CORP 03c,2019-20,Eilean Siar,0.144,15.0,12.84
+Cash_Annual,CORP 03c,2019-20,Falkirk,0.046,16.31,15.56
+Cash_Annual,CORP 03c,2019-20,Fife,-0.0065,16.91,17.02
+Cash_Annual,CORP 03c,2019-20,Glasgow City,0.0312,16.37,15.86
+Cash_Annual,CORP 03c,2019-20,Highland,0.0577,16.11,15.18
+Cash_Annual,CORP 03c,2019-20,Inverclyde,0.0752,16.49,15.25
+Cash_Annual,CORP 03c,2019-20,Midlothian,0.0306,17.0,16.48
+Cash_Annual,CORP 03c,2019-20,Moray,0.0642,15.41,14.42
+Cash_Annual,CORP 03c,2019-20,North Ayrshire,0.0178,16.32,16.03
+Cash_Annual,CORP 03c,2019-20,North Lanarkshire,0.0309,16.82,16.3
+Cash_Annual,CORP 03c,2019-20,Orkney Islands,0.1145,15.46,13.69
+Cash_Annual,CORP 03c,2019-20,Perth & Kinross,-0.0069,18.78,18.91
+Cash_Annual,CORP 03c,2019-20,Renfrewshire,0.0431,16.72,16.0
+Cash_Annual,CORP 03c,2019-20,Scottish Borders,0.0554,16.49,15.57
+Cash_Annual,CORP 03c,2019-20,Shetland Islands,0.0592,15.21,14.31
+Cash_Annual,CORP 03c,2019-20,South Ayrshire,0.0248,16.16,15.76
+Cash_Annual,CORP 03c,2019-20,South Lanarkshire,0.0508,16.72,15.87
+Cash_Annual,CORP 03c,2019-20,Stirling,-0.0092,16.37,16.52
+Cash_Annual,CORP 03c,2019-20,West Dunbartonshire,0.009,15.64,15.5
+Cash_Annual,CORP 03c,2019-20,West Lothian,0.0054,16.58,16.49
+Cash_Annual,CORP 03c,2020-21,Aberdeen City,-0.0557,16.71,17.64
+Cash_Annual,CORP 03c,2020-21,Aberdeenshire,0.0013,15.55,15.53
+Cash_Annual,CORP 03c,2020-21,Angus,-0.0208,17.77,18.14
+Cash_Annual,CORP 03c,2020-21,Argyll & Bute,0.0671,16.55,15.44
+Cash_Annual,CORP 03c,2020-21,Clackmannanshire,0.0087,16.16,16.02
+Cash_Annual,CORP 03c,2020-21,Dumfries & Galloway,0.0427,16.41,15.71
+Cash_Annual,CORP 03c,2020-21,Dundee City,0.0112,16.97,16.78
+Cash_Annual,CORP 03c,2020-21,East Ayrshire,0.0525,16.94,16.05
+Cash_Annual,CORP 03c,2020-21,East Dunbartonshire,0.0563,17.76,16.76
+Cash_Annual,CORP 03c,2020-21,East Lothian,0.03,17.98,17.44
+Cash_Annual,CORP 03c,2020-21,East Renfrewshire,0.0648,17.6,16.46
+Cash_Annual,CORP 03c,2020-21,Edinburgh City,0.0281,16.37,15.91
+Cash_Annual,CORP 03c,2020-21,Eilean Siar,0.135,16.44,14.22
+Cash_Annual,CORP 03c,2020-21,Falkirk,0.0486,16.88,16.06
+Cash_Annual,CORP 03c,2020-21,Fife,0.0179,16.22,15.93
+Cash_Annual,CORP 03c,2020-21,Glasgow City,0.0336,16.96,16.39
+Cash_Annual,CORP 03c,2020-21,Highland,0.0501,17.96,17.06
+Cash_Annual,CORP 03c,2020-21,Inverclyde,0.0739,16.77,15.53
+Cash_Annual,CORP 03c,2020-21,Midlothian,0.027,17.06,16.6
+Cash_Annual,CORP 03c,2020-21,Moray,0.0616,15.91,14.93
+Cash_Annual,CORP 03c,2020-21,North Ayrshire,0.0131,16.8,16.58
+Cash_Annual,CORP 03c,2020-21,North Lanarkshire,0.0465,17.65,16.83
+Cash_Annual,CORP 03c,2020-21,Orkney Islands,0.1408,16.33,14.03
+Cash_Annual,CORP 03c,2020-21,Perth & Kinross,-0.0125,19.22,19.46
+Cash_Annual,CORP 03c,2020-21,Renfrewshire,0.0367,17.18,16.55
+Cash_Annual,CORP 03c,2020-21,Scottish Borders,0.0449,16.865,16.1076
+Cash_Annual,CORP 03c,2020-21,Shetland Islands,0.0657,15.68,14.65
+Cash_Annual,CORP 03c,2020-21,South Ayrshire,0.0204,16.66,16.32
+Cash_Annual,CORP 03c,2020-21,South Lanarkshire,0.0483,16.97,16.15
+Cash_Annual,CORP 03c,2020-21,Stirling,-0.0006,16.95,16.96
+Cash_Annual,CORP 03c,2020-21,West Dunbartonshire,0.0246,16.28,15.88
+Cash_Annual,CORP 03c,2020-21,West Lothian,0.011,17.21,17.02
+Cash_Annual,CORP 03c,2021-22,Aberdeen City,-0.0372,16.67,17.29
+Cash_Annual,CORP 03c,2021-22,Aberdeenshire,0.005,15.85,15.77
+Cash_Annual,CORP 03c,2021-22,Angus,-0.0185,17.81,18.14
+Cash_Annual,CORP 03c,2021-22,Argyll & Bute,0.0537,16.75,15.85
+Cash_Annual,CORP 03c,2021-22,Clackmannanshire,0.0208,16.86,16.51
+Cash_Annual,CORP 03c,2021-22,Dumfries & Galloway,0.0455,16.71,15.95
+Cash_Annual,CORP 03c,2021-22,Dundee City,0.0112,17.81,17.61
+Cash_Annual,CORP 03c,2021-22,East Ayrshire,0.0566,17.3,16.32
+Cash_Annual,CORP 03c,2021-22,East Dunbartonshire,0.038,17.65,16.98
+Cash_Annual,CORP 03c,2021-22,East Lothian,0.0415,18.55,17.78
+Cash_Annual,CORP 03c,2021-22,East Renfrewshire,0.0571,18.22,17.18
+Cash_Annual,CORP 03c,2021-22,Edinburgh City,0.0318,17.29,16.74
+Cash_Annual,CORP 03c,2021-22,Eilean Siar,0.1407,17.13,14.72
+Cash_Annual,CORP 03c,2021-22,Falkirk,0.0535,17.38,16.45
+Cash_Annual,CORP 03c,2021-22,Fife,0.0169,16.61,16.33
+Cash_Annual,CORP 03c,2021-22,Glasgow City,0.0334,17.39,16.81
+Cash_Annual,CORP 03c,2021-22,Highland,0.0453,18.11,17.29
+Cash_Annual,CORP 03c,2021-22,Inverclyde,0.066,17.16,16.03
+Cash_Annual,CORP 03c,2021-22,Midlothian,0.0252,17.48,17.04
+Cash_Annual,CORP 03c,2021-22,Moray,0.0695,16.41,15.27
+Cash_Annual,CORP 03c,2021-22,North Ayrshire,0.0158,17.09,16.82
+Cash_Annual,CORP 03c,2021-22,North Lanarkshire,0.049,17.56,16.7
+Cash_Annual,CORP 03c,2021-22,Orkney Islands,0.1163,16.34,14.44
+Cash_Annual,CORP 03c,2021-22,Perth & Kinross,-0.0106,19.74,19.95
+Cash_Annual,CORP 03c,2021-22,Renfrewshire,0.0229,17.5,17.1
+Cash_Annual,CORP 03c,2021-22,Scottish Borders,0.0315,17.1056,16.5662
+Cash_Annual,CORP 03c,2021-22,Shetland Islands,0.0658,16.26,15.19
+Cash_Annual,CORP 03c,2021-22,South Ayrshire,0.0228,17.12,16.73
+Cash_Annual,CORP 03c,2021-22,South Lanarkshire,0.04,17.27,16.58
+Cash_Annual,CORP 03c,2021-22,Stirling,-0.0012,17.3,17.32
+Cash_Annual,CORP 03c,2021-22,West Dunbartonshire,0.0211,16.61,16.26
+Cash_Annual,CORP 03c,2021-22,West Lothian,0.0034,17.57,17.51
+Cash_Annual,FINSUS 05,2015-16,East Renfrewshire,0.947,220428000.0,223293000.0
+Cash_Annual,FINSUS 05,2016-17,East Renfrewshire,0.965,217214000.0,219651000.0
+Cash_Annual,SW 01,2010-11,Aberdeen City,20.12,671922160.0,13516.0
+Cash_Annual,SW 01,2010-11,Aberdeenshire,28.31,534261000.0,15125.0
+Cash_Annual,SW 01,2010-11,Angus,22.84,281883160.0,6439.0
+Cash_Annual,SW 01,2010-11,Argyll & Bute,30.61,395157360.0,12096.0
+Cash_Annual,SW 01,2010-11,Clackmannanshire,13.74,201193200.0,2765.0
+Cash_Annual,SW 01,2010-11,Dumfries & Galloway,15.69,1056037320.0000001,16573.0
+Cash_Annual,SW 01,2010-11,Dundee City,23.54,660030280.0,15540.0
+Cash_Annual,SW 01,2010-11,East Ayrshire,21.09,530681319.99999994,11193.0
+Cash_Annual,SW 01,2010-11,East Dunbartonshire,23.77,392723760.0,9334.0
+Cash_Annual,SW 01,2010-11,East Lothian,15.97,478686000.0,7647.0
+Cash_Annual,SW 01,2010-11,East Renfrewshire,8.52,389480000.0,3320.0
+Cash_Annual,SW 01,2010-11,Edinburgh City,17.93,1615803280.0,28970.0
+Cash_Annual,SW 01,2010-11,Eilean Siar,25.15,213475600.0,5369.0
+Cash_Annual,SW 01,2010-11,Falkirk,21.24,711079720.0,15101.0
+Cash_Annual,SW 01,2010-11,Fife,21.32,1137500000.0,24254.0
+Cash_Annual,SW 01,2010-11,Glasgow City,21.38,3173144000.0,67845.0
+Cash_Annual,SW 01,2010-11,Highland,30.15,559233480.0,16862.0
+Cash_Annual,SW 01,2010-11,Inverclyde,19.37,495356680.0,9596.0
+Cash_Annual,SW 01,2010-11,Midlothian,16.23,348287680.0,5651.0
+Cash_Annual,SW 01,2010-11,Moray,18.42,416561600.0,7671.0
+Cash_Annual,SW 01,2010-11,North Ayrshire,23.56,534320800.00000006,12589.0
+Cash_Annual,SW 01,2010-11,North Lanarkshire,18.75,1272310000.0,23853.0
+Cash_Annual,SW 01,2010-11,Orkney Islands,27.1,71923280.0,1949.0
+Cash_Annual,SW 01,2010-11,Perth & Kinross,21.74,527897760.0,11474.0
+Cash_Annual,SW 01,2010-11,Renfrewshire,22.34,518271000.0,11578.0
+Cash_Annual,SW 01,2010-11,Scottish Borders,19.81,453292840.0,8978.0
+Cash_Annual,SW 01,2010-11,Shetland Islands,21.68,184158000.0,3992.0
+Cash_Annual,SW 01,2010-11,South Ayrshire,17.1,834519400.0,14273.0
+Cash_Annual,SW 01,2010-11,South Lanarkshire,15.66,1575239640.0,24669.0
+Cash_Annual,SW 01,2010-11,Stirling,17.61,360909640.0,6355.0
+Cash_Annual,SW 01,2010-11,West Dunbartonshire,16.9,503232080.0,8507.0
+Cash_Annual,SW 01,2010-11,West Lothian,23.74,503643920.0,11957.0
+Cash_Annual,SW 01,2011-12,Aberdeen City,19.78,702913120.0,13902.0
+Cash_Annual,SW 01,2011-12,Aberdeenshire,29.46,579423000.0,17071.0
+Cash_Annual,SW 01,2011-12,Angus,28.31,261831440.0,7413.0
+Cash_Annual,SW 01,2011-12,Argyll & Bute,26.71,451709960.0,12064.0
+Cash_Annual,SW 01,2011-12,Clackmannanshire,9.87,217795760.0,2149.0
+Cash_Annual,SW 01,2011-12,Dumfries & Galloway,13.09,1330870320.0,17427.0
+Cash_Annual,SW 01,2011-12,Dundee City,25.36,625246440.0,15854.0
+Cash_Annual,SW 01,2011-12,East Ayrshire,16.51,618529080.0,10215.0
+Cash_Annual,SW 01,2011-12,East Dunbartonshire,23.99,409712680.0,9829.0
+Cash_Annual,SW 01,2011-12,East Lothian,14.92,552385600.0,8244.0
+Cash_Annual,SW 01,2011-12,East Renfrewshire,11.28,404040000.0,4557.0
+Cash_Annual,SW 01,2011-12,Edinburgh City,19.67,1615554720.0,31779.0
+Cash_Annual,SW 01,2011-12,Eilean Siar,25.02,217773400.0,5448.0
+Cash_Annual,SW 01,2011-12,Falkirk,23.73,642815680.0,15257.0
+Cash_Annual,SW 01,2011-12,Fife,25.51,1067181440.0,27223.0
+Cash_Annual,SW 01,2011-12,Glasgow City,19.83,3146156000.0,62384.0
+Cash_Annual,SW 01,2011-12,Highland,30.92,557921520.0,17250.0
+Cash_Annual,SW 01,2011-12,Inverclyde,16.35,475902440.0,7781.0
+Cash_Annual,SW 01,2011-12,Midlothian,16.99,349736400.0,5941.0
+Cash_Annual,SW 01,2011-12,Moray,19.06,436555600.0,8322.0
+Cash_Annual,SW 01,2011-12,North Ayrshire,19.04,699756200.0,13321.0
+Cash_Annual,SW 01,2011-12,North Lanarkshire,18.95,1202825000.0,22791.0
+Cash_Annual,SW 01,2011-12,Orkney Islands,28.49,67002000.0,1909.0
+Cash_Annual,SW 01,2011-12,Perth & Kinross,23.25,479500840.0,11149.0
+Cash_Annual,SW 01,2011-12,Renfrewshire,19.88,528876920.00000006,10511.581
+Cash_Annual,SW 01,2011-12,Scottish Borders,16.31,483821520.0,7889.0
+Cash_Annual,SW 01,2011-12,Shetland Islands,24.98,146029000.0,3648.0
+Cash_Annual,SW 01,2011-12,South Ayrshire,18.49,714436840.0,13212.0
+Cash_Annual,SW 01,2011-12,South Lanarkshire,16.36,1549229240.0,25343.0
+Cash_Annual,SW 01,2011-12,Stirling,14.99,398956480.0,5982.0
+Cash_Annual,SW 01,2011-12,West Dunbartonshire,15.67,548821000.0,8599.0
+Cash_Annual,SW 01,2011-12,West Lothian,20.38,533027560.00000006,10864.0
+Cash_Annual,SW 01,2012-13,Aberdeen City,26.83,609256960.0,16345.0
+Cash_Annual,SW 01,2012-13,Aberdeenshire,20.1,694946200.0,13968.0
+Cash_Annual,SW 01,2012-13,Angus,31.07,245085360.0,7616.0
+Cash_Annual,SW 01,2012-13,Argyll & Bute,24.94,498654000.0,12435.0
+Cash_Annual,SW 01,2012-13,Clackmannanshire,16.47,243040200.0,4004.0
+Cash_Annual,SW 01,2012-13,Dumfries & Galloway,17.83,977461160.0,17426.0
+Cash_Annual,SW 01,2012-13,Dundee City,25.53,634741120.0,16206.0
+Cash_Annual,SW 01,2012-13,East Ayrshire,18.81,596867440.0,11228.0
+Cash_Annual,SW 01,2012-13,East Dunbartonshire,21.12,475298200.0,10038.0
+Cash_Annual,SW 01,2012-13,East Lothian,9.7,560009840.0,5431.0
+Cash_Annual,SW 01,2012-13,East Renfrewshire,10.01,605640360.0,6065.0
+Cash_Annual,SW 01,2012-13,Edinburgh City,22.23,1810215160.0,40234.0
+Cash_Annual,SW 01,2012-13,Eilean Siar,23.27,214304480.0,4986.0
+Cash_Annual,SW 01,2012-13,Falkirk,23.51,631267520.0,14838.0
+Cash_Annual,SW 01,2012-13,Fife,26.17,1138991360.0,29808.0
+Cash_Annual,SW 01,2012-13,Glasgow City,21.39,2982369000.0,63798.0
+Cash_Annual,SW 01,2012-13,Highland,28.08,555319960.0,15593.0
+Cash_Annual,SW 01,2012-13,Inverclyde,15.57,519431640.0,8089.0
+Cash_Annual,SW 01,2012-13,Midlothian,12.46,508300000.0,6334.0
+Cash_Annual,SW 01,2012-13,Moray,23.58,434564000.0,10245.0
+Cash_Annual,SW 01,2012-13,North Ayrshire,19.66,732850040.0,14405.0
+Cash_Annual,SW 01,2012-13,North Lanarkshire,19.79,1239407000.0,24531.0
+Cash_Annual,SW 01,2012-13,Orkney Islands,31.74,69725240.0,2213.0
+Cash_Annual,SW 01,2012-13,Perth & Kinross,22.96,424405800.0,9742.26
+Cash_Annual,SW 01,2012-13,Renfrewshire,17.3,633340240.0,10959.0
+Cash_Annual,SW 01,2012-13,Scottish Borders,16.99,454743120.0,7725.0
+Cash_Annual,SW 01,2012-13,Shetland Islands,43.11,126503000.0,5454.0
+Cash_Annual,SW 01,2012-13,South Ayrshire,19.11,760056440.0,14527.0
+Cash_Annual,SW 01,2012-13,South Lanarkshire,17.99,1428922560.0,25704.0
+Cash_Annual,SW 01,2012-13,Stirling,13.3,426262720.0,5671.0
+Cash_Annual,SW 01,2012-13,West Dunbartonshire,17.64,512429840.0,9038.0
+Cash_Annual,SW 01,2012-13,West Lothian,21.13,563832880.0,11915.0
+Cash_Annual,SW 01,2013-14,Aberdeen City,24.45,643012240.0,15722.0
+Cash_Annual,SW 01,2013-14,Aberdeenshire,23.65,742749800.0,17567.0
+Cash_Annual,SW 01,2013-14,Angus,11.48,751286120.0,8624.0
+Cash_Annual,SW 01,2013-14,Argyll & Bute,20.98,598482560.0,12555.0
+Cash_Annual,SW 01,2013-14,Clackmannanshire,17.0,259593880.0,4413.0
+Cash_Annual,SW 01,2013-14,Dumfries & Galloway,20.78,809672240.0,16827.0
+Cash_Annual,SW 01,2013-14,Dundee City,19.46,786555640.0,15307.0
+Cash_Annual,SW 01,2013-14,East Ayrshire,19.45,625824680.0,12174.0
+Cash_Annual,SW 01,2013-14,East Dunbartonshire,19.57,570727040.0,11171.0
+Cash_Annual,SW 01,2013-14,East Lothian,13.01,587249000.0,7638.0
+Cash_Annual,SW 01,2013-14,East Renfrewshire,18.15,357654960.0,6490.0
+Cash_Annual,SW 01,2013-14,Edinburgh City,20.08,2119640120.0,42564.0
+Cash_Annual,SW 01,2013-14,Eilean Siar,24.28,215376200.0,5229.0
+Cash_Annual,SW 01,2013-14,Falkirk,21.23,706942080.0,15010.0
+Cash_Annual,SW 01,2013-14,Fife,21.85,1152789040.0,25193.0
+Cash_Annual,SW 01,2013-14,Glasgow City,21.95,2785772600.0,61140.0
+Cash_Annual,SW 01,2013-14,Highland,30.07,594874800.0,17888.0
+Cash_Annual,SW 01,2013-14,Inverclyde,17.32,479786840.0,8308.0
+Cash_Annual,SW 01,2013-14,Midlothian,23.81,343785000.0,8185.0
+Cash_Annual,SW 01,2013-14,Moray,20.97,492748360.0,10333.0
+Cash_Annual,SW 01,2013-14,North Ayrshire,18.93,856587680.0,16219.0
+Cash_Annual,SW 01,2013-14,North Lanarkshire,18.98,1384825000.0,26282.0
+Cash_Annual,SW 01,2013-14,Orkney Islands,23.86,89781120.0,2142.0
+Cash_Annual,SW 01,2013-14,Perth & Kinross,22.84,473702320.0,10820.0
+Cash_Annual,SW 01,2013-14,Renfrewshire,16.81,698303840.0,11735.0
+Cash_Annual,SW 01,2013-14,Scottish Borders,17.85,427060400.0,7624.0
+Cash_Annual,SW 01,2013-14,Shetland Islands,36.68,112827000.0,4138.0
+Cash_Annual,SW 01,2013-14,South Ayrshire,20.62,723182200.0,14910.0
+Cash_Annual,SW 01,2013-14,South Lanarkshire,19.4,1436277960.0,27866.0
+Cash_Annual,SW 01,2013-14,Stirling,15.49,421693480.0,6531.0
+Cash_Annual,SW 01,2013-14,West Dunbartonshire,18.47,518211200.0,9570.0
+Cash_Annual,SW 01,2013-14,West Lothian,21.7,633215440.0,13741.0
+Cash_Annual,SW 01,2014-15,Aberdeen City,26.29,616311800.0,16203.0
+Cash_Annual,SW 01,2014-15,Aberdeenshire,25.16,737611160.0,18556.0
+Cash_Annual,SW 01,2014-15,Angus,14.53,580523840.0,8434.0
+Cash_Annual,SW 01,2014-15,Argyll & Bute,22.21,582469680.0,12937.0
+Cash_Annual,SW 01,2014-15,Clackmannanshire,13.77,252492760.0,3478.0
+Cash_Annual,SW 01,2014-15,Dumfries & Galloway,14.51,1182722840.0,17159.0
+Cash_Annual,SW 01,2014-15,Dundee City,22.46,679018080.0,15252.0
+Cash_Annual,SW 01,2014-15,East Ayrshire,20.67,592942480.0,12254.0
+Cash_Annual,SW 01,2014-15,East Dunbartonshire,21.1,554528000.0,11703.0
+Cash_Annual,SW 01,2014-15,East Lothian,14.25,594005360.0,8467.0
+Cash_Annual,SW 01,2014-15,East Renfrewshire,21.73,300388920.0,6527.0
+Cash_Annual,SW 01,2014-15,Edinburgh City,23.58,1998099480.0,47107.0
+Cash_Annual,SW 01,2014-15,Eilean Siar,26.62,204894040.0,5454.0
+Cash_Annual,SW 01,2014-15,Falkirk,15.57,674840920.0,10506.0
+Cash_Annual,SW 01,2014-15,Fife,23.4,1123200520.0,26287.0
+Cash_Annual,SW 01,2014-15,Glasgow City,18.5,3054690600.0,56512.0
+Cash_Annual,SW 01,2014-15,Highland,31.18,612472640.0,19095.0
+Cash_Annual,SW 01,2014-15,Inverclyde,12.79,676213720.0,8648.0
+Cash_Annual,SW 01,2014-15,Midlothian,28.22,291495880.0,8227.0
+Cash_Annual,SW 01,2014-15,Moray,21.98,478263760.0,10511.0
+Cash_Annual,SW 01,2014-15,North Ayrshire,17.94,874695640.0,15691.0
+Cash_Annual,SW 01,2014-15,North Lanarkshire,19.88,1491997000.0,29655.0
+Cash_Annual,SW 01,2014-15,Orkney Islands,25.29,92047280.0,2328.0
+Cash_Annual,SW 01,2014-15,Perth & Kinross,24.72,450573240.0,11139.0
+Cash_Annual,SW 01,2014-15,Renfrewshire,14.95,814425040.0,12179.0
+Cash_Annual,SW 01,2014-15,Scottish Borders,19.33,394001920.0,7616.0
+Cash_Annual,SW 01,2014-15,Shetland Islands,28.38,129506000.0,3675.0
+Cash_Annual,SW 01,2014-15,South Ayrshire,21.47,661232520.0,14197.0
+Cash_Annual,SW 01,2014-15,South Lanarkshire,19.66,1395719520.0,27446.0
+Cash_Annual,SW 01,2014-15,Stirling,14.1,456243320.0,6432.0
+Cash_Annual,SW 01,2014-15,West Dunbartonshire,20.91,473993000.0,9912.0
+Cash_Annual,SW 01,2014-15,West Lothian,24.08,629298800.0,15152.0
+Cash_Annual,SW 01,2015-16,Aberdeen City,34.78,634463440.0,22064.0
+Cash_Annual,SW 01,2015-16,Aberdeenshire,26.93,759507840.0,20450.0
+Cash_Annual,SW 01,2015-16,Angus,10.11,421824000.0,4264.0
+Cash_Annual,SW 01,2015-16,Argyll & Bute,25.37,538559840.0,13664.0
+Cash_Annual,SW 01,2015-16,Clackmannanshire,15.74,266207760.0,4190.0
+Cash_Annual,SW 01,2015-16,Dumfries & Galloway,18.83,957216000.0,18025.0
+Cash_Annual,SW 01,2015-16,Dundee City,19.08,835825640.0,15950.0
+Cash_Annual,SW 01,2015-16,East Ayrshire,20.12,636248600.0,12804.0
+Cash_Annual,SW 01,2015-16,East Dunbartonshire,20.99,543523760.0,11408.0
+Cash_Annual,SW 01,2015-16,East Lothian,15.41,555399000.0,8558.0
+Cash_Annual,SW 01,2015-16,East Renfrewshire,25.33,282440600.0,7153.0
+Cash_Annual,SW 01,2015-16,Edinburgh City,20.65,2152456800.0,44455.0
+Cash_Annual,SW 01,2015-16,Eilean Siar,31.79,162449560.0,5165.0
+Cash_Annual,SW 01,2015-16,Falkirk,14.74,725383360.0,10694.0
+Cash_Annual,SW 01,2015-16,Fife,19.0,1243026720.0,23615.0
+Cash_Annual,SW 01,2015-16,Glasgow City,21.23,2686755760.0,57048.0
+Cash_Annual,SW 01,2015-16,Highland,32.66,635394240.0,20750.0
+Cash_Annual,SW 01,2015-16,Inverclyde,19.71,477436440.0,9412.0
+Cash_Annual,SW 01,2015-16,Midlothian,25.9,331919640.0,8597.0
+Cash_Annual,SW 01,2015-16,Moray,22.18,458485040.0,10171.0
+Cash_Annual,SW 01,2015-16,North Ayrshire,22.0,753522640.0,16574.0
+Cash_Annual,SW 01,2015-16,North Lanarkshire,21.61,1460134000.0,31556.0
+Cash_Annual,SW 01,2015-16,Orkney Islands,40.07,56701320.0,2272.0
+Cash_Annual,SW 01,2015-16,Perth & Kinross,17.99,639147080.0,11497.0
+Cash_Annual,SW 01,2015-16,Renfrewshire,15.47,825244160.0,12766.0
+Cash_Annual,SW 01,2015-16,Scottish Borders,19.89,394393480.0,7844.0
+Cash_Annual,SW 01,2015-16,Shetland Islands,30.01,125476000.0,3765.0
+Cash_Annual,SW 01,2015-16,South Ayrshire,19.18,749088080.0,14365.0
+Cash_Annual,SW 01,2015-16,South Lanarkshire,20.38,1439972560.0,29348.0
+Cash_Annual,SW 01,2015-16,Stirling,13.12,457019160.0,5994.0
+Cash_Annual,SW 01,2015-16,West Dunbartonshire,22.03,449128680.0,9895.0
+Cash_Annual,SW 01,2015-16,West Lothian,32.05,531421280.0,17034.0
+Cash_Annual,SW 01,2016-17,Aberdeen City,33.01,702501800.0,23189.0
+Cash_Annual,SW 01,2016-17,Aberdeenshire,22.74,895951160.0,20378.0
+Cash_Annual,SW 01,2016-17,Angus,19.45,421824000.0,8205.0
+Cash_Annual,SW 01,2016-17,Argyll & Bute,27.72,503901840.0,13966.0
+Cash_Annual,SW 01,2016-17,Clackmannanshire,18.31,246284480.0,4509.0
+Cash_Annual,SW 01,2016-17,Dumfries & Galloway,15.71,1199996200.0,18855.0
+Cash_Annual,SW 01,2016-17,Dundee City,18.7,932359480.0,17438.0
+Cash_Annual,SW 01,2016-17,East Ayrshire,23.97,588207880.0,14098.0
+Cash_Annual,SW 01,2016-17,East Dunbartonshire,20.86,566107880.0,11811.0
+Cash_Annual,SW 01,2016-17,East Lothian,15.63,555278880.0,8680.0
+Cash_Annual,SW 01,2016-17,East Renfrewshire,22.7,354083600.0,8039.0
+Cash_Annual,SW 01,2016-17,Edinburgh City,25.05,2018867760.0,50577.0
+Cash_Annual,SW 01,2016-17,Eilean Siar,42.15,120853200.0,5094.0
+Cash_Annual,SW 01,2016-17,Falkirk,16.24,707877040.0,11497.0
+Cash_Annual,SW 01,2016-17,Fife,16.71,1525000360.0,25486.0
+Cash_Annual,SW 01,2016-17,Glasgow City,23.25,2624771760.0,61031.0
+Cash_Annual,SW 01,2016-17,Highland,36.09,629718440.0,22726.0
+Cash_Annual,SW 01,2016-17,Inverclyde,23.43,430575600.0,10087.0
+Cash_Annual,SW 01,2016-17,Midlothian,24.19,377953160.0,9141.0
+Cash_Annual,SW 01,2016-17,Moray,21.47,502850400.0,10798.0
+Cash_Annual,SW 01,2016-17,North Ayrshire,28.4,659355840.0,18723.0
+Cash_Annual,SW 01,2016-17,North Lanarkshire,25.76,1444209000.0,37196.0
+Cash_Annual,SW 01,2016-17,Orkney Islands,35.42,68462160.0,2425.0
+Cash_Annual,SW 01,2016-17,Perth & Kinross,16.18,708775600.0,11471.0
+Cash_Annual,SW 01,2016-17,Renfrewshire,23.56,702030160.0,16539.0
+Cash_Annual,SW 01,2016-17,Scottish Borders,22.99,367815760.0,8456.0
+Cash_Annual,SW 01,2016-17,Shetland Islands,31.61,125073000.0,3953.0
+Cash_Annual,SW 01,2016-17,South Ayrshire,22.99,679853720.0,15628.0
+Cash_Annual,SW 01,2016-17,South Lanarkshire,21.25,1558511760.0,33113.0
+Cash_Annual,SW 01,2016-17,Stirling,13.05,458458000.0,5982.0
+Cash_Annual,SW 01,2016-17,West Dunbartonshire,24.24,428040080.0,10375.0
+Cash_Annual,SW 01,2016-17,West Lothian,28.73,580346520.0,16671.0
+Cash_Annual,SW 01,2017-18,Aberdeen City,32.71,715312000.0,23401.0
+Cash_Annual,SW 01,2017-18,Aberdeenshire,24.6,920452000.0,22644.0
+Cash_Annual,SW 01,2017-18,Angus,30.14,367380000.0,11071.0
+Cash_Annual,SW 01,2017-18,Argyll & Bute,24.82,591656000.0,14682.0
+Cash_Annual,SW 01,2017-18,Clackmannanshire,13.28,311896000.0,4141.0
+Cash_Annual,SW 01,2017-18,Dumfries & Galloway,15.95,1157676000.0,18466.0
+Cash_Annual,SW 01,2017-18,Dundee City,21.24,940472000.0,19974.0
+Cash_Annual,SW 01,2017-18,East Ayrshire,23.81,588953042.2,14025.0
+Cash_Annual,SW 01,2017-18,East Dunbartonshire,21.24,565390800.0,12009.0
+Cash_Annual,SW 01,2017-18,East Lothian,16.75,536640000.0,8991.0
+Cash_Annual,SW 01,2017-18,East Renfrewshire,22.69,367068000.0,8328.0
+Cash_Annual,SW 01,2017-18,Edinburgh City,24.59,2154901493.0,52992.0
+Cash_Annual,SW 01,2017-18,Eilean Siar,41.24,128233560.0,5288.0
+Cash_Annual,SW 01,2017-18,Falkirk,18.86,705175442.0,13302.0
+Cash_Annual,SW 01,2017-18,Fife,19.89,1526932284.0,30378.0
+Cash_Annual,SW 01,2017-18,Glasgow City,25.18,2253420000.0,56747.0
+Cash_Annual,SW 01,2017-18,Highland,29.79,814684000.0,24267.0
+Cash_Annual,SW 01,2017-18,Inverclyde,27.37,393796000.0,10780.0
+Cash_Annual,SW 01,2017-18,Midlothian,36.88,238316000.0,8788.0
+Cash_Annual,SW 01,2017-18,Moray,26.6,463424000.0,12328.0
+Cash_Annual,SW 01,2017-18,North Ayrshire,30.0,660191134.9,19804.0
+Cash_Annual,SW 01,2017-18,North Lanarkshire,28.19,1422096000.0,40091.0
+Cash_Annual,SW 01,2017-18,Orkney Islands,37.33,66889160.0,2497.0
+Cash_Annual,SW 01,2017-18,Perth & Kinross,13.85,772252000.0,10698.0
+Cash_Annual,SW 01,2017-18,Renfrewshire,22.4,758680000.0,16995.0
+Cash_Annual,SW 01,2017-18,Scottish Borders,21.86,390936000.0,8547.0
+Cash_Annual,SW 01,2017-18,Shetland Islands,46.76,89908000.0,4204.0
+Cash_Annual,SW 01,2017-18,South Ayrshire,24.64,697008000.0,17171.0
+Cash_Annual,SW 01,2017-18,South Lanarkshire,21.36,1663428000.0,35523.0
+Cash_Annual,SW 01,2017-18,Stirling,16.98,443092000.0,7524.0
+Cash_Annual,SW 01,2017-18,West Dunbartonshire,25.9,414336000.0,10732.0
+Cash_Annual,SW 01,2017-18,West Lothian,29.28,592020000.0,17337.0
+Cash_Annual,SW 01,2018-19,Aberdeen City,10.71,697424000.0,7470.0
+Cash_Annual,SW 01,2018-19,Aberdeenshire,22.11,1026220000.0,22689.0
+Cash_Annual,SW 01,2018-19,Angus,28.26,370604000.0,10472.0
+Cash_Annual,SW 01,2018-19,Argyll & Bute,22.22,680524000.0,15118.0
+Cash_Annual,SW 01,2018-19,Clackmannanshire,14.6,314652000.0,4594.0
+Cash_Annual,SW 01,2018-19,Dumfries & Galloway,18.24,1005836000.0,18346.0
+Cash_Annual,SW 01,2018-19,Dundee City,27.12,773240000.0,20968.0
+Cash_Annual,SW 01,2018-19,East Ayrshire,21.96,663468000.0,14571.0
+Cash_Annual,SW 01,2018-19,East Dunbartonshire,20.52,597948000.0,12271.0
+Cash_Annual,SW 01,2018-19,East Lothian,16.07,557492000.0,8960.0
+Cash_Annual,SW 01,2018-19,East Renfrewshire,24.77,372684000.0,9231.0
+Cash_Annual,SW 01,2018-19,Edinburgh City,26.16,2206256000.0,57725.0
+Cash_Annual,SW 01,2018-19,Eilean Siar,51.01,102596000.0,5233.0
+Cash_Annual,SW 01,2018-19,Falkirk,22.65,604136000.0,13682.0
+Cash_Annual,SW 01,2018-19,Fife,21.96,1525000360.0,33496.0
+Cash_Annual,SW 01,2018-19,Glasgow City,34.97,2073146400.0,72497.0
+Cash_Annual,SW 01,2018-19,Highland,29.46,809484000.0,23850.0
+Cash_Annual,SW 01,2018-19,Inverclyde,28.34,393276000.0,11147.0
+Cash_Annual,SW 01,2018-19,Midlothian,34.89,256256000.0,8942.0
+Cash_Annual,SW 01,2018-19,Moray,34.98,377364000.0,13202.0
+Cash_Annual,SW 01,2018-19,North Ayrshire,25.3,782704000.0,19804.0
+Cash_Annual,SW 01,2018-19,North Lanarkshire,23.79,1750580000.0,41654.0
+Cash_Annual,SW 01,2018-19,Orkney Islands,40.36,65329160.0,2637.0
+Cash_Annual,SW 01,2018-19,Perth & Kinross,11.22,849472000.0,9527.0
+Cash_Annual,SW 01,2018-19,Renfrewshire,26.4,695838000.0,18373.0
+Cash_Annual,SW 01,2018-19,Scottish Borders,24.25,390936000.0,9482.0
+Cash_Annual,SW 01,2018-19,Shetland Islands,40.76,108576000.0,4426.0
+Cash_Annual,SW 01,2018-19,South Ayrshire,27.56,668148000.0,18412.0
+Cash_Annual,SW 01,2018-19,South Lanarkshire,20.26,1905852000.0,38609.0
+Cash_Annual,SW 01,2018-19,Stirling,18.27,450112000.0,8222.0
+Cash_Annual,SW 01,2018-19,West Dunbartonshire,22.79,483912000.0,11027.0
+Cash_Annual,SW 01,2018-19,West Lothian,24.66,658320000.0,16237.0
+Cash_Annual,SW 01,2019-20,Aberdeen City,16.58,672724000.0,11152.0
+Cash_Annual,SW 01,2019-20,Aberdeenshire,22.7,1017198000.0,23091.0
+Cash_Annual,SW 01,2019-20,Angus,28.46,410313150.0,11676.0
+Cash_Annual,SW 01,2019-20,Argyll & Bute,25.0,652665000.0,16318.0
+Cash_Annual,SW 01,2019-20,Clackmannanshire,12.7,314049450.0,3989.0
+Cash_Annual,SW 01,2019-20,Dumfries & Galloway,16.74,994773000.0,16648.0
+Cash_Annual,SW 01,2019-20,Dundee City,27.19,803803000.0,21859.0
+Cash_Annual,SW 01,2019-20,East Ayrshire,24.21,619229000.0,14991.0
+Cash_Annual,SW 01,2019-20,East Dunbartonshire,22.48,576758780.0,12963.0
+Cash_Annual,SW 01,2019-20,East Lothian,16.0,530988250.0,8498.0
+Cash_Annual,SW 01,2019-20,East Renfrewshire,26.83,371605000.0,9972.0
+Cash_Annual,SW 01,2019-20,Edinburgh City,23.78,2329644070.0,55393.0
+Cash_Annual,SW 01,2019-20,Eilean Siar,64.75,94729570.0,6134.0
+Cash_Annual,SW 01,2019-20,Falkirk,25.0,590356000.0,14761.0
+Cash_Annual,SW 01,2019-20,Fife,24.66,1358205160.0,33487.0
+Cash_Annual,SW 01,2019-20,Glasgow City,34.59,2393768000.0,82809.0
+Cash_Annual,SW 01,2019-20,Highland,30.36,765110613.8000001,23231.0
+Cash_Annual,SW 01,2019-20,Inverclyde,23.51,448877000.0,10551.0
+Cash_Annual,SW 01,2019-20,Midlothian,19.52,438581000.0,8560.0
+Cash_Annual,SW 01,2019-20,Moray,34.46,387008786.7,13337.0
+Cash_Annual,SW 01,2019-20,North Ayrshire,29.69,733265910.0,21770.0
+Cash_Annual,SW 01,2019-20,North Lanarkshire,33.31,1696217250.0,56500.0
+Cash_Annual,SW 01,2019-20,Orkney Islands,37.0,67673190.0,2504.0
+Cash_Annual,SW 01,2019-20,Perth & Kinross,13.61,673853310.0,9172.0
+Cash_Annual,SW 01,2019-20,Renfrewshire,24.48,768651000.0,18817.0
+Cash_Annual,SW 01,2019-20,Scottish Borders,20.03,520619710.0,10429.0
+Cash_Annual,SW 01,2019-20,Shetland Islands,37.96,114985780.0,4365.0
+Cash_Annual,SW 01,2019-20,South Ayrshire,29.4,629119806.8000001,18495.0
+Cash_Annual,SW 01,2019-20,South Lanarkshire,23.47,1880361470.0,44127.0
+Cash_Annual,SW 01,2019-20,Stirling,21.57,442377000.0,9543.0
+Cash_Annual,SW 01,2019-20,West Dunbartonshire,19.58,506005240.0,9907.0
+Cash_Annual,SW 01,2019-20,West Lothian,24.52,653926000.0,16033.0
+Cash_Annual,SW 01,2020-21,Aberdeen City,20.35,642989750.0,13086.0
+Cash_Annual,SW 01,2020-21,Aberdeenshire,24.65,1086722000.0,26789.0
+Cash_Annual,SW 01,2020-21,Angus,30.05,476420100.0,14317.0
+Cash_Annual,SW 01,2020-21,Argyll & Bute,28.69,619788000.0,17779.0
+Cash_Annual,SW 01,2020-21,Clackmannanshire,16.46,336739000.0,5544.0
+Cash_Annual,SW 01,2020-21,Dumfries & Galloway,19.25,988585000.0,19032.0
+Cash_Annual,SW 01,2020-21,Dundee City,26.56,910520000.0,24186.0
+Cash_Annual,SW 01,2020-21,East Ayrshire,29.19,571012000.0,16668.0
+Cash_Annual,SW 01,2020-21,East Dunbartonshire,27.88,487933940.0,13606.0
+Cash_Annual,SW 01,2020-21,East Lothian,22.13,494208000.0,10935.0
+Cash_Annual,SW 01,2020-21,East Renfrewshire,37.24,361803000.0,13472.0
+Cash_Annual,SW 01,2020-21,Edinburgh City,23.36,2597470027.0,60689.0
+Cash_Annual,SW 01,2020-21,Eilean Siar,74.62,90347530.0,6742.0
+Cash_Annual,SW 01,2020-21,Falkirk,36.47,612326000.0,22331.0
+Cash_Annual,SW 01,2020-21,Fife,30.75,1335318877.0,41058.0
+Cash_Annual,SW 01,2020-21,Glasgow City,36.26,2209090000.0,80092.0
+Cash_Annual,SW 01,2020-21,Highland,35.24,717140893.3,25272.0
+Cash_Annual,SW 01,2020-21,Inverclyde,34.29,365118000.0,12520.0
+Cash_Annual,SW 01,2020-21,Midlothian,25.45,403936000.0,10282.0
+Cash_Annual,SW 01,2020-21,Moray,27.79,417980550.0,11615.0
+Cash_Annual,SW 01,2020-21,North Ayrshire,29.82,730252510.0,21775.0
+Cash_Annual,SW 01,2020-21,North Lanarkshire,28.52,1673265750.0,47726.0
+Cash_Annual,SW 01,2020-21,Orkney Islands,37.32,76411140.0,2852.0
+Cash_Annual,SW 01,2020-21,Perth & Kinross,14.05,701328290.0,9853.0
+Cash_Annual,SW 01,2020-21,Renfrewshire,25.71,712273250.0,18310.0
+Cash_Annual,SW 01,2020-21,Scottish Borders,19.81,500983210.0,9924.0
+Cash_Annual,SW 01,2020-21,Shetland Islands,58.74,100662250.0,5913.0
+Cash_Annual,SW 01,2020-21,South Ayrshire,34.69,631438791.0,21906.0
+Cash_Annual,SW 01,2020-21,South Lanarkshire,24.85,1963053430.0,48784.0
+Cash_Annual,SW 01,2020-21,Stirling,22.18,452335000.0,10033.0
+Cash_Annual,SW 01,2020-21,West Dunbartonshire,29.32,482398800.0,14143.0
+Cash_Annual,SW 01,2020-21,West Lothian,25.86,672815000.0,17402.0
+Cash_Annual,SW 01,2021-22,Aberdeen City,20.09,590099770.0,11855.0
+Cash_Annual,SW 01,2021-22,Aberdeenshire,22.39,1180972000.0,26438.0
+Cash_Annual,SW 01,2021-22,Angus,34.18,507903500.0,17359.0
+Cash_Annual,SW 01,2021-22,Argyll & Bute,27.73,608855000.0,16881.0
+Cash_Annual,SW 01,2021-22,Clackmannanshire,16.17,344565000.0,5573.2398
+Cash_Annual,SW 01,2021-22,Dumfries & Galloway,21.95,971908169.6999999,21329.0
+Cash_Annual,SW 01,2021-22,Dundee City,33.24,872677000.0,29004.0
+Cash_Annual,SW 01,2021-22,East Ayrshire,31.12,576342000.0,17933.0
+Cash_Annual,SW 01,2021-22,East Dunbartonshire,32.19,490059180.0,15777.0
+Cash_Annual,SW 01,2021-22,East Lothian,21.52,473460000.0,10191.0
+Cash_Annual,SW 01,2021-22,East Renfrewshire,30.79,419484000.0,12916.0
+Cash_Annual,SW 01,2021-22,Edinburgh City,23.42,2755965247.0,64554.0
+Cash_Annual,SW 01,2021-22,Eilean Siar,75.53,86386690.0,6525.0
+Cash_Annual,SW 01,2021-22,Falkirk,35.0,611702234.4,21412.0
+Cash_Annual,SW 01,2021-22,Fife,33.35,1305214647.0,43524.0
+Cash_Annual,SW 01,2021-22,Glasgow City,39.6,2115204029.0,83768.0
+Cash_Annual,SW 01,2021-22,Highland,32.94,766660871.5999999,25256.0
+Cash_Annual,SW 01,2021-22,Inverclyde,13.85,387543000.0,5368.0
+Cash_Annual,SW 01,2021-22,Midlothian,27.91,395681000.0,11042.0
+Cash_Annual,SW 01,2021-22,Moray,24.21,473523353.3,11463.0
+Cash_Annual,SW 01,2021-22,North Ayrshire,31.0,724142640.0,22450.0
+Cash_Annual,SW 01,2021-22,North Lanarkshire,31.28,1704927250.0,53328.0
+Cash_Annual,SW 01,2021-22,Orkney Islands,38.76,80989870.0,3139.0
+Cash_Annual,SW 01,2021-22,Perth & Kinross,20.48,720468450.0,14754.0
+Cash_Annual,SW 01,2021-22,Renfrewshire,25.69,732004000.0,18805.0
+Cash_Annual,SW 01,2021-22,Scottish Borders,26.15,496033557.5,12973.0
+Cash_Annual,SW 01,2021-22,Shetland Islands,50.14,106292290.0,5329.0
+Cash_Annual,SW 01,2021-22,South Ayrshire,32.5,644048842.7,20932.0
+Cash_Annual,SW 01,2021-22,South Lanarkshire,28.59,1952504970.0,55813.0975
+Cash_Annual,SW 01,2021-22,Stirling,21.69,473551000.0,10273.0
+Cash_Annual,SW 01,2021-22,West Dunbartonshire,31.94,511552600.0,16340.0
+Cash_Annual,SW 01,2021-22,West Lothian,25.66,710216000.0,18226.0
+Real_Annual,C&L 03,2018-19,Argyll & Bute,0.0647,17249.1,289218.0
+Real_Annual,C&L 03,2019-20,Argyll & Bute,0.0527,16866.0,305841.0
+Real_Annual,C&L 03,2021-22,Argyll & Bute,0.0999,15986.9,164337.0
+Real_Annual,CORP 03c,2015-16,Aberdeen City,-0.0023,16.9628,16.9971
+Real_Annual,CORP 03c,2015-16,Aberdeenshire,0.0185,15.4768,15.1911
+Real_Annual,CORP 03c,2015-16,Angus,0.0184,17.4086,17.0885
+Real_Annual,CORP 03c,2015-16,Argyll & Bute,0.0771,16.2998,15.0425
+Real_Annual,CORP 03c,2015-16,Clackmannanshire,0.0429,15.9798,15.2939
+Real_Annual,CORP 03c,2015-16,Dumfries & Galloway,0.0594,16.1741,15.2139
+Real_Annual,CORP 03c,2015-16,Dundee City,0.0093,17.1457,16.9857
+Real_Annual,CORP 03c,2015-16,East Ayrshire,0.0707,16.3341,15.1796
+Real_Annual,CORP 03c,2015-16,East Dunbartonshire,0.0674,18.323,17.0885
+Real_Annual,CORP 03c,2015-16,East Lothian,-0.0116,16.757,16.9514
+Real_Annual,CORP 03c,2015-16,East Renfrewshire,0.0928,18.8488,17.1
+Real_Annual,CORP 03c,2015-16,Edinburgh City,0.0325,16.1855,15.6597
+Real_Annual,CORP 03c,2015-16,Eilean Siar,0.1643,16.5627,13.8423
+Real_Annual,CORP 03c,2015-16,Falkirk,0.0656,17.0771,15.9569
+Real_Annual,CORP 03c,2015-16,Fife,0.0136,16.7913,16.5627
+Real_Annual,CORP 03c,2015-16,Glasgow City,-0.0709,17.7286,18.986
+Real_Annual,CORP 03c,2015-16,Highland,0.086,17.66,16.1398
+Real_Annual,CORP 03c,2015-16,Inverclyde,0.1089,16.9056,15.0653
+Real_Annual,CORP 03c,2015-16,Midlothian,0.0458,16.9857,16.2084
+Real_Annual,CORP 03c,2015-16,Moray,0.0906,16.4027,14.9167
+Real_Annual,CORP 03c,2015-16,North Ayrshire,0.0179,16.6313,16.3341
+Real_Annual,CORP 03c,2015-16,North Lanarkshire,0.0821,16.5742,15.2139
+Real_Annual,CORP 03c,2015-16,Orkney Islands,0.0895,15.0996,13.7394
+Real_Annual,CORP 03c,2015-16,Perth & Kinross,0.0042,19.146,19.066
+Real_Annual,CORP 03c,2015-16,Renfrewshire,0.0293,16.7799,16.2884
+Real_Annual,CORP 03c,2015-16,Scottish Borders,0.0248,17.0199,16.597
+Real_Annual,CORP 03c,2015-16,Shetland Islands,0.099,16.3913,14.7681
+Real_Annual,CORP 03c,2015-16,Stirling,0.0071,16.1627,16.0484
+Real_Annual,CORP 03c,2015-16,West Dunbartonshire,0.0254,16.4598,16.0369
+Real_Annual,CORP 03c,2015-16,West Lothian,-0.0082,16.7799,16.9171
+Real_Annual,CORP 03c,2016-17,Aberdeen City,0.0026,17.0054,16.9607
+Real_Annual,CORP 03c,2016-17,Aberdeenshire,0.016,15.3507,15.1047
+Real_Annual,CORP 03c,2016-17,Angus,-0.004,16.8824,16.9495
+Real_Annual,CORP 03c,2016-17,Argyll & Bute,0.0848,16.2228,14.8476
+Real_Annual,CORP 03c,2016-17,Clackmannanshire,0.0352,16.178,15.6078
+Real_Annual,CORP 03c,2016-17,Dumfries & Galloway,0.052,16.1221,15.2836
+Real_Annual,CORP 03c,2016-17,Dundee City,0.0052,17.0725,16.983
+Real_Annual,CORP 03c,2016-17,East Ayrshire,0.0565,16.424,15.496
+Real_Annual,CORP 03c,2016-17,East Dunbartonshire,0.0555,18.5259,17.4973
+Real_Annual,CORP 03c,2016-17,East Lothian,0.0179,17.4862,17.1731
+Real_Annual,CORP 03c,2016-17,East Renfrewshire,0.0872,18.716,17.0837
+Real_Annual,CORP 03c,2016-17,Edinburgh City,0.0331,15.8762,15.3507
+Real_Annual,CORP 03c,2016-17,Eilean Siar,0.137,17.5421,15.1383
+Real_Annual,CORP 03c,2016-17,Falkirk,0.0473,16.547,15.7644
+Real_Annual,CORP 03c,2016-17,Fife,0.0287,17.1396,16.6476
+Real_Annual,CORP 03c,2016-17,Glasgow City,-0.0699,17.598,18.8278
+Real_Annual,CORP 03c,2016-17,Highland,0.072,17.2737,16.0327
+Real_Annual,CORP 03c,2016-17,Inverclyde,0.093,16.5917,15.0488
+Real_Annual,CORP 03c,2016-17,Midlothian,0.0296,16.6253,16.1333
+Real_Annual,CORP 03c,2016-17,Moray,0.0775,16.0103,14.7693
+Real_Annual,CORP 03c,2016-17,North Ayrshire,0.0116,16.3905,16.2004
+Real_Annual,CORP 03c,2016-17,North Lanarkshire,0.0666,16.6141,15.5072
+Real_Annual,CORP 03c,2016-17,Orkney Islands,0.1076,15.4737,13.8078
+Real_Annual,CORP 03c,2016-17,Perth & Kinross,-0.0065,18.8949,19.0179
+Real_Annual,CORP 03c,2016-17,Renfrewshire,0.0488,16.9495,16.1221
+Real_Annual,CORP 03c,2016-17,Scottish Borders,0.0244,16.983,16.5694
+Real_Annual,CORP 03c,2016-17,Shetland Islands,0.0817,15.865,14.5681
+Real_Annual,CORP 03c,2016-17,South Ayrshire,0.0419,16.5358,15.8426
+Real_Annual,CORP 03c,2016-17,South Lanarkshire,0.0593,16.6029,15.619
+Real_Annual,CORP 03c,2016-17,Stirling,0.0067,16.6588,16.547
+Real_Annual,CORP 03c,2016-17,West Dunbartonshire,0.021,15.9656,15.6302
+Real_Annual,CORP 03c,2016-17,West Lothian,0.0265,16.0551,15.6302
+Real_Annual,CORP 03c,2017-18,Aberdeen City,0.0166,15.2007,14.9479
+Real_Annual,CORP 03c,2017-18,Aberdeenshire,0.0093,15.3216,15.1787
+Real_Annual,CORP 03c,2017-18,Angus,0.007,17.1791,17.0582
+Real_Annual,CORP 03c,2017-18,Argyll & Bute,0.0771,16.6845,15.3986
+Real_Annual,CORP 03c,2017-18,Clackmannanshire,0.0158,15.9591,15.7063
+Real_Annual,CORP 03c,2017-18,Dumfries & Galloway,0.0495,16.2009,15.3986
+Real_Annual,CORP 03c,2017-18,Dundee City,0.002,16.8604,16.8274
+Real_Annual,CORP 03c,2017-18,East Ayrshire,0.0496,16.3988,15.5854
+Real_Annual,CORP 03c,2017-18,East Dunbartonshire,0.0551,18.3442,17.333
+Real_Annual,CORP 03c,2017-18,East Lothian,0.0195,17.5308,17.1901
+Real_Annual,CORP 03c,2017-18,East Renfrewshire,0.0777,18.52,17.0802
+Real_Annual,CORP 03c,2017-18,Edinburgh City,0.0365,15.9591,15.3766
+Real_Annual,CORP 03c,2017-18,Eilean Siar,0.137,17.2451,14.882
+Real_Annual,CORP 03c,2017-18,Falkirk,0.0405,16.8164,16.135
+Real_Annual,CORP 03c,2017-18,Fife,0.0162,16.9373,16.6625
+Real_Annual,CORP 03c,2017-18,Glasgow City,-0.0697,17.4979,18.7069
+Real_Annual,CORP 03c,2017-18,Highland,0.0718,16.9813,15.7613
+Real_Annual,CORP 03c,2017-18,Inverclyde,0.0871,16.4098,14.9809
+Real_Annual,CORP 03c,2017-18,Midlothian,0.0232,16.5856,16.2009
+Real_Annual,CORP 03c,2017-18,Moray,0.0652,15.5085,14.4973
+Real_Annual,CORP 03c,2017-18,North Ayrshire,0.0153,16.5636,16.3108
+Real_Annual,CORP 03c,2017-18,North Lanarkshire,0.0398,16.8384,16.1679
+Real_Annual,CORP 03c,2017-18,Orkney Islands,0.1088,15.6624,13.9587
+Real_Annual,CORP 03c,2017-18,Perth & Kinross,0.0074,19.2455,19.1026
+Real_Annual,CORP 03c,2017-18,Renfrewshire,0.0457,16.8494,16.08
+Real_Annual,CORP 03c,2017-18,Scottish Borders,0.0282,17.1791,16.6955
+Real_Annual,CORP 03c,2017-18,Shetland Islands,0.0844,16.0141,14.6622
+Real_Annual,CORP 03c,2017-18,South Ayrshire,0.0425,16.5526,15.8492
+Real_Annual,CORP 03c,2017-18,South Lanarkshire,0.0607,16.6735,15.6624
+Real_Annual,CORP 03c,2017-18,Stirling,0.0164,16.8054,16.5307
+Real_Annual,CORP 03c,2017-18,West Dunbartonshire,0.02,15.9371,15.6184
+Real_Annual,CORP 03c,2017-18,West Lothian,0.0026,16.7725,16.7285
+Real_Annual,CORP 03c,2018-19,Aberdeen City,-0.0056,17.2923,17.3893
+Real_Annual,CORP 03c,2018-19,Aberdeenshire,0.0057,15.0391,14.9528
+Real_Annual,CORP 03c,2018-19,Angus,-0.0156,18.0146,18.2949
+Real_Annual,CORP 03c,2018-19,Argyll & Bute,0.0776,16.5268,15.2439
+Real_Annual,CORP 03c,2018-19,Clackmannanshire,0.0128,16.0417,15.8369
+Real_Annual,CORP 03c,2018-19,Dumfries & Galloway,0.0568,16.7101,15.7614
+Real_Annual,CORP 03c,2018-19,Dundee City,0.0072,16.5484,16.4298
+Real_Annual,CORP 03c,2018-19,East Ayrshire,0.0504,16.6778,15.8369
+Real_Annual,CORP 03c,2018-19,East Dunbartonshire,0.0633,17.8744,16.7424
+Real_Annual,CORP 03c,2018-19,East Lothian,0.0327,17.4863,16.9149
+Real_Annual,CORP 03c,2018-19,East Renfrewshire,0.0749,18.8662,17.454
+Real_Annual,CORP 03c,2018-19,Edinburgh City,0.0384,16.2897,15.6644
+Real_Annual,CORP 03c,2018-19,Eilean Siar,0.144,16.1711,13.8424
+Real_Annual,CORP 03c,2018-19,Falkirk,0.0519,16.8287,15.9555
+Real_Annual,CORP 03c,2018-19,Fife,0.0193,17.3246,16.9904
+Real_Annual,CORP 03c,2018-19,Glasgow City,0.0252,16.6885,16.2681
+Real_Annual,CORP 03c,2018-19,Highland,0.0577,17.3677,16.3651
+Real_Annual,CORP 03c,2018-19,Inverclyde,0.0818,16.861,15.4811
+Real_Annual,CORP 03c,2018-19,Midlothian,0.0394,17.2384,16.5592
+Real_Annual,CORP 03c,2018-19,Moray,0.0758,15.6536,14.4677
+Real_Annual,CORP 03c,2018-19,North Ayrshire,0.0281,16.8934,16.419
+Real_Annual,CORP 03c,2018-19,North Lanarkshire,0.0465,17.6049,16.7856
+Real_Annual,CORP 03c,2018-19,Orkney Islands,0.1159,15.9123,14.0688
+Real_Annual,CORP 03c,2018-19,Perth & Kinross,0.0067,19.3298,19.2005
+Real_Annual,CORP 03c,2018-19,Renfrewshire,0.0358,16.5484,15.9555
+Real_Annual,CORP 03c,2018-19,Scottish Borders,0.0309,17.4216,16.8826
+Real_Annual,CORP 03c,2018-19,Shetland Islands,0.0681,16.4621,15.341
+Real_Annual,CORP 03c,2018-19,South Ayrshire,0.0375,16.6562,16.0309
+Real_Annual,CORP 03c,2018-19,South Lanarkshire,0.051,17.5294,16.6346
+Real_Annual,CORP 03c,2018-19,Stirling,-0.0007,16.2358,16.2465
+Real_Annual,CORP 03c,2018-19,West Dunbartonshire,0.0179,16.225,15.9339
+Real_Annual,CORP 03c,2018-19,West Lothian,0.0057,17.0443,16.9473
+Real_Annual,CORP 03c,2019-20,Aberdeen City,-0.0562,17.4563,18.4367
+Real_Annual,CORP 03c,2019-20,Aberdeenshire,-0.0142,15.6327,15.8541
+Real_Annual,CORP 03c,2019-20,Angus,-0.0078,18.8267,18.9743
+Real_Annual,CORP 03c,2019-20,Argyll & Bute,0.0683,16.8133,15.6643
+Real_Annual,CORP 03c,2019-20,Clackmannanshire,0.0128,16.4444,16.2336
+Real_Annual,CORP 03c,2019-20,Dumfries & Galloway,0.0396,16.7712,16.1071
+Real_Annual,CORP 03c,2019-20,Dundee City,0.0149,17.0136,16.7606
+Real_Annual,CORP 03c,2019-20,East Ayrshire,0.0147,16.476,16.2336
+Real_Annual,CORP 03c,2019-20,East Dunbartonshire,0.0614,18.3734,17.2455
+Real_Annual,CORP 03c,2019-20,East Lothian,0.0225,18.0572,17.6461
+Real_Annual,CORP 03c,2019-20,East Renfrewshire,0.0632,19.1746,17.9623
+Real_Annual,CORP 03c,2019-20,Edinburgh City,0.0305,16.592,16.086
+Real_Annual,CORP 03c,2019-20,Eilean Siar,0.144,15.8119,13.535
+Real_Annual,CORP 03c,2019-20,Falkirk,0.046,17.1928,16.4022
+Real_Annual,CORP 03c,2019-20,Fife,-0.0065,17.8253,17.9412
+Real_Annual,CORP 03c,2019-20,Glasgow City,0.0312,17.2561,16.7185
+Real_Annual,CORP 03c,2019-20,Highland,0.0577,16.982,16.0017
+Real_Annual,CORP 03c,2019-20,Inverclyde,0.0752,17.3826,16.0754
+Real_Annual,CORP 03c,2019-20,Midlothian,0.0306,17.9202,17.372
+Real_Annual,CORP 03c,2019-20,Moray,0.0642,16.2441,15.2005
+Real_Annual,CORP 03c,2019-20,North Ayrshire,0.0178,17.2034,16.8977
+Real_Annual,CORP 03c,2019-20,North Lanarkshire,0.0309,17.7304,17.1823
+Real_Annual,CORP 03c,2019-20,Orkney Islands,0.1145,16.2968,14.431
+Real_Annual,CORP 03c,2019-20,Perth & Kinross,-0.0069,19.7965,19.9335
+Real_Annual,CORP 03c,2019-20,Renfrewshire,0.0431,17.625,16.866
+Real_Annual,CORP 03c,2019-20,Scottish Borders,0.0554,17.3826,16.4128
+Real_Annual,CORP 03c,2019-20,Shetland Islands,0.0592,16.0333,15.0846
+Real_Annual,CORP 03c,2019-20,South Ayrshire,0.0248,17.0347,16.613
+Real_Annual,CORP 03c,2019-20,South Lanarkshire,0.0508,17.625,16.729
+Real_Annual,CORP 03c,2019-20,Stirling,-0.0092,17.2561,17.4142
+Real_Annual,CORP 03c,2019-20,West Dunbartonshire,0.009,16.4866,16.339
+Real_Annual,CORP 03c,2019-20,West Lothian,0.0054,17.4774,17.3826
+Real_Annual,CORP 03c,2020-21,Aberdeen City,-0.0557,17.1493,18.1037
+Real_Annual,CORP 03c,2020-21,Aberdeenshire,0.0013,15.9588,15.9383
+Real_Annual,CORP 03c,2020-21,Angus,-0.0208,18.2371,18.6169
+Real_Annual,CORP 03c,2020-21,Argyll & Bute,0.0671,16.9851,15.8459
+Real_Annual,CORP 03c,2020-21,Clackmannanshire,0.0087,16.5848,16.4411
+Real_Annual,CORP 03c,2020-21,Dumfries & Galloway,0.0427,16.8414,16.123
+Real_Annual,CORP 03c,2020-21,Dundee City,0.0112,17.4161,17.2211
+Real_Annual,CORP 03c,2020-21,East Ayrshire,0.0525,17.3853,16.4719
+Real_Annual,CORP 03c,2020-21,East Dunbartonshire,0.0563,18.2269,17.2006
+Real_Annual,CORP 03c,2020-21,East Lothian,0.03,18.4527,17.8985
+Real_Annual,CORP 03c,2020-21,East Renfrewshire,0.0648,18.0627,16.8927
+Real_Annual,CORP 03c,2020-21,Edinburgh City,0.0281,16.8003,16.3282
+Real_Annual,CORP 03c,2020-21,Eilean Siar,0.135,16.8722,14.5938
+Real_Annual,CORP 03c,2020-21,Falkirk,0.0486,17.3237,16.4822
+Real_Annual,CORP 03c,2020-21,Fife,0.0179,16.6464,16.3488
+Real_Annual,CORP 03c,2020-21,Glasgow City,0.0336,17.4058,16.8209
+Real_Annual,CORP 03c,2020-21,Highland,0.0501,18.4321,17.5085
+Real_Annual,CORP 03c,2020-21,Inverclyde,0.0739,17.2109,15.9383
+Real_Annual,CORP 03c,2020-21,Midlothian,0.027,17.5085,17.0364
+Real_Annual,CORP 03c,2020-21,Moray,0.0616,16.3282,15.3225
+Real_Annual,CORP 03c,2020-21,North Ayrshire,0.0131,17.2416,17.0159
+Real_Annual,CORP 03c,2020-21,North Lanarkshire,0.0465,18.114,17.2724
+Real_Annual,CORP 03c,2020-21,Orkney Islands,0.1408,16.7593,14.3988
+Real_Annual,CORP 03c,2020-21,Perth & Kinross,-0.0125,19.7253,19.9716
+Real_Annual,CORP 03c,2020-21,Renfrewshire,0.0367,17.6316,16.9851
+Real_Annual,CORP 03c,2020-21,Scottish Borders,0.0449,17.3084,16.531
+Real_Annual,CORP 03c,2020-21,Shetland Islands,0.0657,16.0922,15.0351
+Real_Annual,CORP 03c,2020-21,South Ayrshire,0.0204,17.098,16.749
+Real_Annual,CORP 03c,2020-21,South Lanarkshire,0.0483,17.4161,16.5746
+Real_Annual,CORP 03c,2020-21,Stirling,-0.0006,17.3956,17.4058
+Real_Annual,CORP 03c,2020-21,West Dunbartonshire,0.0246,16.708,16.2975
+Real_Annual,CORP 03c,2020-21,West Lothian,0.011,17.6624,17.4674
+Real_Annual,CORP 03c,2021-22,Aberdeen City,-0.0372,16.6564,17.2759
+Real_Annual,CORP 03c,2021-22,Aberdeenshire,0.005,15.8371,15.7571
+Real_Annual,CORP 03c,2021-22,Angus,-0.0185,17.7955,18.1252
+Real_Annual,CORP 03c,2021-22,Argyll & Bute,0.0537,16.7363,15.8371
+Real_Annual,CORP 03c,2021-22,Clackmannanshire,0.0208,16.8462,16.4965
+Real_Annual,CORP 03c,2021-22,Dumfries & Galloway,0.0455,16.6964,15.937
+Real_Annual,CORP 03c,2021-22,Dundee City,0.0112,17.7955,17.5956
+Real_Annual,CORP 03c,2021-22,East Ayrshire,0.0566,17.2859,16.3067
+Real_Annual,CORP 03c,2021-22,East Dunbartonshire,0.038,17.6356,16.9662
+Real_Annual,CORP 03c,2021-22,East Lothian,0.0415,18.5349,17.7655
+Real_Annual,CORP 03c,2021-22,East Renfrewshire,0.0571,18.2051,17.166
+Real_Annual,CORP 03c,2021-22,Edinburgh City,0.0318,17.2759,16.7263
+Real_Annual,CORP 03c,2021-22,Eilean Siar,0.1407,17.116,14.708
+Real_Annual,CORP 03c,2021-22,Falkirk,0.0535,17.3658,16.4366
+Real_Annual,CORP 03c,2021-22,Fife,0.0169,16.5965,16.3167
+Real_Annual,CORP 03c,2021-22,Glasgow City,0.0334,17.3758,16.7963
+Real_Annual,CORP 03c,2021-22,Highland,0.0453,18.0952,17.2759
+Real_Annual,CORP 03c,2021-22,Inverclyde,0.066,17.146,16.0169
+Real_Annual,CORP 03c,2021-22,Midlothian,0.0252,17.4657,17.0261
+Real_Annual,CORP 03c,2021-22,Moray,0.0695,16.3966,15.2575
+Real_Annual,CORP 03c,2021-22,North Ayrshire,0.0158,17.0761,16.8063
+Real_Annual,CORP 03c,2021-22,North Lanarkshire,0.049,17.5457,16.6864
+Real_Annual,CORP 03c,2021-22,Orkney Islands,0.1163,16.3267,14.4282
+Real_Annual,CORP 03c,2021-22,Perth & Kinross,-0.0106,19.7239,19.9337
+Real_Annual,CORP 03c,2021-22,Renfrewshire,0.0229,17.4857,17.0861
+Real_Annual,CORP 03c,2021-22,Scottish Borders,0.0315,17.0916,16.5527
+Real_Annual,CORP 03c,2021-22,Shetland Islands,0.0658,16.2467,15.1776
+Real_Annual,CORP 03c,2021-22,South Ayrshire,0.0228,17.106,16.7164
+Real_Annual,CORP 03c,2021-22,South Lanarkshire,0.04,17.2559,16.5665
+Real_Annual,CORP 03c,2021-22,Stirling,-0.0012,17.2859,17.3059
+Real_Annual,CORP 03c,2021-22,West Dunbartonshire,0.0211,16.5965,16.2467
+Real_Annual,CORP 03c,2021-22,West Lothian,0.0034,17.5557,17.4957
+Real_Annual,FINSUS 05,2015-16,East Renfrewshire,0.947,251959146.70000002,255233970.89999998
+Real_Annual,FINSUS 05,2016-17,East Renfrewshire,0.965,242854092.4,245578757.60000002
+Real_Annual,SW 01,2010-11,Aberdeen City,24.7953,828055772.2,13516.0
+Real_Annual,SW 01,2010-11,Aberdeenshire,34.8884,658406481.0,15125.0
+Real_Annual,SW 01,2010-11,Angus,28.1473,347383955.5,6439.0
+Real_Annual,SW 01,2010-11,Argyll & Bute,37.7228,486979522.79999995,12096.0
+Real_Annual,SW 01,2010-11,Clackmannanshire,16.9327,247944182.39999998,2765.0
+Real_Annual,SW 01,2010-11,Dumfries & Galloway,19.3359,1301427234.0,16573.0
+Real_Annual,SW 01,2010-11,Dundee City,29.01,813400592.6,15540.0
+Real_Annual,SW 01,2010-11,East Ayrshire,25.9907,653994995.8000001,11193.0
+Real_Annual,SW 01,2010-11,East Dunbartonshire,29.2934,483980430.6,9334.0
+Real_Annual,SW 01,2010-11,East Lothian,19.6809,589917596.0,7647.0
+Real_Annual,SW 01,2010-11,East Renfrewshire,10.4998,479982922.59999996,3320.0
+Real_Annual,SW 01,2010-11,Edinburgh City,22.0964,1991265227.0,28970.0
+Real_Annual,SW 01,2010-11,Eilean Siar,30.9941,263080626.5,5369.0
+Real_Annual,SW 01,2010-11,Falkirk,26.1755,876312319.6,15101.0
+Real_Annual,SW 01,2010-11,Fife,26.2741,1401819283.0,24254.0
+Real_Annual,SW 01,2010-11,Glasgow City,26.348,3910483031.0,67845.0
+Real_Annual,SW 01,2010-11,Highland,37.1559,689181781.3000001,16862.0
+Real_Annual,SW 01,2010-11,Inverclyde,23.871,610462018.5999999,9596.0
+Real_Annual,SW 01,2010-11,Midlothian,20.0013,429218800.9,5651.0
+Real_Annual,SW 01,2010-11,Moray,22.7002,513357436.09999996,7671.0
+Real_Annual,SW 01,2010-11,North Ayrshire,29.0346,658480176.6999999,12589.0
+Real_Annual,SW 01,2010-11,North Lanarkshire,23.1069,1567954895.0,23853.0
+Real_Annual,SW 01,2010-11,Orkney Islands,33.3972,88635991.89999999,1949.0
+Real_Annual,SW 01,2010-11,Perth & Kinross,26.7917,650564623.9,11474.0
+Real_Annual,SW 01,2010-11,Renfrewshire,27.5311,638700907.0999999,11578.0
+Real_Annual,SW 01,2010-11,Scottish Borders,24.4132,558623863.0,8978.0
+Real_Annual,SW 01,2010-11,Shetland Islands,26.7178,226950536.8,3992.0
+Real_Annual,SW 01,2010-11,South Ayrshire,21.0735,1028435505.0,14273.0
+Real_Annual,SW 01,2010-11,South Lanarkshire,19.2989,1941275871.0,24669.0
+Real_Annual,SW 01,2010-11,Stirling,21.702,444773708.09999996,6355.0
+Real_Annual,SW 01,2010-11,West Dunbartonshire,20.827,620167414.3,8507.0
+Real_Annual,SW 01,2010-11,West Lothian,29.2564,620674953.0,11957.0
+Real_Annual,SW 01,2011-12,Aberdeen City,24.0135,853357980.6,13902.0
+Real_Annual,SW 01,2011-12,Aberdeenshire,35.7653,703437206.0,17071.0
+Real_Annual,SW 01,2011-12,Angus,34.3692,317871359.3,7413.0
+Real_Annual,SW 01,2011-12,Argyll & Bute,32.4268,548389677.6,12064.0
+Real_Annual,SW 01,2011-12,Clackmannanshire,11.9825,264410699.8,2149.0
+Real_Annual,SW 01,2011-12,Dumfries & Galloway,15.8917,1615717187.0,17427.0
+Real_Annual,SW 01,2011-12,Dundee City,30.7878,759068260.6999999,15854.0
+Real_Annual,SW 01,2011-12,East Ayrshire,20.0436,750913180.5999999,10215.0
+Real_Annual,SW 01,2011-12,East Dunbartonshire,29.1246,497403698.0,9829.0
+Real_Annual,SW 01,2011-12,East Lothian,18.1133,670612977.1999999,8244.0
+Real_Annual,SW 01,2011-12,East Renfrewshire,13.6943,490516891.3,4557.0
+Real_Annual,SW 01,2011-12,Edinburgh City,23.88,1961332737.0,31779.0
+Real_Annual,SW 01,2011-12,Eilean Siar,30.375,264383554.0,5448.0
+Real_Annual,SW 01,2011-12,Falkirk,28.8089,780397854.3,15257.0
+Real_Annual,SW 01,2011-12,Fife,30.9699,1295590839.0,27223.0
+Real_Annual,SW 01,2011-12,Glasgow City,24.0742,3819529405.0,62384.0
+Real_Annual,SW 01,2011-12,Highland,37.5378,677333753.1,17250.0
+Real_Annual,SW 01,2011-12,Inverclyde,19.8494,577760086.6999999,7781.0
+Real_Annual,SW 01,2011-12,Midlothian,20.6264,424590663.6,5941.0
+Real_Annual,SW 01,2011-12,Moray,23.1394,529991822.09999996,8322.0
+Real_Annual,SW 01,2011-12,North Ayrshire,23.1151,849525383.4000001,13321.0
+Real_Annual,SW 01,2011-12,North Lanarkshire,23.0059,1460266260.0,22791.0
+Real_Annual,SW 01,2011-12,Orkney Islands,34.5877,81342472.89999999,1909.0
+Real_Annual,SW 01,2011-12,Perth & Kinross,28.2262,582128654.1,11149.0
+Real_Annual,SW 01,2011-12,Renfrewshire,24.1349,642072722.1999999,10511.581
+Real_Annual,SW 01,2011-12,Scottish Borders,19.8008,587374091.5,7889.0
+Real_Annual,SW 01,2011-12,Shetland Islands,30.3265,177283662.79999998,3648.0
+Real_Annual,SW 01,2011-12,South Ayrshire,22.4474,867348128.4000001,13212.0
+Real_Annual,SW 01,2011-12,South Lanarkshire,19.8615,1880811580.0,25343.0
+Real_Annual,SW 01,2011-12,Stirling,18.1983,484345342.9,5982.0
+Real_Annual,SW 01,2011-12,West Dunbartonshire,19.0239,666285444.0,8599.0
+Real_Annual,SW 01,2011-12,West Lothian,24.7419,647111725.9,10864.0
+Real_Annual,SW 01,2012-13,Aberdeen City,31.9286,725036894.9,16345.0
+Real_Annual,SW 01,2012-13,Aberdeenshire,23.9197,827010059.9,13968.0
+Real_Annual,SW 01,2012-13,Angus,36.9744,291660071.3,7616.0
+Real_Annual,SW 01,2012-13,Argyll & Bute,29.6795,593415539.8000001,12435.0
+Real_Annual,SW 01,2012-13,Clackmannanshire,19.5999,289226260.1,4004.0
+Real_Annual,SW 01,2012-13,Dumfries & Galloway,21.2183,1163212652.0,17426.0
+Real_Annual,SW 01,2012-13,Dundee City,30.3816,755363928.4,16206.0
+Real_Annual,SW 01,2012-13,East Ayrshire,22.3846,710292936.8000001,11228.0
+Real_Annual,SW 01,2012-13,East Dunbartonshire,25.1335,565621328.5,10038.0
+Real_Annual,SW 01,2012-13,East Lothian,11.5433,666431115.6,5431.0
+Real_Annual,SW 01,2012-13,East Renfrewshire,11.9122,720733015.6,6065.0
+Real_Annual,SW 01,2012-13,Edinburgh City,26.4545,2154218770.0,40234.0
+Real_Annual,SW 01,2012-13,Eilean Siar,27.6921,255029757.5,4986.0
+Real_Annual,SW 01,2012-13,Falkirk,27.9777,751230224.1,14838.0
+Real_Annual,SW 01,2012-13,Fife,31.1432,1355439188.0,29808.0
+Real_Annual,SW 01,2012-13,Glasgow City,25.4548,3549122458.0,63798.0
+Real_Annual,SW 01,2012-13,Highland,33.4162,660849995.9,15593.0
+Real_Annual,SW 01,2012-13,Inverclyde,18.5288,618141651.4,8089.0
+Real_Annual,SW 01,2012-13,Midlothian,14.8278,604894614.1,6334.0
+Real_Annual,SW 01,2012-13,Moray,28.061,517146218.9,10245.0
+Real_Annual,SW 01,2012-13,North Ayrshire,23.3961,872116943.0,14405.0
+Real_Annual,SW 01,2012-13,North Lanarkshire,23.5508,1474937279.0,24531.0
+Real_Annual,SW 01,2012-13,Orkney Islands,37.7717,82975451.8,2213.0
+Real_Annual,SW 01,2012-13,Perth & Kinross,27.3232,505057608.9,9742.26
+Real_Annual,SW 01,2012-13,Renfrewshire,20.5876,753696832.7,10959.0
+Real_Annual,SW 01,2012-13,Scottish Borders,20.2187,541160071.0,7725.0
+Real_Annual,SW 01,2012-13,Shetland Islands,51.3024,150542953.70000002,5454.0
+Real_Annual,SW 01,2012-13,South Ayrshire,22.7416,904493501.8,14527.0
+Real_Annual,SW 01,2012-13,South Lanarkshire,21.4087,1700467363.0,25704.0
+Real_Annual,SW 01,2012-13,Stirling,15.8275,507267408.1,5671.0
+Real_Annual,SW 01,2012-13,West Dunbartonshire,20.9922,609809266.8,9038.0
+Real_Annual,SW 01,2012-13,West Lothian,25.1454,670980665.7,11915.0
+Real_Annual,SW 01,2013-14,Aberdeen City,28.4448,748071731.2,15722.0
+Real_Annual,SW 01,2013-14,Aberdeenshire,27.5141,864105057.7,17567.0
+Real_Annual,SW 01,2013-14,Angus,13.3557,874036096.8000001,8624.0
+Real_Annual,SW 01,2013-14,Argyll & Bute,24.4078,696266504.6,12555.0
+Real_Annual,SW 01,2013-14,Clackmannanshire,19.7776,302008004.1,4413.0
+Real_Annual,SW 01,2013-14,Dumfries & Galloway,24.1752,941961718.0,16827.0
+Real_Annual,SW 01,2013-14,Dundee City,22.6395,915068178.7,15307.0
+Real_Annual,SW 01,2013-14,East Ayrshire,22.6279,728075956.6999999,12174.0
+Real_Annual,SW 01,2013-14,East Dunbartonshire,22.7675,663976108.6,11171.0
+Real_Annual,SW 01,2013-14,East Lothian,15.1357,683197533.0,7638.0
+Real_Annual,SW 01,2013-14,East Renfrewshire,21.1155,416090936.5,6490.0
+Real_Annual,SW 01,2013-14,Edinburgh City,23.3608,2465960608.0,42564.0
+Real_Annual,SW 01,2013-14,Eilean Siar,28.247,250565754.1,5229.0
+Real_Annual,SW 01,2013-14,Falkirk,24.6987,822446841.2,15010.0
+Real_Annual,SW 01,2013-14,Fife,25.42,1341139156.0,25193.0
+Real_Annual,SW 01,2013-14,Glasgow City,25.5363,3240930113.0,61140.0
+Real_Annual,SW 01,2013-14,Highland,34.983,692069285.5,17888.0
+Real_Annual,SW 01,2013-14,Inverclyde,20.1499,558177511.5,8308.0
+Real_Annual,SW 01,2013-14,Midlothian,27.7002,399954812.90000004,8185.0
+Real_Annual,SW 01,2013-14,Moray,24.3962,573256768.4,10333.0
+Real_Annual,SW 01,2013-14,North Ayrshire,22.0229,996542505.5,16219.0
+Real_Annual,SW 01,2013-14,North Lanarkshire,22.0811,1611086649.0,26282.0
+Real_Annual,SW 01,2013-14,Orkney Islands,27.7584,104450139.0,2142.0
+Real_Annual,SW 01,2013-14,Perth & Kinross,26.5717,551098863.4,10820.0
+Real_Annual,SW 01,2013-14,Renfrewshire,19.5565,812397229.8,11735.0
+Real_Annual,SW 01,2013-14,Scottish Borders,20.7664,496836285.4,7624.0
+Real_Annual,SW 01,2013-14,Shetland Islands,42.673,131261403.69999999,4138.0
+Real_Annual,SW 01,2013-14,South Ayrshire,23.989,841340376.9,14910.0
+Real_Annual,SW 01,2013-14,South Lanarkshire,22.5697,1670946326.0,27866.0
+Real_Annual,SW 01,2013-14,Stirling,18.0209,490592483.3,6531.0
+Real_Annual,SW 01,2013-14,West Dunbartonshire,21.4877,602879891.6,9570.0
+Real_Annual,SW 01,2013-14,West Lothian,25.2455,736674266.8,13741.0
+Real_Annual,SW 01,2014-15,Aberdeen City,30.2371,708842454.4000001,16203.0
+Real_Annual,SW 01,2014-15,Aberdeenshire,28.9374,848353228.2,18556.0
+Real_Annual,SW 01,2014-15,Angus,16.7115,667681429.4,8434.0
+Real_Annual,SW 01,2014-15,Argyll & Bute,25.5445,669919410.3,12937.0
+Real_Annual,SW 01,2014-15,Clackmannanshire,15.8374,290401040.09999996,3478.0
+Real_Annual,SW 01,2014-15,Dumfries & Galloway,16.6885,1360292243.0,17159.0
+Real_Annual,SW 01,2014-15,Dundee City,25.8321,780963211.2,15252.0
+Real_Annual,SW 01,2014-15,East Ayrshire,23.7733,681964555.7,12254.0
+Real_Annual,SW 01,2014-15,East Dunbartonshire,24.2679,637782675.2,11703.0
+Real_Annual,SW 01,2014-15,East Lothian,16.3894,683187012.4,8467.0
+Real_Annual,SW 01,2014-15,East Renfrewshire,24.9925,345488143.09999996,6527.0
+Real_Annual,SW 01,2014-15,Edinburgh City,27.1202,2298086358.0,47107.0
+Real_Annual,SW 01,2014-15,Eilean Siar,30.6166,235656033.5,5454.0
+Real_Annual,SW 01,2014-15,Falkirk,17.9076,776158908.7,10506.0
+Real_Annual,SW 01,2014-15,Fife,26.9132,1291833474.0,26287.0
+Real_Annual,SW 01,2014-15,Glasgow City,21.2775,3513309955.0,56512.0
+Real_Annual,SW 01,2014-15,Highland,35.8612,704426897.9,19095.0
+Real_Annual,SW 01,2014-15,Inverclyde,14.7102,777737815.5,8648.0
+Real_Annual,SW 01,2014-15,Midlothian,32.4568,335259936.70000005,8227.0
+Real_Annual,SW 01,2014-15,Moray,25.28,550068419.1,10511.0
+Real_Annual,SW 01,2014-15,North Ayrshire,20.6334,1006019038.0,15691.0
+Real_Annual,SW 01,2014-15,North Lanarkshire,22.8647,1715999622.0,29655.0
+Real_Annual,SW 01,2014-15,Orkney Islands,29.0869,105866900.3,2328.0
+Real_Annual,SW 01,2014-15,Perth & Kinross,28.4314,518220552.2,11139.0
+Real_Annual,SW 01,2014-15,Renfrewshire,17.1945,936699645.1,12179.0
+Real_Annual,SW 01,2014-15,Scottish Borders,22.2321,453155834.5,7616.0
+Real_Annual,SW 01,2014-15,Shetland Islands,32.6409,148949526.7,3675.0
+Real_Annual,SW 01,2014-15,South Ayrshire,24.6934,760507396.5,14197.0
+Real_Annual,SW 01,2014-15,South Lanarkshire,22.6117,1605267415.0,27446.0
+Real_Annual,SW 01,2014-15,Stirling,16.2169,524741915.99999994,6432.0
+Real_Annual,SW 01,2014-15,West Dunbartonshire,24.0493,545156463.8000001,9912.0
+Real_Annual,SW 01,2014-15,West Lothian,27.6953,723779272.0999999,15152.0
+Real_Annual,SW 01,2015-16,Aberdeen City,39.7551,725220330.1999999,22064.0
+Real_Annual,SW 01,2015-16,Aberdeenshire,30.7822,868151719.7,20450.0
+Real_Annual,SW 01,2015-16,Angus,11.5562,482163858.9,4264.0
+Real_Annual,SW 01,2015-16,Argyll & Bute,28.9991,615598189.6,13664.0
+Real_Annual,SW 01,2015-16,Clackmannanshire,17.9915,304287477.3,4190.0
+Real_Annual,SW 01,2015-16,Dumfries & Galloway,21.5235,1094141065.0,18025.0
+Real_Annual,SW 01,2015-16,Dundee City,21.8093,955386407.5,15950.0
+Real_Annual,SW 01,2015-16,East Ayrshire,22.9981,727260848.6,12804.0
+Real_Annual,SW 01,2015-16,East Dunbartonshire,23.9925,621272174.0,11408.0
+Real_Annual,SW 01,2015-16,East Lothian,17.6143,634846109.0,8558.0
+Real_Annual,SW 01,2015-16,East Renfrewshire,28.9533,322842345.7,7153.0
+Real_Annual,SW 01,2015-16,Edinburgh City,23.6039,2460355212.0,44455.0
+Real_Annual,SW 01,2015-16,Eilean Siar,36.3374,185687174.6,5165.0
+Real_Annual,SW 01,2015-16,Falkirk,16.8485,829145899.9,10694.0
+Real_Annual,SW 01,2015-16,Fife,21.7179,1420835609.0,23615.0
+Real_Annual,SW 01,2015-16,Glasgow City,24.2668,3071083023.0,57048.0
+Real_Annual,SW 01,2015-16,Highland,37.3319,726284276.6,20750.0
+Real_Annual,SW 01,2015-16,Inverclyde,22.5294,545731386.3000001,9412.0
+Real_Annual,SW 01,2015-16,Midlothian,29.6049,379399120.2,8597.0
+Real_Annual,SW 01,2015-16,Moray,25.3527,524069081.3,10171.0
+Real_Annual,SW 01,2015-16,North Ayrshire,25.147,861310366.2,16574.0
+Real_Annual,SW 01,2015-16,North Lanarkshire,24.7012,1668999023.0,31556.0
+Real_Annual,SW 01,2015-16,Orkney Islands,45.8018,64812166.3,2272.0
+Real_Annual,SW 01,2015-16,Perth & Kinross,20.5634,730573942.0,11497.0
+Real_Annual,SW 01,2015-16,Renfrewshire,17.6829,943291298.6,12766.0
+Real_Annual,SW 01,2015-16,Scottish Borders,22.7352,450809537.3,7844.0
+Real_Annual,SW 01,2015-16,Shetland Islands,34.3028,143424727.79999998,3765.0
+Real_Annual,SW 01,2015-16,South Ayrshire,21.9236,856241464.0,14365.0
+Real_Annual,SW 01,2015-16,South Lanarkshire,23.2953,1645953588.0,29348.0
+Real_Annual,SW 01,2015-16,Stirling,14.9968,522393514.29999995,5994.0
+Real_Annual,SW 01,2015-16,West Dunbartonshire,25.1813,513374339.8,9895.0
+Real_Annual,SW 01,2015-16,West Lothian,36.6346,607438493.5,17034.0
+Real_Annual,SW 01,2016-17,Aberdeen City,36.9065,785425603.6,23189.0
+Real_Annual,SW 01,2016-17,Aberdeenshire,25.4242,1001709861.0,20378.0
+Real_Annual,SW 01,2016-17,Angus,21.7459,471616399.90000004,8205.0
+Real_Annual,SW 01,2016-17,Argyll & Bute,30.9921,563382765.5,13966.0
+Real_Annual,SW 01,2016-17,Clackmannanshire,20.4713,275356072.2,4509.0
+Real_Annual,SW 01,2016-17,Dumfries & Galloway,17.5644,1341644590.0,18855.0
+Real_Annual,SW 01,2016-17,Dundee City,20.9074,1042415845.0,17438.0
+Real_Annual,SW 01,2016-17,East Ayrshire,26.7994,657640349.4,14098.0
+Real_Annual,SW 01,2016-17,East Dunbartonshire,23.3223,632931649.9,11811.0
+Real_Annual,SW 01,2016-17,East Lothian,17.475,620824387.2,8680.0
+Real_Annual,SW 01,2016-17,East Renfrewshire,25.3795,395879875.7,8039.0
+Real_Annual,SW 01,2016-17,Edinburgh City,28.0069,2257176322.0,50577.0
+Real_Annual,SW 01,2016-17,Eilean Siar,47.1254,135118796.20000002,5094.0
+Real_Annual,SW 01,2016-17,Falkirk,18.157,791435340.6999999,11497.0
+Real_Annual,SW 01,2016-17,Fife,18.6825,1705012469.0,25486.0
+Real_Annual,SW 01,2016-17,Glasgow City,25.9944,2934601654.0,61031.0
+Real_Annual,SW 01,2016-17,Highland,40.3501,704050844.9,22726.0
+Real_Annual,SW 01,2016-17,Inverclyde,26.1957,481401044.79999995,10087.0
+Real_Annual,SW 01,2016-17,Midlothian,27.0454,422567015.20000005,9141.0
+Real_Annual,SW 01,2016-17,Moray,24.0043,562207212.8,10798.0
+Real_Annual,SW 01,2016-17,North Ayrshire,31.7524,737186664.3,18723.0
+Real_Annual,SW 01,2016-17,North Lanarkshire,28.8007,1614684440.0,37196.0
+Real_Annual,SW 01,2016-17,Orkney Islands,39.601,76543481.19999999,2425.0
+Real_Annual,SW 01,2016-17,Perth & Kinross,18.0899,792439967.3000001,11471.0
+Real_Annual,SW 01,2016-17,Renfrewshire,26.341,784898290.9,16539.0
+Real_Annual,SW 01,2016-17,Scottish Borders,25.7038,411232989.40000004,8456.0
+Real_Annual,SW 01,2016-17,Shetland Islands,35.3413,139836704.39999998,3953.0
+Real_Annual,SW 01,2016-17,South Ayrshire,25.7038,760104128.4000001,15628.0
+Real_Annual,SW 01,2016-17,South Lanarkshire,23.7584,1742479578.0,33113.0
+Real_Annual,SW 01,2016-17,Stirling,14.5904,512574702.8,5982.0
+Real_Annual,SW 01,2016-17,West Dunbartonshire,27.1013,478566230.3,10375.0
+Real_Annual,SW 01,2016-17,West Lothian,32.1213,648851028.9,16671.0
+Real_Annual,SW 01,2017-18,Aberdeen City,35.952,786208392.0,23401.0
+Real_Annual,SW 01,2017-18,Aberdeenshire,27.0382,1011680339.0,22644.0
+Real_Annual,SW 01,2017-18,Angus,33.1273,403791966.4,11071.0
+Real_Annual,SW 01,2017-18,Argyll & Bute,27.28,650296531.3000001,14682.0
+Real_Annual,SW 01,2017-18,Clackmannanshire,14.5962,342808806.0,4141.0
+Real_Annual,SW 01,2017-18,Dumfries & Galloway,17.5308,1272416213.0,18466.0
+Real_Annual,SW 01,2017-18,Dundee City,23.3452,1033684572.0,19974.0
+Real_Annual,SW 01,2017-18,East Ayrshire,26.1699,647325676.4,14025.0
+Real_Annual,SW 01,2017-18,East Dunbartonshire,23.3452,621428120.5,12009.0
+Real_Annual,SW 01,2017-18,East Lothian,18.4101,589827755.6,8991.0
+Real_Annual,SW 01,2017-18,East Renfrewshire,24.9389,403449043.3,8328.0
+Real_Annual,SW 01,2017-18,Edinburgh City,27.0272,2368479262.0,52992.0
+Real_Annual,SW 01,2017-18,Eilean Siar,45.3274,140943114.29999998,5288.0
+Real_Annual,SW 01,2017-18,Falkirk,20.7293,775067173.9000001,13302.0
+Real_Annual,SW 01,2017-18,Fife,21.8613,1678270426.0,30378.0
+Real_Annual,SW 01,2017-18,Glasgow City,27.6757,2476762189.0,56747.0
+Real_Annual,SW 01,2017-18,Highland,32.7426,895429403.7,24267.0
+Real_Annual,SW 01,2017-18,Inverclyde,30.0827,432826123.29999995,10780.0
+Real_Annual,SW 01,2017-18,Midlothian,40.5353,261936105.0,8788.0
+Real_Annual,SW 01,2017-18,Moray,29.2364,509355131.5,12328.0
+Real_Annual,SW 01,2017-18,North Ayrshire,32.9734,725624357.7,19804.0
+Real_Annual,SW 01,2017-18,North Lanarkshire,30.984,1563043552.0,40091.0
+Real_Annual,SW 01,2017-18,Orkney Islands,41.0299,73518714.8,2497.0
+Real_Annual,SW 01,2017-18,Perth & Kinross,15.2227,848791860.2,10698.0
+Real_Annual,SW 01,2017-18,Renfrewshire,24.6201,833874704.8,16995.0
+Real_Annual,SW 01,2017-18,Scottish Borders,24.0266,429682661.5,8547.0
+Real_Annual,SW 01,2017-18,Shetland Islands,51.3945,98819010.6,4204.0
+Real_Annual,SW 01,2017-18,South Ayrshire,27.0821,766090236.0,17171.0
+Real_Annual,SW 01,2017-18,South Lanarkshire,23.477,1828294581.0,35523.0
+Real_Annual,SW 01,2017-18,Stirling,18.6629,487007975.3,7524.0
+Real_Annual,SW 01,2017-18,West Dunbartonshire,28.467,455401895.0,10732.0
+Real_Annual,SW 01,2017-18,West Lothian,32.182,650696608.2,17337.0
+Real_Annual,SW 01,2018-19,Aberdeen City,11.5461,751872807.3,7470.0
+Real_Annual,SW 01,2018-19,Aberdeenshire,23.8362,1106338343.0,22689.0
+Real_Annual,SW 01,2018-19,Angus,30.4663,399537540.8,10472.0
+Real_Annual,SW 01,2018-19,Argyll & Bute,23.9547,733653402.0999999,15118.0
+Real_Annual,SW 01,2018-19,Clackmannanshire,15.7398,339217294.70000005,4594.0
+Real_Annual,SW 01,2018-19,Dumfries & Galloway,19.664,1084362937.0,18346.0
+Real_Annual,SW 01,2018-19,Dundee City,29.2373,833607861.9,20968.0
+Real_Annual,SW 01,2018-19,East Ayrshire,23.6744,715265817.8,14571.0
+Real_Annual,SW 01,2018-19,East Dunbartonshire,22.122,644630585.4,12271.0
+Real_Annual,SW 01,2018-19,East Lothian,17.3246,601016132.3000001,8960.0
+Real_Annual,SW 01,2018-19,East Renfrewshire,26.7038,401779929.2,9231.0
+Real_Annual,SW 01,2018-19,Edinburgh City,28.2023,2378501302.0,57725.0
+Real_Annual,SW 01,2018-19,Eilean Siar,54.9924,110605804.39999999,5233.0
+Real_Annual,SW 01,2018-19,Falkirk,24.4183,651301690.7,13682.0
+Real_Annual,SW 01,2018-19,Fife,23.6744,1644059140.0,33496.0
+Real_Annual,SW 01,2018-19,Glasgow City,37.7002,2234999661.0,72497.0
+Real_Annual,SW 01,2018-19,Highland,31.76,872681478.6,23850.0
+Real_Annual,SW 01,2018-19,Inverclyde,30.5525,423979573.6,11147.0
+Real_Annual,SW 01,2018-19,Midlothian,37.6139,276262242.3,8942.0
+Real_Annual,SW 01,2018-19,Moray,37.7109,406825302.90000004,13202.0
+Real_Annual,SW 01,2018-19,North Ayrshire,27.2752,843810728.9,19804.0
+Real_Annual,SW 01,2018-19,North Lanarkshire,25.6473,1887250079.0,41654.0
+Real_Annual,SW 01,2018-19,Orkney Islands,43.511,70429493.3,2637.0
+Real_Annual,SW 01,2018-19,Perth & Kinross,12.096,915791394.3000001,9527.0
+Real_Annual,SW 01,2018-19,Renfrewshire,28.4611,750162986.2,18373.0
+Real_Annual,SW 01,2018-19,Scottish Borders,26.1432,421456886.79999995,9482.0
+Real_Annual,SW 01,2018-19,Shetland Islands,43.9422,117052670.89999999,4426.0
+Real_Annual,SW 01,2018-19,South Ayrshire,29.7116,720311191.5,18412.0
+Real_Annual,SW 01,2018-19,South Lanarkshire,21.8417,2054644368.0,38609.0
+Real_Annual,SW 01,2018-19,Stirling,19.6964,485252834.8,8222.0
+Real_Annual,SW 01,2018-19,West Dunbartonshire,24.5692,521691645.1,11027.0
+Real_Annual,SW 01,2018-19,West Lothian,26.5852,709715906.7,16237.0
+Real_Annual,SW 01,2019-20,Aberdeen City,17.4774,709136748.5,11152.0
+Real_Annual,SW 01,2019-20,Aberdeenshire,23.9287,1072256203.9999999,23091.0
+Real_Annual,SW 01,2019-20,Angus,30.0005,432522301.90000004,11676.0
+Real_Annual,SW 01,2019-20,Argyll & Bute,26.3532,687992008.5,16318.0
+Real_Annual,SW 01,2019-20,Clackmannanshire,13.3874,331048105.7,3989.0
+Real_Annual,SW 01,2019-20,Dumfries & Galloway,17.6461,1048617398.0,16648.0
+Real_Annual,SW 01,2019-20,Dundee City,28.6617,847310703.6999999,21859.0
+Real_Annual,SW 01,2019-20,East Ayrshire,25.5204,652746207.4,14991.0
+Real_Annual,SW 01,2019-20,East Dunbartonshire,23.6968,607977188.1,12963.0
+Real_Annual,SW 01,2019-20,East Lothian,16.866,559729221.9,8498.0
+Real_Annual,SW 01,2019-20,East Renfrewshire,28.2822,391718983.5,9972.0
+Real_Annual,SW 01,2019-20,Edinburgh City,25.0671,2455741465.0,55393.0
+Real_Annual,SW 01,2019-20,Eilean Siar,68.2547,99857027.9,6134.0
+Real_Annual,SW 01,2019-20,Falkirk,26.3532,622310389.1999999,14761.0
+Real_Annual,SW 01,2019-20,Fife,25.9948,1431721168.0,33487.0
+Real_Annual,SW 01,2019-20,Glasgow City,36.4623,2523336251.0,82809.0
+Real_Annual,SW 01,2019-20,Highland,32.0033,806524002.3000001,23231.0
+Real_Annual,SW 01,2019-20,Inverclyde,24.7825,473173509.9,10551.0
+Real_Annual,SW 01,2019-20,Midlothian,20.5766,462320215.0,8560.0
+Real_Annual,SW 01,2019-20,Moray,36.3252,407956535.8,13337.0
+Real_Annual,SW 01,2019-20,North Ayrshire,31.297,772955629.9000001,21770.0
+Real_Annual,SW 01,2019-20,North Lanarkshire,35.113,1788028947.0,56500.0
+Real_Annual,SW 01,2019-20,Orkney Islands,39.0027,71336158.5,2504.0
+Real_Annual,SW 01,2019-20,Perth & Kinross,14.3467,710327185.0,9172.0
+Real_Annual,SW 01,2019-20,Renfrewshire,25.805,810256020.1,18817.0
+Real_Annual,SW 01,2019-20,Scottish Borders,21.1142,548799460.6,10429.0
+Real_Annual,SW 01,2019-20,Shetland Islands,40.0147,121209652.3,4365.0
+Real_Annual,SW 01,2019-20,South Ayrshire,30.9913,663172377.1,18495.0
+Real_Annual,SW 01,2019-20,South Lanarkshire,24.7404,1982140401.0,44127.0
+Real_Annual,SW 01,2019-20,Stirling,22.7375,466321682.3,9543.0
+Real_Annual,SW 01,2019-20,West Dunbartonshire,20.6398,533393948.50000006,9907.0
+Real_Annual,SW 01,2019-20,West Lothian,25.8472,689321263.1,16033.0
+Real_Annual,SW 01,2020-21,Aberdeen City,20.885,659892815.7,13086.0
+Real_Annual,SW 01,2020-21,Aberdeenshire,25.298,1115290003.0,26789.0
+Real_Annual,SW 01,2020-21,Angus,30.84,488944343.6,14317.0
+Real_Annual,SW 01,2020-21,Argyll & Bute,29.4442,636081132.6,17779.0
+Real_Annual,SW 01,2020-21,Clackmannanshire,16.8927,345591274.0,5544.0
+Real_Annual,SW 01,2020-21,Dumfries & Galloway,19.756,1014573155.0,19032.0
+Real_Annual,SW 01,2020-21,Dundee City,27.2582,934455963.8000001,24186.0
+Real_Annual,SW 01,2020-21,East Ayrshire,29.9574,586022897.6999999,16668.0
+Real_Annual,SW 01,2020-21,East Dunbartonshire,28.6129,500760862.1,13606.0
+Real_Annual,SW 01,2020-21,East Lothian,22.7118,507199856.09999996,10935.0
+Real_Annual,SW 01,2020-21,East Renfrewshire,38.219,371314162.3,13472.0
+Real_Annual,SW 01,2020-21,Edinburgh City,23.9741,2665752929.0,60689.0
+Real_Annual,SW 01,2020-21,Eilean Siar,76.5816,92722607.1,6742.0
+Real_Annual,SW 01,2020-21,Falkirk,37.4287,628422969.8,22331.0
+Real_Annual,SW 01,2020-21,Fife,31.5584,1370422053.0,41058.0
+Real_Annual,SW 01,2020-21,Glasgow City,37.2132,2267163077.0,80092.0
+Real_Annual,SW 01,2020-21,Highland,36.1664,735993261.7,25272.0
+Real_Annual,SW 01,2020-21,Inverclyde,35.1914,374716307.8,12520.0
+Real_Annual,SW 01,2020-21,Midlothian,26.119,414554764.5,10282.0
+Real_Annual,SW 01,2020-21,Moray,28.5206,428968521.0,11615.0
+Real_Annual,SW 01,2020-21,North Ayrshire,30.6039,749449559.6999999,21775.0
+Real_Annual,SW 01,2020-21,North Lanarkshire,29.2697,1717252953.0,47726.0
+Real_Annual,SW 01,2020-21,Orkney Islands,38.3011,78419854.0,2852.0
+Real_Annual,SW 01,2020-21,Perth & Kinross,14.4193,719764973.0,9853.0
+Real_Annual,SW 01,2020-21,Renfrewshire,26.3859,730997656.6,18310.0
+Real_Annual,SW 01,2020-21,Scottish Borders,20.3308,514153174.40000004,9924.0
+Real_Annual,SW 01,2020-21,Shetland Islands,60.2842,103308482.9,5913.0
+Real_Annual,SW 01,2020-21,South Ayrshire,35.6019,648038202.3,21906.0
+Real_Annual,SW 01,2020-21,South Lanarkshire,25.5033,2014658640.0,48784.0
+Real_Annual,SW 01,2020-21,Stirling,22.7631,464226088.8,10033.0
+Real_Annual,SW 01,2020-21,West Dunbartonshire,30.0908,495080213.09999996,14143.0
+Real_Annual,SW 01,2020-21,West Lothian,26.5398,690502118.9,17402.0
+Real_Annual,SW 01,2021-22,Aberdeen City,20.0736,589618465.5,11855.0
+Real_Annual,SW 01,2021-22,Aberdeenshire,22.3717,1180008761.0,26438.0
+Real_Annual,SW 01,2021-22,Angus,34.1521,507489237.4,17359.0
+Real_Annual,SW 01,2021-22,Argyll & Bute,27.7074,608358398.1,16881.0
+Real_Annual,SW 01,2021-22,Clackmannanshire,16.1568,344283961.59999996,5573.2398
+Real_Annual,SW 01,2021-22,Dumfries & Galloway,21.9321,971115449.9,21329.0
+Real_Annual,SW 01,2021-22,Dundee City,33.2129,871965216.3,29004.0
+Real_Annual,SW 01,2021-22,East Ayrshire,31.0946,575871916.8,17933.0
+Real_Annual,SW 01,2021-22,East Dunbartonshire,32.1637,489659471.8,15777.0
+Real_Annual,SW 01,2021-22,East Lothian,21.5024,473073830.7,10191.0
+Real_Annual,SW 01,2021-22,East Renfrewshire,30.7649,419141855.3,12916.0
+Real_Annual,SW 01,2021-22,Edinburgh City,23.4009,2753717392.0,64554.0
+Real_Annual,SW 01,2021-22,Eilean Siar,75.4684,86316230.2,6525.0
+Real_Annual,SW 01,2021-22,Falkirk,34.9715,611203310.1999999,21412.0
+Real_Annual,SW 01,2021-22,Fife,33.3228,1304150071.0,43524.0
+Real_Annual,SW 01,2021-22,Glasgow City,39.5677,2113478799.9999998,83768.0
+Real_Annual,SW 01,2021-22,Highland,32.9131,766035558.1,25256.0
+Real_Annual,SW 01,2021-22,Inverclyde,13.8387,387226907.40000004,5368.0
+Real_Annual,SW 01,2021-22,Midlothian,27.8872,395358269.7,11042.0
+Real_Annual,SW 01,2021-22,Moray,24.1903,473137132.3,11463.0
+Real_Annual,SW 01,2021-22,North Ayrshire,30.9747,723552005.8000001,22450.0
+Real_Annual,SW 01,2021-22,North Lanarkshire,31.2545,1703536656.0,53328.0
+Real_Annual,SW 01,2021-22,Orkney Islands,38.7284,80923812.0,3139.0
+Real_Annual,SW 01,2021-22,Perth & Kinross,20.4633,719880812.5999999,14754.0
+Real_Annual,SW 01,2021-22,Renfrewshire,25.669,731406953.8000001,18805.0
+Real_Annual,SW 01,2021-22,Scottish Borders,26.1287,495628976.5,12973.0
+Real_Annual,SW 01,2021-22,Shetland Islands,50.0991,106205594.6,5329.0
+Real_Annual,SW 01,2021-22,South Ayrshire,32.4735,643523535.5999999,20932.0
+Real_Annual,SW 01,2021-22,South Lanarkshire,28.5667,1950912444.0,55813.0975
+Real_Annual,SW 01,2021-22,Stirling,21.6723,473164756.5,10273.0
+Real_Annual,SW 01,2021-22,West Dunbartonshire,31.9139,511135361.09999996,16340.0
+Real_Annual,SW 01,2021-22,West Lothian,25.6391,709636724.8,18226.0
+Real_Monthly,ECON 12a,2023;April,East Renfrewshire,0.019,1090.0,55500.0
+Real_Monthly,ECON 12a,2023;April,Edinburgh City,0.025,8995.0,371852.0
+Real_Monthly,ECON 12a,2023;April,Midlothian,0.023,1355.0,56667.0
+Real_Monthly,ECON 12a,2023;April,Moray,0.024,1440.0,58000.0
+Real_Monthly,ECON 12a,2023;April,Shetland Islands,0.018,255.0,13636.0
+Real_Monthly,ECON 12a,2023;April,West Lothian,0.028,3360.0,117414.0
+Real_Monthly,ECON 12a,2023;June,Dundee City,0.044,4285.0,99891.0
+Real_Monthly,ECON 12a,2023;June,East Dunbartonshire,0.019,1250.0,64130.0
+Real_Monthly,ECON 12a,2023;June,Edinburgh City,0.024,8740.0,371852.0
+Real_Monthly,ECON 12a,2023;June,Highland,0.022,3245.0,143276.0
+Real_Monthly,ECON 12a,2023;June,Shetland Islands,0.017,240.0,13636.0
+Real_Monthly,ECON 12a,2023;June,Stirling,0.024,1405.0,60400.0
+Real_Monthly,ECON 12a,2023;May,Dundee City,0.044,4270.0,99891.0
+Real_Monthly,ECON 12a,2023;May,East Dunbartonshire,0.019,1255.0,64130.0
+Real_Monthly,ECON 12a,2023;May,East Renfrewshire,0.018,1035.0,55500.0
+Real_Monthly,ECON 12a,2023;May,Highland,0.023,3400.0,143276.0
+Real_Monthly,ECON 12a,2023;May,Moray,0.022,1310.0,58000.0
+Real_Monthly,ECON 12a,2023;May,North Lanarkshire,0.034,7555.0,217195.0
+Real_Monthly,ECON 12a,2023;May,Stirling,0.024,1410.0,60400.0
+Real_Quarterly,CORP 09,2018-19;Q2,Orkney Islands,0.94,15.0,20.0
+Real_Quarterly,CORP 09,2018-19;Q2,Shetland Islands,0.76,25.0,35.0
+Real_Quarterly,CORP 09,2018-19;Q3,East Renfrewshire,0.96,130.0,140.0
+Real_Quarterly,CORP 09,2018-19;Q4,Orkney Islands,0.96,25.0,25.0
+Real_Quarterly,CORP 09,2019-20;Q1,Eilean Siar,0.91,30.0,35.0
+Real_Quarterly,CORP 09,2019-20;Q1,Shetland Islands,0.54,30.0,60.0
+Real_Quarterly,CORP 09,2019-20;Q2,Eilean Siar,0.98,45.0,45.0
+Real_Quarterly,CORP 09,2019-20;Q2,Shetland Islands,0.47,30.0,60.0
+Real_Quarterly,CORP 09,2019-20;Q3,East Renfrewshire,0.99,160.0,165.0
+Real_Quarterly,CORP 09,2019-20;Q3,Eilean Siar,0.98,60.0,60.0
+Real_Quarterly,CORP 09,2019-20;Q3,Shetland Islands,0.57,30.0,55.0
+Real_Quarterly,CORP 09,2019-20;Q4,Shetland Islands,0.63,30.0,50.0
+Real_Quarterly,CORP 09,2020-21;Q1,Eilean Siar,1.0,65.0,70.0
+Real_Quarterly,CORP 09,2020-21;Q1,Shetland Islands,0.43,15.0,30.0
+Real_Quarterly,CORP 09,2020-21;Q2,East Renfrewshire,1.0,150.0,155.0
+Real_Quarterly,CORP 09,2020-21;Q2,Eilean Siar,0.98,65.0,65.0
+Real_Quarterly,CORP 09,2020-21;Q2,Shetland Islands,0.62,15.0,20.0
+Real_Quarterly,CORP 09,2020-21;Q3,Eilean Siar,0.98,60.0,65.0
+Real_Quarterly,CORP 09,2020-21;Q3,Shetland Islands,0.45,10.0,20.0
+Real_Quarterly,CORP 09,2020-21;Q4,Eilean Siar,0.99,80.0,85.0
+Real_Quarterly,CORP 09,2020-21;Q4,Shetland Islands,0.7,25.0,35.0
+Real_Quarterly,CORP 09,2021-22;Q1,Eilean Siar,1.0,75.0,80.0
+Real_Quarterly,CORP 09,2021-22;Q1,Shetland Islands,0.68,25.0,35.0
+Real_Quarterly,CORP 09,2021-22;Q2,Eilean Siar,0.97,60.0,60.0
+Real_Quarterly,CORP 09,2021-22;Q2,Shetland Islands,0.64,15.0,30.0
+Real_Quarterly,CORP 09,2021-22;Q3,Shetland Islands,0.85,20.0,25.0
+Real_Quarterly,CORP 09,2021-22;Q4,Orkney Islands,0.96,25.0,25.0
+Real_Quarterly,CORP 09,2022-23;Q1,Orkney Islands,0.95,20.0,20.0
+Real_Quarterly,CORP 09,2022-23;Q1,Shetland Islands,0.6,25.0,40.0
+Real_Quarterly,CORP 09,2022-23;Q2,Shetland Islands,0.54,15.0,30.0
+Real_Quarterly,CORP 09,2022-23;Q3,Eilean Siar,0.98,60.0,60.0
+Real_Quarterly,CORP 09,2022-23;Q3,Shetland Islands,0.82,30.0,40.0
+Real_Quarterly,CORP 09,2022-23;Q4,Shetland Islands,0.81,25.0,30.0
+Real_Quarterly,CORP 10,2018-19;Q1,East Renfrewshire,0.88,90.0,105.0
+Real_Quarterly,CORP 10,2018-19;Q1,Orkney Islands,0.75,5.0,10.0
+Real_Quarterly,CORP 10,2018-19;Q1,Shetland Islands,0.86,25.0,30.0
+Real_Quarterly,CORP 10,2018-19;Q1,Stirling,0.67,180.0,275.0
+Real_Quarterly,CORP 10,2018-19;Q2,Orkney Islands,0.61,10.0,20.0
+Real_Quarterly,CORP 10,2018-19;Q2,Shetland Islands,0.88,20.0,25.0
+Real_Quarterly,CORP 10,2018-19;Q3,Clackmannanshire,1.0,215.0,220.0
+Real_Quarterly,CORP 10,2018-19;Q3,Eilean Siar,0.96,20.0,25.0
+Real_Quarterly,CORP 10,2018-19;Q3,Orkney Islands,0.77,25.0,30.0
+Real_Quarterly,CORP 10,2018-19;Q4,Orkney Islands,0.68,15.0,20.0
+Real_Quarterly,CORP 10,2018-19;Q4,Shetland Islands,0.71,20.0,30.0
+Real_Quarterly,CORP 10,2019-20;Q1,Eilean Siar,0.96,25.0,25.0
+Real_Quarterly,CORP 10,2019-20;Q1,Shetland Islands,0.91,20.0,25.0
+Real_Quarterly,CORP 10,2019-20;Q2,Orkney Islands,0.94,15.0,15.0
+Real_Quarterly,CORP 10,2019-20;Q2,Shetland Islands,0.69,20.0,30.0
+Real_Quarterly,CORP 10,2019-20;Q3,Shetland Islands,0.77,25.0,30.0
+Real_Quarterly,CORP 10,2019-20;Q4,East Dunbartonshire,0.99,160.0,165.0
+Real_Quarterly,CORP 10,2019-20;Q4,Eilean Siar,0.82,20.0,20.0
+Real_Quarterly,CORP 10,2019-20;Q4,Orkney Islands,0.93,25.0,30.0
+Real_Quarterly,CORP 10,2019-20;Q4,Shetland Islands,0.9,25.0,30.0
+Real_Quarterly,CORP 10,2020-21;Q1,Orkney Islands,0.96,25.0,30.0
+Real_Quarterly,CORP 10,2020-21;Q1,Shetland Islands,0.79,10.0,15.0
+Real_Quarterly,CORP 10,2020-21;Q2,East Dunbartonshire,0.98,155.0,155.0
+Real_Quarterly,CORP 10,2020-21;Q2,East Renfrewshire,0.98,90.0,90.0
+Real_Quarterly,CORP 10,2020-21;Q2,Orkney Islands,0.96,25.0,25.0
+Real_Quarterly,CORP 10,2020-21;Q2,Shetland Islands,0.8,10.0,15.0
+Real_Quarterly,CORP 10,2020-21;Q3,Eilean Siar,0.93,25.0,30.0
+Real_Quarterly,CORP 10,2020-21;Q3,Orkney Islands,0.98,40.0,45.0
+Real_Quarterly,CORP 10,2020-21;Q4,Argyll & Bute,1.0,235.0,240.0
+Real_Quarterly,CORP 10,2020-21;Q4,Eilean Siar,0.95,35.0,35.0
+Real_Quarterly,CORP 10,2020-21;Q4,Shetland Islands,0.71,25.0,40.0
+Real_Quarterly,CORP 10,2021-22;Q1,Orkney Islands,0.97,30.0,30.0
+Real_Quarterly,CORP 10,2021-22;Q1,Shetland Islands,0.77,15.0,20.0
+Real_Quarterly,CORP 10,2021-22;Q2,Dumfries & Galloway,0.36,200.0,570.0
+Real_Quarterly,CORP 10,2021-22;Q2,East Dunbartonshire,0.98,160.0,160.0
+Real_Quarterly,CORP 10,2021-22;Q2,Eilean Siar,0.97,35.0,35.0
+Real_Quarterly,CORP 10,2021-22;Q2,Shetland Islands,0.76,25.0,35.0
+Real_Quarterly,CORP 10,2021-22;Q3,Eilean Siar,0.98,40.0,45.0
+Real_Quarterly,CORP 10,2021-22;Q3,Shetland Islands,0.74,25.0,35.0
+Real_Quarterly,CORP 10,2022-23;Q1,Orkney Islands,0.95,35.0,35.0
+Real_Quarterly,CORP 10,2022-23;Q1,Shetland Islands,0.58,20.0,30.0
+Real_Quarterly,CORP 10,2022-23;Q2,East Dunbartonshire,0.98,165.0,165.0
+Real_Quarterly,CORP 10,2022-23;Q2,Shetland Islands,0.74,25.0,35.0
+Real_Quarterly,CORP 10,2022-23;Q3,Eilean Siar,0.94,35.0,35.0
+Real_Quarterly,CORP 10,2022-23;Q3,Shetland Islands,0.69,20.0,30.0
+Real_Quarterly,CORP 10,2022-23;Q4,East Renfrewshire,0.98,175.0,175.0
+Real_Quarterly,CORP 10,2022-23;Q4,Eilean Siar,0.97,35.0,35.0
+Real_Quarterly,CORP 10,2022-23;Q4,Shetland Islands,0.67,10.0,20.0
