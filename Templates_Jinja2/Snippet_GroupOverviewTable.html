@@ -18,7 +18,7 @@
                 <tr>
                     <td>{{key}}: {{value.Title}}</td>
                     <td>{{value.Period}}</td>
-                    <td><p>{{value.Real_Value_Formatted}}</p>
+                    <td><p>{{value.Value_Formatted}}</p>
                         {% if value.Changes_PercentChange_AimAdjusted_SincePrevious > 0 %}
                             <object class = "red" data="../Icons/trending_up.svg"> </object>
                         {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious < 0 %}
@@ -29,7 +29,7 @@
                             Error
                         {% endif %}
                     </td>
-                    <td>{{value.Previous_Row_Real_Value}}</td>
+                    <td>{{value.Previous_Row_Value}}</td>
                     <td>
                         <p>{{value.FamilyRank|int}}</p>
                         {% if value.Changes_FamilyRank_ChangeSincePrevious > 0 %}

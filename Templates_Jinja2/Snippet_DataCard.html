@@ -5,13 +5,13 @@
     {{Indicator['Period']}}
 </div>
 <div class="icon">
-    {% if Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] > 0 %}
+    {% if Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 and Indicator['Changes']['Value_ChangeSincePrevious'] > 0 %}
         <object class = "red" data="../Icons/Arrow_Circle_Up.svg"></object>
-    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] < 0 %}
+    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 and Indicator['Changes']['Value_ChangeSincePrevious'] < 0 %}
         <object class = "red" data="../Icons/Arrow_Circle_Down.svg"></object>
-    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] < 0 %}
+    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 and Indicator['Changes']['Value_ChangeSincePrevious'] < 0 %}
         <object class = "green" data="../Icons/Arrow_Circle_Down.svg"></object>
-    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 and Indicator['Changes']['Real_Value_ChangeSincePrevious'] > 0 %}
+    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 and Indicator['Changes']['Value_ChangeSincePrevious'] > 0 %}
         <object class = "green" data="../Icons/Arrow_Circle_up.svg"></object>
     {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] == 0 %}
         <object class = "grey" data="../Icons/trending_flat.svg"></object>
@@ -29,11 +29,11 @@
     {% else %}
         Error
     {% endif %}
-     {% if Indicator['Changes']['Real_Value_ChangeSincePrevious'] > 0 %}
+     {% if Indicator['Changes']['Value_ChangeSincePrevious'] > 0 %}
         Increasing
-    {% elif Indicator['Changes']['Real_Value_ChangeSincePrevious'] < 0 %} 
+    {% elif Indicator['Changes']['Value_ChangeSincePrevious'] < 0 %} 
         Decreasing 
-    {% elif Indicator['Changes']['Real_Value_ChangeSincePrevious']==0 %} 
+    {% elif Indicator['Changes']['Value_ChangeSincePrevious']==0 %} 
         No Change
     {% else %} 
         Error 
@@ -44,5 +44,5 @@
     <p>#{{Indicator['FamilyRank']|int}}</p>
 </div>
 <div class="value">
-    {{Indicator['Real_Value_Formatted']}}
+    {{Indicator['Value_Formatted']}}
 </div>
