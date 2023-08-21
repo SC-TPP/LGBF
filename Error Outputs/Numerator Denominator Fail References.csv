@@ -1221,25 +1221,198 @@ Real_Annual,SW 01,2021-22,South Lanarkshire,28.5667,1950912444.0,55813.0975
 Real_Annual,SW 01,2021-22,Stirling,21.6723,473164756.5,10273.0
 Real_Annual,SW 01,2021-22,West Dunbartonshire,31.9139,511135361.09999996,16340.0
 Real_Annual,SW 01,2021-22,West Lothian,25.6391,709636724.8,18226.0
-Real_Monthly,ECON 12a,2023;April,East Renfrewshire,0.019,1090.0,55500.0
-Real_Monthly,ECON 12a,2023;April,Edinburgh City,0.025,8995.0,371852.0
-Real_Monthly,ECON 12a,2023;April,Midlothian,0.023,1355.0,56667.0
-Real_Monthly,ECON 12a,2023;April,Moray,0.024,1440.0,58000.0
-Real_Monthly,ECON 12a,2023;April,Shetland Islands,0.018,255.0,13636.0
-Real_Monthly,ECON 12a,2023;April,West Lothian,0.028,3360.0,117414.0
-Real_Monthly,ECON 12a,2023;June,Dundee City,0.044,4285.0,99891.0
-Real_Monthly,ECON 12a,2023;June,East Dunbartonshire,0.019,1250.0,64130.0
-Real_Monthly,ECON 12a,2023;June,Edinburgh City,0.024,8740.0,371852.0
-Real_Monthly,ECON 12a,2023;June,Highland,0.022,3245.0,143276.0
-Real_Monthly,ECON 12a,2023;June,Shetland Islands,0.017,240.0,13636.0
-Real_Monthly,ECON 12a,2023;June,Stirling,0.024,1405.0,60400.0
-Real_Monthly,ECON 12a,2023;May,Dundee City,0.044,4270.0,99891.0
-Real_Monthly,ECON 12a,2023;May,East Dunbartonshire,0.019,1255.0,64130.0
-Real_Monthly,ECON 12a,2023;May,East Renfrewshire,0.018,1035.0,55500.0
-Real_Monthly,ECON 12a,2023;May,Highland,0.023,3400.0,143276.0
-Real_Monthly,ECON 12a,2023;May,Moray,0.022,1310.0,58000.0
-Real_Monthly,ECON 12a,2023;May,North Lanarkshire,0.034,7555.0,217195.0
-Real_Monthly,ECON 12a,2023;May,Stirling,0.024,1410.0,60400.0
+Real_Monthly,ECON 12a,2023;April,Aberdeen City,0.00033,5050.0,155128.0
+Real_Monthly,ECON 12a,2023;April,Aberdeenshire,0.0002,3160.0,161042.0
+Real_Monthly,ECON 12a,2023;April,Angus,0.00031,2115.0,68594.0
+Real_Monthly,ECON 12a,2023;April,Argyll & Bute,0.00029,1470.0,50143.0
+Real_Monthly,ECON 12a,2023;April,Clackmannanshire,0.00039,1250.0,31750.0
+Real_Monthly,ECON 12a,2023;April,Dumfries & Galloway,0.00031,2670.0,86176.0
+Real_Monthly,ECON 12a,2023;April,Dundee City,0.00045,4420.0,99891.0
+Real_Monthly,ECON 12a,2023;April,East Ayrshire,0.00045,3375.0,75100.0
+Real_Monthly,ECON 12a,2023;April,East Dunbartonshire,0.0002,1275.0,64130.0
+Real_Monthly,ECON 12a,2023;April,East Lothian,0.00025,1655.0,66964.0
+Real_Monthly,ECON 12a,2023;April,East Renfrewshire,0.00018999999999999998,1090.0,55500.0
+Real_Monthly,ECON 12a,2023;April,Edinburgh City,0.00025,8995.0,371852.0
+Real_Monthly,ECON 12a,2023;April,Eilean Siar,0.00018999999999999998,300.0,15517.0
+Real_Monthly,ECON 12a,2023;April,Falkirk,0.00031,3155.0,101714.0
+Real_Monthly,ECON 12a,2023;April,Fife,0.00037,8535.0,234500.0
+Real_Monthly,ECON 12a,2023;April,Glasgow City,0.0005,22495.0,450000.0
+Real_Monthly,ECON 12a,2023;April,Highland,0.00025,3650.0,143276.0
+Real_Monthly,ECON 12a,2023;April,Inverclyde,0.0004,1895.0,47841.0
+Real_Monthly,ECON 12a,2023;April,Midlothian,0.00023,1355.0,56667.0
+Real_Monthly,ECON 12a,2023;April,Moray,0.00024,1440.0,58000.0
+Real_Monthly,ECON 12a,2023;April,North Ayrshire,0.00047,3795.0,80755.0
+Real_Monthly,ECON 12a,2023;April,North Lanarkshire,0.00035999999999999997,7890.0,217195.0
+Real_Monthly,ECON 12a,2023;April,Orkney Islands,0.00017,230.0,13611.0
+Real_Monthly,ECON 12a,2023;April,Perth & Kinross,0.00025,2300.0,91481.0
+Real_Monthly,ECON 12a,2023;April,Renfrewshire,0.00034,3975.0,114722.0
+Real_Monthly,ECON 12a,2023;April,Scottish Borders,0.00031,2085.0,67424.0
+Real_Monthly,ECON 12a,2023;April,Shetland Islands,0.00017999999999999998,255.0,13636.0
+Real_Monthly,ECON 12a,2023;April,South Ayrshire,0.00037999999999999997,2480.0,65333.0
+Real_Monthly,ECON 12a,2023;April,South Lanarkshire,0.00033,6610.0,201579.0
+Real_Monthly,ECON 12a,2023;April,Stirling,0.00025,1500.0,60400.0
+Real_Monthly,ECON 12a,2023;April,West Dunbartonshire,0.00047,2615.0,56038.0
+Real_Monthly,ECON 12a,2023;April,West Lothian,0.00028000000000000003,3360.0,117414.0
+Real_Monthly,ECON 12a,2023;June,Aberdeen City,0.00033,5040.0,155128.0
+Real_Monthly,ECON 12a,2023;June,Aberdeenshire,0.00018999999999999998,3060.0,161042.0
+Real_Monthly,ECON 12a,2023;June,Angus,0.00031,2110.0,68594.0
+Real_Monthly,ECON 12a,2023;June,Argyll & Bute,0.00026,1305.0,50143.0
+Real_Monthly,ECON 12a,2023;June,Clackmannanshire,0.00037,1175.0,31750.0
+Real_Monthly,ECON 12a,2023;June,Dumfries & Galloway,0.00028000000000000003,2395.0,86176.0
+Real_Monthly,ECON 12a,2023;June,Dundee City,0.00043999999999999996,4285.0,99891.0
+Real_Monthly,ECON 12a,2023;June,East Ayrshire,0.0004,3060.0,75100.0
+Real_Monthly,ECON 12a,2023;June,East Dunbartonshire,0.00018999999999999998,1250.0,64130.0
+Real_Monthly,ECON 12a,2023;June,East Lothian,0.00024,1575.0,66964.0
+Real_Monthly,ECON 12a,2023;June,East Renfrewshire,0.00018999999999999998,1060.0,55500.0
+Real_Monthly,ECON 12a,2023;June,Edinburgh City,0.00024,8740.0,371852.0
+Real_Monthly,ECON 12a,2023;June,Eilean Siar,0.00018999999999999998,295.0,15517.0
+Real_Monthly,ECON 12a,2023;June,Falkirk,0.00029,2940.0,101714.0
+Real_Monthly,ECON 12a,2023;June,Fife,0.00035000000000000005,8065.0,234500.0
+Real_Monthly,ECON 12a,2023;June,Glasgow City,0.00049,21840.0,450000.0
+Real_Monthly,ECON 12a,2023;June,Highland,0.00021999999999999998,3245.0,143276.0
+Real_Monthly,ECON 12a,2023;June,Inverclyde,0.00039,1865.0,47841.0
+Real_Monthly,ECON 12a,2023;June,Midlothian,0.00023,1320.0,56667.0
+Real_Monthly,ECON 12a,2023;June,Moray,0.00023,1350.0,58000.0
+Real_Monthly,ECON 12a,2023;June,North Ayrshire,0.00045,3640.0,80755.0
+Real_Monthly,ECON 12a,2023;June,North Lanarkshire,0.00035000000000000005,7680.0,217195.0
+Real_Monthly,ECON 12a,2023;June,Orkney Islands,0.00016,215.0,13611.0
+Real_Monthly,ECON 12a,2023;June,Perth & Kinross,0.00024,2220.0,91481.0
+Real_Monthly,ECON 12a,2023;June,Renfrewshire,0.00032,3655.0,114722.0
+Real_Monthly,ECON 12a,2023;June,Scottish Borders,0.0003,2030.0,67424.0
+Real_Monthly,ECON 12a,2023;June,Shetland Islands,0.00017,240.0,13636.0
+Real_Monthly,ECON 12a,2023;June,South Ayrshire,0.00034,2225.0,65333.0
+Real_Monthly,ECON 12a,2023;June,South Lanarkshire,0.00031,6340.0,201579.0
+Real_Monthly,ECON 12a,2023;June,Stirling,0.00024,1405.0,60400.0
+Real_Monthly,ECON 12a,2023;June,West Dunbartonshire,0.00043,2395.0,56038.0
+Real_Monthly,ECON 12a,2023;June,West Lothian,0.00027,3200.0,117414.0
+Real_Monthly,ECON 12a,2023;May,Aberdeen City,0.00032,4870.0,155128.0
+Real_Monthly,ECON 12a,2023;May,Aberdeenshire,0.00018999999999999998,3035.0,161042.0
+Real_Monthly,ECON 12a,2023;May,Angus,0.00029,2020.0,68594.0
+Real_Monthly,ECON 12a,2023;May,Argyll & Bute,0.00027,1350.0,50143.0
+Real_Monthly,ECON 12a,2023;May,Clackmannanshire,0.00037,1175.0,31750.0
+Real_Monthly,ECON 12a,2023;May,Dumfries & Galloway,0.00029,2515.0,86176.0
+Real_Monthly,ECON 12a,2023;May,Dundee City,0.00043999999999999996,4270.0,99891.0
+Real_Monthly,ECON 12a,2023;May,East Ayrshire,0.00041,3110.0,75100.0
+Real_Monthly,ECON 12a,2023;May,East Dunbartonshire,0.00018999999999999998,1255.0,64130.0
+Real_Monthly,ECON 12a,2023;May,East Lothian,0.00023,1565.0,66964.0
+Real_Monthly,ECON 12a,2023;May,East Renfrewshire,0.00017999999999999998,1035.0,55500.0
+Real_Monthly,ECON 12a,2023;May,Edinburgh City,0.00023,8570.0,371852.0
+Real_Monthly,ECON 12a,2023;May,Eilean Siar,0.00017999999999999998,285.0,15517.0
+Real_Monthly,ECON 12a,2023;May,Falkirk,0.00029,2990.0,101714.0
+Real_Monthly,ECON 12a,2023;May,Fife,0.00035000000000000005,8065.0,234500.0
+Real_Monthly,ECON 12a,2023;May,Glasgow City,0.00048,21540.0,450000.0
+Real_Monthly,ECON 12a,2023;May,Highland,0.00023,3400.0,143276.0
+Real_Monthly,ECON 12a,2023;May,Inverclyde,0.00037999999999999997,1830.0,47841.0
+Real_Monthly,ECON 12a,2023;May,Midlothian,0.00023,1320.0,56667.0
+Real_Monthly,ECON 12a,2023;May,Moray,0.00021999999999999998,1310.0,58000.0
+Real_Monthly,ECON 12a,2023;May,North Ayrshire,0.00045,3610.0,80755.0
+Real_Monthly,ECON 12a,2023;May,North Lanarkshire,0.00034,7555.0,217195.0
+Real_Monthly,ECON 12a,2023;May,Orkney Islands,0.00016,220.0,13611.0
+Real_Monthly,ECON 12a,2023;May,Perth & Kinross,0.00024,2225.0,91481.0
+Real_Monthly,ECON 12a,2023;May,Renfrewshire,0.00033,3780.0,114722.0
+Real_Monthly,ECON 12a,2023;May,Scottish Borders,0.0003,2040.0,67424.0
+Real_Monthly,ECON 12a,2023;May,Shetland Islands,0.00017,235.0,13636.0
+Real_Monthly,ECON 12a,2023;May,South Ayrshire,0.00034,2260.0,65333.0
+Real_Monthly,ECON 12a,2023;May,South Lanarkshire,0.00031,6335.0,201579.0
+Real_Monthly,ECON 12a,2023;May,Stirling,0.00024,1410.0,60400.0
+Real_Monthly,ECON 12a,2023;May,West Dunbartonshire,0.00043999999999999996,2460.0,56038.0
+Real_Monthly,ECON 12a,2023;May,West Lothian,0.00027,3165.0,117414.0
+Real_Monthly,ECON 12b,2023;April,Aberdeen City,0.00034788236999999997,860.0,24721.0
+Real_Monthly,ECON 12b,2023;April,Aberdeenshire,0.00026148099,595.0,22755.0
+Real_Monthly,ECON 12b,2023;April,Angus,0.00044156332,470.0,10644.0
+Real_Monthly,ECON 12b,2023;April,Argyll & Bute,0.00030369291,250.0,8232.0
+Real_Monthly,ECON 12b,2023;April,Clackmannanshire,0.00056577086,280.0,4949.0
+Real_Monthly,ECON 12b,2023;April,Dumfries & Galloway,0.00036108091,465.0,12878.0
+Real_Monthly,ECON 12b,2023;April,Dundee City,0.00043556701000000005,845.0,19400.0
+Real_Monthly,ECON 12b,2023;April,East Ayrshire,0.000520969,600.0,11517.0
+Real_Monthly,ECON 12b,2023;April,East Dunbartonshire,0.0002047952,205.0,10010.0
+Real_Monthly,ECON 12b,2023;April,East Lothian,0.00033074339,315.0,9524.0
+Real_Monthly,ECON 12b,2023;April,East Renfrewshire,0.00020140466999999998,195.0,9682.0
+Real_Monthly,ECON 12b,2023;April,Edinburgh City,0.00020322205,1240.0,61017.0
+Real_Monthly,ECON 12b,2023;April,Eilean Siar,0.00021562051,45.0,2087.0
+Real_Monthly,ECON 12b,2023;April,Falkirk,0.00044913103,690.0,15363.0
+Real_Monthly,ECON 12b,2023;April,Fife,0.00042073029999999996,1635.0,38861.0
+Real_Monthly,ECON 12b,2023;April,Glasgow City,0.00044831848,3410.0,76062.0
+Real_Monthly,ECON 12b,2023;April,Highland,0.00028663311,615.0,21456.0
+Real_Monthly,ECON 12b,2023;April,Inverclyde,0.0005146857,375.0,7286.0
+Real_Monthly,ECON 12b,2023;April,Midlothian,0.00031073771,270.0,8689.0
+Real_Monthly,ECON 12b,2023;April,Moray,0.00027951332,255.0,9123.0
+Real_Monthly,ECON 12b,2023;April,North Ayrshire,0.000553731,725.0,13093.0
+Real_Monthly,ECON 12b,2023;April,North Lanarkshire,0.00041979303,1505.0,35851.0
+Real_Monthly,ECON 12b,2023;April,Orkney Islands,0.00024807056,45.0,1814.0
+Real_Monthly,ECON 12b,2023;April,Perth & Kinross,0.00029628559,410.0,13838.0
+Real_Monthly,ECON 12b,2023;April,Renfrewshire,0.00038768401,690.0,17798.0
+Real_Monthly,ECON 12b,2023;April,Scottish Borders,0.00035724918,360.0,10077.0
+Real_Monthly,ECON 12b,2023;April,Shetland Islands,0.00026404225,55.0,2083.0
+Real_Monthly,ECON 12b,2023;April,South Ayrshire,0.00039459406000000004,400.0,10137.0
+Real_Monthly,ECON 12b,2023;April,South Lanarkshire,0.00035469145,1080.0,30449.0
+Real_Monthly,ECON 12b,2023;April,Stirling,0.00025447524999999997,290.0,11396.0
+Real_Monthly,ECON 12b,2023;April,West Dunbartonshire,0.00062075428,530.0,8538.0
+Real_Monthly,ECON 12b,2023;April,West Lothian,0.00037325544000000005,690.0,18486.0
+Real_Monthly,ECON 12b,2023;June,Aberdeen City,0.00034383722,850.0,24721.0
+Real_Monthly,ECON 12b,2023;June,Aberdeenshire,0.0002504944,570.0,22755.0
+Real_Monthly,ECON 12b,2023;June,Angus,0.00044156332,470.0,10644.0
+Real_Monthly,ECON 12b,2023;June,Argyll & Bute,0.0002611759,215.0,8232.0
+Real_Monthly,ECON 12b,2023;June,Clackmannanshire,0.00050515256,250.0,4949.0
+Real_Monthly,ECON 12b,2023;June,Dumfries & Galloway,0.00034166796,440.0,12878.0
+Real_Monthly,ECON 12b,2023;June,Dundee City,0.00044072165000000004,855.0,19400.0
+Real_Monthly,ECON 12b,2023;June,East Ayrshire,0.00049492055,570.0,11517.0
+Real_Monthly,ECON 12b,2023;June,East Dunbartonshire,0.00020979021,210.0,10010.0
+Real_Monthly,ECON 12b,2023;June,East Lothian,0.0003202436,305.0,9524.0
+Real_Monthly,ECON 12b,2023;June,East Renfrewshire,0.00019107622,185.0,9682.0
+Real_Monthly,ECON 12b,2023;June,Edinburgh City,0.00019830539,1210.0,61017.0
+Real_Monthly,ECON 12b,2023;June,Eilean Siar,0.00021562051,45.0,2087.0
+Real_Monthly,ECON 12b,2023;June,Falkirk,0.00041983988,645.0,15363.0
+Real_Monthly,ECON 12b,2023;June,Fife,0.00041687038,1620.0,38861.0
+Real_Monthly,ECON 12b,2023;June,Glasgow City,0.00044700376,3400.0,76062.0
+Real_Monthly,ECON 12b,2023;June,Highland,0.00026565996,570.0,21456.0
+Real_Monthly,ECON 12b,2023;June,Inverclyde,0.00050096075,365.0,7286.0
+Real_Monthly,ECON 12b,2023;June,Midlothian,0.00030498331,265.0,8689.0
+Real_Monthly,ECON 12b,2023;June,Moray,0.00026307136,240.0,9123.0
+Real_Monthly,ECON 12b,2023;June,North Ayrshire,0.0005460933300000001,715.0,13093.0
+Real_Monthly,ECON 12b,2023;June,North Lanarkshire,0.00041560905,1490.0,35851.0
+Real_Monthly,ECON 12b,2023;June,Orkney Islands,0.00024807056,45.0,1814.0
+Real_Monthly,ECON 12b,2023;June,Perth & Kinross,0.00028544587,395.0,13838.0
+Real_Monthly,ECON 12b,2023;June,Renfrewshire,0.00035678166,635.0,17798.0
+Real_Monthly,ECON 12b,2023;June,Scottish Borders,0.00034732559,350.0,10077.0
+Real_Monthly,ECON 12b,2023;June,Shetland Islands,0.00024003841000000002,50.0,2083.0
+Real_Monthly,ECON 12b,2023;June,South Ayrshire,0.00037979678000000003,385.0,10137.0
+Real_Monthly,ECON 12b,2023;June,South Lanarkshire,0.00035304936,1075.0,30449.0
+Real_Monthly,ECON 12b,2023;June,Stirling,0.00025447524999999997,290.0,11396.0
+Real_Monthly,ECON 12b,2023;June,West Dunbartonshire,0.00056804872,485.0,8538.0
+Real_Monthly,ECON 12b,2023;June,West Lothian,0.00035973168999999997,665.0,18486.0
+Real_Monthly,ECON 12b,2023;May,Aberdeen City,0.00033574694000000003,830.0,24721.0
+Real_Monthly,ECON 12b,2023;May,Aberdeenshire,0.00024609976,560.0,22755.0
+Real_Monthly,ECON 12b,2023;May,Angus,0.00042747088,455.0,10644.0
+Real_Monthly,ECON 12b,2023;May,Argyll & Bute,0.00027939747,230.0,8232.0
+Real_Monthly,ECON 12b,2023;May,Clackmannanshire,0.00051525561,255.0,4949.0
+Real_Monthly,ECON 12b,2023;May,Dumfries & Galloway,0.00034943314000000005,450.0,12878.0
+Real_Monthly,ECON 12b,2023;May,Dundee City,0.00042783505,830.0,19400.0
+Real_Monthly,ECON 12b,2023;May,East Ayrshire,0.00049926196,575.0,11517.0
+Real_Monthly,ECON 12b,2023;May,East Dunbartonshire,0.0002047952,205.0,10010.0
+Real_Monthly,ECON 12b,2023;May,East Lothian,0.00030974381,295.0,9524.0
+Real_Monthly,ECON 12b,2023;May,East Renfrewshire,0.000185912,180.0,9682.0
+Real_Monthly,ECON 12b,2023;May,Edinburgh City,0.00020240261,1235.0,61017.0
+Real_Monthly,ECON 12b,2023;May,Eilean Siar,0.00021562051,45.0,2087.0
+Real_Monthly,ECON 12b,2023;May,Falkirk,0.00042309445,650.0,15363.0
+Real_Monthly,ECON 12b,2023;May,Fife,0.00042201692999999996,1640.0,38861.0
+Real_Monthly,ECON 12b,2023;May,Glasgow City,0.00043582866999999995,3315.0,76062.0
+Real_Monthly,ECON 12b,2023;May,Highland,0.00026799031,575.0,21456.0
+Real_Monthly,ECON 12b,2023;May,Inverclyde,0.00048723579,355.0,7286.0
+Real_Monthly,ECON 12b,2023;May,Midlothian,0.00031073771,270.0,8689.0
+Real_Monthly,ECON 12b,2023;May,Moray,0.00026855201,245.0,9123.0
+Real_Monthly,ECON 12b,2023;May,North Ayrshire,0.0005460933300000001,715.0,13093.0
+Real_Monthly,ECON 12b,2023;May,North Lanarkshire,0.00041003039999999995,1470.0,35851.0
+Real_Monthly,ECON 12b,2023;May,Orkney Islands,0.00024807056,45.0,1814.0
+Real_Monthly,ECON 12b,2023;May,Perth & Kinross,0.00029628559,410.0,13838.0
+Real_Monthly,ECON 12b,2023;May,Renfrewshire,0.00037644679,670.0,17798.0
+Real_Monthly,ECON 12b,2023;May,Scottish Borders,0.00034732559,350.0,10077.0
+Real_Monthly,ECON 12b,2023;May,Shetland Islands,0.00026404225,55.0,2083.0
+Real_Monthly,ECON 12b,2023;May,South Ayrshire,0.00037979678000000003,385.0,10137.0
+Real_Monthly,ECON 12b,2023;May,South Lanarkshire,0.00035304936,1075.0,30449.0
+Real_Monthly,ECON 12b,2023;May,Stirling,0.00023692524,270.0,11396.0
+Real_Monthly,ECON 12b,2023;May,West Dunbartonshire,0.00059732959,510.0,8538.0
+Real_Monthly,ECON 12b,2023;May,West Lothian,0.00036243644,670.0,18486.0
 Real_Quarterly,CORP 09,2018-19;Q2,Orkney Islands,0.94,15.0,20.0
 Real_Quarterly,CORP 09,2018-19;Q2,Shetland Islands,0.76,25.0,35.0
 Real_Quarterly,CORP 09,2018-19;Q3,East Renfrewshire,0.96,130.0,140.0
