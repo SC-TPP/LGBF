@@ -14,63 +14,64 @@
             {% endwith %}
             <div id="column1">
                 {% with %}
-                    {% set GroupTitle = "School Leaver Tariff" %}
-                    {% set id = "SchoolLeaverTariff_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("School Leaver Tariff") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
+                {% set GroupTitle = "At Home Care" %}
+                {% set id = "AdultCareAtHomeCare_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Care").get("Adult Care - At Home Care") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
                 {% with %}
-                    {% set GroupTitle = "Secondary Schools" %}
-                    {% set id = "SecondarySchools_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Children's Services").get("Secondary Schools") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                <h2>Corporate Services</h2>
-                {% with %}
-                    {% set GroupTitle = "Absence" %}
-                    {% set id = "Absence_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Absence") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Corporate Property Assets" %}
-                    {% set id = "CorporatePropertyAssets_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Corporate Property Assets") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
+            {% set GroupTitle = "Adult Health Care" %}
+            {% set id = "AdultCareAdultHealthCare_GroupTable" %}
+            {% set Group = GroupedLatestDataDict.get("Care").get("Adult Care - Adult Health Care")%}
+            {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            <h2>Environment</h2>
+            {% with %}
+                {% set GroupTitle = "Waste" %}
+                {% set id = "WasteRecycling_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Environment").get("Waste & Recycling") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            
+            
+            
+                
                 </div>
             <div id="column2">
                 {% with %}
-                    {% set GroupTitle = "New Indicators" %}
-                    {% set id = "NewIndicators_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("New Indicators") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
+                {% set GroupTitle = "Roads"%}
+                {% set id = "RoadMaintenance_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Environment").get("Road Maintenance") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Parks & Open Spaces" %}
+                {% set id = "ParksOpenSpaces_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Environment").get("Parks & Open Spaces") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
                 {% with %}
-                    {% set GroupTitle = "Council Tax" %}
-                    {% set id = "CouncilTax_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Council Tax") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Financial Position" %}
-                    {% set id = "FinancialPosition_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Financial Position") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Gender Pay Gap" %}
-                    {% set id = "GenderPayGap_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate Services").get("Gender Pay Gap") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                <h2>Culture & Leisure Services</h2>
-                {% with %}
-                    {% set GroupTitle = "Leisure Facilities & Attractions" %}
-                    {% set id = "LeisureFacilitiesAttractions_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Culture & Leisure Services").get("Leisure Facilities & Attractions") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
+                        {% set GroupTitle = "Climate Change Emissions" %}
+                        {% set id = "ClimateChangeEmissions_GroupTable" %}
+                        {% set Group = GroupedLatestDataDict.get("Environment").get("Climate Change Emissions") %}
+                        {% include "Snippet_GroupOverviewTable.html" %}
+                    {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Planning" %}
+                {% set id = "Planning_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Economy").get("Planning") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Street Cleaning" %}
+                {% set id = "StreetCleaning_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Environment").get("Street Cleaning") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            
+            
+                
+                
             </div>
         </section>
     </body>
