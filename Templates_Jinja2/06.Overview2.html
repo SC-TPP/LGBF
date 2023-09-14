@@ -19,27 +19,23 @@
                 {% set Group = GroupedLatestDataDict.get("Care").get("Adult Care - At Home Care") %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-                {% with %}
-            {% set GroupTitle = "Adult Health Care" %}
-            {% set id = "AdultCareAdultHealthCare_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Care").get("Adult Care - Adult Health Care")%}
-            {% include "Snippet_GroupOverviewTable.html" %}
+            {% with %}
+                {% set GroupTitle = "Adult Health Care" %}
+                {% set id = "AdultCareAdultHealthCare_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Care").get("Adult Care - Adult Health Care")%}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             <h2>Environment</h2>
             {% with %}
-                {% set GroupTitle = "Waste" %}
+                {% set GroupTitle = "Waste & Recycling" %}
                 {% set id = "WasteRecycling_GroupTable" %}
                 {% set Group = GroupedLatestDataDict.get("Environment").get("Waste & Recycling") %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-            
-            
-            
-                
                 </div>
             <div id="column2">
                 {% with %}
-                {% set GroupTitle = "Roads"%}
+                {% set GroupTitle = "Road Maintenance"%}
                 {% set id = "RoadMaintenance_GroupTable" %}
                 {% set Group = GroupedLatestDataDict.get("Environment").get("Road Maintenance") %}
                 {% include "Snippet_GroupOverviewTable.html" %}
@@ -50,17 +46,11 @@
                 {% set Group = GroupedLatestDataDict.get("Environment").get("Parks & Open Spaces") %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-                {% with %}
-                        {% set GroupTitle = "Climate Change Emissions" %}
-                        {% set id = "ClimateChangeEmissions_GroupTable" %}
-                        {% set Group = GroupedLatestDataDict.get("Environment").get("Climate Change Emissions") %}
-                        {% include "Snippet_GroupOverviewTable.html" %}
-                    {% endwith %}
             {% with %}
-                {% set GroupTitle = "Planning" %}
-                {% set id = "Planning_GroupTable" %}
-                {% set Group = GroupedLatestDataDict.get("Economy").get("Planning") %}
-                {% include "Snippet_GroupOverviewTable.html" %}
+                    {% set GroupTitle = "Climate Change" %}
+                    {% set id = "ClimateChangeEmissions_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Environment").get("Climate Change Emissions") %}
+                    {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             {% with %}
                 {% set GroupTitle = "Street Cleaning" %}
@@ -68,10 +58,6 @@
                 {% set Group = GroupedLatestDataDict.get("Environment").get("Street Cleaning") %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-            
-            
-                
-                
             </div>
         </section>
     </body>

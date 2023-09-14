@@ -16,16 +16,16 @@
         <div id="column1">
             <h2>Education</h2>
             {% with %}
-            {% set GroupTitle = "Early Years" %}
-            {% set id = "EarlyYears_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Education").get("Early Years") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "Early Years" %}
+                {% set id = "EarlyYears_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Education").get("Early Years") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             {% with %}
-            {% set GroupTitle = "Primary Schools" %}
-            {% set id = "PrimarySchools_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Education").get("Primary Schools") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "Primary Schools" %}
+                {% set id = "PrimarySchools_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Education").get("Primary Schools") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             {% with %}
                     {% set GroupTitle = "Secondary Schools" %}
@@ -33,32 +33,32 @@
                     {% set Group = GroupedLatestDataDict.get("Education").get("Secondary Schools") %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
-            {% with %}
-            {% set GroupTitle = "Other" %}
-            {% set id = "Other_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Education").get("Other") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
-            {% endwith %}
         </div>
         <div id="column2">
             {% with %}
-            {% set GroupTitle = "School Attendance" %}
-            {% set id = "SchoolAttendance_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Education").get("School Attendance") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "School Attendance" %}
+                {% set id = "SchoolAttendance_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Education").get("School Attendance") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "School Leaver Tariff" %}
-                    {% set id = "SchoolLeaverTariff_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Education").get("School Leaver Tariff") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
+            {% with %}
+                {% set GroupTitle = "School Leaver Tariff" %}
+                {% set id = "SchoolLeaverTariff_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Education").get("School Leaver Tariff") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Satisfaction" %}
+                {% set id = "Other_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Education").get("Other") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
             <h2>Care</h2>
             {% with %}
-            {% set GroupTitle = "Social Work (Looked After Children)" %}
-            {% set id = "ChildrenFamiliesSocialWork_GroupTable" %}
-            {% set Group = GroupedLatestDataDict.get("Care").get("Children & Families Social Work") %}
-            {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "Social Work (Looked After Children)" %}
+                {% set id = "ChildrenFamiliesSocialWork_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Care").get("Children & Families Social Work") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             
             

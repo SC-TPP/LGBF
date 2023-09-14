@@ -21,42 +21,44 @@
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 {% with %}
-                        {% set GroupTitle = "Employment" %}
-                        {% set id = "Employment_GroupTable" %}
-                        {% set Group = GroupedLatestDataDict.get("Economy").get("Employment") %}
-                        {% include "Snippet_GroupOverviewTable.html" %}
-                    {% endwith %}
-                    {% with %}
-                        {% set GroupTitle = "Economic Growth" %}
-                        {% set id = "EconomicGrowth_GroupTable" %}
-                        {% set Group = GroupedLatestDataDict.get("Economy").get("Economic Growth") %}
-                        {% include "Snippet_GroupOverviewTable.html" %}
-                    {% endwith %}
-                    
-                    
+                    {% set GroupTitle = "Employment" %}
+                    {% set id = "Employment_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Economy").get("Employment") %}
+                    {% include "Snippet_GroupOverviewTable.html" %}
+                {% endwith %}
+                {% with %}
+                    {% set GroupTitle = "Economic Growth" %}
+                    {% set id = "EconomicGrowth_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Economy").get("Economic Growth") %}
+                    {% include "Snippet_GroupOverviewTable.html" %}
+                {% endwith %}
             </div>
             <div id="column2">
                 <h2>Property & Regulation</h2>
                 {% with %}
-                        {% set GroupTitle = "Cost of Regulation" %}
-                        {% set id = "CostOfRegulation_GroupTable" %}
-                        {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Cost of Regulation") %}
-                        {% include "Snippet_GroupOverviewTable.html" %}
-                    {% endwith %}
-                    {% with %}
+                    {% set GroupTitle = "Cost of Regulation" %}
+                    {% set id = "CostOfRegulation_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Cost of Regulation") %}
+                    {% include "Snippet_GroupOverviewTable.html" %}
+                {% endwith %}
+                {% with %}
                     {% set GroupTitle = "Corporate Property Assets" %}
                     {% set id = "CorporatePropertyAssets_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Corporate Property Assets") %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
-            {% with %}
-                {% set GroupTitle = "Property & Assets" %}
-                {% set id = "HousingPropertyAssets_GroupTable" %}
-                {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Housing - Property and Assets") %}
-                {% include "Snippet_GroupOverviewTable.html" %}
-            {% endwith %}
-            
-                    
+                {% with %}
+                    {% set GroupTitle = "Planning" %}
+                    {% set id = "Planning_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Planning") %}
+                    {% include "Snippet_GroupOverviewTable.html" %}
+                {% endwith %}
+                {% with %}
+                    {% set GroupTitle = "Housing Property Assets" %}
+                    {% set id = "HousingPropertyAssets_GroupTable" %}
+                    {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Housing - Property and Assets") %}
+                    {% include "Snippet_GroupOverviewTable.html" %}
+                {% endwith %}
                 <h2>Corporate</h2>
                 {% with %}
                     {% set GroupTitle = "Council Tax" %}
@@ -64,15 +66,6 @@
                     {% set Group = GroupedLatestDataDict.get("Corporate").get("Council Tax") %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
-                
-                {% with %}
-                    {% set GroupTitle = "Cost of Housing" %}
-                    {% set id = "HousingManagementHomelessness_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate").get("Housing - Management & Homelessness") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                
-                    
             </div>
         </section>
     </body>

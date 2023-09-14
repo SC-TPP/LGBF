@@ -14,34 +14,38 @@
         {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
         <div id="column1">
-            
-            
-                {% with %}
-                    {% set GroupTitle = "Financial Position" %}
-                    {% set id = "FinancialPosition_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate").get("Financial Position") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Absence" %}
-                    {% set id = "Absence_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate").get("Absence") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
-                {% with %}
-                    {% set GroupTitle = "Gender Pay Gap" %}
-                    {% set id = "GenderPayGap_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate").get("Gender Pay Gap") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Housing Rent" %}
+                {% set id = "HousingManagementHomelessness_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Corporate").get("Housing - Management & Homelessness") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Financial Position" %}
+                {% set id = "FinancialPosition_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Corporate").get("Financial Position") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Absence" %}
+                {% set id = "Absence_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Corporate").get("Absence") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Gender Pay Gap" %}
+                {% set id = "GenderPayGap_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Corporate").get("Gender Pay Gap") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
         </div>
         <div id = "column2">
             <h2>New Indicators</h2>
             {% with %}
-                    {% set GroupTitle = "New Indicators" %}
-                    {% set id = "NewIndicators_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("New Indicators").get("New Indicators") %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
+                {% set GroupTitle = "New Indicators" %}
+                {% set id = "NewIndicators_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("New Indicators").get("New Indicators") %}
+                {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
         </div>
     </section>
