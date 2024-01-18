@@ -37,12 +37,6 @@
                     {% include "Snippet_DataCard.html"%}
                 {% endwith %}
             </div>
-            <div class="commentbox" id="column1_commentbox">
-                {{Column1Comment}}
-            </div>
-            <div class="commentbox" id="column2_commentbox">
-                {{Column2Comment}}
-            </div>
             <div class="graphtable_card" id="column1_indicator1_graphtable_card">
                 {% with %}
                     {% set Indicator = LatestData[Column1Indicator1] %}
