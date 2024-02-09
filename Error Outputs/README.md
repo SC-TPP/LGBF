@@ -4,10 +4,6 @@ There are a number of know errors that will be present in these files. These err
 ## Corp 03c
 > The calculation used to create corp 03c value is not simply a/b the values the Improvement Service provides for numerator and denominator are not numerators or denominators they are instead values used in a more complicated calculation. This will appear in the error output but is not a valid entry.
 
-## Corp 04
-### Clackmannanshire - Cash and Real - Annual - 2019-20
-> There is a ∼75% difference between the result of dividing the numerator and denominator and the value stated. This is existant in the raw data file provided by the Improvement Service.
-
 ## C&L 03
 ### Argyll & Bute - Cash and Real - Annual - 2018-19,2019-21,2021-22
 > Differences between the result of dividing the numerator and denominator and the value stated as below. Possibly the result of rounding but is outside the 2% tollerance set.
