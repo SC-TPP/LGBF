@@ -38,33 +38,35 @@
                     {% endwith %}
                 </div>
             </div>
-            <div class="graphtable_card" id="indicator1_graphtable_card">
-                {% with %}
-                    {% set Indicator = LatestData[Indicator1] %}
-                    {% set Graph = Indicator1Graph %}
-                    {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="indicator2_graphtable_card">
-                {% with %}
-                    {% set Indicator = LatestData[Indicator2] %}
-                    {% set Graph = Indicator2Graph %}
-                    {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="indicator3_graphtable_card">
-                {% with %}
-                    {% set Indicator = LatestData[Indicator3] %}
-                    {% set Graph = Indicator3Graph %}
-                    {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
-            </div>
-            <div class="graphtable_card" id="indicator4_graphtable_card">
-                {% with %}
-                    {% set Indicator = LatestData[Indicator4] %}
-                    {% set Graph = Indicator4Graph %}
-                    {% include "Snippet_GraphTableCard.html"%}
-                {% endwith %}
+            <div id="graphtablecardcolumns">
+                <div class="graphtable_card" id="indicator1_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator1] %}
+                        {% set Graph = Indicator1Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator2_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator2] %}
+                        {% set Graph = Indicator2Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator3_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator3] %}
+                        {% set Graph = Indicator3Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator4_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator4] %}
+                        {% set Graph = Indicator4Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
             </div>
         </section>
         </body>

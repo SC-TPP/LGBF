@@ -5,7 +5,6 @@ Consistant Variables
     --DatacardRow: 2 / 4;
     --Column1: 2 / 11;
     --Column2: 12 / 21;
-    --CommentboxRow: 4 / 11;
 }
 
 /* --------------------------------------------------------------
@@ -28,21 +27,6 @@ Consistant Variables
     width: 3px;
 }
 
-/* --------------------------------------------------------------
-   Main Element Positioning. Report styles can be found in main_styles
--------------------------------------------------------------- */
-#column1_commentbox {
-    grid-column: var(--Column1);
-    grid-row: var(--CommentboxRow);
-    font-size : 12px;
-    font-family : var(--standard-font);
-}
-#column2_commentbox {
-    grid-column: var(--Column2);
-    grid-row: var(--CommentboxRow);
-    font-size : 12px;
-    font-family : var(--standard-font);
-}
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
@@ -67,19 +51,19 @@ Consistant Variables
 -------------------------------------------------------------- */
 #column1_indicator1_graphtable_card {
     grid-column:  var(--Column1);
-    grid-row: 11 / 16 ;
+    grid-row: 5 / 13 ;
 }
 #column1_indicator2_graphtable_card {
     grid-column: var(--Column1);
-    grid-row: 17 / 22;
+    grid-row: 14 / 22;
 }
 #column2_indicator1_graphtable_card {
     grid-column: var(--Column2);
-    grid-row: 11 / 16;
+    grid-row: 5 / 13;
 }
 #column2_indicator2_graphtable_card {
     grid-column: var(--Column2);
-    grid-row: 17 / 22;
+    grid-row: 14 / 22;
 }
 
 /* --------------------------------------------------------------

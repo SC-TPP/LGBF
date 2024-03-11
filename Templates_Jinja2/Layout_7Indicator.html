@@ -56,7 +56,7 @@
                     {% endwith %}
                 </div>
             </div>
-            <div id="indicator_graphtablecardcolumn1">
+            <div id="graphtablecardcolumns">
                 <div class="graphtable_card" id="indicator1_graphtable_card">
                     {% with %}
                         {% set Indicator = LatestData[Indicator1] %}
@@ -85,8 +85,6 @@
                         {% include "Snippet_GraphTableCard.html"%}
                     {% endwith %}
                 </div>
-            </div>
-            <div id="indicator_graphtablecardcolumn2">
                 <div class="graphtable_card" id="indicator5_graphtable_card">
                     {% with %}
                         {% set Indicator = LatestData[Indicator5] %}

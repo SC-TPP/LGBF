@@ -1,8 +1,13 @@
 <div class="title">
     {{Indicator['Code_Sortable']}}: {{Indicator['Title']}}
 </div>
-<div class="period">
-    {{Indicator['Period']}}
+<div class="periodvalue">
+    <div class="value">
+        {{Indicator['Value_Formatted']}}
+    </div>
+    <div class="period">
+        {{Indicator['Period']}}
+    </div>
 </div>
 <div class="icon">
     {% if Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious']  > 0 %}
@@ -14,31 +19,28 @@
     {% else %}
         Error
     {% endif %}
+    <p class="performanceChange">
+        {% if Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 %}
+            Improving &
+        {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 %}
+            Deteriorating &
+        {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] == 0 %}
+            Stable &
+        {% else %}
+            Error
+        {% endif %}
+        {% if Indicator['Changes']['Value_ChangeSincePrevious'] > 0 %}
+            Increasing
+        {% elif Indicator['Changes']['Value_ChangeSincePrevious'] < 0 %} 
+            Decreasing 
+        {% elif Indicator['Changes']['Value_ChangeSincePrevious']==0 %} 
+            No Change
+        {% else %} 
+            Error 
+        {% endif %}
+    </p>
 </div>
-<p class="performanceChange">
-    {% if Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] > 0 %}
-        Improving &
-    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 %}
-        Deteriorating &
-    {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] == 0 %}
-        Stable &
-    {% else %}
-        Error
-    {% endif %}
-     {% if Indicator['Changes']['Value_ChangeSincePrevious'] > 0 %}
-        Increasing
-    {% elif Indicator['Changes']['Value_ChangeSincePrevious'] < 0 %} 
-        Decreasing 
-    {% elif Indicator['Changes']['Value_ChangeSincePrevious']==0 %} 
-        No Change
-    {% else %} 
-        Error 
-    {% endif %}
-</p>
 <div class = "rank">
     <object data="../Icons/Filled_Circle.svg"></object>
     <p>#{{Indicator['FamilyRank']|int}}</p>
-</div>
-<div class="value">
-    {{Indicator['Value_Formatted']}}
 </div>

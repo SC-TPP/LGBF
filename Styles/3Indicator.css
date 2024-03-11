@@ -1,21 +1,4 @@
 /* --------------------------------------------------------------
-Consistant Variables
--------------------------------------------------------------- */
-:root {
-    --DatacardRow: 2 / 4;
-    --Column1: 2 / 11;
-    --Column2: 12 / 21;
-}
-/* --------------------------------------------------------------
-   Main Element Positioning. Report styles can be found in main_styles
--------------------------------------------------------------- */
-#main_commentbox {
-    grid-column: var(--Column1);
-    grid-row: 4/14;
-    font-size : 12px;
-    font-family : var(--standard-font);
-}
-/* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
 #indicator_datacardrow {
@@ -23,7 +6,7 @@ Consistant Variables
     grid-row: var(--DatacardRow);
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    column-gap: 200px;
+    column-gap: var(--Gap);
     padding-bottom: 10px;
 }
 #indicator1_datacard {
@@ -41,19 +24,27 @@ Consistant Variables
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
 -------------------------------------------------------------- */
-#indicator1_graphtable_card{
-    grid-column: var(--Column2);
-    grid-row: 5/13;
+#graphtablecardcolumns{
+    grid-column: 2 / 21;
+    grid-row: 5 / 22;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+    column-gap: var(--Gap);
+    row-gap: var(--Gap);
 }
-#indicator2_graphtable_card{
-    grid-column: var(--Column2);
-    grid-row: 14/22;
+#indicator1_graphtable_card {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2 ;
 }
-#indicator3_graphtable_card{
-    grid-column: var(--Column1);
-    grid-row: 14/22;
+#indicator2_graphtable_card {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }
-
+#indicator3_graphtable_card {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
 
 /*------------------------------------------------------------------
 FOR PRINTING HTML TO PDF FORMATING BUG

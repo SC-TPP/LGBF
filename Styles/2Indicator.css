@@ -8,16 +8,6 @@ Consistant Variables
 }
 
 /* --------------------------------------------------------------
-   Main Element Positioning. Report styles can be found in main_styles
--------------------------------------------------------------- */
-#main_commentbox {
-    grid-column: var(--Column1);
-    grid-row: 4/14;
-    font-size : 12px;
-    font-family : var(--standard-font);
-}
-
-/* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
 #indicator_datacardrow {
@@ -44,12 +34,12 @@ Consistant Variables
 -------------------------------------------------------------- */
 #indicator1_graphtable_card {
     grid-column: var(--Column1);
-    grid-row: 5/10;
+    grid-row: 5/13;
 }
 
 #indicator2_graphtable_card {
     grid-column: var(--Column2);
-    grid-row: 5/10;
+    grid-row: 5/13;
 }
 
 
