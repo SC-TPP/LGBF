@@ -1,0 +1,36 @@
+#aboutthisreportcolumn1 p{
+    font-size: 20px;
+}
+#aboutthisreportcolumn1 li{
+    font-size: 20px;
+}
+.seconditem{
+    margin-top: 50px;
+}
+#description {
+    font-size: 20px;
+}
+#aboutthisreportcontent {
+    grid-column: 2 / 21;
+    grid-row: 2/ 22;
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 2fr);
+    grid-template-rows:1;
+    column-gap: var(--Gap);
+}
+#examples {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 2fr);
+    grid-template-rows: 1;
+    justify-items: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#aboutthisreport table td p {
+    padding: 0.7px;
+    font-size: 12px;
+}
+#aboutthisreport table td object{
+    object-fit: contain;
+    height: 19px;
+}

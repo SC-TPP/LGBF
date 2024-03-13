@@ -18,33 +18,45 @@
                 {% set GroupTitle = "Housing Rent" %}
                 {% set id = "HousingManagementHomelessness_GroupTable" %}
                 {% set Group = GroupedLatestDataDict.get("Corporate").get("Housing - Management & Homelessness") %}
+                {% set note = '' %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             {% with %}
                 {% set GroupTitle = "Financial Position" %}
                 {% set id = "FinancialPosition_GroupTable" %}
                 {% set Group = GroupedLatestDataDict.get("Corporate").get("Financial Position") %}
+                {% set note = '' %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
+            {% with %}
+                {% set GroupTitle = "Grants & Funding" %}
+                {% set id = "GrantsFunding_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Corporate").get("Grants & Funding") %}
+                {% set note = 'Note: 2023-24 values are an average of currently available quarterly values' %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
             {% with %}
                 {% set GroupTitle = "Absence" %}
                 {% set id = "Absence_GroupTable" %}
                 {% set Group = GroupedLatestDataDict.get("Corporate").get("Absence") %}
-                {% include "Snippet_GroupOverviewTable.html" %}
-            {% endwith %}
-            {% with %}
-                {% set GroupTitle = "Gender Pay Gap" %}
-                {% set id = "GenderPayGap_GroupTable" %}
-                {% set Group = GroupedLatestDataDict.get("Corporate").get("Gender Pay Gap") %}
+                {% set note = '' %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
         </div>
         <div id = "column2">
+            {% with %}
+                {% set GroupTitle = "Gender Pay Gap" %}
+                {% set id = "GenderPayGap_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Corporate").get("Gender Pay Gap") %}
+                {% set note = '' %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
             <h2>New Indicators</h2>
             {% with %}
                 {% set GroupTitle = "New Indicators" %}
                 {% set id = "NewIndicators_GroupTable" %}
                 {% set Group = GroupedLatestDataDict.get("New Indicators").get("New Indicators") %}
+                {% set note = '' %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
         </div>

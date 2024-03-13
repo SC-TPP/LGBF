@@ -1,0 +1,16 @@
+{% with %}
+    {% set PageName = 'Ab+Gen'%}
+    {% set PageNumber = "30" %}
+    {% set SmallExplanation = '' %}
+    {% set Column1Title = 'Corporate: Absence'%}
+    {% set Column1Indicator1 = 'CORP 06a'%}
+    {% set Column1Indicator1Graph = '../Graphs/CORP%2006a_Line.svg'%}
+    {% set Column1Indicator2 = 'CORP 06b'%}
+    {% set Column1Indicator2Graph = '../Graphs/CORP%2006b_Line.svg'%}
+    {% set Column2Title = 'Corporate: Gender Pay Gap'%}
+    {% set Column2Indicator1 = 'CORP 03b'%}
+    {% set Column2Indicator1Graph = '../Graphs/CORP%2003b_Line.svg'%}
+    {% set Column2Indicator2 = 'CORP 03c'%}
+    {% set Column2Indicator2Graph = '../Graphs/CORP%2003c_Line.svg'%}
+    {% include 'Layout_2+2Indicator.html'%}
+{% endwith %}

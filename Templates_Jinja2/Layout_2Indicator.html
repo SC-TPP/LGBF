@@ -12,9 +12,10 @@
         {% with %}
         {% set PageTitle = Title %}
         {% set PageNumber = PageNumber %}
+        {% set SmallExplanation = SmallExplanation %}
         {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
-        <div id="indicator_datacardrow">
+        <div class="indicator_datacardrow">
             <div class="datacard" id="indicator1_datacard">
                 {% with %}
                 {% set Indicator = LatestData[Indicator1] %}

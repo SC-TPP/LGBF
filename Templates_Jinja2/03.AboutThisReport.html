@@ -7,126 +7,201 @@
 </head>
 
 <body>
-    <section class="page landscape" id="aboutThisReport">
+    <section class="page landscape" id="aboutthisreport">
         {% with %}
             {% set PageTitle = "About This Report" %}
-            {% set PageNumber = "03" %}
+            {% set PageNumber = "04" %}
             {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
+        <div id = aboutthisreportcontent>
+            <div id = aboutthisreportcolumn1>
+                <h2>What is the LGBF?</h2>
+                <p>
+                    The LGBF is a benchmarking instrument with a primary objective of
+                    empowering senior management teams and elected officials to
+                    scrutinise council services. Rooted in the collaborative efforts of
+                    SOLACE (Scotland) and COSLA it uses measurement standards and
+                    comparable data as catalysts for improving services.
+                </p>
+                <p>
+                    The framework is a key component of each council's legal
+                    obligations for public performance reporting. It supersedes the
+                    preceding Statutory Performance Indicators (SPI) regimen,
+                    reflecting an evolved approach to measuring and enhancing council
+                    services.
+                </p>
+                <h2 class = "seconditem" >Key Points</h2>
+                <ol>
+                    <li>
+                        This report presents indicators grouped in an order that reflects
+                        the citizen's journey, creating a more meaningful experience both in
+                        terms of analytical insights and readability. The indicators are
+                        arranged starting from: early education, care, environment,
+                        economy, property & regulation, and corporate.
+                    </li>
+                    <li>
+                        The LGBF Board has approved the inclusion of new indicators to
+                        enhance the benchmarking suite. The newly included indicators are:
+                        <ul>
+                            <li>CLIM 03: CO2 emissions from Transport per capita</li>
+                            <li>CLIM 04: CO2 emissions from Electricity per capita</li>
+                            <li>CLIM 05: CO2 emissions from Natural Gas per capita</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div id = aboutthisreportcolumn2>
+                <h2>Symbology</h2>
+                <p id="description">Below is an explanation of the symbology used in this report.</p>
+                <div id = "examples">
+                    <div class="datacard" id="indicator1_datacard">
+                        {% with %}
+                            {% set Indicator = LatestData['CHN 10'] %}
+                            {% include "Snippet_DataCard.html"%}
+                        {% endwith %}
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Value</th>
+                                <th>Previous Value</th>
+                                <th>Rank (FG)</th>
+                                <th>Previous Rank (FG)</th>
+                                <th>Rank (Scotland)</th>
+                                <th>Previous Rank (Scotland)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <td><p>{{LatestData['CHN 10'].Value_Formatted}}</p>
+                                        {% if LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious > 0 %}
+                                            <object class = "red" data="../Icons/expand_less.svg"> </object>
+                                        {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious < 0 %}
+                                            <object class = "green" data="../Icons/expand_more.svg"> </object>
+                                        {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious == 0 %}
+                                            <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
+                                        {% else %}
+                                            Error
+                                        {% endif %}
+                                    </td>
+                                    <td>{{LatestData['CHN 10'].Previous_Row.Value_Formatted}}</td>
+                                    <td>
+                                        <p>{{LatestData['CHN 10'].FamilyRank|int}}</p>
+                                        {% if LatestData['CHN 10'].Changes.FamilyRank_ChangeSincePrevious > 0 %}
+                                            <object class = "red" data="../Icons/expand_less.svg"> </object>
+                                        {% elif LatestData['CHN 10'].Changes.FamilyRank_ChangeSincePrevious < 0 %} 
+                                            <object class = "green" data="../Icons/expand_more.svg"> </object>
+                                        {% elif LatestData['CHN 10'].Changes.FamilyRank_ChangeSincePrevious == 0 %}
+                                            <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
+                                        {% else %}
+                                            Error
+                                        {% endif %}
+                                    </td>
+                                    <td>{{LatestData['CHN 10'].Previous_Row.FamilyRank|int}}</td>
+                                    <td>
+                                        <p>{{LatestData['CHN 10'].ScotRank|int}}</p>
+                                        {% if LatestData['CHN 10'].Changes.ScotRank_ChangeSincePrevious > 0 %}
+                                            <object class = "red" data="../Icons/expand_less.svg"></object>
+                                        {% elif LatestData['CHN 10'].Changes.ScotRank_ChangeSincePrevious < 0 %} 
+                                            <object class = "green" data="../Icons/expand_more.svg"></object>
+                                        {% elif LatestData['CHN 10'].Changes.ScotRank_ChangeSincePrevious == 0 %}
+                                            <object class = "grey" data="../Icons/horizontal_rule.svg"></object>
+                                        {% else %}
+                                            Error
+                                        {% endif %}
+                                    </td>
+                                    <td>{{LatestData['CHN 10'].Previous_Row.ScotRank|int}}</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div>
+                                    <p>{{LatestData['CHN 10'].Value_Formatted}}</p>
+                                    <p>{{LatestData['CHN 10'].Period}}</p>
+                                </div>
+                            </td>
+                            <td>
+                                <p>Data collection period and result.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    {% if LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious> 0 %}
+                                        Improving &
+                                    {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious < 0 %}
+                                        Deteriorating &
+                                    {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious == 0 %}
+                                        Stable &
+                                    {% else %}
+                                        Error
+                                    {% endif %}
+                                    {% if LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious > 0 %}
+                                        Increasing
+                                    {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious < 0 %} 
+                                        Decreasing 
+                                    {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious==0 %} 
+                                        No Change
+                                    {% else %} 
+                                        Error 
+                                    {% endif %}
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Direction of travel (increasing/decreasing) and whether this means improvement (green) or deterioration
+                                    (red).
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <object class = "green" data="../Icons/expand_more.svg"> </object>
+                                <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
+                                <object class = "red" data="../Icons/expand_less.svg"> </object>
+                            </td>
+                            <td>
+                                <p>Green arrow: Ranking/Performance improved compared to before.</p>
+                                <p>Gray line: Ranking/Performance stayed the same as before.</p>
+                                <p>Red arrow: Ranking/Performance deteriorated compared to before.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class = "rank">
+                                    <object data="../Icons/Filled_Circle.svg"></object>
+                                    <p>#{{LatestData['CHN 10']['FamilyRank']|int}}</p>
+                                </div>
+                            </td>
+                            <td>
+                                <p>Rank within Stirling Council's family group.</p>
+                                <p>NB. there are two family groupings - see next page.</p>
+                            </td>
+                        </tr>
+                        <>
+                            <td>
+                                <p>FG</p>
+                            </td>
+                            <td>
+                                <p>FG stands for Family Group. For more information, please refer to the next page.</p>
+                            </td>
+                        <tr>
+                            <td>
+                                <p>Scotland</p>
+                            </td>
+                            <td>
+                                <p>The national ranking illustrates where Stirling Council stands in relation to all other local authorities in
+                                    Scotland. Please note that this may not always provide useful insights, as certain outcomes may involve
+                                    comparisons that are not strictly comparable.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </section>
-    <div id="column1">
-        <div id="column1_section1">
-            <h2>What is LGBF?</h2>
-            <p>
-                The LGBF is a high-level benchmarking tool designed to support senior management teams and elected
-                members to ask questions about key council services.
-            </p>
-            <p>
-                It reflects a commitment by SOLACE (Scotland) and COSLA to develop better measurement and comparable
-                data as a catalyst for improving services, targeting resources to areas of greatest impact and enhancing
-                public accountability.
-            </p>
-            <p>
-                The report is designed to question why variations in cost and performance are occurring between similar
-                councils. and to engage with each other to ‘drill down' and explore why these variations are happening.
-            </p>
-            <p>
-                The LGBF helps councils compare their performance against a suite of efficiency, output and outcome
-                indicators that cover all areas of local government activity. The framework now has 8 years of data.
-                Publication of the LGBF forms part of each council’s statutory requirements for public performance
-                reporting, replacing the previous Statutory Performance Indicators (SPI) regime.
-            </p>
-            <p>
-                The LGBF voluntarily applies the high standards for statistical rigour set out in the three pillars of
-                the UK Statistics Authority Code of Practice – trustworthiness, quality, and value.
-            </p>
-        </div>
-        <div id="column1_section2">
-            <h2>Key Points</h2>
-            <ol>
-                <li>
-                    This report presents the indicators in groupings and an order that reflects the citizen's journey
-                    and creates a more meaningful experience both in an analytical sense and in terms of readability.
-                    Starting from the Early Years of education, to care, the environment and so on.
-                </li>
-                <li>
-                    The LGBF Board has approved the inclusion of new indicators to strengthen the suite of benchmarking
-                    indicators:
-                    <ul>
-                        <li>
-                            Children's Services
-                            <ul>
-                                <li>CHN 24 - % of children living in poverty (After Housing Costs)</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Economic Development
-                            <ul>
-                                <li>ECON11 - Gross Value Added (GVA) per capita</li>
-                                <li>ECON12a - Claimant Count as % of Working Age Population</li>
-                                <li>ECON12b - Claimant Count as % of 16-24 Population</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
-    </div>
-    <div id="column2">
-        <h2>Symbology</h2>
-        <p>Below is the explanation for the symbology used within this report:</p>
-        <div class="datacard" id="exampleDatacard">
-            {% with %}
-            {% set Indicator = LatestData["C&L 01"] %}
-            {% include "Snippet_DataCard.html"%}
-            {% endwith %}
-        </div>
-        <div id="overviewExample">
-            <!-- TODO: add code for overview table snippet here -->
-        </div>
-        <table id="symbologyTable">
-            <tr>
-                <td>1</td>
-                <td>2017-20<br>59.5%</td>
-                <td>The following shows the latest data in accordance with the most recent reporting period. This can be
-                    one year to multiple years depending on the origin of the data.</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Improving/Increasing</td>
-                <td>This can show the following: improving/ increasing, improving/decreasing, declining/increasing and
-                    declining/decreasing. This is comparing the current submission with the previous one.</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td><!-- TODO: add code for all symbol options in a grid--></td>
-                <td>The arrow is a visual directly linked with point two. A green arrow means improving and a red
-                    arrow means declining. Additionally, an arrow pointed upwards means increasing and an arrow
-                    pointed downwards is decreasing.</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td><!-- TODO: add code for ranking image here --></td>
-                <td>The figure in the badge represents the current location within our family group.
-                    The best performing family group ranking is 1 with the lowest ranked 8.</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td><!-- TODO: add code for overview value change symbols here --></td>
-                <td>The green arrow indicates overall performance relative to the indicator is increasing.
-                    The red arrow indicates overall performance relative to the indicator is decreasing.</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td><!-- TODO: add code for overview ranking change symbols here --></td>
-                <td>Family group ranking compared to the previous submission:
-                    <ul>
-                        <li>The green upwards arrow is a positive(downwards) ranking change from previously.</li>
-                        <li>The grey line is the same ranking as previously.</li>
-                        <li>The red downward arrow is a negative(upwards) ranking change from previously.</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-    </div>
 </body>

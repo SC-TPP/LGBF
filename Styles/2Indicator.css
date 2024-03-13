@@ -10,13 +10,11 @@ Consistant Variables
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
-#indicator_datacardrow {
+.indicator_datacardrow {
     grid-column: 2 / 21;
     grid-row: var(--DatacardRow);
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 200px;
-    padding-bottom: 10px;
 }
 
 #indicator1_datacard {

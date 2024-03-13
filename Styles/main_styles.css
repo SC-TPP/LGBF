@@ -109,9 +109,17 @@ h6 {
     font-weight: 100;
     color: var(--main-bg-color);
 }
+li {
+    margin-left:30px;
+    padding: 5px;
+    font-family : var(--standard-font);
+    font-size : 12px;
+    font-weight: 400;
+}
 .material-icons-round.md-48 {
     font-size: 40px;
 }
+
 /* --------------------------------------------------------------
    SVG Filter Coloring
 -------------------------------------------------------------- */
@@ -144,6 +152,11 @@ object.grey {
     grid-column: 11 / 20;
     grid-row: 2 / 5;
     padding-left: 40px;
+}
+.smallexplanation {
+    grid-column: 1 / 21;
+    grid-row: 4 / 6;
+    justify-self: self-start;
 }
 /* --------------------------------------------------------------
    Page Footer Styling
@@ -210,20 +223,30 @@ tr:last-child td:last-child{
 /* --------------------------------------------------------------
    Data Card Styling
 -------------------------------------------------------------- */
+.indicator_datacardrow{
+    column-gap: var(--Gap);
+    padding-bottom: 10px;
+    justify-items: center;
+}
+.indicator_datacardcolumn{
+    row-gap: var(--Gap);
+    justify-items: start;
+}
 .datacard{
     border: 1px solid lightgrey;
     border-radius: 5px;
     display: grid;
     grid-template-columns: var(--Padding) repeat(3, minmax(0, 1fr)) var(--Padding);
-    grid-template-rows: var(--Padding) minmax(0, 1fr) minmax(0,2fr) var(--Padding);
+    grid-template-rows: var(--Padding) minmax(0, 1fr) 60px var(--Padding);
     box-shadow: var(--standard-box-shadow);
+    max-width: 300px;
 }
 .datacard .title {
     grid-column: 2 / 5;
     grid-row: 2 / 3;
     justify-self: center;
     align-self: center;
-    font-size: 10px;
+    font-size: 12px;
     font-family: var(--standard-font);
     font-weight: bold;
     text-align: center;
@@ -234,6 +257,7 @@ tr:last-child td:last-child{
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     grid-template-rows: repeat(2, minmax(0, 1fr));
+    font-family: var(--standard-font);
 }
 .datacard .periodvalue .value {
     grid-column: 1 / 2;
@@ -250,13 +274,6 @@ tr:last-child td:last-child{
     align-self: self-start;
     font-size: 12px;
 }
-/*.datacard .iconperformancechange {
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    grid-template-rows: repeat(3, minmax(0, 1fr));
-}*/
 .datacard .icon {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
@@ -342,10 +359,6 @@ tr:last-child td:last-child{
     text-align: center;
     grid-column: 1/3;
     grid-row: 1/3;
-/* To be worked on
-    padding-right: 5px;
-    border-right: solid var(--main-bg-color) 2px
-*/
 }
 .graphtable_card object {
     grid-column: 2 / 10;
@@ -356,6 +369,7 @@ tr:last-child td:last-child{
 .graphtable_card table {
     grid-column: 10 / 12;
     grid-row: 3 / 12;
+    height: 100%;
 } 
 .graphtable_card table th {
     font-size: 12px;

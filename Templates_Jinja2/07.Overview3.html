@@ -18,18 +18,21 @@
                     {% set GroupTitle = "Leisure Facilities & Attractions" %}
                     {% set id = "LeisureFacilitiesAttractions_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Economy").get("Leisure Facilities & Attractions") %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 {% with %}
                     {% set GroupTitle = "Employment" %}
                     {% set id = "Employment_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Economy").get("Employment") %}
+                    {% set note = 'Note: 2023-24 values are an average of currently available monthly values' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 {% with %}
                     {% set GroupTitle = "Economic Growth" %}
                     {% set id = "EconomicGrowth_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Economy").get("Economic Growth") %}
+                    {% set note = 'Note: 2023-24 values are an average of currently available monthly values' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
             </div>
@@ -39,24 +42,28 @@
                     {% set GroupTitle = "Cost of Regulation" %}
                     {% set id = "CostOfRegulation_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Cost of Regulation") %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 {% with %}
                     {% set GroupTitle = "Corporate Property Assets" %}
                     {% set id = "CorporatePropertyAssets_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Corporate Property Assets") %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 {% with %}
                     {% set GroupTitle = "Planning" %}
                     {% set id = "Planning_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Planning") %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 {% with %}
                     {% set GroupTitle = "Housing Property Assets" %}
                     {% set id = "HousingPropertyAssets_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Property & Regulation").get("Housing - Property and Assets") %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 <h2>Corporate</h2>
@@ -64,6 +71,7 @@
                     {% set GroupTitle = "Council Tax" %}
                     {% set id = "CouncilTax_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Corporate").get("Council Tax") %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
             </div>
