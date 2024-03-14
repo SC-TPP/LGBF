@@ -19,6 +19,9 @@
     color: var(--secondary-bg-color);
     text-align:left;
 }
+#Overview .groupoverviewtablenote {
+    padding-bottom: 0px;
+}
 /* --------------------------------------------------------------
    Specific Table Styling. Main styling for tables can be found in main_styles
 -------------------------------------------------------------- */

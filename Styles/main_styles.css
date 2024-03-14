@@ -157,6 +157,7 @@ object.grey {
     grid-column: 1 / 21;
     grid-row: 4 / 6;
     justify-self: self-start;
+    padding-top: 15px;
 }
 /* --------------------------------------------------------------
    Page Footer Styling
