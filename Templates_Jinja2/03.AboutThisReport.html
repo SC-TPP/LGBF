@@ -60,7 +60,7 @@
                             {% include "Snippet_DataCard.html"%}
                         {% endwith %}
                     </div>
-                    <table>
+                    <table id = "exampleoverview">
                         <thead>
                             <tr>
                                 <th>Value</th>
@@ -75,9 +75,9 @@
                                 <tr>
                                     <td><p>{{LatestData['CHN 10'].Value_Formatted}}</p>
                                         {% if LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious > 0 %}
-                                            <object class = "red" data="../Icons/expand_less.svg"> </object>
+                                            <object class = "green" data="../Icons/expand_less.svg"> </object>
                                         {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious < 0 %}
-                                            <object class = "green" data="../Icons/expand_more.svg"> </object>
+                                            <object class = "red" data="../Icons/expand_more.svg"> </object>
                                         {% elif LatestData['CHN 10'].Changes.PercentChange_AimAdjusted_SincePrevious == 0 %}
                                             <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
                                         {% else %}
@@ -88,9 +88,9 @@
                                     <td>
                                         <p>{{LatestData['CHN 10'].FamilyRank|int}}</p>
                                         {% if LatestData['CHN 10'].Changes.FamilyRank_ChangeSincePrevious > 0 %}
-                                            <object class = "red" data="../Icons/expand_less.svg"> </object>
+                                            <object class = "green" data="../Icons/expand_less.svg"> </object>
                                         {% elif LatestData['CHN 10'].Changes.FamilyRank_ChangeSincePrevious < 0 %} 
-                                            <object class = "green" data="../Icons/expand_more.svg"> </object>
+                                            <object class = "red" data="../Icons/expand_more.svg"> </object>
                                         {% elif LatestData['CHN 10'].Changes.FamilyRank_ChangeSincePrevious == 0 %}
                                             <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
                                         {% else %}
@@ -101,9 +101,9 @@
                                     <td>
                                         <p>{{LatestData['CHN 10'].ScotRank|int}}</p>
                                         {% if LatestData['CHN 10'].Changes.ScotRank_ChangeSincePrevious > 0 %}
-                                            <object class = "red" data="../Icons/expand_less.svg"></object>
+                                            <object class = "green" data="../Icons/expand_less.svg"></object>
                                         {% elif LatestData['CHN 10'].Changes.ScotRank_ChangeSincePrevious < 0 %} 
-                                            <object class = "green" data="../Icons/expand_more.svg"></object>
+                                            <object class = "red" data="../Icons/expand_more.svg"></object>
                                         {% elif LatestData['CHN 10'].Changes.ScotRank_ChangeSincePrevious == 0 %}
                                             <object class = "grey" data="../Icons/horizontal_rule.svg"></object>
                                         {% else %}
@@ -115,7 +115,13 @@
                         </tbody>
                     </table>
                 </div>
-                <table>
+                <table id="explanitorytable">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Explanation</th>
+                        </tr>
+                    </thead>
                     <tbody>
                         <tr>
                             <td>
@@ -153,16 +159,17 @@
                             </td>
                             <td>
                                 <p>
-                                    Direction of travel (increasing/decreasing) and whether this means improvement (green) or deterioration
-                                    (red).
+                                    Direction of travel (increasing/decreasing) and whether this means improvement or deterioration.
                                 </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <object class = "green" data="../Icons/expand_more.svg"> </object>
-                                <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
-                                <object class = "red" data="../Icons/expand_less.svg"> </object>
+                                <div id = explanitorytable_performance>
+                                    <object class = "green" data="../Icons/expand_less.svg"> </object>
+                                    <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
+                                    <object class = "red" data="../Icons/expand_more.svg"> </object>
+                                </div>
                             </td>
                             <td>
                                 <p>Green arrow: Ranking/Performance improved compared to before.</p>
@@ -182,7 +189,6 @@
                                 <p>NB. there are two family groupings - see next page.</p>
                             </td>
                         </tr>
-                        <>
                             <td>
                                 <p>FG</p>
                             </td>

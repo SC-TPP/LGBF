@@ -1,7 +1,5 @@
+/* Basic Page Formatting */
 #aboutthisreportcolumn1 p{
-    font-size: 20px;
-}
-#aboutthisreportcolumn1 li{
     font-size: 20px;
 }
 .seconditem{
@@ -18,19 +16,90 @@
     grid-template-rows:1;
     column-gap: var(--Gap);
 }
+/* Examples Formatting */
 #examples {
     display: grid;
     grid-template-columns: minmax(0, 1.25fr) minmax(0, 2fr);
     grid-template-rows: 1;
-    justify-items: left;
+    justify-items: center;
     margin-top: 30px;
     margin-bottom: 50px;
 }
-#aboutthisreport table td p {
+#exampleoverview table td p {
     padding: 0.7px;
-    font-size: 12px;
+    font-size: 14px;
 }
-#aboutthisreport table td object{
+#exampleoverview object{
     object-fit: contain;
     height: 19px;
+}
+#exampleoverview tr td{
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    font-size: 14px;
+}
+/* Explanitory Table Formatting */
+#explanitorytable{
+    border-spacing: 10px;
+    border:none;
+}
+#explanitorytable th {
+    height:40px;
+    border-radius: 3px;
+    font-size:20px;
+    font-weight: bold;
+    font-family: var(--standard-font);
+}
+#explanitorytable td {
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    border: 1px solid darkgrey;
+    font-family: var(--standard-font);
+    height: 75px;
+    border-radius: 3px;
+}
+#explanitorytable td {
+    background-color: white;
+}
+#explanitorytable td p {
+    font-size:20px;
+    font-weight: 400;
+}
+#explanitorytable .rank{
+    grid-column: 4 / 5;
+    grid-row: 3 / 5;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+    justify-items:center;
+}
+#explanitorytable .rank object{
+    grid-column: 1/6;
+    grid-row: 1/6;
+    filter: invert(22%) sepia(8%) saturate(3614%) hue-rotate(172deg) brightness(95%) contrast(86%);
+    width:50%;
+    z-index: 1;
+}
+#explanitorytable .rank p{
+    text-align: center;
+    color: white;
+    grid-column: 1/6;
+    grid-row: 1/6;
+    padding-top: 12%;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    z-index: 2;
+}
+#explanitorytable_performance{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(3,minmax(0,1fr));
+    justify-items: center;
 }

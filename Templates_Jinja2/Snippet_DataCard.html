@@ -11,9 +11,9 @@
 </div>
 <div class="icon">
     {% if Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious']  > 0 %}
-        <object class = "red" data="../Icons/expand_less.svg"> </object>
+        <object class = "green" data="../Icons/expand_less.svg"> </object>
     {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] < 0 %}
-        <object class = "green" data="../Icons/expand_more.svg"> </object>
+        <object class = "red" data="../Icons/expand_more.svg"> </object>
     {% elif Indicator['Changes']['PercentChange_AimAdjusted_SincePrevious'] == 0 %}
         <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
     {% else %}

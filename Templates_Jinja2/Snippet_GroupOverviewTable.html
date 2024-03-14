@@ -20,9 +20,9 @@
                     <td>{{value.Period}}</td>
                     <td><p>{{value.Value_Formatted}}</p>
                         {% if value.Changes_PercentChange_AimAdjusted_SincePrevious > 0 %}
-                            <object class = "red" data="../Icons/expand_less.svg"> </object>
+                            <object class = "green" data="../Icons/expand_less.svg"> </object>
                         {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious < 0 %}
-                            <object class = "green" data="../Icons/expand_more.svg"> </object>
+                            <object class = "red" data="../Icons/expand_more.svg"> </object>
                         {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious == 0 %}
                             <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
                         {% else %}
@@ -33,9 +33,9 @@
                     <td>
                         <p>{{value.FamilyRank|int}}</p>
                         {% if value.Changes_FamilyRank_ChangeSincePrevious > 0 %}
-                            <object class = "red" data="../Icons/expand_less.svg"> </object>
+                            <object class = "green" data="../Icons/expand_less.svg"> </object>
                         {% elif value.Changes_FamilyRank_ChangeSincePrevious < 0 %} 
-                            <object class = "green" data="../Icons/expand_more.svg"> </object>
+                            <object class = "red" data="../Icons/expand_more.svg"> </object>
                         {% elif value.Changes_FamilyRank_ChangeSincePrevious == 0 %}
                             <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
                         {% else %}
@@ -46,9 +46,9 @@
                     <td>
                         <p>{{value.ScotRank|int}}</p>
                         {% if value.Changes_ScotRank_ChangeSincePrevious > 0 %}
-                            <object class = "red" data="../Icons/expand_less.svg"></object>
+                            <object class = "green" data="../Icons/expand_less.svg"></object>
                         {% elif value.Changes_ScotRank_ChangeSincePrevious < 0 %} 
-                            <object class = "green" data="../Icons/expand_more.svg"></object>
+                            <object class = "red" data="../Icons/expand_more.svg"></object>
                         {% elif value.Changes_ScotRank_ChangeSincePrevious == 0 %}
                             <object class = "grey" data="../Icons/horizontal_rule.svg"></object>
                         {% else %}

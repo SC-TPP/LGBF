@@ -113,9 +113,15 @@ li {
     margin-left:30px;
     padding: 5px;
     font-family : var(--standard-font);
-    font-size : 12px;
+    font-size : 20px;
     font-weight: 400;
 }
+ul li{
+    list-style-type: disc;
+}
+ol > li::marker {
+    font-weight: 500;
+  }
 .material-icons-round.md-48 {
     font-size: 40px;
 }
@@ -123,11 +129,11 @@ li {
 /* --------------------------------------------------------------
    SVG Filter Coloring
 -------------------------------------------------------------- */
-object.red {
+object.green {
     filter: invert(44%) sepia(46%) saturate(7482%) hue-rotate(103deg) brightness(89%) contrast(73%);
 }
 
-object.green {
+object.red {
     filter: invert(13%) sepia(89%) saturate(6117%) hue-rotate(358deg) brightness(103%) contrast(110%);
 }
 
