@@ -19,11 +19,15 @@
                     <td>{{key}}: {{value.Title}}</td>
                     <td>{{value.Period}}</td>
                     <td><p>{{value.Value_Formatted}}</p>
-                        {% if value.Changes_PercentChange_AimAdjusted_SincePrevious > 0 %}
-                            <object class = "green" data="../Icons/expand_less.svg"> </object>
-                        {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious < 0 %}
+                        {% if value.Changes_Value_ChangeSincePrevious > 0 and value.Changes_PercentChange_AimAdjusted_SincePrevious > 0%}
+                            <object class =  "green" data="../Icons/expand_less.svg"> </object>
+                        {% elif value.Changes_Value_ChangeSincePrevious > 0 and value.Changes_PercentChange_AimAdjusted_SincePrevious < 0%}
+                            <object class =  "red" data="../Icons/expand_less.svg"> </object>
+                        {% elif value.Changes_Value_ChangeSincePrevious < 0 and value.Changes_PercentChange_AimAdjusted_SincePrevious > 0%}
+                            <object class = "green" data="../Icons/expand_more.svg"> </object>
+                        {% elif value.Changes_Value_ChangeSincePrevious < 0 and value.Changes_PercentChange_AimAdjusted_SincePrevious < 0%}
                             <object class = "red" data="../Icons/expand_more.svg"> </object>
-                        {% elif value.Changes_PercentChange_AimAdjusted_SincePrevious == 0 %}
+                        {% elif value.Changes_Value_ChangeSincePrevious == 0 %}
                             <object class = "grey" data="../Icons/horizontal_rule.svg"> </object>
                         {% else %}
                             Error

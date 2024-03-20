@@ -30,21 +30,34 @@ Consistant Variables
 /* --------------------------------------------------------------
    Datacard Positioning. datacard class style can be found in main_styles
 -------------------------------------------------------------- */
-#column1_indicator1_datacard {
-    grid-column: 2 / 6;
+.column1.indicator_datacardrow{
+    grid-column: var(--Column1);
     grid-row: var(--DatacardRow);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+#column1_indicator1_datacard {
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 #column1_indicator2_datacard {
-    grid-column: 7 / 11;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.column2.indicator_datacardrow{
+    grid-column: var(--Column2);
     grid-row: var(--DatacardRow);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 #column2_indicator1_datacard {
-    grid-column: 12 / 16;
-    grid-row: var(--DatacardRow);
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 #column2_indicator2_datacard {
-    grid-column: 17 / 21;
-    grid-row: var(--DatacardRow);
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 /* --------------------------------------------------------------
    GraphTable Card Positioning. graphtable_card class style can be found in main_styles
