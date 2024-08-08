@@ -51,14 +51,6 @@
                 {% set note = '' %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-            <h2>New Indicators</h2>
-            {% with %}
-                {% set GroupTitle = "New Indicators" %}
-                {% set id = "NewIndicators_GroupTable" %}
-                {% set Group = GroupedLatestDataDict.get("New Indicators").get("New Indicators") %}
-                {% set note = '' %}
-                {% include "Snippet_GroupOverviewTable.html" %}
-            {% endwith %}
         </div>
     </section>
 </body>
