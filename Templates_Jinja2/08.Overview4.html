@@ -14,6 +14,14 @@
         {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
         <div id="column1">
+            <h2>Corporate</h2>
+            {% with %}
+                {% set GroupTitle = "Council Tax" %}
+                {% set id = "CouncilTax_GroupTable" %}
+                {% set Group = GroupedLatestDataDict.get("Corporate").get("Council Tax") %}
+                {% set note = '' %}
+                {% include "Snippet_GroupOverviewTable.html" %}
+            {% endwith %}
             {% with %}
                 {% set GroupTitle = "Housing Rent" %}
                 {% set id = "HousingManagementHomelessness_GroupTable" %}
@@ -35,6 +43,8 @@
                 {% set note = 'Note: 2023-24 values for are an average of currently available quarterly values (Q4 is yet to be made available)' %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
+        </div>
+        <div id = "column2">
             {% with %}
                 {% set GroupTitle = "Absence" %}
                 {% set id = "Absence_GroupTable" %}
@@ -42,8 +52,6 @@
                 {% set note = '' %}
                 {% include "Snippet_GroupOverviewTable.html" %}
             {% endwith %}
-        </div>
-        <div id = "column2">
             {% with %}
                 {% set GroupTitle = "Gender Pay Gap" %}
                 {% set id = "GenderPayGap_GroupTable" %}

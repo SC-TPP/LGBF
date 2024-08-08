@@ -66,14 +66,7 @@
                     {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
-                <h2>Corporate</h2>
-                {% with %}
-                    {% set GroupTitle = "Council Tax" %}
-                    {% set id = "CouncilTax_GroupTable" %}
-                    {% set Group = GroupedLatestDataDict.get("Corporate").get("Council Tax") %}
-                    {% set note = '' %}
-                    {% include "Snippet_GroupOverviewTable.html" %}
-                {% endwith %}
+                
             </div>
         </section>
     </body>
