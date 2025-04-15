@@ -25,14 +25,14 @@
                     {% set GroupTitle = "Employment" %}
                     {% set id = "Employment_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Economy").get("Employment") %}
-                    {% set note = 'Note: 2024-25 values are an average of currently available monthly values' %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
                 {% with %}
                     {% set GroupTitle = "Economic Growth" %}
                     {% set id = "EconomicGrowth_GroupTable" %}
                     {% set Group = GroupedLatestDataDict.get("Economy").get("Economic Growth") %}
-                    {% set note = 'Note: 2024-25 values are an average of currently available monthly values' %}
+                    {% set note = '' %}
                     {% include "Snippet_GroupOverviewTable.html" %}
                 {% endwith %}
             </div>

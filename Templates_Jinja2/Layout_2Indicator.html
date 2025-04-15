@@ -10,10 +10,10 @@
 <body>
     <section class="page landscape" id={{PageName}}>
         {% with %}
-        {% set PageTitle = Title %}
-        {% set PageNumber = PageNumber %}
-        {% set SmallExplanation = SmallExplanation %}
-        {% include "Snippet_HeaderFooter.html" %}
+            {% set PageTitle = Title %}
+            {% set PageNumber = PageNumber %}
+            {% set SmallExplanation = SmallExplanation %}
+            {% include "Snippet_HeaderFooter.html" %}
         {% endwith %}
         <div class="indicator_datacardrow">
             <div class="datacard" id="indicator1_datacard">
@@ -29,19 +29,21 @@
                 {% endwith %}
             </div>
         </div>
-        <div class="graphtable_card" id="indicator1_graphtable_card">
-            {% with %}
-            {% set Indicator = LatestData[Indicator1] %}
-            {% set Graph = Indicator1Graph %}
-            {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
-        </div>
-        <div class="graphtable_card" id="indicator2_graphtable_card">
-            {% with %}
-            {% set Indicator = LatestData[Indicator2] %}
-            {% set Graph = Indicator2Graph %}
-            {% include "Snippet_GraphTableCard.html"%}
-            {% endwith %}
+        <div id="graphtablecardcolumns">
+            <div class="graphtable_card" id="indicator1_graphtable_card">
+                {% with %}
+                {% set Indicator = LatestData[Indicator1] %}
+                {% set Graph = Indicator1Graph %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
+            <div class="graphtable_card" id="indicator2_graphtable_card">
+                {% with %}
+                {% set Indicator = LatestData[Indicator2] %}
+                {% set Graph = Indicator2Graph %}
+                {% include "Snippet_GraphTableCard.html"%}
+                {% endwith %}
+            </div>
         </div>
     </section>
 </body>
