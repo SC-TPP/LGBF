@@ -79,11 +79,12 @@
     grid-template-rows: repeat(5, minmax(0, 1fr));
     justify-items:center;
 }
+
 #explanitorytable .rank object{
     grid-column: 1/6;
     grid-row: 1/6;
     filter: invert(22%) sepia(8%) saturate(3614%) hue-rotate(172deg) brightness(95%) contrast(86%);
-    width:50%;
+    width:100%;
     z-index: 1;
 }
 #explanitorytable .rank p{
@@ -91,8 +92,8 @@
     color: white;
     grid-column: 1/6;
     grid-row: 1/6;
-    padding-top: 12%;
-    font-size: 20px;
+    padding-top: 16%;
+    font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     z-index: 2;
