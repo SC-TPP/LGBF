@@ -1,6 +1,6 @@
-# Scottish Local Government Benchmark Framework Indicator Data Made Computer Accessible.
+# Scottish Local Government Benchmark Framework Indicator Data Made Computer Accessible
 
-This repository contains the Jupyter Notebook used to transform the LGBF raw data file on the Improvement Services Public Website into a more computer friendly format meant for data/performance analysts to use with Business Intelligence tools such as PowerBI. It also contains the resulting data in csv format. 
+This repository contains the Jupyter Notebook used to transform the LGBF raw data file on the Improvement Services Public Website into a more computer friendly format meant for data/performance analysts to use with Business Intelligence tools such as PowerBI. It also contains the resulting data in csv format.
 
 All data provided here is publicly available on the Improvement Service's website. Any users should verify the validity of this data independently. There is no guarantee that the data transformations applied in the Notebook are correct (although I believe they are and have done some limited verification of this).
 
@@ -12,13 +12,13 @@ The data files and the descriptors for the fields within are as follows.
 Main data file containing values, numerators, denominators, rankings and percentiles along with changes first and previous as json objects.
 
 <details><summary>Field Details</summary>
-    
+
 - Key_CodePeriod
     >Concatenated Code and Period to create relationships to Scottish Averages and Scottish Values.
 - Key_CodePeriodFamilyGroup
     >Concatenated Code, Period and Family Group to create a relationship to Family Averages.
 - Local_Authority
-- Code 
+- Code
 - Period
 - Real_Value
 - Real_Numerator
@@ -40,31 +40,33 @@ Main data file containing values, numerators, denominators, rankings and percent
     >Json object containing the first rows value fields only; including ranks and percentiles (the first row of each local authority and code combination will be blank). Can be expanded by transforming the column type to Json within PowerQuery or PowerBI.
 - Changes
     >Json object containing changes from first and previous values as outlined below:
-    - ScotRank_ChangeSincePrevious
-    - ScotPct_ChangeSincePrevious
-    - FamilyRank_ChangeSincePrevious
-    - FamilyPct_ChangeSincePrevious
-    - ScotRank_ChangeSinceFirst
-    - ScotPct_ChangeSinceFirst
-    - FamilyRank_ChangeSinceFirst
-    - FamilyPct_ChangeSinceFirst
-    - Real_Value_ChangeSincePrevious
-    - Real_Numerator_ChangeSincePrevious
-    - Real_Denominator_ChangeSincePrevious
-    - Real_Value_ChangeSinceFirst
-    - Real_Numerator_ChangeSinceFirst
-    - Real_Denominator_ChangeSinceFirst
-    - PercentChange_AimAdjusted_SincePrevious
+      - ScotRank_ChangeSincePrevious
+      - ScotPct_ChangeSincePrevious
+      - FamilyRank_ChangeSincePrevious
+      - FamilyPct_ChangeSincePrevious
+      - ScotRank_ChangeSinceFirst
+      - ScotPct_ChangeSinceFirst
+      - FamilyRank_ChangeSinceFirst
+      - FamilyPct_ChangeSinceFirst
+      - Real_Value_ChangeSincePrevious
+      - Real_Numerator_ChangeSincePrevious
+      - Real_Denominator_ChangeSincePrevious
+      - Real_Value_ChangeSinceFirst
+      - Real_Numerator_ChangeSinceFirst
+      - Real_Denominator_ChangeSinceFirst
+      - PercentChange_AimAdjusted_SincePrevious
         >An aim adjusted percentage change between two indicator values. There are two niche cases here. One where previous and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for current and previous and using these to calculate the percentage.
-    - PercentChange_AimAdjusted_SinceFirst
+      - PercentChange_AimAdjusted_SinceFirst
         > An aim adjusted percentage change between two indicator values. There are two niche cases here. One where first and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avodi situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for first and current and using these to calculate the percentage.
+
 </details>
 
 ### Latest Values.csv
+
 Slice of the main data file containing only rows for the most recent period of each Local Authority and Code combination.
 
 <details><summary>Field Details</summary>
-    
+
 - Key_CodePeriod
     >Concatenated Code and Period to create relationships to Scottish Averages and Scottish Values.
 - Key_CodePeriodLA
@@ -72,7 +74,7 @@ Slice of the main data file containing only rows for the most recent period of e
 - Key_CodePeriodFamilyGroup
     >Concatenated Code, Period and Family Group to create a relationship to Family Averages.
 - LocalAuthority
-- Code 
+- Code
 - Period
 - Real_Value
 - Real_Numerator
@@ -91,31 +93,33 @@ Slice of the main data file containing only rows for the most recent period of e
     >Json object containing the first rows value fields only; including ranks and percentiles (the first row of each local authority and code combination will be blank). Can be expanded by transforming the column type to Json within PowerQuery or PowerBI.
 - Changes
     >Json object containing changes from first and previous values as outlined below:
-    - ScotRank_ChangeSincePrevious
-    - ScotPct_ChangeSincePrevious
-    - FamilyRank_ChangeSincePrevious
-    - FamilyPct_ChangeSincePrevious
-    - ScotRank_ChangeSinceFirst
-    - ScotPct_ChangeSinceFirst
-    - FamilyRank_ChangeSinceFirst
-    - FamilyPct_ChangeSinceFirst
-    - Real_Value_ChangeSincePrevious
-    - Real_Numerator_ChangeSincePrevious
-    - Real_Denominator_ChangeSincePrevious
-    - Real_Value_ChangeSinceFirst
-    - Real_Numerator_ChangeSinceFirst
-    - Real_Denominator_ChangeSinceFirst
-    - PercentChange_AimAdjusted_SincePrevious
+      - ScotRank_ChangeSincePrevious
+      - ScotPct_ChangeSincePrevious
+      - FamilyRank_ChangeSincePrevious
+      - FamilyPct_ChangeSincePrevious
+      - ScotRank_ChangeSinceFirst
+      - ScotPct_ChangeSinceFirst
+      - FamilyRank_ChangeSinceFirst
+      - FamilyPct_ChangeSinceFirst
+      - Real_Value_ChangeSincePrevious
+      - Real_Numerator_ChangeSincePrevious
+      - Real_Denominator_ChangeSincePrevious
+      - Real_Value_ChangeSinceFirst
+      - Real_Numerator_ChangeSinceFirst
+      - Real_Denominator_ChangeSinceFirst
+      - PercentChange_AimAdjusted_SincePrevious
         >An aim adjusted percentage change between two indicator values. There are two niche cases here. One where previous and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avoid situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for current and previous and using these to calculate the percentage.
-    - PercentChange_AimAdjusted_SinceFirst
+      - PercentChange_AimAdjusted_SinceFirst
         > An aim adjusted percentage change between two indicator values. There are two niche cases here. One where first and current values are both 0 resulting in 0% in all cases. Another where only the previous value is 0 resulting in None being returned as it is not possible to calculate % change from 0. Having looked at the dataset this has only occured 3 times and only affects Orkney and Eilean Siar for CHN20b. Further to this changes in percentage indicators are calculated using 100 as a denominator rather than previous. This is to avoid situations where very small percentages return 1000% or more change (which for our purposes seemed unreasonable to report). Goldilocks indicators are handled by calculating distance from midpoint for first and current and using these to calculate the percentage.
+
 </details>
 
 ### Family Averages.csv
+
 All Family Group Average types for all data fields avalilable
 
 <details><summary>Field Details</summary>
-    
+
 - Key_CodePeriodFamily_Group
     > Concatenated Code, Period and Family Group to create a relationship to Indicator Data.
 - Code
@@ -140,6 +144,7 @@ All Family Group Average types for all data fields avalilable
 </details>
 
 ### Scottish Averages.csv
+
 All Family Group Average types for all data fields avalilable
 
 <details><summary>Field Details</summary>
@@ -166,10 +171,11 @@ All Family Group Average types for all data fields avalilable
 </details>
 
 ### Scottish Values.csv
+
 Real and Cash values as provided by the Improvement Service. These have been removed from the raw data file for graphing purposes and included here separately. They can be joined back in any data model used for performance reporting if required.#
 
 <details><summary>Field Details</summary>
-    
+
 - Key_CodePeriod
     > Concatenated Code and Period to create a relationship to Indicator Data.
 - Code
@@ -181,6 +187,7 @@ Real and Cash values as provided by the Improvement Service. These have been rem
 </details>
 
 ### Family Groups.csv
+
 Family Groups in a row based format. This was used within the transformation steps and may be useful when defining models.
 
 <details><summary>Field Details</summary>
@@ -190,9 +197,11 @@ Family Groups in a row based format. This was used within the transformation ste
     > Type of grouping. Either "Environmental, Culture & Leisure, Economic Development, Corporate and Property indicators" or "Children, Social Work and Housing indicators"
 - Family_Group
     > Family Group Number
+
 </details>
 
 ### Indicator Information.csv
+
 Indicator information used throughout transformation steps. Some of this information is from the LGBF metadata file where other parts are additional information necessary to transform the data that is not supplied by the Improvement Service.
 
 <details><summary>Fields Details</summary>
@@ -244,10 +253,12 @@ Indicator information used throughout transformation steps. Some of this informa
 - SubGroup_PythonReport
 - YMin_Plotly
 - YMax_Plotly
+
 </details>
 <br>
 
 # Notes on Further Development and Contributing
+
 Example files will be provided that demonstrate how this data can be used within PowerBI to automate report creationn (both digital interactive reporting and A4 paginated reporting). In addition to this there will also be an excel file with a predefined datamodel using links to the files hosted here.
 
 Any users who would like to contribute and improve this dataset should contact corporateperformance@stirling.gov.uk.
