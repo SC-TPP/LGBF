@@ -6,7 +6,7 @@ Cash_Annual,C&L 03,2022-23,West Dunbartonshire,0.01,1000.0,104942.0
 Cash_Annual,C&L 03,2023-24,West Lothian,0.12,98000.0,784486.0
 Cash_Annual,C&L 03,2024-25,Argyll & Bute,0.09,25000.0,290331.0
 Cash_Annual,C&L 03,2024-25,West Lothian,0.11,97000.0,911872.0
-Cash_Annual,CLIM 03,2021-22,Aberdeen City,15.7556171129578,3583300.0,220630.0
+Cash_Annual,CLIM 03,2021-22,Aberdeen City,15.75561711,3583300.0,220630.0
 Cash_Annual,CORP 03c,2015-16,Aberdeen City,-0.0023,14.84,14.87
 Cash_Annual,CORP 03c,2015-16,Aberdeenshire,0.0185,13.54,13.29
 Cash_Annual,CORP 03c,2015-16,Angus,0.0184,15.23,14.95
@@ -324,7 +324,7 @@ Cash_Annual,CORP 03c,2024-25,South Lanarkshire,0.015,20.68,20.37
 Cash_Annual,CORP 03c,2024-25,Stirling,-0.0015,20.51,20.54
 Cash_Annual,CORP 03c,2024-25,West Dunbartonshire,0.0005,20.08,20.07
 Cash_Annual,CORP 03c,2024-25,West Lothian,-0.0066,21.29,21.43
-Cash_Annual,ECON 01,2021-22,Aberdeen City,0.593409090909091,378.0,4400.0
+Cash_Annual,ECON 01,2021-22,Aberdeen City,0.593409091,378.0,4400.0
 Cash_Annual,FINSUS 05,2015-16,East Renfrewshire,0.947,220428000.0,223293000.0
 Cash_Annual,FINSUS 05,2016-17,East Renfrewshire,0.965,217214000.0,219651000.0
 Cash_Annual,FINSUS 06,2023-24,Midlothian,0.0004,107.0,258857.0
@@ -335,7 +335,7 @@ Real_Annual,C&L 03,2022-23,West Dunbartonshire,0.0109,1091.6999999999998,104942.
 Real_Annual,C&L 03,2023-24,West Lothian,0.1244,101624.6,784486.0
 Real_Annual,C&L 03,2024-25,Argyll & Bute,0.09,25000.0,290331.0
 Real_Annual,C&L 03,2024-25,West Lothian,0.11,97000.0,911872.0
-Real_Annual,CLIM 03,2021-22,Aberdeen City,15.7556171129578,3583300.0,220630.0
+Real_Annual,CLIM 03,2021-22,Aberdeen City,15.75561711,3583300.0,220630.0
 Real_Annual,CORP 03c,2015-16,Aberdeen City,-0.0023,19.832,19.8721
 Real_Annual,CORP 03c,2015-16,Aberdeenshire,0.0185,18.0947,17.7606
 Real_Annual,CORP 03c,2015-16,Angus,0.0184,20.3532,19.979
@@ -653,7 +653,7 @@ Real_Annual,CORP 03c,2024-25,South Lanarkshire,0.015,20.68,20.37
 Real_Annual,CORP 03c,2024-25,Stirling,-0.0015,20.51,20.54
 Real_Annual,CORP 03c,2024-25,West Dunbartonshire,0.0005,20.08,20.07
 Real_Annual,CORP 03c,2024-25,West Lothian,-0.0066,21.29,21.43
-Real_Annual,ECON 01,2021-22,Aberdeen City,0.593409090909091,378.0,4400.0
+Real_Annual,ECON 01,2021-22,Aberdeen City,0.593409091,378.0,4400.0
 Real_Annual,FINSUS 05,2015-16,East Renfrewshire,0.947,294577600.8,298406355.90000004
 Real_Annual,FINSUS 05,2016-17,East Renfrewshire,0.965,284577471.59999996,287770246.0
 Real_Annual,FINSUS 06,2023-24,Midlothian,0.0004,107.0,258857.0
