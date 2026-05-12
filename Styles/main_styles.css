@@ -208,6 +208,7 @@ th {
     padding: 1px;
     background-color: var(--secondary-bg-color);
     color: white;
+    font-family: var(--standard-font);
 }
 tr:nth-child(odd) {
     background-color: white;

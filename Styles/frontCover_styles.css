@@ -4,6 +4,15 @@
     font-size: 75px;
     color: black;
 }
+#purpleline {
+    grid-row: 6/7;
+    grid-column: 2/5;
+    background-color: #5D2381;
+    height: 5px;
+    margin-top:30px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
 #Subtitle {
     padding-left:5px;
     grid-column:2/12;
@@ -17,12 +26,33 @@
     grid-row:8/9;
     font-size: 30px;
 }
-#CoverImage {
-    grid-column: 1/23;
-    grid-row: 1/23;
+:root {
+    --sc-purple: #fff !important;
+    --sc-teal: #fff !important;
 }
-#CoverImage img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+#SC-LOGO {
+    grid-row: 18/20;
+    grid-column: 19/21;
+}
+#scotland-outline {
+    grid-row: 1/20;
+    grid-column: 6/15
+}
+#scotland-shape {
+    fill: rgb(155, 155, 155) !important;
+    stroke: rgb(155, 155, 155) !important;
+}
+#greybar {
+    grid-row: 1/23;
+    grid-column: 16/17;
+    width:50%;
+    height:100%;
+    background-color: gray;
+}
+#bluebar {
+    grid-row: 1/23;
+    grid-column: 17/23;
+    width:100%;
+    height:100%;
+    background-color: #2b4563;
 }

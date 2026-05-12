@@ -8,9 +8,13 @@
 
 <body>
     <section class="page landscape" id="FrontCoverNew">
-        <div id="CoverImage"><img src={{ImgPath}}></div>
+        {% include "Snippet_ScotlandOutline.html" %}
         <h1 id="Title">{{ReportTitle}}</h1>
+        <div id="purpleline"></div>
         <h2 id="Subtitle">{{ReportTitleDescription}}</h2>
         <h2 id="Year">{{ReportYear}}</h2>
+        <div id="greybar"></div>
+        <div id="bluebar"></div>
+        {% include "Snippet_ScLogo.html" %}
     </section>
 </body>

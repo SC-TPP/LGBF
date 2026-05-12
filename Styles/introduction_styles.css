@@ -1,0 +1,20 @@
+/* Header */
+#introduction .titlebar .title1 {
+    font-size: 80px;
+}
+/* Text */
+#text-content {
+    grid-row: 5/21;
+    grid-column: 2/12;
+}
+#text-content p {
+    font-size: 20px;
+}
+/* Image */
+svg {
+    grid-row: 2/22;
+    grid-column:13/21;
+    object-fit: contain;
+}
+.la {fill: rgb(224, 224, 224) !important;}
+#la-stirling { fill: #4a3560 !important;}
