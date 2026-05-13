@@ -28,7 +28,7 @@
     height: 60px;
 }
 .column table {
-    width: 95%;
+    width: 100%;
     margin: auto;
     font-size: 20px
 }
@@ -51,7 +51,7 @@
     grid-column: 2/11;
 }
 #table2 {
-    grid-column: 11/21;
+    grid-column: 12/21;
 }
 
 .highlight {
