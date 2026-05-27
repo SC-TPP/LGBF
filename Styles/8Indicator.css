@@ -1,0 +1,105 @@
+/* --------------------------------------------------------------
+Consistant Variables - Gap and DatacardRow defined globally
+-------------------------------------------------------------- */
+:root {
+    --DatacardWidth: 130%;
+    --DatacardHeight: 80%;
+}
+/* --------------------------------------------------------------
+   Datacard Positioning. datacard class style can be found in main_styles
+-------------------------------------------------------------- */
+.indicator_datacardcolumn {
+    grid-column: var(--DatacardRow);
+    grid-row: 2 / 22;
+    display: grid;
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+}
+#indicator1_datacard {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: var(--DatacardWidth);
+}
+#indicator2_datacard {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: var(--DatacardWidth);
+}
+#indicator3_datacard {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    width: var(--DatacardWidth);
+}
+#indicator4_datacard {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    width: var(--DatacardWidth);
+}
+#indicator5_datacard {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    width: var(--DatacardWidth);
+}
+#indicator6_datacard {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+    width: var(--DatacardWidth);
+}
+#indicator7_datacard {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+    width: var(--DatacardWidth);
+}
+#indicator8_datacard {
+    grid-column: 1 / 2;
+    grid-row: 8/ 9;
+    width: var(--DatacardWidth);
+}
+/* --------------------------------------------------------------
+   GraphTable Card Positioning. graphtable_card class style can be found in main_styles
+-------------------------------------------------------------- */
+#graphtablecardcolumns{
+    grid-column: 5 / 21;
+    grid-row: 2 / 22;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    column-gap: var(--Gap);
+    row-gap: var(--Gap);
+}
+#indicator1_graphtable_card {
+    grid-column:  1 / 2;
+    grid-row: 1 / 2 ;
+}
+#indicator2_graphtable_card {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+#indicator3_graphtable_card {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+#indicator4_graphtable_card {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#indicator5_graphtable_card {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+#indicator6_graphtable_card {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+#indicator7_graphtable_card {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+#indicator8_graphtable_card {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+table {
+    width: 131.35px;
+    Height: 208.8px;
+}

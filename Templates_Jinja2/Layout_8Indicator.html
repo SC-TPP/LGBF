@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../Styles/main_styles.css" />
+        <link rel="stylesheet" href="../Styles/8Indicator.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp " />
+    </head>
+    <body>
+        <section class="page landscape" id={{PageName}}>
+            {% with %}
+                {% set PageTitle = Title %}
+                {% set PageNumber = PageNumber %}
+                {% set SmallExplanation = SmallExplanation %}
+                {% include "Snippet_HeaderFooter.html" %}
+            {% endwith %}
+            <div class="indicator_datacardcolumn">
+                <div class="datacard" id="indicator1_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator1] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator2_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator2] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator3_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator3] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator4_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator4] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator5_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator5] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator6_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator6] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator7_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator7] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="datacard" id="indicator8_datacard">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator8] %}
+                        {% include "Snippet_DataCard.html"%}
+                    {% endwith %}
+                </div>
+            </div>
+            <div id="graphtablecardcolumns">
+                <div class="graphtable_card" id="indicator1_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator1] %}
+                        {% set Graph = Indicator1Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator2_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator2] %}
+                        {% set Graph = Indicator2Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator3_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator3] %}
+                        {% set Graph = Indicator3Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator4_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator4] %}
+                        {% set Graph = Indicator4Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator5_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator5] %}
+                        {% set Graph = Indicator5Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator6_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator6] %}
+                        {% set Graph = Indicator6Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator7_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator7] %}
+                        {% set Graph = Indicator7Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+                <div class="graphtable_card" id="indicator8_graphtable_card">
+                    {% with %}
+                        {% set Indicator = LatestData[Indicator8] %}
+                        {% set Graph = Indicator8Graph %}
+                        {% include "Snippet_GraphTableCard.html"%}
+                    {% endwith %}
+                </div>
+            </div>
+        </section>
+        </body>
+        
+        </html>
